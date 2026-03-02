@@ -52,10 +52,6 @@
         "name": "아프리카 (이집트, 남아공, 나이지리아 등 50여 개국)"
       },
       {
-        "id": "mm940cbubgv120w3m",
-        "name": "미국"
-      },
-      {
         "id": "mm940y9vcvzbiqyvi",
         "name": "그리스"
       },
@@ -75,6 +71,6 @@
     "order": 1,
     "id": "mm93zshaiairkdfj1",
     "createdAt": "2026-03-02T11:42:05.806Z",
-    "updatedAt": "2026-03-02T12:51:04.722Z"
+    "updatedAt": "2026-03-02T12:59:41.290Z"
   }
 ]
