@@ -216,6 +216,7 @@
     "isClosed": false,
     "memo": "입장마감 1시간 전. 계절별 운영시간 상이.",
     "createdAt": "2026-03-02T05:16:25.556Z",
-    "updatedAt": "2026-03-02T12:02:51.009Z"
+    "updatedAt": "2026-03-02T12:11:56.123Z",
+    "_deleted": true
   }
 ]
