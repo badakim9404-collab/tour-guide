@@ -31,16 +31,20 @@
     "name": "국적별 특징 스몰토크 주제 등등",
     "subcategories": [
       {
-        "id": "mm940cbubgv120w3m",
-        "name": "미국"
+        "id": "mm941qjo09qcvu2vy",
+        "name": "북미 ( 미국, 캐나다, 멕시코 및 중앙아메리카)"
       },
       {
-        "id": "mm940y9vcvzbiqyvi",
-        "name": "그리스"
+        "id": "mm941tqugu7z7mh8c",
+        "name": "남미"
       },
       {
-        "id": "mm94125g2c8wrmyt1",
-        "name": "호주"
+        "id": "mm941x92m430n40n6",
+        "name": "유럽"
+      },
+      {
+        "id": "mm94205g1jm2nzll5",
+        "name": "아시아"
       }
     ],
     "order": 1,
