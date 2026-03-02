@@ -29,7 +29,20 @@
   },
   {
     "name": "국적별 특징 스몰토크 주제 등등",
-    "subcategories": [],
+    "subcategories": [
+      {
+        "id": "mm940cbubgv120w3m",
+        "name": "미국"
+      },
+      {
+        "id": "mm940y9vcvzbiqyvi",
+        "name": "그리스"
+      },
+      {
+        "id": "mm94125g2c8wrmyt1",
+        "name": "호주"
+      }
+    ],
     "order": 1,
     "id": "mm93zshaiairkdfj1",
     "createdAt": "2026-03-02T11:42:05.806Z"
