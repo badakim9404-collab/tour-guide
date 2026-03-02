@@ -23,6 +23,12 @@ const Place = {
                     </button>
                  </div>`;
 
+        // 검색 입력란
+        html += `<div class="place-search-wrap">
+                    <i class="fas fa-search place-search-icon"></i>
+                    <input type="text" id="placeSearchInput" class="place-search" placeholder="이름, 주소, 설명으로 검색...">
+                 </div>`;
+
         if (places.length === 0) {
             html += `<div class="empty-state">
                         <i class="fas fa-map-marker-alt"></i>
@@ -30,20 +36,7 @@ const Place = {
                         <p>장소 등록 버튼을 눌러 맛집이나 투어 장소를 추가하세요</p>
                      </div>`;
         } else {
-            html += `<table class="place-table">
-                        <thead>
-                            <tr>
-                                <th>이름</th>
-                                <th>유형</th>
-                                <th>방문</th>
-                                <th>평점</th>
-                                <th>투어</th>
-                                <th>상태</th>
-                                <th>주소</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>`;
+            html += `<div class="place-list" id="placeList">`;
 
             for (const place of places) {
                 const status = Utils.getBusinessStatus(place);
@@ -55,19 +48,23 @@ const Place = {
 
                 const commissionStar = place.hasCommission ? ' <span class="commission-star">★</span>' : '';
 
-                // 방문 여부 배지
+                // 방문 여부
                 const visitedBadge = place.visited
                     ? '<span class="visited-badge visited"><i class="fas fa-check"></i> 방문</span>'
                     : '<span class="visited-badge not-visited">미방문</span>';
 
                 // 평점 별
                 const rating = place.rating || 0;
-                let ratingHtml = '<span class="rating-stars">';
-                for (let i = 1; i <= 5; i++) {
-                    ratingHtml += `<span class="star ${i <= rating ? 'filled' : ''}">★</span>`;
+                let ratingHtml = '';
+                if (rating > 0) {
+                    ratingHtml = '<span class="rating-stars">';
+                    for (let i = 1; i <= 5; i++) {
+                        ratingHtml += `<span class="star ${i <= rating ? 'filled' : ''}">★</span>`;
+                    }
+                    ratingHtml += '</span>';
+                } else {
+                    ratingHtml = '<span style="color:var(--gray-400); font-size:0.8rem;">-</span>';
                 }
-                ratingHtml += '</span>';
-                if (rating === 0) ratingHtml = '<span style="color:var(--gray-400); font-size:0.8rem;">-</span>';
 
                 // 투어 카테고리 이름
                 let tourName = '-';
@@ -76,47 +73,85 @@ const Place = {
                     if (cat) tourName = cat.name;
                 }
 
-                html += `<tr>
-                            <td><strong>${Utils.escapeHtml(place.name)}</strong>${commissionStar}</td>
-                            <td>${typeBadge}</td>
-                            <td>${visitedBadge}</td>
-                            <td>${ratingHtml}</td>
-                            <td>${Utils.escapeHtml(tourName)}</td>
-                            <td>
-                                <span class="status-dot ${status.status}"></span>
-                                ${Utils.escapeHtml(status.text)}
-                            </td>
-                            <td>${Utils.escapeHtml(Utils.truncate(place.address || '', 20))}</td>
-                            <td>
-                                <button class="btn btn-icon btn-sm edit-place" data-place-id="${place.id}" title="수정">
-                                    <i class="fas fa-edit"></i>
-                                </button>
-                                <button class="btn btn-icon btn-sm delete-place" data-place-id="${place.id}" title="삭제">
-                                    <i class="fas fa-trash"></i>
-                                </button>
-                            </td>
-                         </tr>`;
+                // 영업시간 요약
+                const today = Utils.getCurrentDay();
+                const todayHours = place.businessHours ? place.businessHours[today] : null;
+                let hoursText = '';
+                if (todayHours && todayHours.open && todayHours.close && !todayHours.dayOff) {
+                    hoursText = `${Utils.dayLabels[today]} ${todayHours.open}~${todayHours.close}`;
+                } else if (todayHours && todayHours.dayOff) {
+                    hoursText = `${Utils.dayLabels[today]} 휴무`;
+                }
+
+                // 검색용 데이터 속성
+                const searchData = [place.name, place.address || '', place.description || ''].join(' ').toLowerCase();
+
+                html += `<div class="place-list-item" data-search="${Utils.escapeHtml(searchData)}">
+                            <div class="place-list-row">
+                                <div class="place-list-info">
+                                    <strong>${Utils.escapeHtml(place.name)}</strong>${commissionStar}
+                                    ${typeBadge}
+                                </div>
+                                <div class="place-list-actions">
+                                    <button class="btn btn-icon btn-sm edit-place" data-place-id="${place.id}" title="수정">
+                                        <i class="fas fa-edit"></i>
+                                    </button>
+                                    <button class="btn btn-icon btn-sm delete-place" data-place-id="${place.id}" title="삭제">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                    <i class="fas fa-chevron-down place-expand-icon"></i>
+                                </div>
+                            </div>
+                            <div class="place-expand">
+                                ${place.address ? `<div class="place-detail-row"><i class="fas fa-map-marker-alt"></i> ${Utils.escapeHtml(place.address)}</div>` : ''}
+                                <div class="place-detail-row"><i class="fas fa-route"></i> 투어: ${Utils.escapeHtml(tourName)} &nbsp;|&nbsp; ${visitedBadge} &nbsp;|&nbsp; 평점: ${ratingHtml}</div>
+                                <div class="place-detail-row"><span class="status-dot ${status.status}"></span> ${Utils.escapeHtml(status.text)}${hoursText ? ` &nbsp;|&nbsp; <i class="fas fa-clock"></i> ${Utils.escapeHtml(hoursText)}` : ''}</div>
+                                ${place.description ? `<div class="place-detail-row"><i class="fas fa-info-circle"></i> ${Utils.escapeHtml(place.description)}</div>` : ''}
+                                ${place.memo ? `<div class="place-detail-row"><i class="fas fa-sticky-note"></i> ${Utils.escapeHtml(place.memo)}</div>` : ''}
+                                ${place.hasCommission ? `<div class="place-detail-row"><span class="commission-star">★</span> 수수료${place.commissionDetail ? ': ' + Utils.escapeHtml(place.commissionDetail) : ''}</div>` : ''}
+                            </div>
+                         </div>`;
             }
 
-            html += `</tbody></table>`;
+            html += `</div>`;
         }
 
         html += `</div>`;
         main.innerHTML = html;
 
-        // 이벤트
+        // 이벤트: 장소 등록
         document.getElementById('addPlaceBtn').addEventListener('click', () => {
             this.renderForm();
         });
 
+        // 이벤트: 아코디언 토글
+        main.querySelectorAll('.place-list-item').forEach(item => {
+            const row = item.querySelector('.place-list-row');
+            const info = item.querySelector('.place-list-info');
+            const icon = item.querySelector('.place-expand-icon');
+
+            // 이름/뱃지 영역 또는 화살표 클릭 → 확장/접힘
+            const toggle = (e) => {
+                // 수정/삭제 버튼 클릭은 무시
+                if (e.target.closest('.edit-place') || e.target.closest('.delete-place')) return;
+                item.classList.toggle('expanded');
+            };
+            info.addEventListener('click', toggle);
+            icon.addEventListener('click', toggle);
+        });
+
+        // 이벤트: 수정
         main.querySelectorAll('.edit-place').forEach(btn => {
-            btn.addEventListener('click', () => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
                 this.renderForm(btn.dataset.placeId);
             });
         });
 
+        // 이벤트: 삭제
         main.querySelectorAll('.delete-place').forEach(btn => {
-            btn.addEventListener('click', () => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
                 App.showConfirm('이 장소를 삭제하시겠습니까?', async () => {
                     await DB.deletePlace(btn.dataset.placeId);
                     Utils.showToast('삭제되었습니다');
@@ -124,6 +159,18 @@ const Place = {
                 });
             });
         });
+
+        // 이벤트: 검색 필터링
+        const searchInput = document.getElementById('placeSearchInput');
+        if (searchInput) {
+            searchInput.addEventListener('input', () => {
+                const keyword = searchInput.value.trim().toLowerCase();
+                main.querySelectorAll('.place-list-item').forEach(item => {
+                    const data = item.dataset.search || '';
+                    item.style.display = (!keyword || data.includes(keyword)) ? '' : 'none';
+                });
+            });
+        }
     },
 
     // 장소 등록/편집 폼

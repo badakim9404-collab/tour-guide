@@ -31,7 +31,10 @@ const MapView = {
                  </div>`;
 
         // 필터 패널
-        html += `<div class="map-filter-panel">
+        html += `<div class="map-filter-panel collapsed">
+                    <button type="button" class="map-filter-toggle" id="mapFilterToggle" title="필터 열기/닫기">
+                        <i class="fas fa-filter"></i>
+                    </button>
                     <h4><i class="fas fa-filter"></i> 필터</h4>
                     <div class="filter-item">
                         <input type="checkbox" id="filterRestaurant" checked>
@@ -87,6 +90,12 @@ const MapView = {
         main.innerHTML = html;
 
         this._initMap();
+
+        // 필터 패널 토글
+        document.getElementById('mapFilterToggle').addEventListener('click', () => {
+            const panel = document.querySelector('.map-filter-panel');
+            panel.classList.toggle('collapsed');
+        });
 
         // 필터 이벤트
         main.querySelectorAll('#filterRestaurant, #filterTourspot, #filterEtc, #filterVisited, #filterNotVisited, .filter-cat').forEach(cb => {

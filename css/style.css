@@ -849,6 +849,137 @@ body {
 
 .place-table tr:hover { background: var(--gray-50); }
 
+/* ===== Place List (아코디언) ===== */
+.place-search-wrap {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.place-search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--gray-400);
+    font-size: 0.85rem;
+    pointer-events: none;
+}
+
+.place-search {
+    width: 100%;
+    padding: 10px 12px 10px 36px;
+    border: 1px solid var(--gray-300);
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #fff;
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+.place-search:focus {
+    border-color: var(--primary);
+}
+
+.place-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: var(--gray-200);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.place-list-item {
+    background: #fff;
+}
+
+.place-list-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    gap: 8px;
+}
+
+.place-list-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    cursor: pointer;
+}
+
+.place-list-info strong {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.place-list-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.place-expand-icon {
+    color: var(--gray-400);
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+    padding: 4px;
+}
+
+.place-list-item.expanded .place-expand-icon {
+    transform: rotate(180deg);
+}
+
+.place-expand {
+    display: none;
+    padding: 0 14px 12px 14px;
+}
+
+.place-list-item.expanded .place-expand {
+    display: block;
+}
+
+.place-detail-row {
+    font-size: 0.82rem;
+    color: var(--gray-600);
+    padding: 3px 0;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.place-detail-row i,
+.place-detail-row .status-dot {
+    margin-right: 4px;
+}
+
+.place-list-item:hover {
+    background: var(--gray-50);
+}
+
+/* ===== Map Filter Toggle ===== */
+.map-filter-toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
 .place-type-badge {
     display: inline-block;
     padding: 2px 8px;
@@ -1803,7 +1934,7 @@ button, a, input, select, textarea, [role="button"] {
         min-height: 38px;
     }
 
-    /* --- 테이블 --- */
+    /* --- 테이블 (fallback) --- */
     .place-table {
         font-size: 0.8rem;
         display: block;
@@ -1814,6 +1945,35 @@ button, a, input, select, textarea, [role="button"] {
     .place-table th, .place-table td {
         padding: 10px 12px;
         white-space: nowrap;
+    }
+
+    /* --- 장소 리스트 모바일 --- */
+    .place-search {
+        font-size: 16px; /* iOS 줌 방지 */
+    }
+
+    .place-list-info strong {
+        font-size: 0.85rem;
+    }
+
+    /* --- 지도 필터 토글 (모바일) --- */
+    .map-filter-toggle {
+        display: flex;
+    }
+
+    .map-filter-panel.collapsed {
+        padding: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .map-filter-panel.collapsed > *:not(.map-filter-toggle) {
+        display: none;
+    }
+
+    .map-filter-panel.collapsed .map-filter-toggle {
+        display: flex;
+        box-shadow: var(--shadow-lg);
     }
 
     /* --- 검색 --- */
