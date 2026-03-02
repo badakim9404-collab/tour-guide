@@ -174,7 +174,33 @@ const Sync = {
         this._shas[filePath] = result.content.sha;
     },
 
-    // === 전체 Pull (서버 → 로컬) ===
+    // === 데이터 병합 (ID 기준, updatedAt이 최신인 것 우선) ===
+    _mergeData(localItems, serverItems) {
+        const merged = new Map();
+
+        // 서버 항목 먼저 추가
+        for (const item of serverItems) {
+            merged.set(item.id, item);
+        }
+
+        // 로컬 항목: 새 항목이거나 더 최신이면 덮어쓰기
+        for (const item of localItems) {
+            const existing = merged.get(item.id);
+            if (!existing) {
+                merged.set(item.id, item);
+            } else {
+                const localTime = item.updatedAt || item.createdAt || '';
+                const serverTime = existing.updatedAt || existing.createdAt || '';
+                if (localTime >= serverTime) {
+                    merged.set(item.id, item);
+                }
+            }
+        }
+
+        return Array.from(merged.values());
+    },
+
+    // === 전체 Pull (서버 → 로컬, 병합 방식) ===
     async pull() {
         if (!this.isConfigured()) return { ok: false, hasData: false };
 
@@ -187,20 +213,37 @@ const Sync = {
                 this.readFile(this.FILES.places)
             ]);
 
-            const hasData = !!((cats && cats.length) || (posts && posts.length) || (places && places.length));
+            const serverData = {
+                categories: cats || [],
+                posts: posts || [],
+                places: places || []
+            };
+            const hasServerData = (serverData.categories.length + serverData.posts.length + serverData.places.length) > 0;
 
-            if (hasData) {
-                DB._suppressSync = true;
-                await DB.importAll({
-                    categories: cats || [],
-                    posts: posts || [],
-                    places: places || []
-                });
-                DB._suppressSync = false;
+            // 병합 동기화: 로컬 + 서버 데이터를 ID 기준으로 머지
+            DB._suppressSync = true;
+            const mergeResult = await DB.mergeImport(serverData);
+            DB._suppressSync = false;
+
+            // 로컬에만 있는 항목을 서버에 push-back
+            if (mergeResult.localOnly.length > 0) {
+                const storesToPush = new Set(mergeResult.localOnly.map(i => i.store));
+                for (const storeName of storesToPush) {
+                    const filePath = this.FILES[storeName];
+                    const data = await DB.getAll(storeName);
+                    try {
+                        await this.writeFile(filePath, data);
+                    } catch (e) {
+                        console.warn(`Push-back ${storeName} failed:`, e);
+                    }
+                }
             }
 
+            this._lastPullTime = Date.now();
+            localStorage.setItem('tour-last-pull', this._lastPullTime.toString());
+
             this.setStatus('success', '동기화 완료');
-            return { ok: true, hasData };
+            return { ok: true, hasData: hasServerData };
         } catch (e) {
             console.error('Sync pull error:', e);
             this.setStatus('error', '불러오기 실패');
@@ -209,54 +252,58 @@ const Sync = {
         }
     },
 
-    // === 전체 Push (로컬 → 서버) ===
+    // === 전체 Push (로컬 → 서버, 병합 방식) ===
     async pushAll() {
         if (!this.isConfigured()) return false;
 
-        // 안전장치: 로컬 데이터가 서버보다 적으면 경고
-        const data = await DB.exportAll();
-        const localTotal = data.categories.length + data.posts.length + data.places.length;
+        const localData = await DB.exportAll();
+        const localTotal = localData.categories.length + localData.posts.length + localData.places.length;
 
         if (localTotal === 0) {
             this.setStatus('error', '로컬 데이터가 비어있어 업로드를 중단합니다');
             return false;
         }
 
-        // 서버에 기존 데이터가 있으면 비교
-        try {
-            const serverPosts = await this.readFile(this.FILES.posts);
-            const serverCats = await this.readFile(this.FILES.categories);
-            const serverTotal = (serverCats ? serverCats.length : 0) + (serverPosts ? serverPosts.length : 0);
-
-            if (serverTotal > 0 && localTotal < serverTotal) {
-                const msg = `서버(${serverTotal}건)보다 로컬(${localTotal}건) 데이터가 적습니다. 정말 업로드하시겠습니까?`;
-                if (!confirm(msg)) {
-                    this.setStatus('error', '업로드 취소');
-                    return false;
-                }
-            }
-        } catch (e) {
-            // 서버 조회 실패 시 그냥 진행
-        }
-
         this.setStatus('syncing', '서버에 저장 중...');
 
         try {
+            // 서버 데이터 읽기 (병합용)
+            const [serverCats, serverPosts, serverPlaces] = await Promise.all([
+                this.readFile(this.FILES.categories),
+                this.readFile(this.FILES.posts),
+                this.readFile(this.FILES.places)
+            ]);
+
+            // 로컬 + 서버 병합 (로컬 우선)
+            const mergedCats = this._mergeData(localData.categories, serverCats || []);
+            const mergedPosts = this._mergeData(localData.posts, serverPosts || []);
+            const mergedPlaces = this._mergeData(localData.places, serverPlaces || []);
+
             // 순차 push (브랜치 충돌 방지)
-            await this.writeFile(this.FILES.categories, data.categories);
-            await this.writeFile(this.FILES.posts, data.posts);
-            await this.writeFile(this.FILES.places, data.places);
+            await this.writeFile(this.FILES.categories, mergedCats);
+            await this.writeFile(this.FILES.posts, mergedPosts);
+            await this.writeFile(this.FILES.places, mergedPlaces);
+
+            // 로컬도 병합 결과로 업데이트
+            DB._suppressSync = true;
+            await DB.importAll({
+                categories: mergedCats,
+                posts: mergedPosts,
+                places: mergedPlaces
+            });
+            DB._suppressSync = false;
 
             this.setStatus('success', '업로드 완료');
             return true;
         } catch (e) {
             console.error('Sync push all error:', e);
             this.setStatus('error', '업로드 실패');
+            DB._suppressSync = false;
             return false;
         }
     },
 
-    // === 단일 스토어 Push (디바운스) ===
+    // === 단일 스토어 Push (디바운스, 병합 방식) ===
     schedulePush(storeName) {
         if (!this.isConfigured() || DB._suppressSync) return;
 
@@ -276,21 +323,32 @@ const Sync = {
 
         try {
             const filePath = this.FILES[storeName];
-            const data = await DB.getAll(storeName);
+            const localData = await DB.getAll(storeName);
 
-            // 안전장치: 빈 데이터로 서버의 기존 데이터를 덮어쓰지 않음
-            if (data.length === 0) {
-                const serverData = await this.readFile(filePath);
-                if (serverData && serverData.length > 0) {
-                    console.warn(`${storeName}: 로컬이 비어있고 서버에 데이터 있음 — push 중단`);
-                    this.setStatus('idle');
-                    this._pushing = false;
-                    return;
-                }
+            // 서버 데이터 읽기 (병합용)
+            const serverData = await this.readFile(filePath);
+
+            // 병합: 로컬 + 서버
+            const merged = this._mergeData(localData, serverData || []);
+
+            if (merged.length === 0) {
+                this.setStatus('idle');
+                this._pushing = false;
+                return;
             }
 
-            this._shas[filePath] = undefined; // SHA 새로 조회
-            await this.writeFile(filePath, data);
+            await this.writeFile(filePath, merged);
+
+            // 서버에서 온 새 항목이 있으면 로컬에도 반영
+            if (merged.length > localData.length) {
+                DB._suppressSync = true;
+                await DB.clear(storeName);
+                for (const item of merged) {
+                    await DB.put(storeName, item);
+                }
+                DB._suppressSync = false;
+            }
+
             this.setStatus('success');
         } catch (e) {
             console.error(`Sync push ${storeName} error:`, e);
@@ -298,6 +356,34 @@ const Sync = {
         } finally {
             this._pushing = false;
         }
+    },
+
+    // === 자동 동기화 (탭 전환 + 주기적 Pull) ===
+    startAutoSync() {
+        // 탭이 다시 보일 때 자동 Pull
+        document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible' && this.isConfigured() && !this._pushing) {
+                const lastPull = parseInt(localStorage.getItem('tour-last-pull') || '0');
+                if (Date.now() - lastPull > 10000) {
+                    this.pull().then(({ ok }) => {
+                        if (ok) {
+                            Category.renderTree();
+                        }
+                    });
+                }
+            }
+        });
+
+        // 60초마다 자동 동기화
+        setInterval(() => {
+            if (document.visibilityState === 'visible' && this.isConfigured() && !this._pushing) {
+                this.pull().then(({ ok }) => {
+                    if (ok) {
+                        Category.renderTree();
+                    }
+                });
+            }
+        }, 60000);
     },
 
     // === 토큰 검증 ===

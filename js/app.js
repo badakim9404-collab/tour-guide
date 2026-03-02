@@ -66,6 +66,9 @@ const App = {
             }
         }
 
+        // 자동 동기화 시작 (탭 전환 시 + 주기적)
+        Sync.startAutoSync();
+
         // 데모 데이터 시드 (DB 비어있을 때)
         await this.seedDemoData();
 

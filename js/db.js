@@ -224,5 +224,43 @@ const DB = {
         for (const place of (data.places || [])) {
             await this.put('places', place);
         }
+    },
+
+    // === 병합 Import (ID 기준, 최신 updatedAt 우선) ===
+    async mergeImport(serverData) {
+        const result = { added: 0, updated: 0, localOnly: [] };
+
+        for (const storeName of ['categories', 'posts', 'places']) {
+            const localItems = await this.getAll(storeName);
+            const serverItems = serverData[storeName] || [];
+
+            const localMap = new Map(localItems.map(item => [item.id, item]));
+            const serverMap = new Map(serverItems.map(item => [item.id, item]));
+
+            // 서버 항목 반영 (새 항목 추가, 최신 항목으로 업데이트)
+            for (const [id, serverItem] of serverMap) {
+                const localItem = localMap.get(id);
+                if (!localItem) {
+                    await this.put(storeName, serverItem);
+                    result.added++;
+                } else {
+                    const serverTime = serverItem.updatedAt || serverItem.createdAt || '';
+                    const localTime = localItem.updatedAt || localItem.createdAt || '';
+                    if (serverTime > localTime) {
+                        await this.put(storeName, serverItem);
+                        result.updated++;
+                    }
+                }
+            }
+
+            // 로컬에만 있는 항목 추적 (서버에 push 필요)
+            for (const [id, localItem] of localMap) {
+                if (!serverMap.has(id)) {
+                    result.localOnly.push({ store: storeName, item: localItem });
+                }
+            }
+        }
+
+        return result;
     }
 };
