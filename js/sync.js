@@ -256,8 +256,14 @@ const Sync = {
     async pushAll() {
         if (!this.isConfigured()) return false;
 
-        const localData = await DB.exportAll();
-        const localTotal = localData.categories.length + localData.posts.length + localData.places.length;
+        // tombstone(_deleted) 포함 전체 데이터 (동기화용)
+        const [localCats, localPosts, localPlaces] = await Promise.all([
+            DB.getAll('categories'),
+            DB.getAll('posts'),
+            DB.getAll('places')
+        ]);
+        const localData = { categories: localCats, posts: localPosts, places: localPlaces };
+        const localTotal = localCats.length + localPosts.length + localPlaces.length;
 
         if (localTotal === 0) {
             this.setStatus('error', '로컬 데이터가 비어있어 업로드를 중단합니다');

@@ -100,7 +100,7 @@ const DB = {
     // === Categories ===
     async getCategories() {
         const cats = await this.getAll('categories');
-        return cats.sort((a, b) => (a.order || 0) - (b.order || 0));
+        return cats.filter(c => !c._deleted).sort((a, b) => (a.order || 0) - (b.order || 0));
     },
 
     async saveCategory(cat) {
@@ -113,14 +113,19 @@ const DB = {
     },
 
     async deleteCategory(id) {
-        const result = await this.delete('categories', id);
+        const cat = await this.get('categories', id);
+        if (cat) {
+            cat._deleted = true;
+            cat.updatedAt = new Date().toISOString();
+            await this.put('categories', cat);
+        }
         if (!this._suppressSync) Sync.schedulePush('categories');
-        return result;
     },
 
     // === Posts ===
     async getPosts(categoryId, subcategoryId) {
         let posts = await this.getAll('posts');
+        posts = posts.filter(p => !p._deleted);
         if (categoryId) {
             posts = posts.filter(p => p.categoryId === categoryId);
         }
@@ -144,14 +149,19 @@ const DB = {
     },
 
     async deletePost(id) {
-        const result = await this.delete('posts', id);
+        const post = await this.get('posts', id);
+        if (post) {
+            post._deleted = true;
+            post.updatedAt = new Date().toISOString();
+            await this.put('posts', post);
+        }
         if (!this._suppressSync) Sync.schedulePush('posts');
-        return result;
     },
 
     // === Places ===
     async getPlaces(categoryId) {
         let places = await this.getAll('places');
+        places = places.filter(p => !p._deleted);
         if (categoryId) {
             places = places.filter(p => p.categoryId === categoryId);
         }
@@ -172,9 +182,13 @@ const DB = {
     },
 
     async deletePlace(id) {
-        const result = await this.delete('places', id);
+        const place = await this.get('places', id);
+        if (place) {
+            place._deleted = true;
+            place.updatedAt = new Date().toISOString();
+            await this.put('places', place);
+        }
         if (!this._suppressSync) Sync.schedulePush('places');
-        return result;
     },
 
     // === Search ===
@@ -188,15 +202,17 @@ const DB = {
         ]);
 
         const matchedPosts = posts.filter(p =>
-            (p.title && p.title.toLowerCase().includes(kw)) ||
-            stripHtml(p.content).toLowerCase().includes(kw)
+            !p._deleted &&
+            ((p.title && p.title.toLowerCase().includes(kw)) ||
+            stripHtml(p.content).toLowerCase().includes(kw))
         );
 
         const matchedPlaces = places.filter(p =>
-            (p.name && p.name.toLowerCase().includes(kw)) ||
+            !p._deleted &&
+            ((p.name && p.name.toLowerCase().includes(kw)) ||
             (p.address && p.address.toLowerCase().includes(kw)) ||
             (p.description && p.description.toLowerCase().includes(kw)) ||
-            (p.memo && p.memo.toLowerCase().includes(kw))
+            (p.memo && p.memo.toLowerCase().includes(kw)))
         );
 
         return { posts: matchedPosts, places: matchedPlaces };
@@ -204,9 +220,9 @@ const DB = {
 
     // === Export / Import ===
     async exportAll() {
-        const categories = await this.getAll('categories');
-        const posts = await this.getAll('posts');
-        const places = await this.getAll('places');
+        const categories = (await this.getAll('categories')).filter(i => !i._deleted);
+        const posts = (await this.getAll('posts')).filter(i => !i._deleted);
+        const places = (await this.getAll('places')).filter(i => !i._deleted);
         return { categories, posts, places, exportedAt: new Date().toISOString() };
     },
 
