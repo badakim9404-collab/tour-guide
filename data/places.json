@@ -226,9 +226,9 @@
     "name": "목멱산방",
     "type": "restaurant",
     "categoryId": null,
-    "address": "서울특별시 중구 퇴계로20길 71 1층 목멱산방",
-    "lat": null,
-    "lng": null,
+    "address": "남산동2가 25-4",
+    "lat": 37.55841,
+    "lng": 126.98532,
     "description": "명동, 다양한 비빔밥, 육개장, 치즈김치전, 해산물 부추전, 가격(9.0-15.0) 미슐랭",
     "businessHours": {
       "mon": {
@@ -276,6 +276,6 @@
     "memo": "",
     "id": "mm9a6d3seju42gfms",
     "createdAt": "2026-03-02T14:35:10.169Z",
-    "updatedAt": "2026-03-02T14:35:10.174Z"
+    "updatedAt": "2026-03-02T14:35:56.967Z"
   }
 ]
