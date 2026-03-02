@@ -225,10 +225,9 @@ const Sync = {
             const mergeResult = await DB.mergeImport(serverData);
             DB._suppressSync = false;
 
-            // 로컬에만 있는 항목을 서버에 push-back
-            if (mergeResult.localOnly.length > 0) {
-                const storesToPush = new Set(mergeResult.localOnly.map(i => i.store));
-                for (const storeName of storesToPush) {
+            // 로컬이 서버보다 최신이거나 로컬에만 있는 항목 → 서버에 push-back
+            if (mergeResult.needsPush.size > 0) {
+                for (const storeName of mergeResult.needsPush) {
                     const filePath = this.FILES[storeName];
                     const data = await DB.getAll(storeName);
                     try {

@@ -245,7 +245,7 @@ const DB = {
 
     // === 병합 Import (ID 기준, 최신 updatedAt 우선) ===
     async mergeImport(serverData) {
-        const result = { added: 0, updated: 0, localOnly: [] };
+        const result = { added: 0, updated: 0, needsPush: new Set() };
 
         for (const storeName of ['categories', 'posts', 'places']) {
             const localItems = await this.getAll(storeName);
@@ -266,14 +266,18 @@ const DB = {
                     if (serverTime > localTime) {
                         await this.put(storeName, serverItem);
                         result.updated++;
+                    } else if (localTime > serverTime) {
+                        // 로컬이 더 최신 → 서버에 push 필요
+                        result.needsPush.add(storeName);
                     }
                 }
             }
 
-            // 로컬에만 있는 항목 추적 (서버에 push 필요)
-            for (const [id, localItem] of localMap) {
+            // 로컬에만 있는 항목 → 서버에 push 필요
+            for (const [id] of localMap) {
                 if (!serverMap.has(id)) {
-                    result.localOnly.push({ store: storeName, item: localItem });
+                    result.needsPush.add(storeName);
+                    break;
                 }
             }
         }
