@@ -243,7 +243,7 @@ const DB = {
         }
     },
 
-    // === 병합 Import (ID 기준, 최신 updatedAt 우선) ===
+    // === 병합 Import (ID 기준, 최신 updatedAt 우선, 동일 시 서버 우선) ===
     async mergeImport(serverData) {
         const result = { added: 0, updated: 0, needsPush: new Set() };
 
@@ -258,49 +258,28 @@ const DB = {
             const localMap = new Map(localItems.map(item => [item.id, item]));
             const serverMap = new Map(serverItems.map(item => [item.id, item]));
 
-            // 서버 항목 반영 (새 항목 추가, 최신 항목으로 업데이트)
+            // 서버 항목 반영
             for (const [id, serverItem] of serverMap) {
                 const localItem = localMap.get(id);
                 if (!localItem) {
                     await this.put(storeName, serverItem);
                     result.added++;
-                } else if (storeName === 'categories') {
-                    // 카테고리: 하위카테고리 union 병합
-                    const serverTime = serverItem.updatedAt || '';
-                    const localTime = localItem.updatedAt || '';
-                    const mergedSubs = Sync._mergeSubcategories(
-                        localItem.subcategories, serverItem.subcategories,
-                        localTime >= serverTime
-                    );
-                    const subsChanged = JSON.stringify(mergedSubs) !== JSON.stringify(localItem.subcategories);
-
-                    if (serverTime > localTime) {
-                        // 서버 승리 + 병합된 하위카테고리
-                        await this.put(storeName, { ...serverItem, subcategories: mergedSubs });
-                        result.updated++;
-                    } else if (localTime > serverTime) {
-                        // 로컬 승리 + 병합된 하위카테고리
-                        if (subsChanged) {
-                            await this.put(storeName, { ...localItem, subcategories: mergedSubs });
-                            result.updated++;
-                        }
-                        result.needsPush.add(storeName);
-                    } else {
-                        // 동일 시간: 하위카테고리 병합 후 다르면 업데이트
-                        if (subsChanged) {
-                            await this.put(storeName, { ...localItem, subcategories: mergedSubs });
-                            result.updated++;
-                            result.needsPush.add(storeName);
-                        }
-                    }
                 } else {
                     const serverTime = serverItem.updatedAt || '';
                     const localTime = localItem.updatedAt || '';
                     if (serverTime > localTime) {
+                        // 서버가 최신 → 서버 버전으로 교체
                         await this.put(storeName, serverItem);
                         result.updated++;
                     } else if (localTime > serverTime) {
+                        // 로컬이 최신 → 서버에 push 필요
                         result.needsPush.add(storeName);
+                    } else {
+                        // 동일 timestamp → 내용이 다르면 서버 우선
+                        if (JSON.stringify(serverItem) !== JSON.stringify(localItem)) {
+                            await this.put(storeName, serverItem);
+                            result.updated++;
+                        }
                     }
                 }
             }

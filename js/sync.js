@@ -184,22 +184,8 @@ const Sync = {
         return items;
     },
 
-    // === 하위카테고리 union 병합 ===
-    _mergeSubcategories(localSubs, serverSubs, localWins) {
-        const merged = new Map();
-        for (const sub of (serverSubs || [])) {
-            merged.set(sub.id, sub);
-        }
-        for (const sub of (localSubs || [])) {
-            if (!merged.has(sub.id) || localWins) {
-                merged.set(sub.id, sub);
-            }
-        }
-        return Array.from(merged.values());
-    },
-
-    // === 데이터 병합 (ID 기준, updatedAt이 최신인 것 우선) ===
-    _mergeData(localItems, serverItems, storeName) {
+    // === 데이터 병합 (ID 기준, updatedAt이 최신인 것 우선, 동일 시 서버 우선) ===
+    _mergeData(localItems, serverItems) {
         this._ensureUpdatedAt(localItems);
         this._ensureUpdatedAt(serverItems);
 
@@ -210,7 +196,7 @@ const Sync = {
             merged.set(item.id, item);
         }
 
-        // 로컬 항목: 새 항목이거나 더 최신이면 덮어쓰기
+        // 로컬 항목: 새 항목이거나 strictly 더 최신이면 덮어쓰기
         for (const item of localItems) {
             const existing = merged.get(item.id);
             if (!existing) {
@@ -218,21 +204,10 @@ const Sync = {
             } else {
                 const localTime = item.updatedAt || '';
                 const serverTime = existing.updatedAt || '';
-
-                if (storeName === 'categories') {
-                    // 카테고리: 하위카테고리 union 병합
-                    const localWins = localTime >= serverTime;
-                    const winner = localWins ? item : existing;
-                    const loser = localWins ? existing : item;
-                    const mergedSubs = this._mergeSubcategories(
-                        winner.subcategories, loser.subcategories, true
-                    );
-                    merged.set(item.id, { ...winner, subcategories: mergedSubs });
-                } else {
-                    if (localTime >= serverTime) {
-                        merged.set(item.id, item);
-                    }
+                if (localTime > serverTime) {
+                    merged.set(item.id, item);
                 }
+                // 동일하거나 서버가 최신이면 서버 유지 (이미 map에 있음)
             }
         }
 
@@ -270,7 +245,7 @@ const Sync = {
                     const filePath = this.FILES[storeName];
                     const localData = await DB.getAll(storeName);
                     const freshServer = await this.readFile(filePath);
-                    const merged = this._mergeData(localData, freshServer || [], storeName);
+                    const merged = this._mergeData(localData, freshServer || []);
                     try {
                         await this.writeFile(filePath, merged);
                     } catch (e) {
@@ -322,10 +297,10 @@ const Sync = {
                 this.readFile(this.FILES.places)
             ]);
 
-            // 로컬 + 서버 병합 (로컬 우선)
-            const mergedCats = this._mergeData(localData.categories, serverCats || [], 'categories');
-            const mergedPosts = this._mergeData(localData.posts, serverPosts || [], 'posts');
-            const mergedPlaces = this._mergeData(localData.places, serverPlaces || [], 'places');
+            // 로컬 + 서버 병합 (로컬이 최신이면 로컬, 아니면 서버)
+            const mergedCats = this._mergeData(localData.categories, serverCats || []);
+            const mergedPosts = this._mergeData(localData.posts, serverPosts || []);
+            const mergedPlaces = this._mergeData(localData.places, serverPlaces || []);
 
             // 순차 push (브랜치 충돌 방지)
             await this.writeFile(this.FILES.categories, mergedCats);
@@ -377,7 +352,7 @@ const Sync = {
             const serverData = await this.readFile(filePath);
 
             // 병합: 로컬 + 서버
-            const merged = this._mergeData(localData, serverData || [], storeName);
+            const merged = this._mergeData(localData, serverData || []);
 
             if (merged.length === 0) {
                 this.setStatus('idle');
