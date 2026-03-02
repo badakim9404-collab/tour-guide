@@ -213,11 +213,35 @@ const Sync = {
     async pushAll() {
         if (!this.isConfigured()) return false;
 
+        // 안전장치: 로컬 데이터가 서버보다 적으면 경고
+        const data = await DB.exportAll();
+        const localTotal = data.categories.length + data.posts.length + data.places.length;
+
+        if (localTotal === 0) {
+            this.setStatus('error', '로컬 데이터가 비어있어 업로드를 중단합니다');
+            return false;
+        }
+
+        // 서버에 기존 데이터가 있으면 비교
+        try {
+            const serverPosts = await this.readFile(this.FILES.posts);
+            const serverCats = await this.readFile(this.FILES.categories);
+            const serverTotal = (serverCats ? serverCats.length : 0) + (serverPosts ? serverPosts.length : 0);
+
+            if (serverTotal > 0 && localTotal < serverTotal) {
+                const msg = `서버(${serverTotal}건)보다 로컬(${localTotal}건) 데이터가 적습니다. 정말 업로드하시겠습니까?`;
+                if (!confirm(msg)) {
+                    this.setStatus('error', '업로드 취소');
+                    return false;
+                }
+            }
+        } catch (e) {
+            // 서버 조회 실패 시 그냥 진행
+        }
+
         this.setStatus('syncing', '서버에 저장 중...');
 
         try {
-            const data = await DB.exportAll();
-
             // 순차 push (브랜치 충돌 방지)
             await this.writeFile(this.FILES.categories, data.categories);
             await this.writeFile(this.FILES.posts, data.posts);
@@ -252,8 +276,20 @@ const Sync = {
 
         try {
             const filePath = this.FILES[storeName];
-            this._shas[filePath] = undefined; // SHA 새로 조회
             const data = await DB.getAll(storeName);
+
+            // 안전장치: 빈 데이터로 서버의 기존 데이터를 덮어쓰지 않음
+            if (data.length === 0) {
+                const serverData = await this.readFile(filePath);
+                if (serverData && serverData.length > 0) {
+                    console.warn(`${storeName}: 로컬이 비어있고 서버에 데이터 있음 — push 중단`);
+                    this.setStatus('idle');
+                    this._pushing = false;
+                    return;
+                }
+            }
+
+            this._shas[filePath] = undefined; // SHA 새로 조회
             await this.writeFile(filePath, data);
             this.setStatus('success');
         } catch (e) {
