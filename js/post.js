@@ -630,14 +630,14 @@ const Post = {
 
         const editor = document.getElementById('postContent');
 
-        // 현재 이미지의 크기를 에디터 기준 퍼센트로 계산
-        const currentPct = Math.round(img.offsetWidth / editor.offsetWidth * 100);
+        // 현재 크기를 px로 정확히 저장 (래퍼 감싸도 크기 변동 없도록)
+        const currentWidthPx = img.offsetWidth;
 
-        // 래퍼로 감싸기 — 래퍼에 크기 적용, img는 100% 채움
+        // 래퍼로 감싸기 — px로 고정하여 크기 변동 방지
         const wrapper = document.createElement('span');
         wrapper.className = 'image-resize-wrapper';
         wrapper.contentEditable = 'false';
-        wrapper.style.width = currentPct + '%';
+        wrapper.style.width = currentWidthPx + 'px';
         img.parentNode.insertBefore(wrapper, img);
         wrapper.appendChild(img);
 
@@ -651,26 +651,34 @@ const Post = {
         handle.className = 'image-resize-handle';
         wrapper.appendChild(handle);
 
-        // 크기 버튼 툴바
+        // 현재 퍼센트 계산
+        const editorWidth = editor.offsetWidth;
+        const currentPct = Math.min(100, Math.round(currentWidthPx / editorWidth * 100));
+
+        // 크기 툴바 — 숫자 입력 + 삭제
         const toolbar = document.createElement('div');
         toolbar.className = 'image-resize-toolbar';
         toolbar.innerHTML = `
-            <button type="button" data-size="25">25%</button>
-            <button type="button" data-size="50">50%</button>
-            <button type="button" data-size="75">75%</button>
-            <button type="button" data-size="100">100%</button>
+            <input type="number" class="resize-pct-input" value="${currentPct}" min="10" max="100" step="1">
+            <span class="resize-pct-label">%</span>
             <button type="button" data-action="delete" class="resize-delete-btn"><i class="fas fa-trash"></i></button>
         `;
         wrapper.appendChild(toolbar);
 
-        // 크기 버튼 이벤트 — 래퍼 크기 변경
-        toolbar.querySelectorAll('button[data-size]').forEach(btn => {
-            btn.addEventListener('mousedown', (e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                const pct = parseInt(btn.dataset.size);
-                wrapper.style.width = pct + '%';
-            });
+        // 숫자 입력으로 크기 변경
+        const pctInput = toolbar.querySelector('.resize-pct-input');
+        const applySize = () => {
+            let pct = parseInt(pctInput.value) || currentPct;
+            pct = Math.max(10, Math.min(100, pct));
+            pctInput.value = pct;
+            wrapper.style.width = (editorWidth * pct / 100) + 'px';
+        };
+        pctInput.addEventListener('input', applySize);
+        pctInput.addEventListener('mousedown', (e) => e.stopPropagation());
+        pctInput.addEventListener('click', (e) => { e.stopPropagation(); pctInput.select(); });
+        pctInput.addEventListener('keydown', (e) => {
+            e.stopPropagation();
+            if (e.key === 'Enter') { applySize(); editor.focus(); }
         });
 
         // 삭제 버튼
@@ -680,7 +688,7 @@ const Post = {
             wrapper.remove();
         });
 
-        // 드래그 리사이즈 — 래퍼 크기 변경
+        // 드래그 리사이즈 — px로 변경 후 input 동기화
         let startX, startWidth;
         const onMouseDown = (e) => {
             e.preventDefault();
@@ -696,10 +704,9 @@ const Post = {
             e.preventDefault();
             const clientX = e.clientX || (e.touches && e.touches[0].clientX);
             const diff = clientX - startX;
-            const newWidth = Math.max(50, startWidth + diff);
-            const editorWidth = editor.offsetWidth;
-            const pct = Math.min(100, Math.round(newWidth / editorWidth * 100));
-            wrapper.style.width = pct + '%';
+            const newWidth = Math.max(50, Math.min(editorWidth, startWidth + diff));
+            wrapper.style.width = newWidth + 'px';
+            pctInput.value = Math.round(newWidth / editorWidth * 100);
         };
         const onMouseUp = () => {
             document.removeEventListener('mousemove', onMouseMove);
@@ -711,14 +718,18 @@ const Post = {
         handle.addEventListener('touchstart', onMouseDown, { passive: false });
     },
 
-    // 리사이즈 UI 정리 (저장 전 호출) — 래퍼 크기를 img에 옮김
+    // 리사이즈 UI 정리 (저장 전 호출) — 래퍼 크기를 img에 퍼센트로 옮김
     _removeImageResizeUI() {
+        const editor = document.getElementById('postContent');
+        const editorWidth = editor ? editor.offsetWidth : 1;
+
         document.querySelectorAll('.image-resize-wrapper').forEach(wrapper => {
             const img = wrapper.querySelector('img');
             if (img) {
-                // 래퍼의 퍼센트 크기를 img에 적용
-                img.style.width = wrapper.style.width || '';
-                img.style.maxWidth = wrapper.style.width || '100%';
+                const wrapperWidth = wrapper.offsetWidth;
+                const pct = Math.min(100, Math.round(wrapperWidth / editorWidth * 100));
+                img.style.width = pct + '%';
+                img.style.maxWidth = pct + '%';
                 img.style.height = 'auto';
                 wrapper.parentNode.insertBefore(img, wrapper);
             }
