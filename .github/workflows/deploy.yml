@@ -23,6 +23,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Cache-bust CSS/JS references
+        run: |
+          HASH=$(git rev-parse --short HEAD)
+          sed -i "s|\.css\"|\.css?v=${HASH}\"|g" index.html
+          sed -i "s|\.js\"|\.js?v=${HASH}\"|g" index.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
