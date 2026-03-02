@@ -12,7 +12,17 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
-<body>
+<body class="locked">
+    <!-- Login Overlay -->
+    <div class="login-overlay" id="loginOverlay">
+        <div class="login-box">
+            <div class="login-logo"><i class="fas fa-map-marked-alt"></i> Emily의 투어 노트</div>
+            <input type="password" id="loginPassword" class="login-input" placeholder="비밀번호 입력" maxlength="20" autocomplete="off">
+            <button id="loginBtn" class="login-btn">로그인</button>
+            <div class="login-error" id="loginError"></div>
+        </div>
+    </div>
+
     <!-- 헤더 -->
     <header class="header">
         <div class="header-left">

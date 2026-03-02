@@ -1,3 +1,43 @@
+// ===== 비밀번호 인증 =====
+const AUTH_HASH = '37f6d9c7335d7a61a44de3aef5d6c209d043713bcdcf8ec362fa31764e510bc6';
+
+async function sha256(message) {
+    const msgBuffer = new TextEncoder().encode(message);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+function showLogin() {
+    const overlay = document.getElementById('loginOverlay');
+    const pwInput = document.getElementById('loginPassword');
+    const loginBtn = document.getElementById('loginBtn');
+    const errorEl = document.getElementById('loginError');
+
+    overlay.classList.remove('hidden');
+
+    async function attemptLogin() {
+        const pw = pwInput.value;
+        const hash = await sha256(pw);
+        if (hash === AUTH_HASH) {
+            sessionStorage.setItem('tour-auth', '1');
+            overlay.classList.add('hidden');
+            document.body.classList.remove('locked');
+            App.init().catch(err => console.error('App initialization error:', err));
+        } else {
+            errorEl.textContent = '비밀번호가 올바르지 않습니다';
+            pwInput.value = '';
+            pwInput.focus();
+        }
+    }
+
+    loginBtn.addEventListener('click', attemptLogin);
+    pwInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') attemptLogin();
+    });
+    pwInput.focus();
+}
+
 // ===== 메인 앱 (라우팅, 초기화) =====
 
 const App = {
@@ -404,6 +444,12 @@ const App = {
 
 // 앱 시작
 document.addEventListener('DOMContentLoaded', () => {
+    if (!sessionStorage.getItem('tour-auth')) {
+        showLogin();
+        return;
+    }
+    document.body.classList.remove('locked');
+    document.getElementById('loginOverlay').classList.add('hidden');
     App.init().catch(err => {
         console.error('App initialization error:', err);
     });
