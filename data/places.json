@@ -277,5 +277,61 @@
     "id": "mm9a6d3seju42gfms",
     "createdAt": "2026-03-02T14:35:10.169Z",
     "updatedAt": "2026-03-02T14:36:51.851Z"
+  },
+  {
+    "name": "목멱산방 남산타워점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 중구 남산공원길 627",
+    "lat": 37.5534888,
+    "lng": 126.994365,
+    "description": "남산타워점, 제철 봄동비빔밥, 투뿔한우 육회비빔밥, 불고기 비빔밥, 제육쌈밥, 도토리묵야채무침, 팥빙수, 전통차(쌍화차, 대추차), 궁중잡채간장떡볶이, 카페, 치즈김치전, 가격(9.0-15.0) ⭐️명동지점보다 더 다양한 메뉴⭐️",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "",
+    "id": "mm9ai1s6c5w6s3sqe",
+    "createdAt": "2026-03-02T14:44:15.368Z",
+    "updatedAt": "2026-03-02T14:44:15.368Z"
   }
 ]
