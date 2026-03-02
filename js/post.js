@@ -512,48 +512,46 @@ const Post = {
         }
     },
 
-    // 인라인 이미지 삽입 (파일 → 압축 → div로 감싸서 커서 위치에 삽입)
+    // 인라인 이미지 삽입 (파일 → 압축 → 커서 위치에 삽입)
     _insertInlineImages(files) {
         const editor = document.getElementById('postContent');
         const imageFiles = Array.from(files).filter(f => f.type.startsWith('image/'));
         if (imageFiles.length === 0) return;
 
-        // 현재 커서 위치 저장
         const sel = window.getSelection();
         let savedRange = sel.rangeCount > 0 ? sel.getRangeAt(0).cloneRange() : null;
 
-        // 모든 이미지 압축 후 한번에 삽입 (순서 유지)
         const promises = imageFiles.map(file => new Promise(resolve => {
             this._compressImage(file, resolve);
         }));
 
         Promise.all(promises).then(dataUrls => {
-            // 블록 컨테이너 — 텍스트와 분리, 내부 이미지끼리는 나란히
-            const container = document.createElement('div');
-            container.style.margin = '8px 0';
+            editor.focus();
 
+            // 이미지들을 순서대로 커서 위치에 삽입
+            const frag = document.createDocumentFragment();
             dataUrls.forEach(dataUrl => {
                 const img = document.createElement('img');
                 img.src = dataUrl;
                 img.style.maxWidth = '100%';
                 img.style.height = 'auto';
-                container.appendChild(img);
-                this._makeImageResizable(img);
+                frag.appendChild(img);
             });
 
-            editor.focus();
             if (savedRange) {
                 savedRange.deleteContents();
-                savedRange.insertNode(container);
-                const range = document.createRange();
-                range.setStartAfter(container);
-                range.collapse(true);
-                const s = window.getSelection();
-                s.removeAllRanges();
-                s.addRange(range);
+                savedRange.insertNode(frag);
             } else {
-                editor.appendChild(container);
+                editor.appendChild(frag);
             }
+
+            // 삽입된 이미지에 리사이즈 바인딩
+            editor.querySelectorAll('img').forEach(img => {
+                if (!img._resizable) {
+                    this._makeImageResizable(img);
+                    img._resizable = true;
+                }
+            });
         });
     },
 
