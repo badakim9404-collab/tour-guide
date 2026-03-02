@@ -52,7 +52,7 @@
     "isClosed": false,
     "memo": "",
     "createdAt": "2026-03-02T05:16:25.538Z",
-    "updatedAt": "2026-03-02T11:37:37.823Z"
+    "updatedAt": "2026-03-02T11:39:06.884Z"
   },
   {
     "id": "place2",
@@ -106,7 +106,7 @@
     "isClosed": false,
     "memo": "",
     "createdAt": "2026-03-02T05:16:25.548Z",
-    "updatedAt": "2026-03-02T11:37:37.823Z"
+    "updatedAt": "2026-03-02T11:39:06.885Z"
   },
   {
     "id": "place3",
@@ -160,6 +160,62 @@
     "isClosed": false,
     "memo": "",
     "createdAt": "2026-03-02T05:16:25.555Z",
-    "updatedAt": "2026-03-02T11:37:37.823Z"
+    "updatedAt": "2026-03-02T11:39:06.885Z"
+  },
+  {
+    "id": "place4",
+    "name": "경복궁",
+    "type": "tourspot",
+    "categoryId": "cat_palace",
+    "address": "서울 종로구 사직로 161",
+    "lat": 37.5788408,
+    "lng": 126.9770162,
+    "description": "조선 제일의 법궁. 근정전, 경회루 등 볼거리 풍부. 한복 착용 시 무료입장.",
+    "businessHours": {
+      "mon": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "1~2/11~12월\t정기휴무 (매주 화요일)",
+        "3~5/9~10월\t정기휴무 (매주 화요일)",
+        "6월~8월\t정기휴무 (매주 화요일)"
+      ]
+    },
+    "isClosed": false,
+    "memo": "입장마감 1시간 전. 계절별 운영시간 상이.",
+    "createdAt": "2026-03-02T05:16:25.556Z",
+    "updatedAt": "2026-03-02T11:39:06.885Z"
   }
 ]
