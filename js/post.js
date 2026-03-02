@@ -599,12 +599,21 @@ const Post = {
 
         const editor = document.getElementById('postContent');
 
-        // 래퍼로 감싸기
+        // 현재 이미지의 크기를 에디터 기준 퍼센트로 계산
+        const currentPct = Math.round(img.offsetWidth / editor.offsetWidth * 100);
+
+        // 래퍼로 감싸기 — 래퍼에 크기 적용, img는 100% 채움
         const wrapper = document.createElement('span');
         wrapper.className = 'image-resize-wrapper';
         wrapper.contentEditable = 'false';
+        wrapper.style.width = currentPct + '%';
         img.parentNode.insertBefore(wrapper, img);
         wrapper.appendChild(img);
+
+        // 래퍼 안 img는 래퍼를 꽉 채움
+        img.style.width = '100%';
+        img.style.maxWidth = '100%';
+        img.style.height = 'auto';
 
         // 드래그 리사이즈 핸들
         const handle = document.createElement('span');
@@ -623,15 +632,13 @@ const Post = {
         `;
         wrapper.appendChild(toolbar);
 
-        // 크기 버튼 이벤트
+        // 크기 버튼 이벤트 — 래퍼 크기 변경
         toolbar.querySelectorAll('button[data-size]').forEach(btn => {
             btn.addEventListener('mousedown', (e) => {
                 e.preventDefault();
                 e.stopPropagation();
                 const pct = parseInt(btn.dataset.size);
-                img.style.width = pct + '%';
-                img.style.height = 'auto';
-                img.style.maxWidth = pct + '%';
+                wrapper.style.width = pct + '%';
             });
         });
 
@@ -642,13 +649,13 @@ const Post = {
             wrapper.remove();
         });
 
-        // 드래그 리사이즈
+        // 드래그 리사이즈 — 래퍼 크기 변경
         let startX, startWidth;
         const onMouseDown = (e) => {
             e.preventDefault();
             e.stopPropagation();
             startX = e.clientX || (e.touches && e.touches[0].clientX);
-            startWidth = img.offsetWidth;
+            startWidth = wrapper.offsetWidth;
             document.addEventListener('mousemove', onMouseMove);
             document.addEventListener('mouseup', onMouseUp);
             document.addEventListener('touchmove', onMouseMove, { passive: false });
@@ -661,9 +668,7 @@ const Post = {
             const newWidth = Math.max(50, startWidth + diff);
             const editorWidth = editor.offsetWidth;
             const pct = Math.min(100, Math.round(newWidth / editorWidth * 100));
-            img.style.width = pct + '%';
-            img.style.height = 'auto';
-            img.style.maxWidth = pct + '%';
+            wrapper.style.width = pct + '%';
         };
         const onMouseUp = () => {
             document.removeEventListener('mousemove', onMouseMove);
@@ -675,11 +680,15 @@ const Post = {
         handle.addEventListener('touchstart', onMouseDown, { passive: false });
     },
 
-    // 리사이즈 UI 정리 (저장 전 호출)
+    // 리사이즈 UI 정리 (저장 전 호출) — 래퍼 크기를 img에 옮김
     _removeImageResizeUI() {
         document.querySelectorAll('.image-resize-wrapper').forEach(wrapper => {
             const img = wrapper.querySelector('img');
             if (img) {
+                // 래퍼의 퍼센트 크기를 img에 적용
+                img.style.width = wrapper.style.width || '';
+                img.style.maxWidth = wrapper.style.width || '100%';
+                img.style.height = 'auto';
                 wrapper.parentNode.insertBefore(img, wrapper);
             }
             wrapper.remove();
