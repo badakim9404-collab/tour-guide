@@ -18,7 +18,7 @@ from playwright.sync_api import sync_playwright
 
 # 프로젝트 루트
 ROOT = Path(__file__).resolve().parent.parent
-INPUT_FILE = ROOT / "data" / "places-input.json"
+PLACES_FILE = ROOT / "data" / "places.json"
 OUTPUT_FILE = ROOT / "data" / "business-hours.json"
 
 # User-Agent
@@ -337,14 +337,15 @@ def crawl_place(page, name, address=""):
 
 
 def main():
-    if not INPUT_FILE.exists():
-        print(f"입력 파일 없음: {INPUT_FILE}")
+    if not PLACES_FILE.exists():
+        print(f"입력 파일 없음: {PLACES_FILE}")
         return
 
-    with open(INPUT_FILE, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    with open(PLACES_FILE, "r", encoding="utf-8") as f:
+        all_places = json.load(f)
 
-    places = data.get("places", [])
+    # _deleted가 아니고 이름이 있는 장소만 크롤링 대상
+    places = [p for p in all_places if not p.get("_deleted") and p.get("name")]
     if not places:
         print("크롤링할 장소가 없습니다.")
         return

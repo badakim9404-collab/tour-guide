@@ -1,12 +1,12 @@
 // ===== 장소 관리 =====
 
 const Place = {
-    // 로컬 크롤링 서버로 영업시간 가져오기
-    async crawlBusinessHours(name, address) {
-        const params = new URLSearchParams({ name, address });
-        const res = await fetch(`/api/crawl?${params}`);
-        if (!res.ok) return null;
-        return res.json();
+    // 장소 저장 후 크롤링 워크플로 트리거
+    async requestCrawl() {
+        if (!Sync.isConfigured()) return false;
+        // 동기화 완료 대기 (schedulePush 디바운스 1.5s + 여유)
+        await new Promise(r => setTimeout(r, 2500));
+        return Sync.triggerCrawlWorkflow();
     },
 
     // 장소 목록 렌더링
@@ -467,24 +467,7 @@ const Place = {
             const holidaysStr = document.getElementById('placeHolidays').value.trim();
             businessHours.holidays = holidaysStr ? holidaysStr.split(',').map(s => s.trim()).filter(Boolean) : [];
 
-            // 영업시간이 비어있고 장소명+주소가 있으면 자동 크롤링 시도
-            if (!hasManualHours && name && address) {
-                Utils.showToast('네이버에서 영업시간을 가져오는 중...');
-                try {
-                    const crawled = await Place.crawlBusinessHours(name, address);
-                    if (crawled && crawled.hours && Object.keys(crawled.hours).length > 0) {
-                        Object.assign(businessHours, crawled.hours);
-                        if (crawled.holidays && crawled.holidays.length > 0) {
-                            businessHours.holidays = crawled.holidays;
-                        }
-                        Utils.showToast('영업시간 자동 입력 완료');
-                    } else {
-                        Utils.showToast('영업시간을 찾지 못했습니다. 수동 입력해주세요.');
-                    }
-                } catch (err) {
-                    Utils.showToast('크롤링 서버에 연결할 수 없습니다. 수동 입력해주세요.');
-                }
-            }
+            const needsCrawl = !hasManualHours && name && address;
 
             const data = {
                 name,
@@ -511,6 +494,15 @@ const Place = {
             await DB.savePlace(data);
             Utils.showToast(isEdit ? '수정되었습니다' : '등록되었습니다');
             this.renderList();
+
+            // 영업시간 미입력 시 크롤링 워크플로 트리거 (백그라운드)
+            if (needsCrawl) {
+                Place.requestCrawl().then(ok => {
+                    if (ok) {
+                        Utils.showToast('영업시간 크롤링을 요청했습니다. 몇 분 후 자동 반영됩니다.');
+                    }
+                });
+            }
         });
 
         // 취소

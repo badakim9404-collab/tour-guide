@@ -416,6 +416,24 @@ const Sync = {
         }, 30000);
     },
 
+    // === 크롤링 워크플로 트리거 ===
+    async triggerCrawlWorkflow() {
+        if (!this.isConfigured()) return false;
+        try {
+            const res = await this._fetch(
+                `/repos/${this.OWNER}/${this.REPO}/actions/workflows/crawl-hours.yml/dispatches`,
+                {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ref: this.BRANCH })
+                }
+            );
+            return res.status === 204;
+        } catch {
+            return false;
+        }
+    },
+
     // === 토큰 검증 ===
     async validateToken(token) {
         try {
