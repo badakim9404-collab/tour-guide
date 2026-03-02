@@ -16,11 +16,39 @@ const Sync = {
     _pushTimers: {},
     _pushing: false,
 
-    // === 토큰 관리 ===
-    getToken() { return localStorage.getItem('tour-gh-token'); },
-    setToken(token) { localStorage.setItem('tour-gh-token', token); },
-    removeToken() { localStorage.removeItem('tour-gh-token'); },
+    // === 토큰 관리 (localStorage + cookie 이중 저장) ===
+    getToken() {
+        let token = localStorage.getItem('tour-gh-token');
+        if (!token) {
+            token = this._getCookie('tour-gh-token');
+            if (token) localStorage.setItem('tour-gh-token', token);
+        }
+        return token;
+    },
+    setToken(token) {
+        localStorage.setItem('tour-gh-token', token);
+        this._setCookie('tour-gh-token', token, 365);
+        // 브라우저에 저장소 유지 요청
+        if (navigator.storage && navigator.storage.persist) {
+            navigator.storage.persist();
+        }
+    },
+    removeToken() {
+        localStorage.removeItem('tour-gh-token');
+        this._setCookie('tour-gh-token', '', -1);
+    },
     isConfigured() { return !!this.getToken(); },
+
+    _setCookie(name, value, days) {
+        const d = new Date();
+        d.setTime(d.getTime() + days * 86400000);
+        document.cookie = name + '=' + encodeURIComponent(value) +
+            ';expires=' + d.toUTCString() + ';path=/;SameSite=Strict;Secure';
+    },
+    _getCookie(name) {
+        const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        return match ? decodeURIComponent(match[2]) : null;
+    },
 
     // === 상태 표시 ===
     setStatus(type, msg) {
