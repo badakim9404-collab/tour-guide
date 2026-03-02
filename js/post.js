@@ -623,17 +623,32 @@ const Post = {
         });
     },
 
+    // 에디터 콘텐츠 영역 실제 너비 (패딩 제외)
+    _getEditorContentWidth() {
+        const editor = document.getElementById('postContent');
+        if (!editor) return 600;
+        const cs = getComputedStyle(editor);
+        return editor.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    },
+
     // 리사이즈 UI 표시
     _showImageResizeUI(img) {
-        // 기존 UI 제거
         this._removeImageResizeUI();
 
         const editor = document.getElementById('postContent');
+        const contentWidth = this._getEditorContentWidth();
 
-        // 현재 크기를 px로 정확히 저장 (래퍼 감싸도 크기 변동 없도록)
+        // 현재 퍼센트 — 인라인 스타일에서 직접 읽기 (변환 오차 없음)
+        let currentPct = 100;
+        const ws = img.style.width;
+        if (ws && ws.endsWith('%')) {
+            currentPct = parseInt(ws);
+        } else {
+            currentPct = Math.min(100, Math.round(img.offsetWidth / contentWidth * 100));
+        }
+
+        // 래퍼 — 현재 렌더링 px 그대로 고정
         const currentWidthPx = img.offsetWidth;
-
-        // 래퍼로 감싸기 — px로 고정하여 크기 변동 방지
         const wrapper = document.createElement('span');
         wrapper.className = 'image-resize-wrapper';
         wrapper.contentEditable = 'false';
@@ -641,7 +656,6 @@ const Post = {
         img.parentNode.insertBefore(wrapper, img);
         wrapper.appendChild(img);
 
-        // 래퍼 안 img는 래퍼를 꽉 채움
         img.style.width = '100%';
         img.style.maxWidth = '100%';
         img.style.height = 'auto';
@@ -650,10 +664,6 @@ const Post = {
         const handle = document.createElement('span');
         handle.className = 'image-resize-handle';
         wrapper.appendChild(handle);
-
-        // 현재 퍼센트 계산
-        const editorWidth = editor.offsetWidth;
-        const currentPct = Math.min(100, Math.round(currentWidthPx / editorWidth * 100));
 
         // 크기 툴바 — 숫자 입력 + 삭제
         const toolbar = document.createElement('div');
@@ -671,14 +681,14 @@ const Post = {
             let pct = parseInt(pctInput.value) || currentPct;
             pct = Math.max(10, Math.min(100, pct));
             pctInput.value = pct;
-            wrapper.style.width = (editorWidth * pct / 100) + 'px';
+            wrapper.style.width = (contentWidth * pct / 100) + 'px';
         };
-        pctInput.addEventListener('input', applySize);
+        pctInput.addEventListener('change', applySize);
         pctInput.addEventListener('mousedown', (e) => e.stopPropagation());
         pctInput.addEventListener('click', (e) => { e.stopPropagation(); pctInput.select(); });
         pctInput.addEventListener('keydown', (e) => {
             e.stopPropagation();
-            if (e.key === 'Enter') { applySize(); editor.focus(); }
+            if (e.key === 'Enter') { e.preventDefault(); applySize(); }
         });
 
         // 삭제 버튼
@@ -688,7 +698,7 @@ const Post = {
             wrapper.remove();
         });
 
-        // 드래그 리사이즈 — px로 변경 후 input 동기화
+        // 드래그 리사이즈
         let startX, startWidth;
         const onMouseDown = (e) => {
             e.preventDefault();
@@ -704,9 +714,9 @@ const Post = {
             e.preventDefault();
             const clientX = e.clientX || (e.touches && e.touches[0].clientX);
             const diff = clientX - startX;
-            const newWidth = Math.max(50, Math.min(editorWidth, startWidth + diff));
+            const newWidth = Math.max(50, Math.min(contentWidth, startWidth + diff));
             wrapper.style.width = newWidth + 'px';
-            pctInput.value = Math.round(newWidth / editorWidth * 100);
+            pctInput.value = Math.round(newWidth / contentWidth * 100);
         };
         const onMouseUp = () => {
             document.removeEventListener('mousemove', onMouseMove);
@@ -718,16 +728,13 @@ const Post = {
         handle.addEventListener('touchstart', onMouseDown, { passive: false });
     },
 
-    // 리사이즈 UI 정리 (저장 전 호출) — 래퍼 크기를 img에 퍼센트로 옮김
+    // 리사이즈 UI 정리 — input의 % 값을 img에 직접 적용
     _removeImageResizeUI() {
-        const editor = document.getElementById('postContent');
-        const editorWidth = editor ? editor.offsetWidth : 1;
-
         document.querySelectorAll('.image-resize-wrapper').forEach(wrapper => {
             const img = wrapper.querySelector('img');
+            const pctInput = wrapper.querySelector('.resize-pct-input');
             if (img) {
-                const wrapperWidth = wrapper.offsetWidth;
-                const pct = Math.min(100, Math.round(wrapperWidth / editorWidth * 100));
+                const pct = pctInput ? (parseInt(pctInput.value) || 100) : 100;
                 img.style.width = pct + '%';
                 img.style.maxWidth = pct + '%';
                 img.style.height = 'auto';
