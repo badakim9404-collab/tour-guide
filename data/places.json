@@ -1,1 +1,221 @@
-[]
+[
+  {
+    "id": "place1",
+    "name": "명동교자",
+    "type": "restaurant",
+    "categoryId": "cat_city",
+    "address": "서울 중구 명동10길 29",
+    "lat": 37.5625608,
+    "lng": 126.9856089,
+    "description": "칼국수, 만두 전문. 명동 대표 맛집. 외국인 관광객 필수 코스.",
+    "businessHours": {
+      "mon": {
+        "open": "10:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "10:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "10:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "10:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "10:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "10:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "추석",
+        "설날"
+      ]
+    },
+    "isClosed": false,
+    "memo": "",
+    "createdAt": "2026-03-02T05:07:22.660Z",
+    "updatedAt": "2026-03-02T10:11:27.244Z"
+  },
+  {
+    "id": "place2",
+    "name": "토속촌삼계탕",
+    "type": "restaurant",
+    "categoryId": "cat_palace",
+    "address": "서울 종로구 자하문로5길 5",
+    "lat": 37.5776822,
+    "lng": 126.9707147,
+    "description": "경복궁 근처 삼계탕 명소. 인삼주 서비스.",
+    "businessHours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "연중무휴"
+      ]
+    },
+    "isClosed": false,
+    "memo": "",
+    "createdAt": "2026-03-02T05:07:22.660Z",
+    "updatedAt": "2026-03-02T10:11:27.249Z"
+  },
+  {
+    "id": "place3",
+    "name": "진옥화할매원조닭한마리",
+    "type": "restaurant",
+    "categoryId": "cat_city",
+    "address": "서울 종로구 종로5가 395-3",
+    "lat": 37.57049,
+    "lng": 127.00301,
+    "description": "종로 닭한마리 골목 원조. 칼국수 사리 필수.",
+    "businessHours": {
+      "mon": {
+        "open": "10:30",
+        "close": "01:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:30",
+        "close": "01:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "10:30",
+        "close": "01:00",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "10:30",
+        "close": "01:00",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "10:30",
+        "close": "01:00",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "10:30",
+        "close": "01:00",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "10:30",
+        "close": "01:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "추석"
+      ]
+    },
+    "isClosed": false,
+    "memo": "",
+    "createdAt": "2026-03-02T05:07:22.660Z",
+    "updatedAt": "2026-03-02T10:11:27.261Z"
+  },
+  {
+    "id": "place4",
+    "name": "경복궁",
+    "type": "tourspot",
+    "categoryId": "cat_palace",
+    "address": "서울 종로구 사직로 161",
+    "lat": 37.5788408,
+    "lng": 126.9770162,
+    "description": "조선 제일의 법궁. 근정전, 경회루 등 볼거리 풍부. 한복 착용 시 무료입장.",
+    "businessHours": {
+      "mon": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "1~2/11~12월\t정기휴무 (매주 화요일)",
+        "3~5/9~10월\t정기휴무 (매주 화요일)",
+        "6월~8월\t정기휴무 (매주 화요일)"
+      ]
+    },
+    "isClosed": false,
+    "memo": "입장마감 1시간 전. 계절별 운영시간 상이.",
+    "createdAt": "2026-03-02T05:07:22.661Z",
+    "updatedAt": "2026-03-02T10:11:27.263Z"
+  }
+]
