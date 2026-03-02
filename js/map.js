@@ -75,7 +75,10 @@ const MapView = {
         html += `</div>`;
 
         // 범례
-        html += `<div class="map-legend">
+        html += `<div class="map-legend collapsed">
+                    <button type="button" class="map-legend-toggle" id="mapLegendToggle" title="범례 열기/닫기">
+                        <i class="fas fa-info"></i>
+                    </button>
                     <div class="legend-item"><div class="legend-marker food"></div> 맛집</div>
                     <div class="legend-item"><div class="legend-marker tour"></div> 투어장소</div>
                     <div class="legend-item"><div class="legend-marker etc"></div> 기타</div>
@@ -93,8 +96,12 @@ const MapView = {
 
         // 필터 패널 토글
         document.getElementById('mapFilterToggle').addEventListener('click', () => {
-            const panel = document.querySelector('.map-filter-panel');
-            panel.classList.toggle('collapsed');
+            document.querySelector('.map-filter-panel').classList.toggle('collapsed');
+        });
+
+        // 범례 토글
+        document.getElementById('mapLegendToggle').addEventListener('click', () => {
+            document.querySelector('.map-legend').classList.toggle('collapsed');
         });
 
         // 필터 이벤트
