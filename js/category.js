@@ -5,7 +5,7 @@ const Category = {
     async renderTree() {
         const tree = document.getElementById('categoryTree');
         const categories = await DB.getCategories();
-        const posts = await DB.getAll('posts');
+        const posts = (await DB.getAll('posts')).filter(p => !p._deleted);
 
         if (categories.length === 0) {
             tree.innerHTML = `

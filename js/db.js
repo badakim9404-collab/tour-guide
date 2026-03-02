@@ -106,6 +106,7 @@ const DB = {
     async saveCategory(cat) {
         if (!cat.id) cat.id = Utils.generateId();
         if (!cat.createdAt) cat.createdAt = new Date().toISOString();
+        cat.updatedAt = new Date().toISOString();
         if (!cat.subcategories) cat.subcategories = [];
         const result = await this.put('categories', cat);
         if (!this._suppressSync) Sync.schedulePush('categories');
