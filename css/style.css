@@ -79,6 +79,14 @@ body {
 
 .logo i { margin-right: 4px; }
 
+.btn-backup {
+    font-size: 0.85rem;
+    color: var(--gray-400);
+    padding: 6px;
+    margin-left: 2px;
+}
+.btn-backup:hover { color: var(--gray-600); }
+
 .header-right {
     display: flex;
     align-items: center;
