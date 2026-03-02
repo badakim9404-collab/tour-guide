@@ -1735,8 +1735,9 @@ body {
     cursor: pointer;
     border-radius: 4px;
     transition: box-shadow 0.15s;
-    display: block;
-    margin: 8px 0;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 4px 4px 4px 0;
 }
 
 .editor-content img:hover {
@@ -1750,7 +1751,8 @@ body {
     line-height: 0;
     outline: 2px solid var(--primary);
     border-radius: 4px;
-    margin: 8px 0;
+    margin: 4px 4px 4px 0;
+    vertical-align: bottom;
 }
 
 .image-resize-wrapper img {
@@ -1830,8 +1832,9 @@ body {
     border-radius: var(--radius);
     cursor: pointer;
     transition: transform 0.15s;
-    display: block;
-    margin: 12px 0;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 4px 4px 4px 0;
 }
 
 .post-detail-content img:hover {

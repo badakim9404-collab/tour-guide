@@ -539,10 +539,6 @@ const Post = {
                     editor.appendChild(img);
                 }
 
-                // 줄바꿈 추가
-                const br = document.createElement('br');
-                img.after(br);
-
                 this._makeImageResizable(img);
             });
         });
