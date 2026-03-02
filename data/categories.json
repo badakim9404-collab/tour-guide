@@ -1,34 +1,30 @@
 [
   {
-    "id": "cat_city",
-    "name": "시내투어",
+    "name": "디엠지 투어",
     "subcategories": [
       {
-        "id": "sub_food",
-        "name": "맛집"
+        "id": "mm8wy07wizvclteqw",
+        "name": "JSA 뮤지엄"
       },
       {
-        "id": "sub_info",
-        "name": "투어정보"
+        "id": "mm8y7kafls8v25plf",
+        "name": "1. 시간의 기둥들 (6개의 영상)"
+      },
+      {
+        "id": "mm8y7u9p1sz0kzpck",
+        "name": "2. 아직 응답중인 방 (전화기)"
+      },
+      {
+        "id": "mm8y8aswxb62jz3a1",
+        "name": "3. 지도에 없는 경계 (거울방)"
+      },
+      {
+        "id": "mm8y9546pwyz0pp9b",
+        "name": "4. 건널 수 있는 선 (판문점 T2 포토존)"
       }
     ],
     "order": 0,
-    "createdAt": "2026-03-02T05:16:25.521Z"
-  },
-  {
-    "id": "cat_palace",
-    "name": "궁궐투어",
-    "subcategories": [
-      {
-        "id": "sub_food2",
-        "name": "맛집"
-      },
-      {
-        "id": "sub_info2",
-        "name": "투어정보"
-      }
-    ],
-    "order": 1,
-    "createdAt": "2026-03-02T05:16:25.531Z"
+    "id": "mm8wxtqyizib9cwon",
+    "createdAt": "2026-03-02T08:24:36.826Z"
   }
 ]
