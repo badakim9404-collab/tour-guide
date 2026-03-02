@@ -1,0 +1,28 @@
+{
+  "places": [
+    {
+      "id": "place1",
+      "name": "명동교자",
+      "address": "서울 중구 명동10길 29",
+      "type": "restaurant"
+    },
+    {
+      "id": "place2",
+      "name": "토속촌삼계탕",
+      "address": "서울 종로구 자하문로5길 5",
+      "type": "restaurant"
+    },
+    {
+      "id": "place3",
+      "name": "진옥화할매원조닭한마리",
+      "address": "서울 종로구 종로5가 395-3",
+      "type": "restaurant"
+    },
+    {
+      "id": "place4",
+      "name": "경복궁",
+      "address": "서울 종로구 사직로 161",
+      "type": "tourspot"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "updatedAt": "2026-03-02T12:01:01.407483",
+  "totalPlaces": 4,
+  "successCount": 4,
+  "results": [
+    {
+      "name": "명동교자",
+      "hours": {
+        "mon": {
+          "open": "10:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "10:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "10:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "10:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "10:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "10:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "10:30",
+          "close": "21:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [
+        "브레이크 타임 없습니다."
+      ],
+      "crawledAt": "2026-03-02T12:00:24.916532",
+      "placeId": "11592650",
+      "matchedName": "명동교자 본점",
+      "id": "place1"
+    },
+    {
+      "name": "토속촌삼계탕",
+      "hours": {
+        "mon": {
+          "open": "10:00",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "10:00",
+          "close": "22:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [],
+      "crawledAt": "2026-03-02T12:00:36.439525",
+      "placeId": "35597924",
+      "matchedName": "토속촌 삼계탕",
+      "id": "place2"
+    },
+    {
+      "name": "진옥화할매원조닭한마리",
+      "hours": {
+        "mon": {
+          "open": "10:30",
+          "close": "01:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "10:30",
+          "close": "01:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "10:30",
+          "close": "01:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "10:30",
+          "close": "01:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "10:30",
+          "close": "01:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "10:30",
+          "close": "01:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "10:30",
+          "close": "01:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [
+        "별관 12시 오픈"
+      ],
+      "crawledAt": "2026-03-02T12:00:48.461159",
+      "placeId": "11619295",
+      "matchedName": "진옥화할매원조닭한마리",
+      "id": "place3"
+    },
+    {
+      "name": "경복궁",
+      "hours": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "18:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "1~2/11~12월\t정기휴무 (매주 화요일)",
+        "3~5/9~10월\t정기휴무 (매주 화요일)",
+        "6월~8월\t정기휴무 (매주 화요일)"
+      ],
+      "notes": [],
+      "crawledAt": "2026-03-02T12:01:01.257168",
+      "placeId": "11571707",
+      "matchedName": "경복궁",
+      "id": "place4"
+    }
+  ]
+}
