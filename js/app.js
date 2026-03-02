@@ -54,11 +54,25 @@ const App = {
         // DB 초기화
         await DB.init();
 
+        // GitHub 동기화: 서버에서 데이터 pull
+        if (Sync.isConfigured()) {
+            const { ok, hasData } = await Sync.pull();
+            if (ok && !hasData) {
+                // 서버에 데이터 없으면 로컬 데이터 push
+                const local = await DB.exportAll();
+                if (local.categories.length || local.posts.length || local.places.length) {
+                    await Sync.pushAll();
+                }
+            }
+        }
+
         // 데모 데이터 시드 (DB 비어있을 때)
         await this.seedDemoData();
 
         // 크롤링된 영업시간 데이터 반영
+        DB._suppressSync = true;
         await this.applyCrawledHours();
+        DB._suppressSync = false;
 
         // 카테고리 트리 렌더링
         await Category.renderTree();
@@ -312,10 +326,53 @@ const App = {
     // 백업/복원 뷰
     renderBackupView() {
         const main = document.getElementById('mainContent');
+        const hasToken = Sync.isConfigured();
+        const maskedToken = hasToken ? '****' + Sync.getToken().slice(-4) : '';
+
         main.innerHTML = `
             <div class="backup-section">
                 <h2><i class="fas fa-database"></i> 데이터 관리</h2>
-                <p>데이터를 JSON 파일로 내보내거나, 백업 파일에서 복원할 수 있습니다.</p>
+
+                <!-- GitHub 동기화 설정 -->
+                <div class="backup-card sync-card">
+                    <h3><i class="fas fa-cloud"></i> GitHub 동기화</h3>
+                    <p>모든 기기에서 동일한 데이터를 사용합니다. 글 저장/삭제 시 자동으로 동기화됩니다.</p>
+                    <div class="sync-token-row">
+                        <input type="password" id="syncTokenInput" class="sync-token-input"
+                            placeholder="GitHub Personal Access Token"
+                            value="${hasToken ? Sync.getToken() : ''}">
+                        <button class="btn btn-primary btn-sm" id="syncTokenSaveBtn">
+                            ${hasToken ? '변경' : '저장'}
+                        </button>
+                        ${hasToken ? '<button class="btn btn-danger btn-sm" id="syncTokenDeleteBtn">해제</button>' : ''}
+                    </div>
+                    <div class="sync-status-text" id="syncSettingsStatus">
+                        ${hasToken ? '<span class="text-success"><i class="fas fa-check-circle"></i> 연결됨 (' + maskedToken + ')</span>' : '<span class="text-muted"><i class="fas fa-times-circle"></i> 미설정</span>'}
+                    </div>
+                    ${hasToken ? `
+                    <div class="sync-actions">
+                        <button class="btn btn-secondary btn-sm" id="syncPullBtn">
+                            <i class="fas fa-cloud-download-alt"></i> 서버에서 불러오기
+                        </button>
+                        <button class="btn btn-primary btn-sm" id="syncPushBtn">
+                            <i class="fas fa-cloud-upload-alt"></i> 서버에 업로드
+                        </button>
+                    </div>` : `
+                    <div class="sync-help">
+                        <details>
+                            <summary>토큰 발급 방법</summary>
+                            <ol>
+                                <li>GitHub.com → Settings → Developer settings</li>
+                                <li>Personal access tokens → Fine-grained tokens → Generate</li>
+                                <li>Repository: <b>tour-guide</b> 선택</li>
+                                <li>Permissions → Contents: <b>Read and write</b></li>
+                                <li>Generate token → 복사하여 위에 붙여넣기</li>
+                            </ol>
+                        </details>
+                    </div>`}
+                </div>
+
+                <p style="margin-top:24px;">데이터를 JSON 파일로 내보내거나, 백업 파일에서 복원할 수 있습니다.</p>
                 <div class="backup-actions">
                     <div class="backup-card">
                         <h3><i class="fas fa-download"></i> 내보내기 (백업)</h3>
@@ -341,6 +398,66 @@ const App = {
                     </div>
                 </div>
             </div>`;
+
+        // === 동기화 설정 이벤트 ===
+        document.getElementById('syncTokenSaveBtn').addEventListener('click', async () => {
+            const input = document.getElementById('syncTokenInput');
+            const statusEl = document.getElementById('syncSettingsStatus');
+            const token = input.value.trim();
+
+            if (!token) {
+                statusEl.innerHTML = '<span class="text-danger">토큰을 입력해주세요</span>';
+                return;
+            }
+
+            statusEl.innerHTML = '<span class="text-muted"><i class="fas fa-spinner fa-spin"></i> 검증 중...</span>';
+
+            const valid = await Sync.validateToken(token);
+            if (valid) {
+                Sync.setToken(token);
+                statusEl.innerHTML = '<span class="text-success"><i class="fas fa-check-circle"></i> 연결 완료!</span>';
+                Utils.showToast('GitHub 동기화가 설정되었습니다');
+                // 뷰 새로고침
+                setTimeout(() => this.renderBackupView(), 1000);
+            } else {
+                statusEl.innerHTML = '<span class="text-danger"><i class="fas fa-times-circle"></i> 토큰이 유효하지 않거나 push 권한이 없습니다</span>';
+            }
+        });
+
+        const deleteBtn = document.getElementById('syncTokenDeleteBtn');
+        if (deleteBtn) {
+            deleteBtn.addEventListener('click', () => {
+                Sync.removeToken();
+                Utils.showToast('동기화가 해제되었습니다');
+                this.renderBackupView();
+            });
+        }
+
+        const pullBtn = document.getElementById('syncPullBtn');
+        if (pullBtn) {
+            pullBtn.addEventListener('click', async () => {
+                pullBtn.disabled = true;
+                const { ok } = await Sync.pull();
+                if (ok) {
+                    Utils.showToast('서버 데이터를 불러왔습니다');
+                    await Category.renderTree();
+                    this.navigate('backup');
+                } else {
+                    Utils.showToast('불러오기 실패');
+                }
+                pullBtn.disabled = false;
+            });
+        }
+
+        const pushBtn = document.getElementById('syncPushBtn');
+        if (pushBtn) {
+            pushBtn.addEventListener('click', async () => {
+                pushBtn.disabled = true;
+                const ok = await Sync.pushAll();
+                Utils.showToast(ok ? '서버에 업로드 완료' : '업로드 실패');
+                pushBtn.disabled = false;
+            });
+        }
 
         // 내보내기
         document.getElementById('exportBtn').addEventListener('click', async () => {
@@ -369,6 +486,7 @@ const App = {
                     try {
                         const data = JSON.parse(e.target.result);
                         await DB.importAll(data);
+                        if (Sync.isConfigured()) await Sync.pushAll();
                         Utils.showToast('데이터가 복원되었습니다');
                         Category.renderTree();
                         this.navigate('posts', { categoryId: null, subcategoryId: null });

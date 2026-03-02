@@ -4,6 +4,7 @@ const DB = {
     name: 'TourGuideDB',
     version: 1,
     db: null,
+    _suppressSync: false,
 
     // DB 초기화
     async init() {
@@ -106,11 +107,15 @@ const DB = {
         if (!cat.id) cat.id = Utils.generateId();
         if (!cat.createdAt) cat.createdAt = new Date().toISOString();
         if (!cat.subcategories) cat.subcategories = [];
-        return this.put('categories', cat);
+        const result = await this.put('categories', cat);
+        if (!this._suppressSync) Sync.schedulePush('categories');
+        return result;
     },
 
     async deleteCategory(id) {
-        return this.delete('categories', id);
+        const result = await this.delete('categories', id);
+        if (!this._suppressSync) Sync.schedulePush('categories');
+        return result;
     },
 
     // === Posts ===
@@ -133,11 +138,15 @@ const DB = {
         if (!post.id) post.id = Utils.generateId();
         if (!post.createdAt) post.createdAt = new Date().toISOString();
         post.updatedAt = new Date().toISOString();
-        return this.put('posts', post);
+        const result = await this.put('posts', post);
+        if (!this._suppressSync) Sync.schedulePush('posts');
+        return result;
     },
 
     async deletePost(id) {
-        return this.delete('posts', id);
+        const result = await this.delete('posts', id);
+        if (!this._suppressSync) Sync.schedulePush('posts');
+        return result;
     },
 
     // === Places ===
@@ -157,11 +166,15 @@ const DB = {
         if (!place.id) place.id = Utils.generateId();
         if (!place.createdAt) place.createdAt = new Date().toISOString();
         place.updatedAt = new Date().toISOString();
-        return this.put('places', place);
+        const result = await this.put('places', place);
+        if (!this._suppressSync) Sync.schedulePush('places');
+        return result;
     },
 
     async deletePlace(id) {
-        return this.delete('places', id);
+        const result = await this.delete('places', id);
+        if (!this._suppressSync) Sync.schedulePush('places');
+        return result;
     },
 
     // === Search ===
