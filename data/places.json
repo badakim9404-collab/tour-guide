@@ -52,7 +52,8 @@
     "isClosed": false,
     "memo": "",
     "createdAt": "2026-03-02T05:16:25.538Z",
-    "updatedAt": "2026-03-02T12:02:50.999Z"
+    "updatedAt": "2026-03-02T12:12:01.683Z",
+    "_deleted": true
   },
   {
     "id": "place2",
@@ -106,7 +107,8 @@
     "isClosed": false,
     "memo": "",
     "createdAt": "2026-03-02T05:16:25.548Z",
-    "updatedAt": "2026-03-02T12:02:51.004Z"
+    "updatedAt": "2026-03-02T12:12:00.065Z",
+    "_deleted": true
   },
   {
     "id": "place3",
@@ -160,7 +162,8 @@
     "isClosed": false,
     "memo": "",
     "createdAt": "2026-03-02T05:16:25.555Z",
-    "updatedAt": "2026-03-02T12:02:51.007Z"
+    "updatedAt": "2026-03-02T12:11:58.686Z",
+    "_deleted": true
   },
   {
     "id": "place4",
