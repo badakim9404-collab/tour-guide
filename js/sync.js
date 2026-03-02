@@ -241,8 +241,10 @@ const Sync = {
             this._lastPullTime = Date.now();
             localStorage.setItem('tour-last-pull', this._lastPullTime.toString());
 
+            const changed = mergeResult.added > 0 || mergeResult.updated > 0;
+
             this.setStatus('success', '동기화 완료');
-            return { ok: true, hasData: hasServerData };
+            return { ok: true, hasData: hasServerData, changed };
         } catch (e) {
             console.error('Sync pull error:', e);
             this.setStatus('error', '불러오기 실패');
@@ -364,31 +366,38 @@ const Sync = {
     },
 
     // === 자동 동기화 (탭 전환 + 주기적 Pull) ===
+    _refreshCurrentView() {
+        const view = App.state.view;
+        if (view === 'posts') Post.renderList(App.state.categoryId, App.state.subcategoryId);
+        else if (view === 'postDetail') Post.renderDetail(App.state.postId);
+        else if (view === 'places') Place.renderList();
+        // map, categoryManage, backup 등 편집 폼은 갱신하지 않음 (입력 손실 방지)
+    },
+
     startAutoSync() {
+        const onPull = ({ ok, changed }) => {
+            if (ok) {
+                Category.renderTree();
+                if (changed) this._refreshCurrentView();
+            }
+        };
+
         // 탭이 다시 보일 때 자동 Pull
         document.addEventListener('visibilitychange', () => {
             if (document.visibilityState === 'visible' && this.isConfigured() && !this._pushing) {
                 const lastPull = parseInt(localStorage.getItem('tour-last-pull') || '0');
-                if (Date.now() - lastPull > 10000) {
-                    this.pull().then(({ ok }) => {
-                        if (ok) {
-                            Category.renderTree();
-                        }
-                    });
+                if (Date.now() - lastPull > 5000) {
+                    this.pull().then(onPull);
                 }
             }
         });
 
-        // 60초마다 자동 동기화
+        // 30초마다 자동 동기화
         setInterval(() => {
             if (document.visibilityState === 'visible' && this.isConfigured() && !this._pushing) {
-                this.pull().then(({ ok }) => {
-                    if (ok) {
-                        Category.renderTree();
-                    }
-                });
+                this.pull().then(onPull);
             }
-        }, 60000);
+        }, 30000);
     },
 
     // === 토큰 검증 ===
