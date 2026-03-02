@@ -221,5 +221,61 @@
     "createdAt": "2026-03-02T05:16:25.556Z",
     "updatedAt": "2026-03-02T12:11:56.123Z",
     "_deleted": true
+  },
+  {
+    "name": "목멱산방",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울특별시 중구 퇴계로20길 71 1층 목멱산방",
+    "lat": null,
+    "lng": null,
+    "description": "명동, 다양한 비빔밥, 육개장, 치즈김치전, 해산물 부추전, 가격(9.0-15.0) 미슐랭",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 4,
+    "isClosed": false,
+    "memo": "",
+    "id": "mm9a6d3seju42gfms",
+    "createdAt": "2026-03-02T14:35:10.169Z",
+    "updatedAt": "2026-03-02T14:35:10.174Z"
   }
 ]
