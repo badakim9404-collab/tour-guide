@@ -3,6 +3,7 @@
 const Post = {
     // 이미지 임시 저장
     _pendingImages: [],
+    _draggingImage: null,
 
     // 글 목록 렌더링
     async renderList(categoryId, subcategoryId) {
@@ -593,13 +594,32 @@ const Post = {
         reader.readAsDataURL(file);
     },
 
-    // 이미지 클릭 시 리사이즈 가능하게
+    // 이미지 클릭 시 리사이즈, 드래그로 이동
     _makeImageResizable(img) {
+        if (img._resizable) return;
+        img._resizable = true;
         img.style.cursor = 'pointer';
+        img.draggable = true;
+
         img.addEventListener('click', (e) => {
+            if (this._draggingImage) return;
             e.preventDefault();
             e.stopPropagation();
             this._showImageResizeUI(img);
+        });
+
+        // 드래그 시작 — 이동 모드
+        img.addEventListener('dragstart', (e) => {
+            this._removeImageResizeUI();
+            e.dataTransfer.effectAllowed = 'move';
+            e.dataTransfer.setData('text/x-move', '1');
+            this._draggingImage = img;
+            setTimeout(() => { img.style.opacity = '0.4'; }, 0);
+        });
+
+        img.addEventListener('dragend', () => {
+            img.style.opacity = '';
+            this._draggingImage = null;
         });
     },
 
@@ -785,9 +805,10 @@ const Post = {
             imageInput.value = '';
         });
 
-        // 드래그&드롭으로 이미지 삽입
+        // 드래그&드롭 — 내부 이미지 이동 + 외부 파일 삽입
         editor.addEventListener('dragover', (e) => {
             e.preventDefault();
+            e.dataTransfer.dropEffect = this._draggingImage ? 'move' : 'copy';
             editor.classList.add('drag-over');
         });
         editor.addEventListener('dragleave', () => {
@@ -795,7 +816,36 @@ const Post = {
         });
         editor.addEventListener('drop', (e) => {
             e.preventDefault();
+            e.stopPropagation();
             editor.classList.remove('drag-over');
+
+            // 내부 이미지 이동
+            if (this._draggingImage) {
+                const img = this._draggingImage;
+                this._draggingImage = null;
+                img.style.opacity = '';
+
+                // 드롭 위치 계산
+                let range = null;
+                if (document.caretRangeFromPoint) {
+                    range = document.caretRangeFromPoint(e.clientX, e.clientY);
+                } else if (document.caretPositionFromPoint) {
+                    const pos = document.caretPositionFromPoint(e.clientX, e.clientY);
+                    if (pos) {
+                        range = document.createRange();
+                        range.setStart(pos.offsetNode, pos.offset);
+                        range.collapse(true);
+                    }
+                }
+
+                if (range && editor.contains(range.startContainer)) {
+                    img.remove();
+                    range.insertNode(img);
+                }
+                return;
+            }
+
+            // 외부 파일 드롭
             const files = e.dataTransfer.files;
             if (files.length > 0) {
                 this._insertInlineImages(files);
