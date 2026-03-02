@@ -512,35 +512,48 @@ const Post = {
         }
     },
 
-    // 인라인 이미지 삽입 (파일 → 압축 → base64 → 커서 위치에 삽입)
+    // 인라인 이미지 삽입 (파일 → 압축 → div로 감싸서 커서 위치에 삽입)
     _insertInlineImages(files) {
         const editor = document.getElementById('postContent');
-        Array.from(files).forEach(file => {
-            if (!file.type.startsWith('image/')) return;
-            this._compressImage(file, (dataUrl) => {
-                editor.focus();
+        const imageFiles = Array.from(files).filter(f => f.type.startsWith('image/'));
+        if (imageFiles.length === 0) return;
+
+        // 현재 커서 위치 저장
+        const sel = window.getSelection();
+        let savedRange = sel.rangeCount > 0 ? sel.getRangeAt(0).cloneRange() : null;
+
+        // 모든 이미지 압축 후 한번에 삽입 (순서 유지)
+        const promises = imageFiles.map(file => new Promise(resolve => {
+            this._compressImage(file, resolve);
+        }));
+
+        Promise.all(promises).then(dataUrls => {
+            // 블록 컨테이너 — 텍스트와 분리, 내부 이미지끼리는 나란히
+            const container = document.createElement('div');
+            container.style.margin = '8px 0';
+
+            dataUrls.forEach(dataUrl => {
                 const img = document.createElement('img');
                 img.src = dataUrl;
                 img.style.maxWidth = '100%';
                 img.style.height = 'auto';
-
-                // 커서 위치에 삽입
-                const sel = window.getSelection();
-                if (sel.rangeCount > 0) {
-                    const range = sel.getRangeAt(0);
-                    range.deleteContents();
-                    range.insertNode(img);
-                    // 커서를 이미지 뒤로
-                    range.setStartAfter(img);
-                    range.collapse(true);
-                    sel.removeAllRanges();
-                    sel.addRange(range);
-                } else {
-                    editor.appendChild(img);
-                }
-
+                container.appendChild(img);
                 this._makeImageResizable(img);
             });
+
+            editor.focus();
+            if (savedRange) {
+                savedRange.deleteContents();
+                savedRange.insertNode(container);
+                const range = document.createRange();
+                range.setStartAfter(container);
+                range.collapse(true);
+                const s = window.getSelection();
+                s.removeAllRanges();
+                s.addRange(range);
+            } else {
+                editor.appendChild(container);
+            }
         });
     },
 
