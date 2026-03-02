@@ -25,7 +25,8 @@
     ],
     "order": 0,
     "id": "mm8wxtqyizib9cwon",
-    "createdAt": "2026-03-02T08:24:36.826Z"
+    "createdAt": "2026-03-02T08:24:36.826Z",
+    "updatedAt": "2026-03-02T08:24:36.826Z"
   },
   {
     "name": "국적별 특징 스몰토크 주제 등등",
@@ -49,10 +50,23 @@
       {
         "id": "mm949dxbqapse13lr",
         "name": "아프리카 (이집트, 남아공, 나이지리아 등 50여 개국)"
+      },
+      {
+        "id": "mm940cbubgv120w3m",
+        "name": "미국"
+      },
+      {
+        "id": "mm940y9vcvzbiqyvi",
+        "name": "그리스"
+      },
+      {
+        "id": "mm94125g2c8wrmyt1",
+        "name": "호주"
       }
     ],
     "order": 1,
     "id": "mm93zshaiairkdfj1",
-    "createdAt": "2026-03-02T11:42:05.806Z"
+    "createdAt": "2026-03-02T11:42:05.806Z",
+    "updatedAt": "2026-03-02T11:42:05.806Z"
   }
 ]
