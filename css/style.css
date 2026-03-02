@@ -1723,6 +1723,121 @@ body {
     pointer-events: none;
 }
 
+.editor-content.drag-over {
+    background: var(--primary-light);
+    border: 2px dashed var(--primary);
+}
+
+/* --- 에디터 인라인 이미지 --- */
+.editor-content img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: box-shadow 0.15s;
+    display: block;
+    margin: 8px 0;
+}
+
+.editor-content img:hover {
+    box-shadow: 0 0 0 2px var(--primary);
+}
+
+.image-resize-wrapper {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    line-height: 0;
+    outline: 2px solid var(--primary);
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+.image-resize-wrapper img {
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.image-resize-handle {
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+    width: 16px;
+    height: 16px;
+    background: var(--primary);
+    border: 2px solid #fff;
+    border-radius: 2px;
+    cursor: nwse-resize;
+    z-index: 10;
+}
+
+.image-resize-toolbar {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 4px;
+    background: #fff;
+    border: 1px solid var(--gray-300);
+    border-radius: 6px;
+    padding: 4px 6px;
+    box-shadow: var(--shadow-md);
+    z-index: 20;
+    white-space: nowrap;
+}
+
+.image-resize-toolbar button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 28px;
+    padding: 0 8px;
+    background: var(--gray-100);
+    border: 1px solid var(--gray-300);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--gray-700);
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.image-resize-toolbar button:hover {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+
+.image-resize-toolbar .resize-delete-btn {
+    background: #fee;
+    border-color: #fcc;
+    color: var(--danger);
+}
+
+.image-resize-toolbar .resize-delete-btn:hover {
+    background: var(--danger);
+    color: #fff;
+    border-color: var(--danger);
+}
+
+/* --- 상세 페이지 인라인 이미지 --- */
+.post-detail-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: transform 0.15s;
+    display: block;
+    margin: 12px 0;
+}
+
+.post-detail-content img:hover {
+    transform: scale(1.01);
+}
+
 /* ===== Empty State ===== */
 .empty-state {
     text-align: center;
@@ -2076,6 +2191,23 @@ button, a, input, select, textarea, [role="button"] {
     .editor-content {
         min-height: 160px;
         font-size: 16px;
+    }
+
+    .image-resize-handle {
+        width: 24px;
+        height: 24px;
+        right: -6px;
+        bottom: -6px;
+    }
+
+    .image-resize-toolbar {
+        top: -44px;
+    }
+
+    .image-resize-toolbar button {
+        min-width: 36px;
+        height: 32px;
+        font-size: 0.8rem;
     }
 
     /* --- 토스트 --- */

@@ -204,14 +204,16 @@ const Utils = {
     // HTML 새니타이즈 (XSS 방지)
     sanitizeHtml(html) {
         if (!html) return '';
-        const allowedTags = ['b', 'i', 'u', 'strong', 'em', 'span', 'br', 'p', 'div', 'font'];
+        const voidTags = ['br', 'img'];
+        const allowedTags = ['b', 'i', 'u', 'strong', 'em', 'span', 'br', 'p', 'div', 'font', 'img'];
         const allowedAttrs = {
             span: ['style'],
             font: ['color', 'size'],
             div: ['style'],
-            p: ['style']
+            p: ['style'],
+            img: ['src', 'alt', 'style', 'width', 'height']
         };
-        const allowedStyleProps = ['color', 'font-size'];
+        const allowedStyleProps = ['color', 'font-size', 'width', 'height', 'max-width', 'display', 'margin'];
 
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
@@ -224,6 +226,11 @@ const Utils = {
                 } else if (child.nodeType === Node.ELEMENT_NODE) {
                     const tag = child.tagName.toLowerCase();
                     if (allowedTags.includes(tag)) {
+                        // img src 보안: data:image/ 만 허용
+                        if (tag === 'img') {
+                            const src = child.getAttribute('src') || '';
+                            if (!src.startsWith('data:image/')) return;
+                        }
                         const el = document.createElement(tag);
                         const attrs = allowedAttrs[tag] || [];
                         attrs.forEach(attr => {
@@ -242,7 +249,10 @@ const Utils = {
                                 }
                             }
                         });
-                        el.appendChild(cleanNode(child));
+                        // void 요소는 자식 재귀 불필요
+                        if (!voidTags.includes(tag)) {
+                            el.appendChild(cleanNode(child));
+                        }
                         frag.appendChild(el);
                     } else {
                         // 허용되지 않는 태그는 자식만 유지

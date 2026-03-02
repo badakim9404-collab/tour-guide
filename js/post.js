@@ -46,8 +46,9 @@ const Post = {
         } else {
             html += `<div class="post-grid">`;
             for (const post of posts) {
-                const thumb = post.images && post.images.length > 0
-                    ? `<img src="${post.images[0]}" alt="">`
+                const thumbSrc = this._getPostThumbnail(post);
+                const thumb = thumbSrc
+                    ? `<img src="${thumbSrc}" alt="">`
                     : `<i class="fas fa-file-alt no-image"></i>`;
 
                 // 카테고리 이름 찾기
@@ -163,8 +164,9 @@ const Post = {
         } else {
             html += `<div class="post-grid">`;
             for (const post of results.posts) {
-                const thumb = post.images && post.images.length > 0
-                    ? `<img src="${post.images[0]}" alt="">`
+                const thumbSrc = this._getPostThumbnail(post);
+                const thumb = thumbSrc
+                    ? `<img src="${thumbSrc}" alt="">`
                     : `<i class="fas fa-file-alt no-image"></i>`;
 
                 let catLabel = '';
@@ -316,8 +318,14 @@ const Post = {
             });
         });
 
-        // 이미지 라이트박스
+        // 이미지 라이트박스 (별도 이미지 그리드 + 본문 인라인 이미지)
         main.querySelectorAll('.lightbox-trigger').forEach(img => {
+            img.addEventListener('click', () => {
+                App.showLightbox(img.src);
+            });
+        });
+        main.querySelectorAll('.post-detail-content img').forEach(img => {
+            img.style.cursor = 'pointer';
             img.addEventListener('click', () => {
                 App.showLightbox(img.src);
             });
@@ -414,20 +422,14 @@ const Post = {
                                     </div>
                                 </div>
                             </div>
+                            <div class="toolbar-divider"></div>
+                            <div class="toolbar-group">
+                                <button type="button" id="insertImageBtn" title="이미지 삽입"><i class="fas fa-image"></i></button>
+                            </div>
                         </div>
                         <div class="editor-content" contenteditable="true" id="postContent" data-placeholder="내용을 입력하세요">${post.content || ''}</div>
+                        <input type="file" id="inlineImageInput" multiple accept="image/*" style="display:none">
                     </div>
-                 </div>`;
-
-        // 이미지 업로드
-        html += `<div class="form-group">
-                    <label>이미지</label>
-                    <div class="image-upload-area" id="imageUploadArea">
-                        <i class="fas fa-cloud-upload-alt"></i>
-                        <p>클릭하거나 이미지를 드래그하세요</p>
-                    </div>
-                    <input type="file" id="imageFileInput" multiple accept="image/*" style="display:none">
-                    <div class="image-preview-list" id="imagePreviewList"></div>
                  </div>`;
 
         // 버튼
@@ -450,26 +452,6 @@ const Post = {
         // 리치 텍스트 에디터 이벤트
         this._initEditor();
 
-        // 이미지 업로드 이벤트
-        const uploadArea = document.getElementById('imageUploadArea');
-        const fileInput = document.getElementById('imageFileInput');
-
-        uploadArea.addEventListener('click', () => fileInput.click());
-        uploadArea.addEventListener('dragover', (e) => { e.preventDefault(); uploadArea.style.borderColor = 'var(--primary)'; });
-        uploadArea.addEventListener('dragleave', () => { uploadArea.style.borderColor = ''; });
-        uploadArea.addEventListener('drop', (e) => {
-            e.preventDefault();
-            uploadArea.style.borderColor = '';
-            this._handleFiles(e.dataTransfer.files);
-        });
-        fileInput.addEventListener('change', () => {
-            this._handleFiles(fileInput.files);
-            fileInput.value = '';
-        });
-
-        // 기존 이미지 프리뷰
-        this._renderImagePreviews();
-
         // 저장
         document.getElementById('savePostBtn').addEventListener('click', async () => {
             const title = document.getElementById('postTitle').value.trim();
@@ -478,12 +460,15 @@ const Post = {
                 return;
             }
 
+            // 저장 전 리사이즈 UI 정리
+            this._removeImageResizeUI();
+
             const data = {
                 title,
                 content: document.getElementById('postContent').innerHTML,
                 categoryId: document.getElementById('postCategory').value || null,
                 subcategoryId: document.getElementById('postSubcategory').value || null,
-                images: this._pendingImages
+                images: []
             };
 
             if (isEdit) {
@@ -527,17 +512,196 @@ const Post = {
         }
     },
 
-    _handleFiles(files) {
+    // 인라인 이미지 삽입 (파일 → 압축 → base64 → 커서 위치에 삽입)
+    _insertInlineImages(files) {
+        const editor = document.getElementById('postContent');
         Array.from(files).forEach(file => {
             if (!file.type.startsWith('image/')) return;
+            this._compressImage(file, (dataUrl) => {
+                editor.focus();
+                const img = document.createElement('img');
+                img.src = dataUrl;
+                img.style.maxWidth = '100%';
+                img.style.height = 'auto';
 
-            const reader = new FileReader();
-            reader.onload = (e) => {
-                this._pendingImages.push(e.target.result);
-                this._renderImagePreviews();
-            };
-            reader.readAsDataURL(file);
+                // 커서 위치에 삽입
+                const sel = window.getSelection();
+                if (sel.rangeCount > 0) {
+                    const range = sel.getRangeAt(0);
+                    range.deleteContents();
+                    range.insertNode(img);
+                    // 커서를 이미지 뒤로
+                    range.setStartAfter(img);
+                    range.collapse(true);
+                    sel.removeAllRanges();
+                    sel.addRange(range);
+                } else {
+                    editor.appendChild(img);
+                }
+
+                // 줄바꿈 추가
+                const br = document.createElement('br');
+                img.after(br);
+
+                this._makeImageResizable(img);
+            });
         });
+    },
+
+    // 이미지 압축 (Canvas API, 최대 1200px, JPEG 70%)
+    _compressImage(file, callback) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            const img = new Image();
+            img.onload = () => {
+                const maxSize = 1200;
+                let w = img.width;
+                let h = img.height;
+
+                if (w > maxSize || h > maxSize) {
+                    if (w > h) {
+                        h = Math.round(h * maxSize / w);
+                        w = maxSize;
+                    } else {
+                        w = Math.round(w * maxSize / h);
+                        h = maxSize;
+                    }
+                }
+
+                const canvas = document.createElement('canvas');
+                canvas.width = w;
+                canvas.height = h;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0, w, h);
+
+                // PNG 투명도 유지 필요 시 png, 아니면 jpeg 압축
+                const isPng = file.type === 'image/png';
+                const dataUrl = isPng
+                    ? canvas.toDataURL('image/png')
+                    : canvas.toDataURL('image/jpeg', 0.7);
+                callback(dataUrl);
+            };
+            img.src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+    },
+
+    // 이미지 클릭 시 리사이즈 가능하게
+    _makeImageResizable(img) {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            this._showImageResizeUI(img);
+        });
+    },
+
+    // 리사이즈 UI 표시
+    _showImageResizeUI(img) {
+        // 기존 UI 제거
+        this._removeImageResizeUI();
+
+        const editor = document.getElementById('postContent');
+
+        // 래퍼로 감싸기
+        const wrapper = document.createElement('span');
+        wrapper.className = 'image-resize-wrapper';
+        wrapper.contentEditable = 'false';
+        img.parentNode.insertBefore(wrapper, img);
+        wrapper.appendChild(img);
+
+        // 드래그 리사이즈 핸들
+        const handle = document.createElement('span');
+        handle.className = 'image-resize-handle';
+        wrapper.appendChild(handle);
+
+        // 크기 버튼 툴바
+        const toolbar = document.createElement('div');
+        toolbar.className = 'image-resize-toolbar';
+        toolbar.innerHTML = `
+            <button type="button" data-size="25">25%</button>
+            <button type="button" data-size="50">50%</button>
+            <button type="button" data-size="75">75%</button>
+            <button type="button" data-size="100">100%</button>
+            <button type="button" data-action="delete" class="resize-delete-btn"><i class="fas fa-trash"></i></button>
+        `;
+        wrapper.appendChild(toolbar);
+
+        // 크기 버튼 이벤트
+        toolbar.querySelectorAll('button[data-size]').forEach(btn => {
+            btn.addEventListener('mousedown', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const pct = parseInt(btn.dataset.size);
+                img.style.width = pct + '%';
+                img.style.height = 'auto';
+                img.style.maxWidth = pct + '%';
+            });
+        });
+
+        // 삭제 버튼
+        toolbar.querySelector('[data-action="delete"]').addEventListener('mousedown', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            wrapper.remove();
+        });
+
+        // 드래그 리사이즈
+        let startX, startWidth;
+        const onMouseDown = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            startX = e.clientX || (e.touches && e.touches[0].clientX);
+            startWidth = img.offsetWidth;
+            document.addEventListener('mousemove', onMouseMove);
+            document.addEventListener('mouseup', onMouseUp);
+            document.addEventListener('touchmove', onMouseMove, { passive: false });
+            document.addEventListener('touchend', onMouseUp);
+        };
+        const onMouseMove = (e) => {
+            e.preventDefault();
+            const clientX = e.clientX || (e.touches && e.touches[0].clientX);
+            const diff = clientX - startX;
+            const newWidth = Math.max(50, startWidth + diff);
+            const editorWidth = editor.offsetWidth;
+            const pct = Math.min(100, Math.round(newWidth / editorWidth * 100));
+            img.style.width = pct + '%';
+            img.style.height = 'auto';
+            img.style.maxWidth = pct + '%';
+        };
+        const onMouseUp = () => {
+            document.removeEventListener('mousemove', onMouseMove);
+            document.removeEventListener('mouseup', onMouseUp);
+            document.removeEventListener('touchmove', onMouseMove);
+            document.removeEventListener('touchend', onMouseUp);
+        };
+        handle.addEventListener('mousedown', onMouseDown);
+        handle.addEventListener('touchstart', onMouseDown, { passive: false });
+    },
+
+    // 리사이즈 UI 정리 (저장 전 호출)
+    _removeImageResizeUI() {
+        document.querySelectorAll('.image-resize-wrapper').forEach(wrapper => {
+            const img = wrapper.querySelector('img');
+            if (img) {
+                wrapper.parentNode.insertBefore(img, wrapper);
+            }
+            wrapper.remove();
+        });
+    },
+
+    // 인라인 이미지에서 첫 번째 이미지 추출 (썸네일용)
+    _getPostThumbnail(post) {
+        // 기존 images 배열 우선
+        if (post.images && post.images.length > 0) {
+            return post.images[0];
+        }
+        // 본문에서 인라인 이미지 추출
+        if (post.content) {
+            const match = post.content.match(/<img[^>]+src="([^"]+)"/);
+            if (match) return match[1];
+        }
+        return null;
     },
 
     _initEditor() {
@@ -590,6 +754,65 @@ const Post = {
             }
         });
 
+        // === 인라인 이미지 기능 ===
+        const imageBtn = document.getElementById('insertImageBtn');
+        const imageInput = document.getElementById('inlineImageInput');
+
+        // 이미지 버튼 클릭 → 파일 선택
+        imageBtn.addEventListener('mousedown', (e) => {
+            e.preventDefault();
+            imageInput.click();
+        });
+
+        imageInput.addEventListener('change', () => {
+            this._insertInlineImages(imageInput.files);
+            imageInput.value = '';
+        });
+
+        // 드래그&드롭으로 이미지 삽입
+        editor.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            editor.classList.add('drag-over');
+        });
+        editor.addEventListener('dragleave', () => {
+            editor.classList.remove('drag-over');
+        });
+        editor.addEventListener('drop', (e) => {
+            e.preventDefault();
+            editor.classList.remove('drag-over');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                this._insertInlineImages(files);
+            }
+        });
+
+        // 클립보드 붙여넣기 (캡처도구 포함)
+        editor.addEventListener('paste', (e) => {
+            const items = (e.clipboardData || e.originalEvent.clipboardData).items;
+            const imageFiles = [];
+            for (const item of items) {
+                if (item.type.startsWith('image/')) {
+                    e.preventDefault();
+                    imageFiles.push(item.getAsFile());
+                }
+            }
+            if (imageFiles.length > 0) {
+                this._insertInlineImages(imageFiles);
+            }
+        });
+
+        // 에디터 내 기존 이미지에 리사이즈 바인딩
+        editor.querySelectorAll('img').forEach(img => {
+            this._makeImageResizable(img);
+        });
+
+        // 에디터 외부 클릭 시 리사이즈 UI 닫기
+        document.addEventListener('mousedown', (e) => {
+            if (!e.target.closest('.image-resize-wrapper') && !e.target.closest('.image-resize-toolbar')) {
+                this._removeImageResizeUI();
+            }
+        });
+
         // 에디터 상태 업데이트 (커서 이동/선택 변경 시)
         editor.addEventListener('keyup', () => this._updateToolbarState());
         editor.addEventListener('mouseup', () => this._updateToolbarState());
@@ -606,25 +829,6 @@ const Post = {
     },
 
     _renderImagePreviews() {
-        const list = document.getElementById('imagePreviewList');
-        if (!list) return;
-
-        list.innerHTML = '';
-        this._pendingImages.forEach((img, i) => {
-            const item = document.createElement('div');
-            item.className = 'image-preview-item';
-            item.innerHTML = `
-                <img src="${img}" alt="">
-                <button class="remove-image" data-index="${i}"><i class="fas fa-times"></i></button>
-            `;
-            list.appendChild(item);
-        });
-
-        list.querySelectorAll('.remove-image').forEach(btn => {
-            btn.addEventListener('click', () => {
-                this._pendingImages.splice(parseInt(btn.dataset.index), 1);
-                this._renderImagePreviews();
-            });
-        });
+        // 하위 호환: 미사용 (인라인 이미지로 대체)
     }
 };
