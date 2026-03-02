@@ -239,6 +239,7 @@ const Sync = {
     // === 토큰 검증 ===
     async validateToken(token) {
         try {
+            // 1단계: 저장소 접근 가능 여부
             const res = await fetch(`${this.API}/repos/${this.OWNER}/${this.REPO}`, {
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -246,8 +247,13 @@ const Sync = {
                 }
             });
             if (!res.ok) return false;
-            const data = await res.json();
-            return data.permissions && data.permissions.push;
+
+            // 2단계: 실제 쓰기 권한 테스트 (contents API 접근)
+            const testRes = await fetch(
+                `${this.API}/repos/${this.OWNER}/${this.REPO}/contents/data/?ref=${this.BRANCH}`,
+                { headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json' } }
+            );
+            return testRes.ok || testRes.status === 404;
         } catch {
             return false;
         }
