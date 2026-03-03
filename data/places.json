@@ -231,11 +231,6 @@
     "lng": 126.986898587275,
     "description": "명동, 다양한 비빔밥, 육개장, 치즈김치전, 해산물 부추전, 가격(9.0-15.0) 미슐랭",
     "businessHours": {
-      "mon": {
-        "open": "11:00",
-        "close": "20:00",
-        "dayOff": false
-      },
       "tue": {
         "open": "11:00",
         "close": "20:00",
@@ -262,6 +257,11 @@
         "dayOff": false
       },
       "sun": {
+        "open": "11:00",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "mon": {
         "open": "11:00",
         "close": "20:00",
         "dayOff": false
@@ -276,7 +276,7 @@
     "memo": "",
     "id": "mm9a6d3seju42gfms",
     "createdAt": "2026-03-02T14:35:10.169Z",
-    "updatedAt": "2026-03-03T01:01:56.539Z"
+    "updatedAt": "2026-03-03T08:36:53.984216Z"
   },
   {
     "name": "목멱산방 남산타워점",
@@ -287,11 +287,6 @@
     "lng": 126.985302533327,
     "description": "남산타워점, 제철 봄동비빔밥, 투뿔한우 육회비빔밥, 불고기 비빔밥, 제육쌈밥, 도토리묵야채무침, 팥빙수, 전통차(쌍화차, 대추차), 궁중잡채간장떡볶이, 카페, 치즈김치전, 가격(9.0-15.0)⭐️명동지점보다 더 다양한 메뉴⭐️ 미슐랭",
     "businessHours": {
-      "mon": {
-        "open": "10:30",
-        "close": "19:30",
-        "dayOff": false
-      },
       "tue": {
         "open": "10:30",
         "close": "19:30",
@@ -318,6 +313,11 @@
         "dayOff": false
       },
       "sun": {
+        "open": "10:30",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "mon": {
         "open": "10:30",
         "close": "19:30",
         "dayOff": false
@@ -334,7 +334,7 @@
     "memo": "",
     "id": "mm9ai1s6c5w6s3sqe",
     "createdAt": "2026-03-02T14:44:15.368Z",
-    "updatedAt": "2026-03-03T01:01:51.948Z"
+    "updatedAt": "2026-03-03T08:36:53.984226Z"
   },
   {
     "name": "제스티살룬 성수",
@@ -345,39 +345,39 @@
     "lng": 127.042464495443,
     "description": "와사비 새우버거, 새우가 탱글탱글, 성수",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
       "holidays": []
@@ -390,6 +390,6 @@
     "memo": "내 인생 새우버거 집",
     "id": "mmabb6syvuwlkoez2",
     "createdAt": "2026-03-03T07:54:41.075Z",
-    "updatedAt": "2026-03-03T07:54:41.084Z"
+    "updatedAt": "2026-03-03T08:36:53.984230Z"
   }
 ]

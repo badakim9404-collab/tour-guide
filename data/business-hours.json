@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-03T07:55:58.218311",
+  "updatedAt": "2026-03-03T08:36:53.983764",
   "totalPlaces": 3,
   "successCount": 3,
   "results": [
@@ -46,7 +46,7 @@
       "notes": [
         "저녁 라스트오더 19:20"
       ],
-      "crawledAt": "2026-03-03T07:55:31.853323",
+      "crawledAt": "2026-03-03T08:36:31.386239",
       "placeId": "13573290",
       "matchedName": "목멱산방",
       "id": "mm9a6d3seju42gfms"
@@ -96,7 +96,7 @@
       "notes": [
         "추석과 설날 하루전날과 당일은 휴무"
       ],
-      "crawledAt": "2026-03-03T07:55:44.082300",
+      "crawledAt": "2026-03-03T08:36:43.166021",
       "placeId": "1130184843",
       "matchedName": "목멱산방 남산타워점",
       "id": "mm9ai1s6c5w6s3sqe"
@@ -142,7 +142,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-03T07:55:58.184841",
+      "crawledAt": "2026-03-03T08:36:53.937668",
       "placeId": "1172915589",
       "matchedName": "제스티살룬 성수",
       "id": "mmabb6syvuwlkoez2"
