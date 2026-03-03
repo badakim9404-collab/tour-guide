@@ -1,5 +1,7 @@
 // ===== 장소 관리 =====
 
+const KAKAO_REST_KEY = '4ecf991bb1c5aa5bfd470021028d12a3';
+
 const Place = {
     // 장소 저장 후 크롤링 워크플로 트리거
     async requestCrawl() {
@@ -385,26 +387,28 @@ const Place = {
             });
         });
 
-        // 좌표 변환 공통 함수 (카카오 지오코딩)
-        function geocodeAddress(address) {
-            return new Promise((resolve) => {
-                const geocoder = new kakao.maps.services.Geocoder();
-                geocoder.addressSearch(address, (result, status) => {
-                    if (status === kakao.maps.services.Status.OK && result.length > 0) {
-                        resolve({ lat: parseFloat(result[0].y), lng: parseFloat(result[0].x) });
-                    } else {
-                        // 주소 검색 실패 시 키워드 검색 시도
-                        const ps = new kakao.maps.services.Places();
-                        ps.keywordSearch(address, (result2, status2) => {
-                            if (status2 === kakao.maps.services.Status.OK && result2.length > 0) {
-                                resolve({ lat: parseFloat(result2[0].y), lng: parseFloat(result2[0].x) });
-                            } else {
-                                resolve(null);
-                            }
-                        });
-                    }
-                });
-            });
+        // 좌표 변환 공통 함수 (카카오 REST API)
+        async function geocodeAddress(address) {
+            const headers = { 'Authorization': `KakaoAK ${KAKAO_REST_KEY}` };
+            // 1차: 주소 검색
+            const res = await fetch(
+                `https://dapi.kakao.com/v2/local/search/address.json?query=${encodeURIComponent(address)}`,
+                { headers }
+            );
+            const data = await res.json();
+            if (data.documents && data.documents.length > 0) {
+                return { lat: parseFloat(data.documents[0].y), lng: parseFloat(data.documents[0].x) };
+            }
+            // 2차: 키워드 검색 (상호명 등)
+            const res2 = await fetch(
+                `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(address)}`,
+                { headers }
+            );
+            const data2 = await res2.json();
+            if (data2.documents && data2.documents.length > 0) {
+                return { lat: parseFloat(data2.documents[0].y), lng: parseFloat(data2.documents[0].x) };
+            }
+            return null;
         }
 
         // 좌표 변환 버튼 (수동)
@@ -508,6 +512,8 @@ const Place = {
                 Place.requestCrawl().then(ok => {
                     if (ok) {
                         Utils.showToast('영업시간 크롤링을 요청했습니다. 몇 분 후 자동 반영됩니다.');
+                    } else {
+                        Utils.showToast('영업시간 자동 크롤링 요청 실패. 다음 주간 크롤링 시 반영됩니다.');
                     }
                 });
             }
