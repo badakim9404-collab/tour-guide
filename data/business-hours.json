@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-03T00:48:33.196336",
+  "updatedAt": "2026-03-03T00:50:18.812941",
   "totalPlaces": 2,
   "successCount": 2,
   "results": [
@@ -46,7 +46,7 @@
       "notes": [
         "저녁 라스트오더 19:20"
       ],
-      "crawledAt": "2026-03-03T00:48:21.311150",
+      "crawledAt": "2026-03-03T00:50:08.465872",
       "placeId": "13573290",
       "matchedName": "목멱산방",
       "id": "mm9a6d3seju42gfms"
@@ -96,7 +96,7 @@
       "notes": [
         "추석과 설날 하루전날과 당일은 휴무"
       ],
-      "crawledAt": "2026-03-03T00:48:33.157073",
+      "crawledAt": "2026-03-03T00:50:18.775355",
       "placeId": "1130184843",
       "matchedName": "목멱산방 남산타워점",
       "id": "mm9ai1s6c5w6s3sqe"
