@@ -284,7 +284,7 @@ const App = {
     // 크롤링된 영업시간 데이터 자동 반영
     async applyCrawledHours() {
         try {
-            const res = await fetch('data/business-hours.json');
+            const res = await fetch('data/business-hours.json?t=' + Date.now());
             if (!res.ok) return; // 파일 없으면 무시
 
             const data = await res.json();
@@ -320,10 +320,29 @@ const App = {
 
             if (updated > 0) {
                 console.log(`크롤링 데이터 반영: ${updated}개 장소 영업시간 업데이트`);
+                Utils.showToast(`${updated}개 장소 영업시간이 자동 반영되었습니다.`);
+                // 현재 장소 목록 보고 있으면 새로고침
+                if (this.state.view === 'places') Place.renderList();
             }
         } catch (e) {
             // 파일 없거나 파싱 실패 시 무시 (로컬 개발 환경 등)
         }
+    },
+
+    // 크롤링 결과 주기적 확인 (장소 등록 후 5분간)
+    startCrawlPolling() {
+        if (this._crawlPolling) return;
+        let checks = 0;
+        this._crawlPolling = setInterval(async () => {
+            checks++;
+            DB._suppressSync = true;
+            await this.applyCrawledHours();
+            DB._suppressSync = false;
+            if (checks >= 6) { // 5분간 (50초 간격 × 6회)
+                clearInterval(this._crawlPolling);
+                this._crawlPolling = null;
+            }
+        }, 50000);
     },
 
     // 백업/복원 뷰

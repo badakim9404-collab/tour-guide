@@ -512,6 +512,7 @@ const Place = {
                 Place.requestCrawl().then(ok => {
                     if (ok) {
                         Utils.showToast('영업시간 크롤링을 요청했습니다. 몇 분 후 자동 반영됩니다.');
+                        App.startCrawlPolling();
                     } else {
                         Utils.showToast('영업시간 자동 크롤링 요청 실패. 다음 주간 크롤링 시 반영됩니다.');
                     }
