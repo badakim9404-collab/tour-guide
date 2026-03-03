@@ -385,18 +385,26 @@ const Place = {
             });
         });
 
-        // 좌표 변환 공통 함수
-        async function geocodeAddress(address) {
-            const query = encodeURIComponent(address);
-            const res = await fetch(
-                `https://nominatim.openstreetmap.org/search?q=${query}&format=json&countrycodes=kr&limit=1`,
-                { headers: { 'Accept-Language': 'ko' } }
-            );
-            const data = await res.json();
-            if (data.length > 0) {
-                return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
-            }
-            return null;
+        // 좌표 변환 공통 함수 (카카오 지오코딩)
+        function geocodeAddress(address) {
+            return new Promise((resolve) => {
+                const geocoder = new kakao.maps.services.Geocoder();
+                geocoder.addressSearch(address, (result, status) => {
+                    if (status === kakao.maps.services.Status.OK && result.length > 0) {
+                        resolve({ lat: parseFloat(result[0].y), lng: parseFloat(result[0].x) });
+                    } else {
+                        // 주소 검색 실패 시 키워드 검색 시도
+                        const ps = new kakao.maps.services.Places();
+                        ps.keywordSearch(address, (result2, status2) => {
+                            if (status2 === kakao.maps.services.Status.OK && result2.length > 0) {
+                                resolve({ lat: parseFloat(result2[0].y), lng: parseFloat(result2[0].x) });
+                            } else {
+                                resolve(null);
+                            }
+                        });
+                    }
+                });
+            });
         }
 
         // 좌표 변환 버튼 (수동)
