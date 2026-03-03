@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-03-03T00:50:18.812941",
-  "totalPlaces": 2,
-  "successCount": 2,
+  "updatedAt": "2026-03-03T07:55:58.218311",
+  "totalPlaces": 3,
+  "successCount": 3,
   "results": [
     {
       "name": "목멱산방",
@@ -46,7 +46,7 @@
       "notes": [
         "저녁 라스트오더 19:20"
       ],
-      "crawledAt": "2026-03-03T00:50:08.465872",
+      "crawledAt": "2026-03-03T07:55:31.853323",
       "placeId": "13573290",
       "matchedName": "목멱산방",
       "id": "mm9a6d3seju42gfms"
@@ -96,10 +96,56 @@
       "notes": [
         "추석과 설날 하루전날과 당일은 휴무"
       ],
-      "crawledAt": "2026-03-03T00:50:18.775355",
+      "crawledAt": "2026-03-03T07:55:44.082300",
       "placeId": "1130184843",
       "matchedName": "목멱산방 남산타워점",
       "id": "mm9ai1s6c5w6s3sqe"
+    },
+    {
+      "name": "제스티살룬 성수",
+      "hours": {
+        "tue": {
+          "open": "11:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "11:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "11:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "11:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "11:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "11:30",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "11:30",
+          "close": "21:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [],
+      "crawledAt": "2026-03-03T07:55:58.184841",
+      "placeId": "1172915589",
+      "matchedName": "제스티살룬 성수",
+      "id": "mmabb6syvuwlkoez2"
     }
   ]
 }
