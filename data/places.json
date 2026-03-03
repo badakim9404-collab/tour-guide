@@ -232,38 +232,38 @@
     "description": "명동, 다양한 비빔밥, 육개장, 치즈김치전, 해산물 부추전, 가격(9.0-15.0) 미슐랭",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "holidays": []
@@ -276,7 +276,7 @@
     "memo": "",
     "id": "mm9a6d3seju42gfms",
     "createdAt": "2026-03-02T14:35:10.169Z",
-    "updatedAt": "2026-03-03T00:49:23.154Z"
+    "updatedAt": "2026-03-03T01:01:42.581Z"
   },
   {
     "name": "목멱산방 남산타워점",
@@ -288,41 +288,43 @@
     "description": "남산타워점, 제철 봄동비빔밥, 투뿔한우 육회비빔밥, 불고기 비빔밥, 제육쌈밥, 도토리묵야채무침, 팥빙수, 전통차(쌍화차, 대추차), 궁중잡채간장떡볶이, 카페, 치즈김치전, 가격(9.0-15.0)⭐️명동지점보다 더 다양한 메뉴⭐️ 미슐랭",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
-      "holidays": []
+      "holidays": [
+        "추석과 설날 하루전날과 당일은 휴무"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -332,6 +334,6 @@
     "memo": "",
     "id": "mm9ai1s6c5w6s3sqe",
     "createdAt": "2026-03-02T14:44:15.368Z",
-    "updatedAt": "2026-03-03T00:49:06.718Z"
+    "updatedAt": "2026-03-03T01:01:51.948Z"
   }
 ]
