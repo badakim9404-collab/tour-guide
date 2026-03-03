@@ -258,17 +258,31 @@ def crawl_detail_page(page, place_id, name):
     detail_url = f"https://pcmap.place.naver.com/place/{place_id}/home"
 
     try:
-        page.goto(detail_url, wait_until="domcontentloaded")
+        page.goto(detail_url, wait_until="domcontentloaded", timeout=15000)
         random_delay(3, 5)
 
-        # "펼쳐보기" 버튼 클릭 (영업시간 섹션)
-        expand_buttons = page.query_selector_all("text=펼쳐보기")
-        if expand_buttons:
+        # "펼쳐보기" 버튼 클릭 — 여러 셀렉터 시도
+        expand_selectors = [
+            "text=펼쳐보기",
+            "button:has-text('펼쳐보기')",
+            "[aria-expanded='false']:has-text('영업시간')",
+            "text=더보기",
+        ]
+        expanded = False
+        for selector in expand_selectors:
             try:
-                expand_buttons[0].click()
-                random_delay(1, 2)
+                btns = page.query_selector_all(selector)
+                if btns:
+                    btns[0].click()
+                    random_delay(1, 2)
+                    expanded = True
+                    print(f"  [UI] 펼쳐보기 클릭 성공: {selector}")
+                    break
             except Exception:
-                pass
+                continue
+
+        if not expanded:
+            print(f"  [UI] 펼쳐보기 버튼 없음 (간략 표시일 수 있음)")
 
         # 전체 텍스트에서 영업시간 섹션 추출
         body = page.inner_text("body")
@@ -278,7 +292,8 @@ def crawl_detail_page(page, place_id, name):
         hours_lines = []
         in_section = False
         end_keywords = ["전화번호", "홈페이지", "편의", "설명", "가격표", "메뉴",
-                        "TV방송정보", "페이스북", "인스타그램", "지식백과"]
+                        "TV방송정보", "페이스북", "인스타그램", "지식백과",
+                        "리뷰", "사진", "주변"]
 
         for line in lines:
             stripped = line.strip()
@@ -295,9 +310,11 @@ def crawl_detail_page(page, place_id, name):
                 hours_lines.append(stripped)
 
         if hours_lines:
+            print(f"  [PARSE] 영업시간 라인 {len(hours_lines)}개: {hours_lines[:3]}...")
             hours, holidays, notes = parse_hours_section(hours_lines)
             return hours, holidays, notes
         else:
+            print(f"  [WARN] 영업시간 섹션을 찾지 못함")
             return {}, [], []
 
     except Exception as e:
@@ -334,6 +351,39 @@ def crawl_place(page, name, address=""):
         print(f"  [--] 영업시간 정보 없음")
 
     return result
+
+
+def update_places_file(all_places, results):
+    """크롤링 결과를 places.json에 직접 반영"""
+    # 결과를 id와 name으로 인덱싱
+    by_id = {r["id"]: r for r in results if r.get("id")}
+    by_name = {r["name"]: r for r in results if r.get("name")}
+
+    updated_count = 0
+    for place in all_places:
+        if place.get("_deleted"):
+            continue
+
+        # id로 먼저, 없으면 name으로 매칭
+        crawled = by_id.get(place.get("id")) or by_name.get(place.get("name"))
+        if not crawled or not crawled.get("hours"):
+            continue
+
+        # businessHours 업데이트
+        old_bh = place.get("businessHours", {})
+        old_holidays = old_bh.get("holidays", [])
+        new_bh = dict(crawled["hours"])
+        new_bh["holidays"] = crawled["holidays"] if crawled["holidays"] else old_holidays
+        place["businessHours"] = new_bh
+        place["updatedAt"] = datetime.now().isoformat() + "Z"
+        updated_count += 1
+
+    if updated_count > 0:
+        with open(PLACES_FILE, "w", encoding="utf-8") as f:
+            json.dump(all_places, f, ensure_ascii=False, indent=2)
+        print(f"places.json 업데이트: {updated_count}개 장소 영업시간 반영")
+
+    return updated_count
 
 
 def main():
@@ -407,7 +457,7 @@ def main():
 
         browser.close()
 
-    # 결과 저장
+    # business-hours.json 저장
     output = {
         "updatedAt": datetime.now().isoformat(),
         "totalPlaces": len(places),
@@ -418,6 +468,9 @@ def main():
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+
+    # places.json에도 직접 반영
+    update_places_file(all_places, results)
 
     print("=" * 50)
     print(f"완료: {output['successCount']}/{output['totalPlaces']}개 성공")

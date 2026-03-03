@@ -73,9 +73,10 @@ const App = {
         await this.seedDemoData();
 
         // 크롤링된 영업시간 데이터 반영
-        DB._suppressSync = true;
-        await this.applyCrawledHours();
-        DB._suppressSync = false;
+        const crawlUpdated = await this.applyCrawledHours();
+        if (crawlUpdated > 0 && Sync.isConfigured()) {
+            Sync.schedulePush('places');
+        }
 
         // 카테고리 트리 렌더링
         await Category.renderTree();
@@ -281,17 +282,17 @@ const App = {
         console.log('데모 데이터 시드 완료');
     },
 
-    // 크롤링된 영업시간 데이터 자동 반영
+    // 크롤링된 영업시간 데이터 자동 반영 (업데이트 수 반환)
     async applyCrawledHours() {
         try {
             const res = await fetch('data/business-hours.json?t=' + Date.now());
-            if (!res.ok) return; // 파일 없으면 무시
+            if (!res.ok) return 0;
 
             const data = await res.json();
-            if (!data.results || !data.results.length) return;
+            if (!data.results || !data.results.length) return 0;
 
             const places = await DB.getPlaces();
-            if (!places.length) return;
+            if (!places.length) return 0;
 
             let updated = 0;
             for (const crawled of data.results) {
@@ -302,10 +303,10 @@ const App = {
                 if (!place) place = places.find(p => p.name === crawled.name);
                 if (!place) continue;
 
-                // 크롤링 시간이 마지막 수동 수정보다 최신인 경우만 반영
-                if (crawled.crawledAt && place.updatedAt && crawled.crawledAt < place.updatedAt) {
-                    continue;
-                }
+                // 이미 영업시간이 채워져 있으면 스킵 (places.json에서 이미 반영된 경우)
+                const today = ['mon','tue','wed','thu','fri','sat','sun'][new Date().getDay() === 0 ? 6 : new Date().getDay() - 1];
+                const existing = place.businessHours && place.businessHours[today];
+                if (existing && (existing.open || existing.dayOff)) continue;
 
                 // 영업시간 업데이트 (기존 holidays 유지하면서 merge)
                 const oldHolidays = (place.businessHours && place.businessHours.holidays) || [];
@@ -321,11 +322,11 @@ const App = {
             if (updated > 0) {
                 console.log(`크롤링 데이터 반영: ${updated}개 장소 영업시간 업데이트`);
                 Utils.showToast(`${updated}개 장소 영업시간이 자동 반영되었습니다.`);
-                // 현재 장소 목록 보고 있으면 새로고침
                 if (this.state.view === 'places') Place.renderList();
             }
+            return updated;
         } catch (e) {
-            // 파일 없거나 파싱 실패 시 무시 (로컬 개발 환경 등)
+            return 0;
         }
     },
 
@@ -335,9 +336,10 @@ const App = {
         let checks = 0;
         this._crawlPolling = setInterval(async () => {
             checks++;
-            DB._suppressSync = true;
-            await this.applyCrawledHours();
-            DB._suppressSync = false;
+            const updated = await this.applyCrawledHours();
+            if (updated > 0 && Sync.isConfigured()) {
+                Sync.schedulePush('places');
+            }
             if (checks >= 6) { // 5분간 (50초 간격 × 6회)
                 clearInterval(this._crawlPolling);
                 this._crawlPolling = null;
