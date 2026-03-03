@@ -335,5 +335,61 @@
     "id": "mm9ai1s6c5w6s3sqe",
     "createdAt": "2026-03-02T14:44:15.368Z",
     "updatedAt": "2026-03-03T01:01:51.948Z"
+  },
+  {
+    "name": "제스티살룬 성수",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "성수동1가 668-30",
+    "lat": 37.5475417483285,
+    "lng": 127.042464495443,
+    "description": "와사비 새우버거, 새우가 탱글탱글, 성수",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 5,
+    "isClosed": false,
+    "memo": "내 인생 새우버거 집",
+    "id": "mmabb6syvuwlkoez2",
+    "createdAt": "2026-03-03T07:54:41.075Z",
+    "updatedAt": "2026-03-03T07:54:41.084Z"
   }
 ]
