@@ -3309,5 +3309,61 @@
     "id": "mmc1us9f68gl40c7o",
     "createdAt": "2026-03-04T13:05:31.539Z",
     "updatedAt": "2026-03-04T13:05:59.279Z"
+  },
+  {
+    "name": "숨은고깃집 종묘본점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 종로구 인사동길 18 지상2층",
+    "lat": 37.5724644632525,
+    "lng": 126.986872865853,
+    "description": "인사동, 내최애 김치찌개 맛집, 솥밥, 고등어구이, 비빔밥, 브레이크타임(3-4), 바베큐, 돼지고기구이, 삼겹살구이, 가격(10.0-68.0), 넓음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 5,
+    "isClosed": false,
+    "memo": "0507-1355-4082 BBQ",
+    "id": "mmc21538gvdzlpvq7",
+    "createdAt": "2026-03-04T13:10:28.100Z",
+    "updatedAt": "2026-03-04T13:10:28.100Z"
   }
 ]
