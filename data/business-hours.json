@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-04T08:39:28.152517",
-  "totalPlaces": 36,
+  "updatedAt": "2026-03-04T08:44:28.312899",
+  "totalPlaces": 37,
   "successCount": 26,
   "results": [
     {
@@ -1251,6 +1251,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mmbs7n6vr29jq8d4p"
+    },
+    {
+      "name": "소돌막국수",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mmbse0fj5idlsdm8p"
     }
   ]
 }
