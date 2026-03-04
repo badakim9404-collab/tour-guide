@@ -1621,5 +1621,61 @@
     "id": "mmbpxxprrk4sbty33",
     "createdAt": "2026-03-04T07:32:03.183Z",
     "updatedAt": "2026-03-04T07:34:48.814Z"
+  },
+  {
+    "name": "산촌",
+    "type": "restaurant",
+    "categoryId": "mmbifs2dm9rrkpqxf",
+    "address": "서울 종로구 인사동길 30-13",
+    "lat": 37.5737974155814,
+    "lng": 126.98626055342,
+    "description": "인사동, 시내투어, 연중무휴, 종로3가역 5번출구, 한정식, 비빔밥, 가격(15.0-29.0), 네이버예약가능, 사찰음식, 비건 프렌들리, 채식, 코스요리,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1393-0312",
+    "id": "mmbq8l11hm22gxsfu",
+    "createdAt": "2026-03-04T07:40:19.957Z",
+    "updatedAt": "2026-03-04T07:40:19.957Z"
   }
 ]
