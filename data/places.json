@@ -2240,5 +2240,61 @@
     "id": "mmbs7n6vr29jq8d4p",
     "createdAt": "2026-03-04T08:35:35.335Z",
     "updatedAt": "2026-03-04T08:35:35.335Z"
+  },
+  {
+    "name": "소돌막국수",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "강원 강릉시 주문진읍 연주로 571",
+    "lat": 37.9029366880706,
+    "lng": 128.822060934068,
+    "description": "강원도, 강릉, 막국수, 수육, 매주 수요일 휴무, 가격(10.0-35.0), 브레이크타임(3:30-4:30)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 4,
+    "isClosed": false,
+    "memo": "033-662-2263 수육이 맛있어",
+    "id": "mmbse0fj5idlsdm8p",
+    "createdAt": "2026-03-04T08:40:32.431Z",
+    "updatedAt": "2026-03-04T08:40:32.431Z"
   }
 ]
