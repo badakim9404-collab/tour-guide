@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-04T07:58:10.108648",
-  "totalPlaces": 28,
+  "updatedAt": "2026-03-04T08:01:29.746021",
+  "totalPlaces": 29,
   "successCount": 26,
   "results": [
     {
@@ -47,8 +47,6 @@
         "저녁 라스트오더 19:20"
       ],
       "crawledAt": "2026-03-04T07:55:02.743906",
-      "placeId": "13573290",
-      "matchedName": "목멱산방",
       "id": "mm9a6d3seju42gfms"
     },
     {
@@ -97,8 +95,6 @@
         "추석과 설날 하루전날과 당일은 휴무"
       ],
       "crawledAt": "2026-03-04T07:55:12.570962",
-      "placeId": "1130184843",
-      "matchedName": "목멱산방 남산타워점",
       "id": "mm9ai1s6c5w6s3sqe"
     },
     {
@@ -143,8 +139,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T07:55:22.238048",
-      "placeId": "1172915589",
-      "matchedName": "제스티살룬 성수",
       "id": "mmabb6syvuwlkoez2"
     },
     {
@@ -189,8 +183,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T07:55:33.265848",
-      "placeId": "2072471340",
-      "matchedName": "애소아소금빵",
       "id": "mmbec0mb6g47ltr29"
     },
     {
@@ -235,8 +227,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T07:55:45.974583",
-      "placeId": "13524973",
-      "matchedName": "장단콩맛집",
       "id": "mmbelvgu4rmtl6p9e"
     },
     {
@@ -281,8 +271,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T07:55:58.931414",
-      "placeId": "1414187941",
-      "matchedName": "양평 장어마을",
       "id": "mmbereqcall7mvotw"
     },
     {
@@ -327,8 +315,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T07:56:11.675933",
-      "placeId": "37122450",
-      "matchedName": "옥루몽 어린이대공원점",
       "id": "mmbeuihji5f63wsfa"
     },
     {
@@ -370,8 +356,6 @@
       ],
       "notes": [],
       "crawledAt": "2026-03-04T07:56:23.909335",
-      "placeId": "33877281",
-      "matchedName": "사프란 레스토랑",
       "id": "mmbeymenfxne2dy0j"
     },
     {
@@ -1203,6 +1187,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mmbqqg8poh84vzia0"
+    },
+    {
+      "name": "소하염전 익선점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mmbqvrkm6emdfyvn0"
     }
   ]
 }
