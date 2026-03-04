@@ -671,5 +671,61 @@
     "id": "mmbeymenfxne2dy0j",
     "createdAt": "2026-03-04T02:24:39.407Z",
     "updatedAt": "2026-03-04T02:24:39.407Z"
+  },
+  {
+    "name": "능동미나리",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 용산구 한강대로40길 28 1-2층",
+    "lat": 37.5300913330665,
+    "lng": 126.970819985244,
+    "description": "",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "",
+    "id": "mmbf07l13gx6s7w83",
+    "createdAt": "2026-03-04T02:25:53.509Z",
+    "updatedAt": "2026-03-04T02:25:53.509Z"
   }
 ]
