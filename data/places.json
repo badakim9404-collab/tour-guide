@@ -2800,5 +2800,61 @@
     "id": "mmbyq5jmr8304luoc",
     "createdAt": "2026-03-04T11:37:56.626Z",
     "updatedAt": "2026-03-04T11:37:56.626Z"
+  },
+  {
+    "name": "뭄뭄 진천점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "대구 달서구 월배로15길 8 2층",
+    "lat": 35.8143077381378,
+    "lng": 128.522889903797,
+    "description": "대구, 진천역 바로앞, 일식당, 브레이크타임(3-5), 일본식 알리오올리오 파스타, 매운 가츠나베(돈까스), 연어초밥, 새우초밥, 스테이크덮밥, 우니파스타, 타마고산도(계란샌드위치), 스키야키(소고기전골), 가격(20.0), 웨이팅있음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 3,
+    "isClosed": false,
+    "memo": "0507-1356-4540 가족끼리 갔던 곳, 무난",
+    "id": "mmbyyf3ziv39h3zwb",
+    "createdAt": "2026-03-04T11:44:22.271Z",
+    "updatedAt": "2026-03-04T11:44:22.271Z"
   }
 ]
