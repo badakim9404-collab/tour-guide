@@ -2912,5 +2912,61 @@
     "id": "mmbz5v305vypbiqaa",
     "createdAt": "2026-03-04T11:50:09.564Z",
     "updatedAt": "2026-03-04T11:50:09.564Z"
+  },
+  {
+    "name": "이춘복참치 종각점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 종로구 종로 69 1층",
+    "lat": 37.5705768749389,
+    "lng": 126.98531414524,
+    "description": "종각역 바로앞, 참치회, 가격(29.0-59.0), 브레이크타임(2:30-4:30)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 1,
+    "isClosed": false,
+    "memo": "02-723-4558 비추천, 실망했음",
+    "id": "mmbz9ac3802qluqok",
+    "createdAt": "2026-03-04T11:52:49.299Z",
+    "updatedAt": "2026-03-04T11:52:49.299Z"
   }
 ]
