@@ -2744,5 +2744,61 @@
     "id": "mmbylonvdwcanjg7g",
     "createdAt": "2026-03-04T11:34:28.123Z",
     "updatedAt": "2026-03-04T11:34:28.123Z"
+  },
+  {
+    "name": "또보겠지떡볶이집 깐따삐아점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 마포구 와우산로21길 28-12",
+    "lat": 37.5528099161396,
+    "lng": 126.922482495511,
+    "description": "홍대, 즉석떡볶이, 갈릭버터 감자튀김, 매주목요일 휴무, 브레이크타임(3-4), 매움, 가격(15.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1394-8645",
+    "id": "mmbyq5jmr8304luoc",
+    "createdAt": "2026-03-04T11:37:56.626Z",
+    "updatedAt": "2026-03-04T11:37:56.626Z"
   }
 ]
