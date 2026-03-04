@@ -2632,5 +2632,61 @@
     "id": "mmby81sq8onbxk8dc",
     "createdAt": "2026-03-04T11:23:51.962Z",
     "updatedAt": "2026-03-04T11:23:51.962Z"
+  },
+  {
+    "name": "수인 인사동 닭한마리 본점",
+    "type": "restaurant",
+    "categoryId": "mmbifs2dm9rrkpqxf",
+    "address": "서울 종로구 인사동10길 23-8 1층 인사동 닭한마리",
+    "lat": 37.5747847174107,
+    "lng": 126.986190073207,
+    "description": "인사동, 닭요리, 삼계탕, 닭칼국수, 닭볶음탕, 닭한마리, 찜닭, 닭떡볶이, 치킨, 닭무침, 브레이크타임(3-5) 가격(13.0-28.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 4,
+    "isClosed": false,
+    "memo": "070-7716-0081 삼계탕 맛있고 든든해",
+    "id": "mmbyeceg6b0j2236e",
+    "createdAt": "2026-03-04T11:28:45.640Z",
+    "updatedAt": "2026-03-04T11:28:45.640Z"
   }
 ]
