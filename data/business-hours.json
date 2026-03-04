@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-04T08:09:02.144972",
-  "totalPlaces": 30,
+  "updatedAt": "2026-03-04T08:12:52.262270",
+  "totalPlaces": 31,
   "successCount": 26,
   "results": [
     {
@@ -443,7 +443,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T08:07:02.250451",
+      "crawledAt": "2026-03-04T08:10:54.817109",
       "placeId": "36768344",
       "matchedName": "알래스카에서 온 연어가 맛있는 집",
       "id": "mmbf8c4t0zgsj1mn9"
@@ -492,8 +492,6 @@
         "재료 소진 시 조기마감"
       ],
       "crawledAt": "2026-03-04T08:07:16.032003",
-      "placeId": "1990663278",
-      "matchedName": "해물꾼조태산 양평본점",
       "id": "mmbfgaipijdh1inl9"
     },
     {
@@ -1207,6 +1205,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mmbr4xp62d8ii9yko"
+    },
+    {
+      "name": "농민백암순대 시청직영점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mmbr9nmzn42gdkwt4"
     }
   ]
 }
