@@ -3808,5 +3808,61 @@
     "id": "mmc3brxc2ucpt83l2",
     "createdAt": "2026-03-04T13:46:43.872Z",
     "updatedAt": "2026-03-04T13:46:43.872Z"
+  },
+  {
+    "name": "등촌샤브칼국수 명동점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 중구 명동길 56 3층",
+    "lat": 37.5637613074329,
+    "lng": 126.985439761402,
+    "description": "명동성당 바로옆, 샤브샤브, 버섯칼국수, 국물요리, 샤브소고기, 가격(12.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 4,
+    "isClosed": false,
+    "memo": "0507-1340-2341",
+    "id": "mmc3ewsjras4cpvow",
+    "createdAt": "2026-03-04T13:49:10.147Z",
+    "updatedAt": "2026-03-04T13:49:10.147Z"
   }
 ]
