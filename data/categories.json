@@ -67,10 +67,15 @@
   },
   {
     "name": "프라이빗 투어",
-    "subcategories": [],
+    "subcategories": [
+      {
+        "id": "mmbgo0440k2eot7q0",
+        "name": "경기도"
+      }
+    ],
     "order": 2,
     "id": "mmbgn2lsjqag0earr",
     "createdAt": "2026-03-04T03:11:39.760Z",
-    "updatedAt": "2026-03-04T03:11:39.760Z"
+    "updatedAt": "2026-03-04T03:12:23.188Z"
   }
 ]
