@@ -399,7 +399,7 @@
     "address": "서울 종로구 자하문로 7 성명빌딩 1층",
     "lat": 37.5767147965826,
     "lng": 126.972206795305,
-    "description": "소금빵, 평점좋음, 서촌, 세종마을음식문화거리, 경복궁역 2번출구, 가격(4개12.0),가보고싶음",
+    "description": "소금빵, 평점좋음, 서촌, 세종마을음식문화거리, 경복궁역 2번출구, 가격(4개12.0),♡가보고싶음♡",
     "businessHours": {
       "mon": {
         "open": "09:00",
@@ -446,7 +446,7 @@
     "memo": "Salted butter rolls, 02-723-3336",
     "id": "mmbec0mb6g47ltr29",
     "createdAt": "2026-03-04T02:07:04.739Z",
-    "updatedAt": "2026-03-04T07:46:09.703371Z"
+    "updatedAt": "2026-03-04T07:47:26.689Z"
   },
   {
     "name": "장단콩맛집",
@@ -676,8 +676,18 @@
     "address": "서울 용산구 한강대로40길 28 1-2층",
     "lat": 37.5300913330665,
     "lng": 126.970819985244,
-    "description": "신용산역 근처, 용산, 미나리 곰탕, 가보고싶음, 육회비빔밥, 꼬리찜, 수육전골, 수육, 가격(15.0-50.0), 미슐랭 밥구르망",
+    "description": "신용산역 근처, 용산, 미나리 곰탕, ♡가보고싶음♡, 육회비빔밥, 꼬리찜, 수육전골, 수육, 가격(15.0-50.0), 미슐랭 밥구르망",
     "businessHours": {
+      "mon": {
+        "open": "10:00",
+        "close": "23:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "23:00",
+        "dayOff": false
+      },
       "wed": {
         "open": "10:00",
         "close": "23:00",
@@ -703,16 +713,6 @@
         "close": "23:00",
         "dayOff": false
       },
-      "mon": {
-        "open": "10:00",
-        "close": "23:00",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "23:00",
-        "dayOff": false
-      },
       "holidays": []
     },
     "hasCommission": false,
@@ -723,7 +723,7 @@
     "memo": "02-790-1026",
     "id": "mmbf07l13gx6s7w83",
     "createdAt": "2026-03-04T02:25:53.509Z",
-    "updatedAt": "2026-03-04T07:46:09.703384Z"
+    "updatedAt": "2026-03-04T07:47:14.583Z"
   },
   {
     "name": "알래스카에서온연어가 맛있는집",
@@ -1074,8 +1074,18 @@
     "address": "서울 종로구 인사동길 35-3",
     "lat": 37.5735652007549,
     "lng": 126.985277107793,
-    "description": "인사동, 베이글, 화덕베이글, 안국역 5분거리, 가격(3.0-6.0), 샌드위치, 시내투어, 가보고싶음",
+    "description": "인사동, 베이글, 화덕베이글, 안국역 5분거리, 가격(3.0-6.0), 샌드위치, 시내투어, ♡가보고싶음♡",
     "businessHours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00",
+        "dayOff": false
+      },
       "wed": {
         "open": "08:00",
         "close": "21:00",
@@ -1101,16 +1111,6 @@
         "close": "21:00",
         "dayOff": false
       },
-      "mon": {
-        "open": "08:00",
-        "close": "21:00",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "21:00",
-        "dayOff": false
-      },
       "holidays": []
     },
     "hasCommission": false,
@@ -1121,7 +1121,7 @@
     "memo": "서울 3대 베이글 맛집, 02-736-7887",
     "id": "mmbii7xsk71upmenk",
     "createdAt": "2026-03-04T04:03:52.624Z",
-    "updatedAt": "2026-03-04T07:46:09.703402Z"
+    "updatedAt": "2026-03-04T07:47:04.146Z"
   },
   {
     "name": "인사샤브정",
@@ -1517,7 +1517,7 @@
     "address": "서울 종로구 인사동길 42-5 1층 북촌손만두 인사본점",
     "lat": 37.5741676776448,
     "lng": 126.985130732611,
-    "description": "본점, 피냉면, 만두, 튀김, 만둣국, 가보고싶음, 인사동",
+    "description": "본점, 피냉면, 만두, 튀김, 만둣국, ♡가보고싶음♡, 인사동",
     "businessHours": {
       "mon": {
         "open": "11:00",
@@ -1564,7 +1564,7 @@
     "memo": "02-732-1238",
     "id": "mmbmpll1zqoiocve6",
     "createdAt": "2026-03-04T06:01:35.365Z",
-    "updatedAt": "2026-03-04T07:46:09.703419Z"
+    "updatedAt": "2026-03-04T07:46:51.274Z"
   },
   {
     "name": "에빗",
@@ -1578,39 +1578,42 @@
       "mon": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "17:15",
+        "close": "22:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "17:15",
+        "close": "22:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "17:15",
+        "close": "22:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:15",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:15",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 일요일)",
+        "정기휴무 (매주 월요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -1620,7 +1623,7 @@
     "memo": "0507-1399-1029 / Email : reservation@restaurantevett.com",
     "id": "mmbpxxprrk4sbty33",
     "createdAt": "2026-03-04T07:32:03.183Z",
-    "updatedAt": "2026-03-04T07:46:25.041Z"
+    "updatedAt": "2026-03-04T07:47:18.984Z"
   },
   {
     "name": "산촌",
