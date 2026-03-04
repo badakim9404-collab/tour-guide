@@ -1402,5 +1402,61 @@
     "id": "mmbm2ca2kpc8yw5p1",
     "createdAt": "2026-03-04T05:43:30.218Z",
     "updatedAt": "2026-03-04T05:43:39.809Z"
+  },
+  {
+    "name": "요릿집",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 마포구 광성로 37 F동 2층",
+    "lat": 37.5499517563894,
+    "lng": 126.937334291469,
+    "description": "한식 코스요리, 예약필수★, 전통주, 가격(72.0), 술",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 2,
+    "isClosed": false,
+    "memo": "0507-1425-7048, 추가메뉴 관자랑 소고기 너무 질겼음! 첫코스 전복은 굿, 전통주 단감명작 맛있음",
+    "id": "mmbmd3ppr7lwzea11",
+    "createdAt": "2026-03-04T05:51:52.333Z",
+    "updatedAt": "2026-03-04T05:51:52.333Z"
   }
 ]
