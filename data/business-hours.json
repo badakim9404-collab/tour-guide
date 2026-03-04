@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-04T11:50:31.647022",
-  "totalPlaces": 47,
+  "updatedAt": "2026-03-04T11:55:20.684345",
+  "totalPlaces": 48,
   "successCount": 26,
   "results": [
     {
@@ -47,8 +47,6 @@
         "저녁 라스트오더 19:20"
       ],
       "crawledAt": "2026-03-04T11:45:13.932637",
-      "placeId": "13573290",
-      "matchedName": "목멱산방",
       "id": "mm9a6d3seju42gfms"
     },
     {
@@ -97,8 +95,6 @@
         "추석과 설날 하루전날과 당일은 휴무"
       ],
       "crawledAt": "2026-03-04T11:45:25.048434",
-      "placeId": "1130184843",
-      "matchedName": "목멱산방 남산타워점",
       "id": "mm9ai1s6c5w6s3sqe"
     },
     {
@@ -143,8 +139,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T11:45:34.876751",
-      "placeId": "1172915589",
-      "matchedName": "제스티살룬 성수",
       "id": "mmabb6syvuwlkoez2"
     },
     {
@@ -189,8 +183,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T11:45:46.662253",
-      "placeId": "2072471340",
-      "matchedName": "애소아소금빵",
       "id": "mmbec0mb6g47ltr29"
     },
     {
@@ -235,8 +227,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T11:45:56.912425",
-      "placeId": "13524973",
-      "matchedName": "장단콩맛집",
       "id": "mmbelvgu4rmtl6p9e"
     },
     {
@@ -281,8 +271,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T11:46:07.694980",
-      "placeId": "1414187941",
-      "matchedName": "양평 장어마을",
       "id": "mmbereqcall7mvotw"
     },
     {
@@ -327,8 +315,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T11:46:17.832055",
-      "placeId": "37122450",
-      "matchedName": "옥루몽 어린이대공원점",
       "id": "mmbeuihji5f63wsfa"
     },
     {
@@ -370,8 +356,6 @@
       ],
       "notes": [],
       "crawledAt": "2026-03-04T11:46:28.961173",
-      "placeId": "33877281",
-      "matchedName": "사프란 레스토랑",
       "id": "mmbeymenfxne2dy0j"
     },
     {
@@ -416,8 +400,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T11:46:42.217331",
-      "placeId": "1036043935",
-      "matchedName": "능동미나리신용산점",
       "id": "mmbf07l13gx6s7w83"
     },
     {
@@ -462,8 +444,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T11:46:53.534081",
-      "placeId": "36768344",
-      "matchedName": "알래스카에서 온 연어가 맛있는 집",
       "id": "mmbf8c4t0zgsj1mn9"
     },
     {
@@ -510,8 +490,6 @@
         "재료 소진 시 조기마감"
       ],
       "crawledAt": "2026-03-04T11:47:03.749963",
-      "placeId": "1990663278",
-      "matchedName": "해물꾼조태산 양평본점",
       "id": "mmbfgaipijdh1inl9"
     },
     {
@@ -558,8 +536,6 @@
         "주말 라스트오더는 7:50입니다"
       ],
       "crawledAt": "2026-03-04T11:47:14.140758",
-      "placeId": "1860885785",
-      "matchedName": "인사동 화원",
       "id": "mmbfoq1u1353ptlmn"
     },
     {
@@ -608,8 +584,6 @@
         "2026년 2월 16일 ~ 18일 연휴 휴무 입니다"
       ],
       "crawledAt": "2026-03-04T11:47:23.833786",
-      "placeId": "34744446",
-      "matchedName": "바오차이",
       "id": "mmbfv574a1pih03kp"
     },
     {
@@ -656,8 +630,6 @@
         "입장마감: 월~금,일요일 17시, 토요일 20시"
       ],
       "crawledAt": "2026-03-04T11:47:33.032896",
-      "placeId": "13221909",
-      "matchedName": "포천아트밸리",
       "id": "mmbhtzzga2ztds3fk"
     },
     {
@@ -706,8 +678,6 @@
       ],
       "notes": [],
       "crawledAt": "2026-03-04T11:47:43.397407",
-      "placeId": "38531663",
-      "matchedName": "문학골",
       "id": "mmbhzomav57py9v7w"
     },
     {
@@ -1369,6 +1339,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mmbyyf3ziv39h3zwb"
+    },
+    {
+      "name": "어머니가 구워주신 생선구이",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mmbz5v305vypbiqaa"
     }
   ]
 }
