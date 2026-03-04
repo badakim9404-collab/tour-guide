@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-04T08:12:52.262270",
-  "totalPlaces": 31,
+  "updatedAt": "2026-03-04T08:19:56.756580",
+  "totalPlaces": 32,
   "successCount": 26,
   "results": [
     {
@@ -444,8 +444,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": "2026-03-04T08:10:54.817109",
-      "placeId": "36768344",
-      "matchedName": "알래스카에서 온 연어가 맛있는 집",
       "id": "mmbf8c4t0zgsj1mn9"
     },
     {
@@ -1213,6 +1211,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mmbr9nmzn42gdkwt4"
+    },
+    {
+      "name": "황금코다리 휘경점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mmbriz848is6xu5dj"
     }
   ]
 }
