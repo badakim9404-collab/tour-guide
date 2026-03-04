@@ -231,6 +231,16 @@
     "lng": 126.986898587275,
     "description": "명동, 다양한 비빔밥, 육개장, 치즈김치전, 해산물 부추전, 가격(9.0-15.0) 미슐랭",
     "businessHours": {
+      "mon": {
+        "open": "11:00",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "20:00",
+        "dayOff": false
+      },
       "wed": {
         "open": "11:00",
         "close": "20:00",
@@ -252,16 +262,6 @@
         "dayOff": false
       },
       "sun": {
-        "open": "11:00",
-        "close": "20:00",
-        "dayOff": false
-      },
-      "mon": {
-        "open": "11:00",
-        "close": "20:00",
-        "dayOff": false
-      },
-      "tue": {
         "open": "11:00",
         "close": "20:00",
         "dayOff": false
@@ -273,10 +273,10 @@
     "visited": true,
     "rating": 4,
     "isClosed": false,
-    "memo": "",
+    "memo": "02-318-4790",
     "id": "mm9a6d3seju42gfms",
     "createdAt": "2026-03-02T14:35:10.169Z",
-    "updatedAt": "2026-03-04T05:01:57.747838Z"
+    "updatedAt": "2026-03-04T05:06:46.937Z"
   },
   {
     "name": "목멱산방 남산타워점",
@@ -287,6 +287,16 @@
     "lng": 126.985302533327,
     "description": "남산타워점, 제철 봄동비빔밥, 투뿔한우 육회비빔밥, 불고기 비빔밥, 제육쌈밥, 도토리묵야채무침, 팥빙수, 전통차(쌍화차, 대추차), 궁중잡채간장떡볶이, 카페, 치즈김치전, 가격(9.0-15.0)⭐️명동지점보다 더 다양한 메뉴⭐️ 미슐랭",
     "businessHours": {
+      "mon": {
+        "open": "10:30",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:30",
+        "close": "19:30",
+        "dayOff": false
+      },
       "wed": {
         "open": "10:30",
         "close": "19:30",
@@ -308,16 +318,6 @@
         "dayOff": false
       },
       "sun": {
-        "open": "10:30",
-        "close": "19:30",
-        "dayOff": false
-      },
-      "mon": {
-        "open": "10:30",
-        "close": "19:30",
-        "dayOff": false
-      },
-      "tue": {
         "open": "10:30",
         "close": "19:30",
         "dayOff": false
@@ -331,10 +331,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "",
+    "memo": "0507-1366-1971",
     "id": "mm9ai1s6c5w6s3sqe",
     "createdAt": "2026-03-02T14:44:15.368Z",
-    "updatedAt": "2026-03-04T05:01:57.747847Z"
+    "updatedAt": "2026-03-04T05:06:56.200Z"
   },
   {
     "name": "제스티살룬 성수",
@@ -1021,6 +1021,16 @@
     "lng": 127.230851629897,
     "description": "경기도, 포천이동갈비, 포천아트밸리 근처, grilled beef ribs, 수요일 휴무, 이동갈비, 생선정식, 가격(40.0)",
     "businessHours": {
+      "mon": {
+        "open": "11:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "11:30",
+        "close": "21:00",
+        "dayOff": false
+      },
       "wed": {
         "open": "",
         "close": "",
@@ -1046,16 +1056,6 @@
         "close": "21:00",
         "dayOff": false
       },
-      "mon": {
-        "open": "11:30",
-        "close": "21:00",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "11:30",
-        "close": "21:00",
-        "dayOff": false
-      },
       "holidays": [
         "매주 수요일 휴무",
         "매주 수요일 휴무",
@@ -1067,10 +1067,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "소영언니추천, 프라이빗투어\n“Idong Galbi” because it comes from a place named Idong.",
+    "memo": "소영언니추천, 프라이빗투어, 031-535-5833\n“Idong Galbi” because it comes from a place named Idong.",
     "id": "mmbhzomav57py9v7w",
     "createdAt": "2026-03-04T03:49:27.778Z",
-    "updatedAt": "2026-03-04T05:01:57.747881Z"
+    "updatedAt": "2026-03-04T05:06:11.928Z"
   },
   {
     "name": "코끼리베이글 인사동",
@@ -1081,6 +1081,16 @@
     "lng": 126.985277107793,
     "description": "인사동, 베이글, 화덕베이글, 안국역 5분거리, 가격(3.0-6.0), 샌드위치, 시내투어, 가보고싶음",
     "businessHours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00",
+        "dayOff": false
+      },
       "wed": {
         "open": "08:00",
         "close": "21:00",
@@ -1106,16 +1116,6 @@
         "close": "21:00",
         "dayOff": false
       },
-      "mon": {
-        "open": "08:00",
-        "close": "21:00",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "21:00",
-        "dayOff": false
-      },
       "holidays": []
     },
     "hasCommission": false,
@@ -1123,10 +1123,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "서울 3대 베이글 맛집",
+    "memo": "서울 3대 베이글 맛집, 02-736-7887",
     "id": "mmbii7xsk71upmenk",
     "createdAt": "2026-03-04T04:03:52.624Z",
-    "updatedAt": "2026-03-04T05:01:57.747883Z"
+    "updatedAt": "2026-03-04T05:06:22.131Z"
   },
   {
     "name": "인사샤브정",
