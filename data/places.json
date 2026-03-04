@@ -683,6 +683,16 @@
     "lng": 126.970819985244,
     "description": "신용산역 근처, 용산, 미나리 곰탕, 가보고싶음, 육회비빔밥, 꼬리찜, 수육전골, 수육, 가격(15.0-50.0), 미슐랭 밥구르망",
     "businessHours": {
+      "mon": {
+        "open": "10:00",
+        "close": "23:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "23:00",
+        "dayOff": false
+      },
       "wed": {
         "open": "10:00",
         "close": "23:00",
@@ -708,16 +718,6 @@
         "close": "23:00",
         "dayOff": false
       },
-      "mon": {
-        "open": "10:00",
-        "close": "23:00",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "23:00",
-        "dayOff": false
-      },
       "holidays": []
     },
     "hasCommission": false,
@@ -725,10 +725,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "",
+    "memo": "02-790-1026",
     "id": "mmbf07l13gx6s7w83",
     "createdAt": "2026-03-04T02:25:53.509Z",
-    "updatedAt": "2026-03-04T05:01:57.747867Z"
+    "updatedAt": "2026-03-04T05:05:18.296Z"
   },
   {
     "name": "알래스카에서온연어가 맛있는집",
@@ -795,6 +795,16 @@
     "lng": 127.353250045987,
     "description": "양평, 서울에서 차로 1시간 거리, 해물칼국수, 새우튀김, 해산물, 가격(58.0), 비쌈",
     "businessHours": {
+      "mon": {
+        "open": "10:50",
+        "close": "20:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:50",
+        "close": "20:30",
+        "dayOff": false
+      },
       "wed": {
         "open": "10:50",
         "close": "20:30",
@@ -820,16 +830,6 @@
         "close": "20:30",
         "dayOff": false
       },
-      "mon": {
-        "open": "10:50",
-        "close": "20:30",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "10:50",
-        "close": "20:30",
-        "dayOff": false
-      },
       "holidays": []
     },
     "hasCommission": false,
@@ -837,10 +837,10 @@
     "visited": true,
     "rating": 3,
     "isClosed": false,
-    "memo": "찾아갈 맛은 아님, 해산물이 먹고 싶다면 지나가다 들를정도.",
+    "memo": "찾아갈 맛은 아님, 031-775-5816, 지나가다 들를정도.",
     "id": "mmbfgaipijdh1inl9",
     "createdAt": "2026-03-04T02:38:23.809Z",
-    "updatedAt": "2026-03-04T05:01:57.747871Z"
+    "updatedAt": "2026-03-04T05:05:36.868Z"
   },
   {
     "name": "인사동 화원",
@@ -851,6 +851,16 @@
     "lng": 126.986006623687,
     "description": "인삼 뿌리 올려주는 중국집, 짜장면, 짬뽕, 탕수육, 인사동, 가격(10.0-30,0), 인삼좋아하는 외국인 손님 데려가기 좋음",
     "businessHours": {
+      "mon": {
+        "open": "15:30",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:30",
+        "close": "16:30",
+        "dayOff": false
+      },
       "wed": {
         "open": "15:30",
         "close": "16:30",
@@ -876,16 +886,6 @@
         "close": "20:00",
         "dayOff": false
       },
-      "mon": {
-        "open": "15:30",
-        "close": "16:30",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "15:30",
-        "close": "16:30",
-        "dayOff": false
-      },
       "holidays": []
     },
     "hasCommission": false,
@@ -893,10 +893,10 @@
     "visited": true,
     "rating": 3,
     "isClosed": false,
-    "memo": "써니가이드님이 좋아하는 곳, 맛은 보통",
+    "memo": "써니가이드님이 좋아하는 곳, 02-723-1101",
     "id": "mmbfoq1u1353ptlmn",
     "createdAt": "2026-03-04T02:44:57.186Z",
-    "updatedAt": "2026-03-04T05:01:57.747874Z"
+    "updatedAt": "2026-03-04T05:05:50.630Z"
   },
   {
     "name": "바오차이",
@@ -907,6 +907,16 @@
     "lng": 126.988142568678,
     "description": "단체예약은 34명까지 가능, 을지로, 명동, 매장깔끔, 중국요리, 중식당, 딤섬, 딤섬코스(29.9), 브레이크타임(2:30-5:10)",
     "businessHours": {
+      "mon": {
+        "open": "14:30",
+        "close": "17:10",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "14:30",
+        "close": "17:10",
+        "dayOff": false
+      },
       "wed": {
         "open": "14:30",
         "close": "17:10",
@@ -928,16 +938,6 @@
         "dayOff": false
       },
       "sun": {
-        "open": "14:30",
-        "close": "17:10",
-        "dayOff": false
-      },
-      "mon": {
-        "open": "14:30",
-        "close": "17:10",
-        "dayOff": false
-      },
-      "tue": {
         "open": "14:30",
         "close": "17:10",
         "dayOff": false
@@ -951,10 +951,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "",
+    "memo": "02-6031-0107",
     "id": "mmbfv574a1pih03kp",
     "createdAt": "2026-03-04T02:49:56.752Z",
-    "updatedAt": "2026-03-04T05:01:57.747876Z"
+    "updatedAt": "2026-03-04T05:05:59.082Z"
   },
   {
     "name": "포천아트밸리",
