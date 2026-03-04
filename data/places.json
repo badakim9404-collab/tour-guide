@@ -1904,5 +1904,61 @@
     "id": "mmbr4xp62d8ii9yko",
     "createdAt": "2026-03-04T08:05:29.370Z",
     "updatedAt": "2026-03-04T08:05:29.370Z"
+  },
+  {
+    "name": "농민백암순대 시청직영점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 중구 남대문로1길 33",
+    "lat": 37.5625981617414,
+    "lng": 126.977163395088,
+    "description": "시청, 본점은 강남, 순대국밥, 수육, 웨이팅있음, 최애순대국밥집, 수요일 3시주문마감, 가격(11.0-39,0), 포장가능",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 5,
+    "isClosed": false,
+    "memo": "02-755-5232",
+    "id": "mmbr9nmzn42gdkwt4",
+    "createdAt": "2026-03-04T08:09:09.611Z",
+    "updatedAt": "2026-03-04T08:09:09.611Z"
   }
 ]
