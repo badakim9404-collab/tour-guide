@@ -3528,5 +3528,61 @@
     "id": "mmc2i4klwfi49zdbt",
     "createdAt": "2026-03-04T13:23:40.581Z",
     "updatedAt": "2026-03-04T13:23:40.582Z"
+  },
+  {
+    "name": "광화문석갈비 D타워점",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "서울 종로구 종로3길 17 D타워 3층 305호",
+    "lat": 37.5709958592808,
+    "lng": 126.978914477333,
+    "description": "고기, 석갈비, 광화문역 4번출구, 교보문고 뒷건물, 룸이용가능(전화), 돼지돌판구이, 솥밥, 소갈비찜, 한우, 바베큐, 불고기, 한우육회냉파스타, 매콤크림파스타, 네이버예약가능, 평일에 웨이팅있음, 고급, 프라이빗",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1396-8206",
+    "id": "mmc2ofm8mqtvfbbof",
+    "createdAt": "2026-03-04T13:28:34.832Z",
+    "updatedAt": "2026-03-04T13:28:34.832Z"
   }
 ]
