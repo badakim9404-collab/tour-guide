@@ -567,7 +567,7 @@
     "address": "서울 광진구 능동로 183 1층",
     "lat": 37.5470202245821,
     "lng": 127.073665406544,
-    "description": "팥빙수 맛집,",
+    "description": "팥빙수 맛집, 가격(21.0), 말린대추과자가 포인트",
     "businessHours": {
       "mon": {
         "open": "",
@@ -608,12 +608,12 @@
     },
     "hasCommission": false,
     "commissionDetail": "",
-    "visited": false,
-    "rating": 0,
+    "visited": true,
+    "rating": 4,
     "isClosed": false,
-    "memo": "",
+    "memo": "홍준이가 퇴근길에 사오고 또 우리둘이 직접 자전거타고 갔을 정도!",
     "id": "mmbeuihji5f63wsfa",
     "createdAt": "2026-03-04T02:21:27.703Z",
-    "updatedAt": "2026-03-04T02:21:27.703Z"
+    "updatedAt": "2026-03-04T02:22:40.124Z"
   }
 ]
