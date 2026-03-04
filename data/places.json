@@ -276,7 +276,7 @@
     "memo": "",
     "id": "mm9a6d3seju42gfms",
     "createdAt": "2026-03-02T14:35:10.169Z",
-    "updatedAt": "2026-03-04T02:48:18.183757Z"
+    "updatedAt": "2026-03-04T02:53:17.782736Z"
   },
   {
     "name": "목멱산방 남산타워점",
@@ -334,7 +334,7 @@
     "memo": "",
     "id": "mm9ai1s6c5w6s3sqe",
     "createdAt": "2026-03-02T14:44:15.368Z",
-    "updatedAt": "2026-03-04T02:48:18.183766Z"
+    "updatedAt": "2026-03-04T02:53:17.782745Z"
   },
   {
     "name": "제스티살룬 성수",
@@ -390,7 +390,7 @@
     "memo": "내 인생 새우버거 집",
     "id": "mmabb6syvuwlkoez2",
     "createdAt": "2026-03-03T07:54:41.075Z",
-    "updatedAt": "2026-03-04T02:48:18.183770Z"
+    "updatedAt": "2026-03-04T02:53:17.782749Z"
   },
   {
     "name": "애소아",
@@ -446,7 +446,7 @@
     "memo": "Salted butter rolls",
     "id": "mmbec0mb6g47ltr29",
     "createdAt": "2026-03-04T02:07:04.739Z",
-    "updatedAt": "2026-03-04T02:48:18.183773Z"
+    "updatedAt": "2026-03-04T02:53:17.782752Z"
   },
   {
     "name": "장단콩맛집",
@@ -502,7 +502,7 @@
     "memo": "막 엄청 추천은 아니고 나름 맛있었음.",
     "id": "mmbelvgu4rmtl6p9e",
     "createdAt": "2026-03-04T02:14:44.622Z",
-    "updatedAt": "2026-03-04T02:48:18.183776Z"
+    "updatedAt": "2026-03-04T02:53:17.782755Z"
   },
   {
     "name": "양평장어마을",
@@ -558,7 +558,7 @@
     "memo": "렌트해서 다시 가고 싶은 인생맛집, 소금장어구이가 내 입맛엔 조금 더 저격, 둘다 맛있음",
     "id": "mmbereqcall7mvotw",
     "createdAt": "2026-03-04T02:19:02.868Z",
-    "updatedAt": "2026-03-04T02:48:18.183778Z"
+    "updatedAt": "2026-03-04T02:53:17.782758Z"
   },
   {
     "name": "옥루몽 어린이대공원점",
@@ -614,7 +614,7 @@
     "memo": "홍준이가 퇴근길에 사오고 또 우리둘이 직접 자전거타고 갔을 정도!",
     "id": "mmbeuihji5f63wsfa",
     "createdAt": "2026-03-04T02:21:27.703Z",
-    "updatedAt": "2026-03-04T02:48:18.183781Z"
+    "updatedAt": "2026-03-04T02:53:17.782760Z"
   },
   {
     "name": "사프란레스토랑",
@@ -667,7 +667,7 @@
     "memo": "",
     "id": "mmbeymenfxne2dy0j",
     "createdAt": "2026-03-04T02:24:39.407Z",
-    "updatedAt": "2026-03-04T02:48:18.183783Z"
+    "updatedAt": "2026-03-04T02:53:17.782763Z"
   },
   {
     "name": "능동미나리",
@@ -723,7 +723,7 @@
     "memo": "",
     "id": "mmbf07l13gx6s7w83",
     "createdAt": "2026-03-04T02:25:53.509Z",
-    "updatedAt": "2026-03-04T02:48:18.183786Z"
+    "updatedAt": "2026-03-04T02:53:17.782766Z"
   },
   {
     "name": "알래스카에서온연어가 맛있는집",
@@ -779,7 +779,7 @@
     "memo": "다시 가고싶지는 않음, 신선하지만 반찬이 부족해서 느끼했고 특별한 맛 못 느낌.",
     "id": "mmbf8c4t0zgsj1mn9",
     "createdAt": "2026-03-04T02:32:12.653Z",
-    "updatedAt": "2026-03-04T02:48:18.183788Z"
+    "updatedAt": "2026-03-04T02:53:17.782768Z"
   },
   {
     "name": "해물꾼조태산 본점",
@@ -835,7 +835,7 @@
     "memo": "찾아갈 맛은 아님, 해산물이 먹고 싶다면 지나가다 들를정도.",
     "id": "mmbfgaipijdh1inl9",
     "createdAt": "2026-03-04T02:38:23.809Z",
-    "updatedAt": "2026-03-04T02:48:18.183791Z"
+    "updatedAt": "2026-03-04T02:53:17.782771Z"
   },
   {
     "name": "인사동 화원",
@@ -891,7 +891,7 @@
     "memo": "써니가이드님이 좋아하는 곳, 맛은 보통",
     "id": "mmbfoq1u1353ptlmn",
     "createdAt": "2026-03-04T02:44:57.186Z",
-    "updatedAt": "2026-03-04T02:48:18.183793Z"
+    "updatedAt": "2026-03-04T02:53:17.782773Z"
   },
   {
     "name": "바오차이",
@@ -902,42 +902,44 @@
     "lng": 126.988142568678,
     "description": "단체예약은 34명까지 가능, 을지로, 명동, 매장깔끔, 중국요리, 중식당, 딤섬, 딤섬코스(29.9)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:10",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:10",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:10",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:10",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:10",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "14:30",
+        "close": "17:10",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "14:30",
+        "close": "17:10",
+        "dayOff": false
+      },
+      "holidays": [
+        "2026년 2월 16일 ~ 18일 연휴 휴무 입니다"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -947,6 +949,6 @@
     "memo": "",
     "id": "mmbfv574a1pih03kp",
     "createdAt": "2026-03-04T02:49:56.752Z",
-    "updatedAt": "2026-03-04T02:49:56.752Z"
+    "updatedAt": "2026-03-04T02:53:17.782775Z"
   }
 ]
