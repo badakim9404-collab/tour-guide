@@ -3472,5 +3472,61 @@
     "id": "mmc2ddt3tdwmdyfir",
     "createdAt": "2026-03-04T13:19:59.271Z",
     "updatedAt": "2026-03-04T13:19:59.271Z"
+  },
+  {
+    "name": "히메시야 서교직영점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 마포구 와우산로29마길 7 지층 히메시야",
+    "lat": 37.5556236881134,
+    "lng": 126.926790137055,
+    "description": "홍대, 일식당, 연어덮밥, 스테이크동, 규동, 가츠동, 일본음식, 브레이크타임(3-4:40), 하이볼, 웨이팅있음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 4,
+    "isClosed": false,
+    "memo": "0507-1410-4562 연어덮밥 맛있음, 순미언니랑 갔음, 오픈시간맞춰가면 줄안서도 됨",
+    "id": "mmc2i4klwfi49zdbt",
+    "createdAt": "2026-03-04T13:23:40.581Z",
+    "updatedAt": "2026-03-04T13:23:40.582Z"
   }
 ]
