@@ -281,12 +281,22 @@
   {
     "name": "목멱산방 남산타워점",
     "type": "restaurant",
-    "categoryId": null,
+    "categoryId": "mmbgn2lsjqag0earr",
     "address": "서울 중구 남산공원길 627",
     "lat": 37.5553562497346,
     "lng": 126.985302533327,
     "description": "남산타워점, 제철 봄동비빔밥, 투뿔한우 육회비빔밥, 불고기 비빔밥, 제육쌈밥, 도토리묵야채무침, 팥빙수, 전통차(쌍화차, 대추차), 궁중잡채간장떡볶이, 카페, 치즈김치전, 가격(9.0-15.0)⭐️명동지점보다 더 다양한 메뉴⭐️ 미슐랭",
     "businessHours": {
+      "mon": {
+        "open": "10:30",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:30",
+        "close": "19:30",
+        "dayOff": false
+      },
       "wed": {
         "open": "10:30",
         "close": "19:30",
@@ -312,16 +322,6 @@
         "close": "19:30",
         "dayOff": false
       },
-      "mon": {
-        "open": "10:30",
-        "close": "19:30",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "10:30",
-        "close": "19:30",
-        "dayOff": false
-      },
       "holidays": [
         "추석과 설날 하루전날과 당일은 휴무"
       ]
@@ -334,7 +334,7 @@
     "memo": "0507-1366-1971",
     "id": "mm9ai1s6c5w6s3sqe",
     "createdAt": "2026-03-02T14:44:15.368Z",
-    "updatedAt": "2026-03-04T05:42:51.385829Z"
+    "updatedAt": "2026-03-04T05:45:29.627Z"
   },
   {
     "name": "제스티살룬 성수",
