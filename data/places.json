@@ -1122,5 +1122,61 @@
     "id": "mmbii7xsk71upmenk",
     "createdAt": "2026-03-04T04:03:52.624Z",
     "updatedAt": "2026-03-04T04:07:57.197346Z"
+  },
+  {
+    "name": "인사샤브정",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "서울 종로구 인사동6길 14 1층",
+    "lat": 37.573541668109,
+    "lng": 126.986652501347,
+    "description": "가이드컴, 인사동, 프라이빗, 시내투어, 샤브샤브, 브레이크타임(4-5), 가격(20.0-30.0), 배추전, 낙지볶음, 쭈꾸미볶음, 해물부추전, 김치전, 한옥, 칼국수",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": true,
+    "commissionDetail": "가이드컴 정확히는 모름 전화해보기",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "02-732-6878",
+    "id": "mmbkfweapk9rbeojl",
+    "createdAt": "2026-03-04T04:58:03.586Z",
+    "updatedAt": "2026-03-04T04:58:03.586Z"
   }
 ]
