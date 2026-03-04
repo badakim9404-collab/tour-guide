@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-04T08:44:28.312899",
-  "totalPlaces": 37,
+  "updatedAt": "2026-03-04T08:52:31.661377",
+  "totalPlaces": 38,
   "successCount": 26,
   "results": [
     {
@@ -1259,6 +1259,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mmbse0fj5idlsdm8p"
+    },
+    {
+      "name": "강릉닭강정",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mmbsnulplt6t136qq"
     }
   ]
 }
