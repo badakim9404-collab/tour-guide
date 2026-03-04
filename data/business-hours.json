@@ -1,16 +1,11 @@
 {
-  "updatedAt": "2026-03-03T08:36:53.983764",
-  "totalPlaces": 3,
-  "successCount": 3,
+  "updatedAt": "2026-03-04T02:08:26.367092",
+  "totalPlaces": 4,
+  "successCount": 4,
   "results": [
     {
       "name": "목멱산방",
       "hours": {
-        "tue": {
-          "open": "11:00",
-          "close": "20:00",
-          "dayOff": false
-        },
         "wed": {
           "open": "11:00",
           "close": "20:00",
@@ -37,6 +32,11 @@
           "dayOff": false
         },
         "mon": {
+          "open": "11:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "tue": {
           "open": "11:00",
           "close": "20:00",
           "dayOff": false
@@ -46,7 +46,7 @@
       "notes": [
         "저녁 라스트오더 19:20"
       ],
-      "crawledAt": "2026-03-03T08:36:31.386239",
+      "crawledAt": "2026-03-04T02:07:50.975055",
       "placeId": "13573290",
       "matchedName": "목멱산방",
       "id": "mm9a6d3seju42gfms"
@@ -54,11 +54,6 @@
     {
       "name": "목멱산방 남산타워점",
       "hours": {
-        "tue": {
-          "open": "10:30",
-          "close": "19:30",
-          "dayOff": false
-        },
         "wed": {
           "open": "10:30",
           "close": "19:30",
@@ -85,6 +80,11 @@
           "dayOff": false
         },
         "mon": {
+          "open": "10:30",
+          "close": "19:30",
+          "dayOff": false
+        },
+        "tue": {
           "open": "10:30",
           "close": "19:30",
           "dayOff": false
@@ -96,7 +96,7 @@
       "notes": [
         "추석과 설날 하루전날과 당일은 휴무"
       ],
-      "crawledAt": "2026-03-03T08:36:43.166021",
+      "crawledAt": "2026-03-04T02:08:01.361571",
       "placeId": "1130184843",
       "matchedName": "목멱산방 남산타워점",
       "id": "mm9ai1s6c5w6s3sqe"
@@ -104,11 +104,6 @@
     {
       "name": "제스티살룬 성수",
       "hours": {
-        "tue": {
-          "open": "11:30",
-          "close": "21:00",
-          "dayOff": false
-        },
         "wed": {
           "open": "11:30",
           "close": "21:00",
@@ -138,14 +133,65 @@
           "open": "11:30",
           "close": "21:00",
           "dayOff": false
+        },
+        "tue": {
+          "open": "11:30",
+          "close": "21:00",
+          "dayOff": false
         }
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-03T08:36:53.937668",
+      "crawledAt": "2026-03-04T02:08:13.412110",
       "placeId": "1172915589",
       "matchedName": "제스티살룬 성수",
       "id": "mmabb6syvuwlkoez2"
+    },
+    {
+      "name": "애소아",
+      "hours": {
+        "mon": {
+          "open": "09:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "21:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [],
+      "crawledAt": "2026-03-04T02:08:26.324877",
+      "placeId": "2072471340",
+      "matchedName": "애소아소금빵",
+      "id": "mmbec0mb6g47ltr29"
     }
   ]
 }
