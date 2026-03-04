@@ -2520,5 +2520,61 @@
     "id": "mmbuiemhki7zxywe5",
     "createdAt": "2026-03-04T09:39:56.681Z",
     "updatedAt": "2026-03-04T09:42:04.012Z"
+  },
+  {
+    "name": "감자적1번지",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "강원특별자치도 강릉시 공항길29번길 7",
+    "lat": 37.7629160073048,
+    "lng": 128.93907854207,
+    "description": "강원도, 강릉, 안심식당, 감자전, 감자옹심이, 도토리들깨칼국수, 메밀전병, 장칼국수, 브레이크타임(3-4:30), 매주수요일 휴무, 웨이팅있음, 캐치테이블예약가능, 가격(6.0-24.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1330-3760",
+    "id": "mmbupgzc1stbs12nt",
+    "createdAt": "2026-03-04T09:45:26.328Z",
+    "updatedAt": "2026-03-04T09:45:26.328Z"
   }
 ]
