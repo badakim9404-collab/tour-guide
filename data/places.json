@@ -2856,5 +2856,61 @@
     "id": "mmbyyf3ziv39h3zwb",
     "createdAt": "2026-03-04T11:44:22.271Z",
     "updatedAt": "2026-03-04T11:44:22.271Z"
+  },
+  {
+    "name": "어머니가 구워주신 생선구이",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 중구 수표로6길 37-2 1층",
+    "lat": 37.562884940575,
+    "lng": 126.99255482962,
+    "description": "충무로역 6번출구, 고등어구이, 해물순두부찌개, 생선구이, 닭볶음탕, 솥뚜껑삼겹살, 해물파전, 술, 가격(12.0-35.0), 포장가능, 한식백반",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1477-3222",
+    "id": "mmbz5v305vypbiqaa",
+    "createdAt": "2026-03-04T11:50:09.564Z",
+    "updatedAt": "2026-03-04T11:50:09.564Z"
   }
 ]
