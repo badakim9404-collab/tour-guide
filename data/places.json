@@ -391,5 +391,61 @@
     "id": "mmabb6syvuwlkoez2",
     "createdAt": "2026-03-03T07:54:41.075Z",
     "updatedAt": "2026-03-03T08:36:53.984230Z"
+  },
+  {
+    "name": "애소아",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 종로구 자하문로 7 성명빌딩 1층",
+    "lat": 37.5767147965826,
+    "lng": 126.972206795305,
+    "description": "소금빵, 평점좋음, 서촌, 세종마을음식문화거리, 경복궁역 2번출구, Salted butter rolls, 가격(4개12.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "가보고 싶음",
+    "id": "mmbec0mb6g47ltr29",
+    "createdAt": "2026-03-04T02:07:04.739Z",
+    "updatedAt": "2026-03-04T02:07:04.739Z"
   }
 ]
