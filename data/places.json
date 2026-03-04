@@ -2016,5 +2016,61 @@
     "id": "mmbriz848is6xu5dj",
     "createdAt": "2026-03-04T08:16:24.532Z",
     "updatedAt": "2026-03-04T08:16:24.532Z"
+  },
+  {
+    "name": "마루심 반포점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 서초구 고무래로10길 10 청구빌딩 1층",
+    "lat": 37.5019008082159,
+    "lng": 127.010461168238,
+    "description": "장어덮밥, 반포역 3번출구, 강남, 가격(39.0-53.0), ♡가보고싶음♡, 브레이크타임(3-5)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "02-592-8998",
+    "id": "mmbrpg7mh0jec9f6q",
+    "createdAt": "2026-03-04T08:21:26.482Z",
+    "updatedAt": "2026-03-04T08:21:26.482Z"
   }
 ]
