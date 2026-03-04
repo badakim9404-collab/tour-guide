@@ -2184,5 +2184,61 @@
     "id": "mmbs1pyxym8cl7rdk",
     "createdAt": "2026-03-04T08:30:59.001Z",
     "updatedAt": "2026-03-04T08:31:15.697Z"
+  },
+  {
+    "name": "이맛에온다 주문진본점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "강원 강릉시 주문진읍 주문로 11",
+    "lat": 37.8847470104282,
+    "lng": 128.825047234538,
+    "description": "강원도, 강릉, 주문진해수욕장 근처, 돼지고기, 바베큐, 이베리코 악어살, 특수부위, 가격(15.0-20.0), 격주 일요일 휴무",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "033-662-5888",
+    "id": "mmbs7n6vr29jq8d4p",
+    "createdAt": "2026-03-04T08:35:35.335Z",
+    "updatedAt": "2026-03-04T08:35:35.335Z"
   }
 ]
