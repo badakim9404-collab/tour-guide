@@ -623,8 +623,18 @@
     "address": "서울 중구 삼일대로 362 롯데시티호텔 명동 2층",
     "lat": 37.5669486979331,
     "lng": 126.988088144293,
-    "description": "중동, 할랄음식, 할랄푸드, 무슬림 손님들에게 추천, 명동, 롯데시티호텔명동",
+    "description": "중동, 할랄음식, 할랄푸드, 무슬림 손님들에게 추천, 명동, 롯데시티호텔명동, 격주 월요일 정기 휴무",
     "businessHours": {
+      "mon": {
+        "open": "11:30",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "11:30",
+        "close": "22:00",
+        "dayOff": false
+      },
       "wed": {
         "open": "11:30",
         "close": "22:00",
@@ -645,14 +655,9 @@
         "close": "",
         "dayOff": true
       },
-      "mon": {
-        "open": "11:30",
-        "close": "22:00",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "11:30",
-        "close": "22:00",
+      "sun": {
+        "open": "",
+        "close": "",
         "dayOff": false
       },
       "holidays": [
@@ -667,7 +672,7 @@
     "memo": "",
     "id": "mmbeymenfxne2dy0j",
     "createdAt": "2026-03-04T02:24:39.407Z",
-    "updatedAt": "2026-03-04T03:48:18.795716Z"
+    "updatedAt": "2026-03-04T03:52:05.557Z"
   },
   {
     "name": "능동미나리",
