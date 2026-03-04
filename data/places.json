@@ -2576,5 +2576,61 @@
     "id": "mmbupgzc1stbs12nt",
     "createdAt": "2026-03-04T09:45:26.328Z",
     "updatedAt": "2026-03-04T09:45:26.328Z"
+  },
+  {
+    "name": "초시막국수",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "강원특별자치도 강릉시 연곡면 초시길 33-1 1층",
+    "lat": 37.8529420175725,
+    "lng": 128.83917526128,
+    "description": "강원도, 강릉, 막국수, 수육, 돼지고기, 가격(9.5-30.0),",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 4,
+    "isClosed": false,
+    "memo": "033-661-6231 수육이 짱맛! 비정기휴무 전화!",
+    "id": "mmby81sq8onbxk8dc",
+    "createdAt": "2026-03-04T11:23:51.962Z",
+    "updatedAt": "2026-03-04T11:23:51.962Z"
   }
 ]
