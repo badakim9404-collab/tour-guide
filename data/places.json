@@ -3920,5 +3920,61 @@
     "id": "mmc3jhzhurr78x4nc",
     "createdAt": "2026-03-04T13:52:44.237Z",
     "updatedAt": "2026-03-04T13:52:44.237Z"
+  },
+  {
+    "name": "원조 곱창떡볶이 화떡 명동본점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 중구 명동4길 15",
+    "lat": 37.5630141680175,
+    "lng": 126.983801669966,
+    "description": "매주월요일 휴무, 마늘떡볶이, 곱창떡볶이, 샐러드파스타, 고르곤졸라피자, 가격(10.0-40.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 4,
+    "isClosed": false,
+    "memo": "02-772-9991 맛있음, 특히 마늘떡볶이!",
+    "id": "mmc3mro2xh4150ma8",
+    "createdAt": "2026-03-04T13:55:16.754Z",
+    "updatedAt": "2026-03-04T13:55:16.754Z"
   }
 ]
