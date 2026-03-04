@@ -1238,12 +1238,22 @@
   {
     "name": "한일관 압구정점",
     "type": "restaurant",
-    "categoryId": "mmbifs2dm9rrkpqxf",
+    "categoryId": "mmbgn2lsjqag0earr",
     "address": "서울 강남구 압구정로38길 14",
     "lat": 37.527783181798,
     "lng": 127.032497263908,
     "description": "압구정역 2번출구, 갈비탕, 한정식, 한식, 강남, 골동반(비빔밥), 녹두빈대떡, 불고기, 냉면, 온면, 갈비, 바베큐, 한우 소고기, 갈비, 가격(14.0-91.0), 프라이빗",
     "businessHours": {
+      "mon": {
+        "open": "11:30",
+        "close": "21:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "11:30",
+        "close": "21:30",
+        "dayOff": false
+      },
       "wed": {
         "open": "11:30",
         "close": "21:30",
@@ -1269,16 +1279,6 @@
         "close": "21:30",
         "dayOff": false
       },
-      "mon": {
-        "open": "11:30",
-        "close": "21:30",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "11:30",
-        "close": "21:30",
-        "dayOff": false
-      },
       "holidays": []
     },
     "hasCommission": false,
@@ -1289,7 +1289,7 @@
     "memo": "1577-9963 유기그릇Traditional Korean brass bowl, 수정과(Korean cinnamon punch), 고급",
     "id": "mmblhiebw3hj07c6r",
     "createdAt": "2026-03-04T05:27:18.371Z",
-    "updatedAt": "2026-03-04T05:42:51.385875Z"
+    "updatedAt": "2026-03-04T05:43:52.650Z"
   },
   {
     "name": "커피스니퍼 서울시청점",
@@ -1350,7 +1350,7 @@
   {
     "name": "우연화 익선",
     "type": "restaurant",
-    "categoryId": "mmbifs2dm9rrkpqxf",
+    "categoryId": "mmbgn2lsjqag0earr",
     "address": "서울 종로구 수표로28길 30-2 1층",
     "lat": 37.5729125925435,
     "lng": 126.990341907728,
@@ -1401,6 +1401,6 @@
     "memo": "0507-1490-7984",
     "id": "mmbm2ca2kpc8yw5p1",
     "createdAt": "2026-03-04T05:43:30.218Z",
-    "updatedAt": "2026-03-04T05:43:30.218Z"
+    "updatedAt": "2026-03-04T05:43:39.809Z"
   }
 ]
