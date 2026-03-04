@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-04T08:19:56.756580",
-  "totalPlaces": 32,
+  "updatedAt": "2026-03-04T08:25:13.407402",
+  "totalPlaces": 33,
   "successCount": 26,
   "results": [
     {
@@ -1219,6 +1219,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mmbriz848is6xu5dj"
+    },
+    {
+      "name": "마루심 반포점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mmbrpg7mh0jec9f6q"
     }
   ]
 }
