@@ -968,7 +968,7 @@ body {
 
 /* ===== Map Filter Toggle ===== */
 .map-filter-toggle {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 36px;
@@ -980,6 +980,21 @@ body {
     font-size: 0.9rem;
     cursor: pointer;
     flex-shrink: 0;
+}
+
+.map-filter-panel.collapsed {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.map-filter-panel.collapsed > *:not(.map-filter-toggle) {
+    display: none;
+}
+
+.map-filter-panel.collapsed .map-filter-toggle {
+    display: flex;
+    box-shadow: var(--shadow-lg);
 }
 
 .place-type-badge {
@@ -1201,7 +1216,7 @@ body {
 
 /* ===== Map Legend Toggle ===== */
 .map-legend-toggle {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 32px;
@@ -1213,6 +1228,21 @@ body {
     font-size: 0.8rem;
     cursor: pointer;
     flex-shrink: 0;
+}
+
+.map-legend.collapsed {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.map-legend.collapsed > *:not(.map-legend-toggle) {
+    display: none;
+}
+
+.map-legend.collapsed .map-legend-toggle {
+    display: flex;
+    box-shadow: var(--shadow-lg);
 }
 
 /* ===== Visited & Rating ===== */
@@ -2193,46 +2223,6 @@ button, a, input, select, textarea, [role="button"] {
 
     .place-list-info strong {
         font-size: 0.85rem;
-    }
-
-    /* --- 지도 필터 토글 (모바일) --- */
-    .map-filter-toggle {
-        display: flex;
-    }
-
-    .map-filter-panel.collapsed {
-        padding: 0;
-        background: transparent;
-        box-shadow: none;
-    }
-
-    .map-filter-panel.collapsed > *:not(.map-filter-toggle) {
-        display: none;
-    }
-
-    .map-filter-panel.collapsed .map-filter-toggle {
-        display: flex;
-        box-shadow: var(--shadow-lg);
-    }
-
-    /* --- 범례 토글 (모바일) --- */
-    .map-legend-toggle {
-        display: flex;
-    }
-
-    .map-legend.collapsed {
-        padding: 0;
-        background: transparent;
-        box-shadow: none;
-    }
-
-    .map-legend.collapsed > *:not(.map-legend-toggle) {
-        display: none;
-    }
-
-    .map-legend.collapsed .map-legend-toggle {
-        display: flex;
-        box-shadow: var(--shadow-lg);
     }
 
     /* --- 검색 --- */
