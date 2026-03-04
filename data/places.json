@@ -3864,5 +3864,61 @@
     "id": "mmc3ewsjras4cpvow",
     "createdAt": "2026-03-04T13:49:10.147Z",
     "updatedAt": "2026-03-04T13:49:10.147Z"
+  },
+  {
+    "name": "서울지짐이",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 중구 명동9가길 10 1, 2층",
+    "lat": null,
+    "lng": null,
+    "description": "매주일요일 휴무, 명동, 을지로입구역 5번출구, 막걸리, 주막, 술, 모듬전(감자,해물,김치,버섯,두부), 술안주, 가격(11.0-33.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1449-3519",
+    "id": "mmc3jhzhurr78x4nc",
+    "createdAt": "2026-03-04T13:52:44.237Z",
+    "updatedAt": "2026-03-04T13:52:44.237Z"
   }
 ]
