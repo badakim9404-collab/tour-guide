@@ -1183,5 +1183,61 @@
     "id": "mmbkfweapk9rbeojl",
     "createdAt": "2026-03-04T04:58:03.586Z",
     "updatedAt": "2026-03-04T05:01:57.747886Z"
+  },
+  {
+    "name": "할머니의 레시피",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "서울 성동구 서울숲2길 44-12",
+    "lat": 37.5461743475135,
+    "lng": 127.043085869776,
+    "description": "성수, 서울숲역 5번출구, 백반, 쌈밥정식, 비빔밥 불고기, 생선구이, 간장게장, 젓갈쌈밥, 생일 상차림(전날 예약필수/평일5-8시이용), 가정식, 브레이크타임(3:30-4:40), 가격(15.0-25.0), 한식, 건강, 프라이빗, 웨이팅 있음,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1429-5101",
+    "id": "mmbl2e7fobjzjmmsw",
+    "createdAt": "2026-03-04T05:15:33.099Z",
+    "updatedAt": "2026-03-04T05:15:33.099Z"
   }
 ]
