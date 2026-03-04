@@ -1736,5 +1736,61 @@
     "id": "mmbqk8hh79x6rov7b",
     "createdAt": "2026-03-04T07:49:23.573Z",
     "updatedAt": "2026-03-04T07:49:57.854Z"
+  },
+  {
+    "name": "고기익는마을",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 성동구 고산자로24길 11-1 3층",
+    "lat": 37.5699968837261,
+    "lng": 127.038964222703,
+    "description": "마장동, 축산시장, 상차림식당, 상차림비(6.0), 평범",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 3,
+    "isClosed": false,
+    "memo": "02-2292-8999, 용규형님네와 갔던 곳, 평범",
+    "id": "mmbqqg8poh84vzia0",
+    "createdAt": "2026-03-04T07:54:13.561Z",
+    "updatedAt": "2026-03-04T07:54:13.561Z"
   }
 ]
