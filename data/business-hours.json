@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-03-04T02:08:26.367092",
-  "totalPlaces": 4,
-  "successCount": 4,
+  "updatedAt": "2026-03-04T02:16:20.036090",
+  "totalPlaces": 5,
+  "successCount": 5,
   "results": [
     {
       "name": "목멱산방",
@@ -46,7 +46,7 @@
       "notes": [
         "저녁 라스트오더 19:20"
       ],
-      "crawledAt": "2026-03-04T02:07:50.975055",
+      "crawledAt": "2026-03-04T02:15:33.564252",
       "placeId": "13573290",
       "matchedName": "목멱산방",
       "id": "mm9a6d3seju42gfms"
@@ -96,7 +96,7 @@
       "notes": [
         "추석과 설날 하루전날과 당일은 휴무"
       ],
-      "crawledAt": "2026-03-04T02:08:01.361571",
+      "crawledAt": "2026-03-04T02:15:47.222442",
       "placeId": "1130184843",
       "matchedName": "목멱산방 남산타워점",
       "id": "mm9ai1s6c5w6s3sqe"
@@ -142,7 +142,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:08:13.412110",
+      "crawledAt": "2026-03-04T02:15:56.980102",
       "placeId": "1172915589",
       "matchedName": "제스티살룬 성수",
       "id": "mmabb6syvuwlkoez2"
@@ -188,10 +188,56 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:08:26.324877",
+      "crawledAt": "2026-03-04T02:16:08.165808",
       "placeId": "2072471340",
       "matchedName": "애소아소금빵",
       "id": "mmbec0mb6g47ltr29"
+    },
+    {
+      "name": "장단콩맛집",
+      "hours": {
+        "mon": {
+          "open": "11:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "11:00",
+          "close": "21:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [],
+      "crawledAt": "2026-03-04T02:16:20.001329",
+      "placeId": "13524973",
+      "matchedName": "장단콩맛집",
+      "id": "mmbelvgu4rmtl6p9e"
     }
   ]
 }
