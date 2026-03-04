@@ -1792,5 +1792,61 @@
     "id": "mmbqqg8poh84vzia0",
     "createdAt": "2026-03-04T07:54:13.561Z",
     "updatedAt": "2026-03-04T07:54:35.213Z"
+  },
+  {
+    "name": "소하염전 익선점",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "서울 종로구 수표로28길 21-5 (익선동)",
+    "lat": 37.5731422922753,
+    "lng": 126.98970320293,
+    "description": "익선동, 소금빵, 두바이초코소금빵, 염전슈페너, 가격(3.0-8.0), 명란마요소금빵, 한옥카페, 웨이팅있음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 3,
+    "isClosed": false,
+    "memo": "0507-1353-8215 순미언니랑 먹었음",
+    "id": "mmbqvrkm6emdfyvn0",
+    "createdAt": "2026-03-04T07:58:21.526Z",
+    "updatedAt": "2026-03-04T07:58:21.526Z"
   }
 ]
