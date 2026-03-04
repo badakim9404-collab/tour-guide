@@ -3080,5 +3080,61 @@
     "id": "mmbzj2xg4glvr2pm5",
     "createdAt": "2026-03-04T12:00:26.260Z",
     "updatedAt": "2026-03-04T12:00:26.260Z"
+  },
+  {
+    "name": "삼척전복해물뚝배기",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "강원 삼척시 테마타운길 59 2층",
+    "lat": 37.4677142582102,
+    "lng": 129.16875256121,
+    "description": "강원도, 삼척해수욕장, 브레이크타임(3-5), 전복해물뚝배기, 가격(22.0), 신선하고 푸짐함, 쏠비치삼척호텔 바로옆",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 5,
+    "isClosed": false,
+    "memo": "0507-1420-0383 우리가 삼척갈떄마다 먹는 곳",
+    "id": "mmbzmglcfor1uupqg",
+    "createdAt": "2026-03-04T12:03:03.936Z",
+    "updatedAt": "2026-03-04T12:03:03.936Z"
   }
 ]
