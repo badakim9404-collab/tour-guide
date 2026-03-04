@@ -276,7 +276,7 @@
     "memo": "",
     "id": "mm9a6d3seju42gfms",
     "createdAt": "2026-03-02T14:35:10.169Z",
-    "updatedAt": "2026-03-04T03:48:18.795690Z"
+    "updatedAt": "2026-03-04T04:07:57.197300Z"
   },
   {
     "name": "목멱산방 남산타워점",
@@ -334,7 +334,7 @@
     "memo": "",
     "id": "mm9ai1s6c5w6s3sqe",
     "createdAt": "2026-03-02T14:44:15.368Z",
-    "updatedAt": "2026-03-04T03:48:18.795699Z"
+    "updatedAt": "2026-03-04T04:07:57.197309Z"
   },
   {
     "name": "제스티살룬 성수",
@@ -390,7 +390,7 @@
     "memo": "내 인생 새우버거 집",
     "id": "mmabb6syvuwlkoez2",
     "createdAt": "2026-03-03T07:54:41.075Z",
-    "updatedAt": "2026-03-04T03:48:18.795704Z"
+    "updatedAt": "2026-03-04T04:07:57.197314Z"
   },
   {
     "name": "애소아",
@@ -446,7 +446,7 @@
     "memo": "Salted butter rolls",
     "id": "mmbec0mb6g47ltr29",
     "createdAt": "2026-03-04T02:07:04.739Z",
-    "updatedAt": "2026-03-04T03:48:18.795707Z"
+    "updatedAt": "2026-03-04T04:07:57.197316Z"
   },
   {
     "name": "장단콩맛집",
@@ -502,7 +502,7 @@
     "memo": "막 엄청 추천은 아니고 나름 맛있었음.",
     "id": "mmbelvgu4rmtl6p9e",
     "createdAt": "2026-03-04T02:14:44.622Z",
-    "updatedAt": "2026-03-04T03:51:01.530Z"
+    "updatedAt": "2026-03-04T04:07:57.197318Z"
   },
   {
     "name": "양평장어마을",
@@ -558,7 +558,7 @@
     "memo": "렌트해서 다시 가고 싶은 인생맛집, 소금장어구이가 내 입맛엔 조금 더 저격, 둘다 맛있음",
     "id": "mmbereqcall7mvotw",
     "createdAt": "2026-03-04T02:19:02.868Z",
-    "updatedAt": "2026-03-04T03:48:18.795712Z"
+    "updatedAt": "2026-03-04T04:07:57.197321Z"
   },
   {
     "name": "옥루몽 어린이대공원점",
@@ -614,7 +614,7 @@
     "memo": "홍준이가 퇴근길에 사오고 또 우리둘이 직접 자전거타고 갔을 정도!",
     "id": "mmbeuihji5f63wsfa",
     "createdAt": "2026-03-04T02:21:27.703Z",
-    "updatedAt": "2026-03-04T03:48:18.795714Z"
+    "updatedAt": "2026-03-04T04:07:57.197323Z"
   },
   {
     "name": "사프란레스토랑",
@@ -625,16 +625,6 @@
     "lng": 126.988088144293,
     "description": "중동, 할랄음식, 할랄푸드, 무슬림 손님들에게 추천, 명동, 롯데시티호텔명동, 정기휴무 (격주 일요일)",
     "businessHours": {
-      "mon": {
-        "open": "11:30",
-        "close": "22:00",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "11:30",
-        "close": "22:00",
-        "dayOff": false
-      },
       "wed": {
         "open": "11:30",
         "close": "22:00",
@@ -651,14 +641,19 @@
         "dayOff": false
       },
       "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "mon": {
         "open": "11:30",
         "close": "22:00",
         "dayOff": false
       },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": true
+      "tue": {
+        "open": "11:30",
+        "close": "22:00",
+        "dayOff": false
       },
       "holidays": [
         "정기휴무 (격주 일요일)"
@@ -672,7 +667,7 @@
     "memo": "",
     "id": "mmbeymenfxne2dy0j",
     "createdAt": "2026-03-04T02:24:39.407Z",
-    "updatedAt": "2026-03-04T03:54:40.517Z"
+    "updatedAt": "2026-03-04T04:07:57.197326Z"
   },
   {
     "name": "능동미나리",
@@ -728,7 +723,7 @@
     "memo": "",
     "id": "mmbf07l13gx6s7w83",
     "createdAt": "2026-03-04T02:25:53.509Z",
-    "updatedAt": "2026-03-04T03:48:18.795719Z"
+    "updatedAt": "2026-03-04T04:07:57.197329Z"
   },
   {
     "name": "알래스카에서온연어가 맛있는집",
@@ -784,7 +779,7 @@
     "memo": "다시 가고싶지는 않음, 신선하지만 반찬이 부족해서 느끼했고 특별한 맛 못 느낌.",
     "id": "mmbf8c4t0zgsj1mn9",
     "createdAt": "2026-03-04T02:32:12.653Z",
-    "updatedAt": "2026-03-04T03:48:18.795722Z"
+    "updatedAt": "2026-03-04T04:07:57.197331Z"
   },
   {
     "name": "해물꾼조태산 본점",
@@ -840,7 +835,7 @@
     "memo": "찾아갈 맛은 아님, 해산물이 먹고 싶다면 지나가다 들를정도.",
     "id": "mmbfgaipijdh1inl9",
     "createdAt": "2026-03-04T02:38:23.809Z",
-    "updatedAt": "2026-03-04T03:48:18.795724Z"
+    "updatedAt": "2026-03-04T04:07:57.197334Z"
   },
   {
     "name": "인사동 화원",
@@ -896,7 +891,7 @@
     "memo": "써니가이드님이 좋아하는 곳, 맛은 보통",
     "id": "mmbfoq1u1353ptlmn",
     "createdAt": "2026-03-04T02:44:57.186Z",
-    "updatedAt": "2026-03-04T03:48:18.795726Z"
+    "updatedAt": "2026-03-04T04:07:57.197336Z"
   },
   {
     "name": "바오차이",
@@ -907,16 +902,6 @@
     "lng": 126.988142568678,
     "description": "단체예약은 34명까지 가능, 을지로, 명동, 매장깔끔, 중국요리, 중식당, 딤섬, 딤섬코스(29.9), 브레이크타임(2:30-5:10)",
     "businessHours": {
-      "mon": {
-        "open": "14:30",
-        "close": "17:10",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "14:30",
-        "close": "17:10",
-        "dayOff": false
-      },
       "wed": {
         "open": "14:30",
         "close": "17:10",
@@ -942,6 +927,16 @@
         "close": "17:10",
         "dayOff": false
       },
+      "mon": {
+        "open": "14:30",
+        "close": "17:10",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "14:30",
+        "close": "17:10",
+        "dayOff": false
+      },
       "holidays": [
         "2026년 2월 16일 ~ 18일 연휴 휴무 입니다"
       ]
@@ -954,7 +949,7 @@
     "memo": "",
     "id": "mmbfv574a1pih03kp",
     "createdAt": "2026-03-04T02:49:56.752Z",
-    "updatedAt": "2026-03-04T03:56:57.036Z"
+    "updatedAt": "2026-03-04T04:07:57.197339Z"
   },
   {
     "name": "포천아트밸리",
@@ -1010,7 +1005,7 @@
     "memo": "천주호는 화강암을 채취하던 곳, 깊이 파다가 호수가 되었고 관광지가 됨, 폐채석장(abandoned quarry), \nhttps://artvalley.pcfac.or.kr/",
     "id": "mmbhtzzga2ztds3fk",
     "createdAt": "2026-03-04T03:45:02.572Z",
-    "updatedAt": "2026-03-04T03:48:18.795731Z"
+    "updatedAt": "2026-03-04T04:07:57.197341Z"
   },
   {
     "name": "문학골",
@@ -1021,42 +1016,46 @@
     "lng": 127.230851629897,
     "description": "경기도, 포천이동갈비, 포천아트밸리 근처, grilled beef ribs, 수요일 휴무, 이동갈비, 생선정식, 가격(40.0)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "wed": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "11:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "11:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "매주 수요일 휴무",
+        "매주 수요일 휴무",
+        "정기휴무 (매주 수요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -1066,7 +1065,7 @@
     "memo": "소영언니추천, 프라이빗투어\n“Idong Galbi” because it comes from a place named Idong.",
     "id": "mmbhzomav57py9v7w",
     "createdAt": "2026-03-04T03:49:27.778Z",
-    "updatedAt": "2026-03-04T03:49:27.778Z"
+    "updatedAt": "2026-03-04T04:07:57.197343Z"
   },
   {
     "name": "코끼리베이글 인사동",
@@ -1077,39 +1076,39 @@
     "lng": 126.985277107793,
     "description": "인사동, 베이글, 화덕베이글, 안국역 5분거리, 가격(3.0-6.0), 샌드위치, 시내투어, 가보고싶음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "21:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "21:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "08:00",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00",
         "dayOff": false
       },
       "holidays": []
@@ -1122,6 +1121,6 @@
     "memo": "서울 3대 베이글 맛집",
     "id": "mmbii7xsk71upmenk",
     "createdAt": "2026-03-04T04:03:52.624Z",
-    "updatedAt": "2026-03-04T04:04:11.988Z"
+    "updatedAt": "2026-03-04T04:07:57.197346Z"
   }
 ]
