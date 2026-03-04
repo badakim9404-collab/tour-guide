@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-03-04T02:20:46.193881",
-  "totalPlaces": 6,
-  "successCount": 6,
+  "updatedAt": "2026-03-04T02:31:24.325384",
+  "totalPlaces": 9,
+  "successCount": 9,
   "results": [
     {
       "name": "목멱산방",
@@ -46,7 +46,7 @@
       "notes": [
         "저녁 라스트오더 19:20"
       ],
-      "crawledAt": "2026-03-04T02:19:49.497904",
+      "crawledAt": "2026-03-04T02:29:50.973541",
       "placeId": "13573290",
       "matchedName": "목멱산방",
       "id": "mm9a6d3seju42gfms"
@@ -96,7 +96,7 @@
       "notes": [
         "추석과 설날 하루전날과 당일은 휴무"
       ],
-      "crawledAt": "2026-03-04T02:20:01.186968",
+      "crawledAt": "2026-03-04T02:30:02.150004",
       "placeId": "1130184843",
       "matchedName": "목멱산방 남산타워점",
       "id": "mm9ai1s6c5w6s3sqe"
@@ -142,7 +142,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:20:14.397301",
+      "crawledAt": "2026-03-04T02:30:15.775364",
       "placeId": "1172915589",
       "matchedName": "제스티살룬 성수",
       "id": "mmabb6syvuwlkoez2"
@@ -188,7 +188,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:20:24.531958",
+      "crawledAt": "2026-03-04T02:30:27.023914",
       "placeId": "2072471340",
       "matchedName": "애소아소금빵",
       "id": "mmbec0mb6g47ltr29"
@@ -234,7 +234,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:20:35.430364",
+      "crawledAt": "2026-03-04T02:30:38.535179",
       "placeId": "13524973",
       "matchedName": "장단콩맛집",
       "id": "mmbelvgu4rmtl6p9e"
@@ -280,10 +280,145 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:20:46.149593",
+      "crawledAt": "2026-03-04T02:30:48.939453",
       "placeId": "1414187941",
       "matchedName": "양평 장어마을",
       "id": "mmbereqcall7mvotw"
+    },
+    {
+      "name": "옥루몽 어린이대공원점",
+      "hours": {
+        "mon": {
+          "open": "11:00",
+          "close": "22:50",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "22:50",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "22:50",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "22:50",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "22:50",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "22:50",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "11:00",
+          "close": "22:50",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [],
+      "crawledAt": "2026-03-04T02:31:02.414368",
+      "placeId": "37122450",
+      "matchedName": "옥루몽 어린이대공원점",
+      "id": "mmbeuihji5f63wsfa"
+    },
+    {
+      "name": "사프란레스토랑",
+      "hours": {
+        "wed": {
+          "open": "11:30",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "11:30",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "11:30",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "mon": {
+          "open": "11:30",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "11:30",
+          "close": "22:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "정기휴무 (격주 일요일)"
+      ],
+      "notes": [],
+      "crawledAt": "2026-03-04T02:31:13.490618",
+      "placeId": "33877281",
+      "matchedName": "사프란 레스토랑",
+      "id": "mmbeymenfxne2dy0j"
+    },
+    {
+      "name": "능동미나리",
+      "hours": {
+        "wed": {
+          "open": "10:00",
+          "close": "23:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "23:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "23:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "09:30",
+          "close": "23:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "09:30",
+          "close": "23:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "10:00",
+          "close": "23:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "23:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [],
+      "crawledAt": "2026-03-04T02:31:24.283960",
+      "placeId": "1036043935",
+      "matchedName": "능동미나리신용산점",
+      "id": "mmbf07l13gx6s7w83"
     }
   ]
 }
