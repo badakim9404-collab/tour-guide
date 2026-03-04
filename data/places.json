@@ -950,5 +950,61 @@
     "id": "mmbfv574a1pih03kp",
     "createdAt": "2026-03-04T02:49:56.752Z",
     "updatedAt": "2026-03-04T02:53:17.782775Z"
+  },
+  {
+    "name": "포천아트밸리",
+    "type": "tourspot",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "경기 포천시 신북면 아트밸리로 234",
+    "lat": 37.9234466506997,
+    "lng": 127.236500949033,
+    "description": "절벽, 경치좋음, 프라이빗투어, 포천, 남이섬 연계, 모노레일, 가격(입장료5.0 모노레일5.3), 단풍명소, 천문과학관, 드라마촬영지, 푸른바다의 전설, 달의연인,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "천주호는 화강암을 채취하던 곳, 깊이 파다가 호수가 되었고 관광지가 됨, 폐채석장(abandoned quarry), \nhttps://artvalley.pcfac.or.kr/",
+    "id": "mmbhtzzga2ztds3fk",
+    "createdAt": "2026-03-04T03:45:02.572Z",
+    "updatedAt": "2026-03-04T03:45:02.572Z"
   }
 ]
