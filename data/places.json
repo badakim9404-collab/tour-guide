@@ -1006,5 +1006,61 @@
     "id": "mmbhtzzga2ztds3fk",
     "createdAt": "2026-03-04T03:45:02.572Z",
     "updatedAt": "2026-03-04T03:48:18.795731Z"
+  },
+  {
+    "name": "문학골",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "경기 포천시 신북면 아트밸리로 33 1층",
+    "lat": 37.933632438688,
+    "lng": 127.230851629897,
+    "description": "경기도, 포천이동갈비, 포천아트밸리 근처, grilled beef ribs, 수요일 휴무, 이동갈비, 생선정식, 가격(40.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "소영언니추천, 프라이빗투어\n“Idong Galbi” because it comes from a place named Idong.",
+    "id": "mmbhzomav57py9v7w",
+    "createdAt": "2026-03-04T03:49:27.778Z",
+    "updatedAt": "2026-03-04T03:49:27.778Z"
   }
 ]
