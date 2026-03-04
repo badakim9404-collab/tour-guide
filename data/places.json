@@ -1680,5 +1680,61 @@
     "id": "mmbq8l11hm22gxsfu",
     "createdAt": "2026-03-04T07:40:19.957Z",
     "updatedAt": "2026-03-04T07:46:09.703423Z"
+  },
+  {
+    "name": "꽃밥에피다 북촌",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 종로구 인사동16길 3-6",
+    "lat": 37.5752757553219,
+    "lng": 126.984015119593,
+    "description": "북촌, 한식, 6연속 미슐랭, 브레이크타임(3-5:30), 프라이빗, 비건코스, 한옥, ★예약필수★ 주말은 만석, ♡가보고싶음♡, 캐치테이블, 소고기, 비빔밥,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "02-732-0276 / 3월 8일까지 휴무/ 휴무체크하기",
+    "id": "mmbqk8hh79x6rov7b",
+    "createdAt": "2026-03-04T07:49:23.573Z",
+    "updatedAt": "2026-03-04T07:49:23.573Z"
   }
 ]
