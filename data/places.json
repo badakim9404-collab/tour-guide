@@ -3416,5 +3416,61 @@
     "id": "mmc28lhqp9y92zt17",
     "createdAt": "2026-03-04T13:16:15.950Z",
     "updatedAt": "2026-03-04T13:16:15.950Z"
+  },
+  {
+    "name": "양지촌",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 중랑구 망우로 184",
+    "lat": 37.5928595045613,
+    "lng": 127.073269535938,
+    "description": "우리집앞, 중랑역, 고기, 육회비빔밥 맛있었음, 수원왕갈비, 갈비탕, 냉면, 바베큐, 가격(16.0-47.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 4,
+    "isClosed": false,
+    "memo": "02-2207-4200 비싸지만 맛있었음",
+    "id": "mmc2ddt3tdwmdyfir",
+    "createdAt": "2026-03-04T13:19:59.271Z",
+    "updatedAt": "2026-03-04T13:19:59.271Z"
   }
 ]
