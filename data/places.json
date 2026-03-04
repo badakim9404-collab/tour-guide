@@ -732,7 +732,7 @@
     "address": "서울 동대문구 고산자로 553 1층",
     "lat": 37.588761732681,
     "lng": 127.036623816697,
-    "description": "",
+    "description": "고려대, 연어회, 초밥, 가격(20.0), 반찬이 너무 부족했음, 신선함,",
     "businessHours": {
       "mon": {
         "open": "",
@@ -776,9 +776,9 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "",
+    "memo": "다시 가고싶지는 않음",
     "id": "mmbf8c4t0zgsj1mn9",
     "createdAt": "2026-03-04T02:32:12.653Z",
-    "updatedAt": "2026-03-04T02:32:12.653Z"
+    "updatedAt": "2026-03-04T02:33:17.082Z"
   }
 ]
