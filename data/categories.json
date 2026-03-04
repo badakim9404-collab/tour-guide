@@ -64,5 +64,13 @@
     "id": "mm93zshaiairkdfj1",
     "createdAt": "2026-03-02T11:42:05.806Z",
     "updatedAt": "2026-03-02T12:59:46.580Z"
+  },
+  {
+    "name": "프라이빗 투어",
+    "subcategories": [],
+    "order": 2,
+    "id": "mmbgn2lsjqag0earr",
+    "createdAt": "2026-03-04T03:11:39.760Z",
+    "updatedAt": "2026-03-04T03:11:39.760Z"
   }
 ]
