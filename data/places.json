@@ -615,5 +615,61 @@
     "id": "mmbeuihji5f63wsfa",
     "createdAt": "2026-03-04T02:21:27.703Z",
     "updatedAt": "2026-03-04T02:22:40.124Z"
+  },
+  {
+    "name": "사프란레스토랑",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 중구 삼일대로 362 롯데시티호텔 명동 2층",
+    "lat": 37.5669486979331,
+    "lng": 126.988088144293,
+    "description": "중동, 할랄음식, 할랄푸드, 무슬림 손님들에게 추천, 명동, 롯데시티호텔명동",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "",
+    "id": "mmbeymenfxne2dy0j",
+    "createdAt": "2026-03-04T02:24:39.407Z",
+    "updatedAt": "2026-03-04T02:24:39.407Z"
   }
 ]
