@@ -1290,5 +1290,61 @@
     "id": "mmblhiebw3hj07c6r",
     "createdAt": "2026-03-04T05:27:18.371Z",
     "updatedAt": "2026-03-04T05:31:46.489233Z"
+  },
+  {
+    "name": "커피스니퍼 서울시청점",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "서울 중구 세종대로16길 27 남양빌딩 1층 102호",
+    "lat": 37.5633801958494,
+    "lng": 126.978436944374,
+    "description": "시청, 체인(서울숲,역삼,신세계강남), 커피, 카페, 라떼맛집, 스니퍼라떼, 커스터드라떼, 버터크림도넛, 가격(5.0-9.0), 건강 당근 주스, 프라이빗",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1314-1783",
+    "id": "mmblvhld41w5iscm9",
+    "createdAt": "2026-03-04T05:38:10.513Z",
+    "updatedAt": "2026-03-04T05:38:10.513Z"
   }
 ]
