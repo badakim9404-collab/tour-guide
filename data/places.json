@@ -3136,5 +3136,61 @@
     "id": "mmbzmglcfor1uupqg",
     "createdAt": "2026-03-04T12:03:03.936Z",
     "updatedAt": "2026-03-04T12:03:03.936Z"
+  },
+  {
+    "name": "한국횟집",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 중랑구 중랑역로 34 1층",
+    "lat": 37.5970796029997,
+    "lng": 127.076202532202,
+    "description": "중랑역, x절대가지말기x, 서비스최악, 횟집, 생선회, 일식당, 흑백요리사 광탈 통편집, 가격(50.0-100.0), 오마카세",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 1,
+    "isClosed": false,
+    "memo": "010-9492-3557 얼탱이",
+    "id": "mmbzt2h7nzeofsasa",
+    "createdAt": "2026-03-04T12:08:12.235Z",
+    "updatedAt": "2026-03-04T12:08:12.235Z"
   }
 ]
