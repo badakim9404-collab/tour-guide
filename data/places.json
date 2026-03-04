@@ -2915,7 +2915,7 @@
   },
   {
     "name": "이춘복참치 종각점",
-    "type": "restaurant",
+    "type": "etc",
     "categoryId": null,
     "address": "서울 종로구 종로 69 1층",
     "lat": 37.5705768749389,
@@ -2967,7 +2967,7 @@
     "memo": "02-723-4558 비추천, 실망했음",
     "id": "mmbz9ac3802qluqok",
     "createdAt": "2026-03-04T11:52:49.299Z",
-    "updatedAt": "2026-03-04T11:52:49.299Z"
+    "updatedAt": "2026-03-04T12:58:54.972Z"
   },
   {
     "name": "삿뽀로 관훈점",
@@ -3192,5 +3192,61 @@
     "id": "mmbzt2h7nzeofsasa",
     "createdAt": "2026-03-04T12:08:12.235Z",
     "updatedAt": "2026-03-04T12:58:13.222Z"
+  },
+  {
+    "name": "오는정김밥",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "제주 서귀포시 동문동로 2 1층 오는정김밥",
+    "lat": 33.2496220559544,
+    "lng": 126.567588735932,
+    "description": "제주도, 김밥(오는정(튀긴유부),참치,치즈,떡갈비), 브레이크타임 (1-2:30), 가격(4.0-6.0) ★예약필수★ 웨이팅있음 1시간이상,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "064-762-8927 현서언니가 추천, 전날 예약하고 다음날 픽업하기,",
+    "id": "mmc1lycuk4isbpsmp",
+    "createdAt": "2026-03-04T12:58:39.534Z",
+    "updatedAt": "2026-03-04T12:58:39.534Z"
   }
 ]
