@@ -1960,5 +1960,61 @@
     "id": "mmbr9nmzn42gdkwt4",
     "createdAt": "2026-03-04T08:09:09.611Z",
     "updatedAt": "2026-03-04T08:09:09.611Z"
+  },
+  {
+    "name": "황금코다리 휘경점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 동대문구 망우로21길 52 1층 103호",
+    "lat": 37.5903959972497,
+    "lng": 127.059877891806,
+    "description": "회기역, 막걸리공짜, 한국식 술집, 코다리조림, 가격(13.0-35.0",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "안부장님 추천, 02-2212-3337",
+    "id": "mmbriz848is6xu5dj",
+    "createdAt": "2026-03-04T08:16:24.532Z",
+    "updatedAt": "2026-03-04T08:16:24.532Z"
   }
 ]
