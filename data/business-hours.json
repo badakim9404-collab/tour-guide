@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-04T09:44:35.207305",
-  "totalPlaces": 41,
+  "updatedAt": "2026-03-04T09:50:06.435932",
+  "totalPlaces": 42,
   "successCount": 26,
   "results": [
     {
@@ -1291,6 +1291,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mmbuiemhki7zxywe5"
+    },
+    {
+      "name": "감자적1번지",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mmbupgzc1stbs12nt"
     }
   ]
 }
