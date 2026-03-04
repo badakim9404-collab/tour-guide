@@ -3024,5 +3024,61 @@
     "id": "mmbzfbsxs5fcq24wj",
     "createdAt": "2026-03-04T11:57:31.137Z",
     "updatedAt": "2026-03-04T11:57:31.137Z"
+  },
+  {
+    "name": "훈춘양꼬치",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 광진구 아차산로34길 38",
+    "lat": 37.5384744323528,
+    "lng": 127.068876848726,
+    "description": "양꼬치, 건대입구역 5번출구, 가격(13.0), 중국요리",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 4,
+    "isClosed": false,
+    "memo": "02-464-6808 첫양꼬치 맛있었음",
+    "id": "mmbzj2xg4glvr2pm5",
+    "createdAt": "2026-03-04T12:00:26.260Z",
+    "updatedAt": "2026-03-04T12:00:26.260Z"
   }
 ]
