@@ -3360,5 +3360,61 @@
     "id": "mmc21538gvdzlpvq7",
     "createdAt": "2026-03-04T13:10:28.100Z",
     "updatedAt": "2026-03-04T13:14:14.447Z"
+  },
+  {
+    "name": "한강반점",
+    "type": "restaurant",
+    "categoryId": "mmbifs2dm9rrkpqxf",
+    "address": "서울 종로구 인사동길 33",
+    "lat": 37.5734820676018,
+    "lng": 126.985508845877,
+    "description": "인사동, 중국음식, 짜장면, 짬뽕, 탕수육, 엄청 저렴, 가격(7.0-9.0), 녹차면,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 3,
+    "isClosed": false,
+    "memo": "02-723-1443 평범",
+    "id": "mmc28lhqp9y92zt17",
+    "createdAt": "2026-03-04T13:16:15.950Z",
+    "updatedAt": "2026-03-04T13:16:15.950Z"
   }
 ]
