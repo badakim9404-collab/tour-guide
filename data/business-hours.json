@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-04T08:25:13.407402",
-  "totalPlaces": 33,
+  "updatedAt": "2026-03-04T08:29:54.395884",
+  "totalPlaces": 34,
   "successCount": 26,
   "results": [
     {
@@ -1227,6 +1227,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mmbrpg7mh0jec9f6q"
+    },
+    {
+      "name": "3대삼계장인",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mmbrvjww4iuzqiurt"
     }
   ]
 }
