@@ -1234,5 +1234,61 @@
     "id": "mmbl2e7fobjzjmmsw",
     "createdAt": "2026-03-04T05:15:33.099Z",
     "updatedAt": "2026-03-04T05:19:38.148844Z"
+  },
+  {
+    "name": "한일관 압구정점",
+    "type": "restaurant",
+    "categoryId": "mmbifs2dm9rrkpqxf",
+    "address": "서울 강남구 압구정로38길 14",
+    "lat": 37.527783181798,
+    "lng": 127.032497263908,
+    "description": "압구정역 2번출구, 갈비탕, 한정식, 한식, 강남, 골동반(비빔밥), 녹두빈대떡, 불고기, 냉면, 온면, 갈비, 바베큐, 한우 소고기, 갈비, 가격(14.0-91.0), 프라이빗",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "1577-9963 유기그릇Traditional Korean brass bowl, 수정과(Korean cinnamon punch), 건물고급",
+    "id": "mmblhiebw3hj07c6r",
+    "createdAt": "2026-03-04T05:27:18.371Z",
+    "updatedAt": "2026-03-04T05:27:18.371Z"
   }
 ]
