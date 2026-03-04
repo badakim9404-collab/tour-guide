@@ -285,6 +285,7 @@ const MapView = {
                 ${place.address ? `<div class="info-hours"><i class="fas fa-map-marker-alt"></i> ${Utils.escapeHtml(Utils.truncate(place.address, 30))}</div>` : ''}
                 ${visitedInfo}
                 ${commissionInfo}
+                ${place.memo ? `<div class="info-desc"><i class="fas fa-sticky-note"></i> ${Utils.escapeHtml(place.memo)}</div>` : ''}
             </div>
         `;
     },
