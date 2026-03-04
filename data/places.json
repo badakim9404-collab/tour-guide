@@ -276,7 +276,7 @@
     "memo": "",
     "id": "mm9a6d3seju42gfms",
     "createdAt": "2026-03-02T14:35:10.169Z",
-    "updatedAt": "2026-03-04T02:16:20.036653Z"
+    "updatedAt": "2026-03-04T02:20:46.194465Z"
   },
   {
     "name": "목멱산방 남산타워점",
@@ -334,7 +334,7 @@
     "memo": "",
     "id": "mm9ai1s6c5w6s3sqe",
     "createdAt": "2026-03-02T14:44:15.368Z",
-    "updatedAt": "2026-03-04T02:16:20.036662Z"
+    "updatedAt": "2026-03-04T02:20:46.194474Z"
   },
   {
     "name": "제스티살룬 성수",
@@ -390,7 +390,7 @@
     "memo": "내 인생 새우버거 집",
     "id": "mmabb6syvuwlkoez2",
     "createdAt": "2026-03-03T07:54:41.075Z",
-    "updatedAt": "2026-03-04T02:16:20.036666Z"
+    "updatedAt": "2026-03-04T02:20:46.194479Z"
   },
   {
     "name": "애소아",
@@ -446,7 +446,7 @@
     "memo": "Salted butter rolls",
     "id": "mmbec0mb6g47ltr29",
     "createdAt": "2026-03-04T02:07:04.739Z",
-    "updatedAt": "2026-03-04T02:16:20.036669Z"
+    "updatedAt": "2026-03-04T02:20:46.194481Z"
   },
   {
     "name": "장단콩맛집",
@@ -502,7 +502,7 @@
     "memo": "막 엄청 추천은 아니고 나름 맛있었음.",
     "id": "mmbelvgu4rmtl6p9e",
     "createdAt": "2026-03-04T02:14:44.622Z",
-    "updatedAt": "2026-03-04T02:16:20.036672Z"
+    "updatedAt": "2026-03-04T02:20:46.194484Z"
   },
   {
     "name": "양평장어마을",
@@ -514,38 +514,38 @@
     "description": "장어, 인생 장어구이 맛집, 가격(50.0), 양평, 서울에서 차로 1시간, 소금장어구이, 양념장어구이",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "holidays": []
@@ -558,6 +558,6 @@
     "memo": "렌트해서 다시 가고 싶은 인생맛집, 소금장어구이가 내 입맛엔 조금 더 저격, 둘다 맛있음",
     "id": "mmbereqcall7mvotw",
     "createdAt": "2026-03-04T02:19:02.868Z",
-    "updatedAt": "2026-03-04T02:19:02.868Z"
+    "updatedAt": "2026-03-04T02:20:46.194487Z"
   }
 ]
