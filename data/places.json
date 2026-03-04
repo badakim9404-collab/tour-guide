@@ -1573,47 +1573,44 @@
     "address": "서울 강남구 도산대로45길 10-5 1층 EVETT",
     "lat": 37.5234326965405,
     "lng": 127.036202029788,
-    "description": "강남, 압구정, 외국인운영, 한식 코스요리, 흑백요리사, 미슐랭 1스타, 매주 일,월 정기휴무, 금토 브레이크타임(2:30-5:15), 가격(190.0-300.0), 프라이빗, 호주 출신 셰프 Joseph Lidgerwood, 예약, 가보고싶음",
+    "description": "강남, 압구정, 외국인운영, 한식 코스요리, 흑백요리사, 미슐랭 1스타, 매주 일,월 정기휴무, 금토 브레이크타임(2:30-5:15), 가격(190.0-300.0), 프라이빗, 호주 출신 셰프 Joseph Lidgerwood, 예약, ♡가보고싶음♡",
     "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
       "wed": {
-        "open": "17:15",
-        "close": "22:30",
+        "open": "",
+        "close": "",
         "dayOff": false
       },
       "thu": {
-        "open": "17:15",
-        "close": "22:30",
+        "open": "",
+        "close": "",
         "dayOff": false
       },
       "fri": {
-        "open": "14:30",
-        "close": "17:15",
+        "open": "",
+        "close": "",
         "dayOff": false
       },
       "sat": {
-        "open": "14:30",
-        "close": "17:15",
+        "open": "",
+        "close": "",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
-        "dayOff": true
-      },
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": true
-      },
-      "tue": {
-        "open": "17:15",
-        "close": "22:30",
         "dayOff": false
       },
-      "holidays": [
-        "정기휴무 (매주 일요일)",
-        "정기휴무 (매주 월요일)"
-      ]
+      "holidays": []
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -1623,7 +1620,7 @@
     "memo": "0507-1399-1029 / Email : reservation@restaurantevett.com",
     "id": "mmbpxxprrk4sbty33",
     "createdAt": "2026-03-04T07:32:03.183Z",
-    "updatedAt": "2026-03-04T07:46:09.703421Z"
+    "updatedAt": "2026-03-04T07:46:25.041Z"
   },
   {
     "name": "산촌",
