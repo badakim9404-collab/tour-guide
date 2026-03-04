@@ -611,10 +611,10 @@
     "visited": true,
     "rating": 4,
     "isClosed": false,
-    "memo": "홍준이가 퇴근길에 사오고 또 우리둘이 직접 자전거타고 갔을 정도!",
+    "memo": "02-466-9700",
     "id": "mmbeuihji5f63wsfa",
     "createdAt": "2026-03-04T02:21:27.703Z",
-    "updatedAt": "2026-03-04T05:01:57.747861Z"
+    "updatedAt": "2026-03-04T05:04:10.993Z"
   },
   {
     "name": "사프란레스토랑",
@@ -625,6 +625,16 @@
     "lng": 126.988088144293,
     "description": "중동, 할랄음식, 할랄푸드, 무슬림 손님들에게 추천, 명동, 롯데시티호텔명동, 정기휴무 (격주 일요일)",
     "businessHours": {
+      "mon": {
+        "open": "11:30",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "11:30",
+        "close": "22:00",
+        "dayOff": false
+      },
       "wed": {
         "open": "11:30",
         "close": "22:00",
@@ -645,14 +655,9 @@
         "close": "",
         "dayOff": true
       },
-      "mon": {
-        "open": "11:30",
-        "close": "22:00",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "11:30",
-        "close": "22:00",
+      "sun": {
+        "open": "",
+        "close": "",
         "dayOff": false
       },
       "holidays": [
@@ -664,10 +669,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "",
+    "memo": "0507-1339-8644",
     "id": "mmbeymenfxne2dy0j",
     "createdAt": "2026-03-04T02:24:39.407Z",
-    "updatedAt": "2026-03-04T05:01:57.747864Z"
+    "updatedAt": "2026-03-04T05:05:06.595Z"
   },
   {
     "name": "능동미나리",
@@ -776,10 +781,10 @@
     "visited": true,
     "rating": 2,
     "isClosed": false,
-    "memo": "다시 가고싶지는 않음, 신선하지만 반찬이 부족해서 느끼했고 특별한 맛 못 느낌.",
+    "memo": "다시 가고싶지는 않음, 02-929-3401",
     "id": "mmbf8c4t0zgsj1mn9",
     "createdAt": "2026-03-04T02:32:12.653Z",
-    "updatedAt": "2026-03-04T05:01:57.747869Z"
+    "updatedAt": "2026-03-04T05:04:35.730Z"
   },
   {
     "name": "해물꾼조태산 본점",
