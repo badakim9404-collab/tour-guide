@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-03-04T02:31:24.325384",
-  "totalPlaces": 9,
-  "successCount": 9,
+  "updatedAt": "2026-03-04T02:37:52.410748",
+  "totalPlaces": 10,
+  "successCount": 10,
   "results": [
     {
       "name": "목멱산방",
@@ -46,7 +46,7 @@
       "notes": [
         "저녁 라스트오더 19:20"
       ],
-      "crawledAt": "2026-03-04T02:29:50.973541",
+      "crawledAt": "2026-03-04T02:36:11.445029",
       "placeId": "13573290",
       "matchedName": "목멱산방",
       "id": "mm9a6d3seju42gfms"
@@ -96,7 +96,7 @@
       "notes": [
         "추석과 설날 하루전날과 당일은 휴무"
       ],
-      "crawledAt": "2026-03-04T02:30:02.150004",
+      "crawledAt": "2026-03-04T02:36:21.284099",
       "placeId": "1130184843",
       "matchedName": "목멱산방 남산타워점",
       "id": "mm9ai1s6c5w6s3sqe"
@@ -142,7 +142,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:30:15.775364",
+      "crawledAt": "2026-03-04T02:36:34.674736",
       "placeId": "1172915589",
       "matchedName": "제스티살룬 성수",
       "id": "mmabb6syvuwlkoez2"
@@ -188,7 +188,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:30:27.023914",
+      "crawledAt": "2026-03-04T02:36:44.453547",
       "placeId": "2072471340",
       "matchedName": "애소아소금빵",
       "id": "mmbec0mb6g47ltr29"
@@ -234,7 +234,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:30:38.535179",
+      "crawledAt": "2026-03-04T02:36:54.458002",
       "placeId": "13524973",
       "matchedName": "장단콩맛집",
       "id": "mmbelvgu4rmtl6p9e"
@@ -280,7 +280,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:30:48.939453",
+      "crawledAt": "2026-03-04T02:37:07.030116",
       "placeId": "1414187941",
       "matchedName": "양평 장어마을",
       "id": "mmbereqcall7mvotw"
@@ -326,7 +326,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:31:02.414368",
+      "crawledAt": "2026-03-04T02:37:18.154446",
       "placeId": "37122450",
       "matchedName": "옥루몽 어린이대공원점",
       "id": "mmbeuihji5f63wsfa"
@@ -369,7 +369,7 @@
         "정기휴무 (격주 일요일)"
       ],
       "notes": [],
-      "crawledAt": "2026-03-04T02:31:13.490618",
+      "crawledAt": "2026-03-04T02:37:29.605827",
       "placeId": "33877281",
       "matchedName": "사프란 레스토랑",
       "id": "mmbeymenfxne2dy0j"
@@ -415,10 +415,56 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-04T02:31:24.283960",
+      "crawledAt": "2026-03-04T02:37:41.556415",
       "placeId": "1036043935",
       "matchedName": "능동미나리신용산점",
       "id": "mmbf07l13gx6s7w83"
+    },
+    {
+      "name": "알래스카에서온연어가 맛있는집",
+      "hours": {
+        "mon": {
+          "open": "12:00",
+          "close": "02:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "12:00",
+          "close": "02:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "12:00",
+          "close": "02:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "12:00",
+          "close": "02:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "12:00",
+          "close": "02:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "12:00",
+          "close": "02:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "12:00",
+          "close": "02:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [],
+      "crawledAt": "2026-03-04T02:37:52.378081",
+      "placeId": "36768344",
+      "matchedName": "알래스카에서 온 연어가 맛있는 집",
+      "id": "mmbf8c4t0zgsj1mn9"
     }
   ]
 }
