@@ -1067,5 +1067,61 @@
     "id": "mmbhzomav57py9v7w",
     "createdAt": "2026-03-04T03:49:27.778Z",
     "updatedAt": "2026-03-04T03:49:27.778Z"
+  },
+  {
+    "name": "코끼리베이글 인사동",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 종로구 인사동길 35-3",
+    "lat": 37.5735652007549,
+    "lng": 126.985277107793,
+    "description": "인사동, 베이글, 화덕베이글, 안국역 5분거리, 가격(3.0-6.0), 샌드위치, 시내투어, 가보고싶음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "서울 3대 베이글 맛집",
+    "id": "mmbii7xsk71upmenk",
+    "createdAt": "2026-03-04T04:03:52.624Z",
+    "updatedAt": "2026-03-04T04:03:52.624Z"
   }
 ]
