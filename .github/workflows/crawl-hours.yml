@@ -59,13 +59,36 @@ jobs:
           cp data/business-hours.json /tmp/business-hours.json
           cp data/places.json /tmp/places.json
 
-          # 원격 변경사항 먼저 반영 (사용자가 장소 추가/수정한 것)
-          git checkout -- data/
-          git pull --rebase origin master
+          # 최대 3회 재시도 (크롤링 중 sync push로 인한 충돌 대응)
+          for i in 1 2 3; do
+            echo "=== 푸시 시도 $i/3 ==="
 
-          # 크롤링 결과를 원격 최신 places.json에 다시 병합
-          python scripts/merge_hours.py /tmp/places.json /tmp/business-hours.json
+            # 진행 중인 rebase 정리
+            git rebase --abort 2>/dev/null || true
 
-          git add data/business-hours.json data/places.json
-          git diff --staged --quiet || git commit -m "Update business hours $(date +%Y-%m-%d)"
-          git push
+            # 로컬을 원격 최신으로 리셋
+            git fetch origin master
+            git reset --hard origin/master
+
+            # 크롤링 결과를 최신 places.json에 병합
+            python scripts/merge_hours.py /tmp/places.json /tmp/business-hours.json
+
+            git add data/business-hours.json data/places.json
+            if git diff --staged --quiet; then
+              echo "변경사항 없음"
+              exit 0
+            fi
+
+            git commit -m "Update business hours $(date +%Y-%m-%d)"
+
+            if git push origin master; then
+              echo "푸시 성공"
+              exit 0
+            fi
+
+            echo "푸시 실패, 재시도..."
+            sleep 3
+          done
+
+          echo "3회 시도 모두 실패"
+          exit 1
