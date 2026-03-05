@@ -3510,39 +3510,39 @@
     "lng": 126.926790137055,
     "description": "홍대, 일식당, 연어덮밥, 스테이크동, 규동, 가츠동, 일본음식, 브레이크타임(3-4:40), 하이볼, 웨이팅있음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:40",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "15:40",
+        "close": "16:40",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "15:40",
+        "close": "16:40",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "15:00",
+        "close": "16:40",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "16:40",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "16:40",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "15:00",
+        "close": "16:40",
         "dayOff": false
       },
       "holidays": []
