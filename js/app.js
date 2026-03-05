@@ -291,6 +291,11 @@ const App = {
             const data = await res.json();
             if (!data.results || !data.results.length) return 0;
 
+            // 이미 적용한 크롤링 결과인지 확인 (updatedAt 기준)
+            const lastApplied = localStorage.getItem('tour-crawl-applied');
+            const crawlTime = data.updatedAt || '';
+            if (lastApplied && lastApplied >= crawlTime) return 0;
+
             const places = await DB.getPlaces();
             if (!places.length) return 0;
 
@@ -303,10 +308,8 @@ const App = {
                 if (!place) place = places.find(p => p.name === crawled.name);
                 if (!place) continue;
 
-                // 이미 영업시간이 채워져 있으면 스킵 (places.json에서 이미 반영된 경우)
-                const today = ['mon','tue','wed','thu','fri','sat','sun'][new Date().getDay() === 0 ? 6 : new Date().getDay() - 1];
-                const existing = place.businessHours && place.businessHours[today];
-                if (existing && (existing.open || existing.dayOff)) continue;
+                // crawledAt이 장소의 updatedAt 이후인 경우만 반영 (사용자 수동 입력 보호)
+                if (crawled.crawledAt && place.updatedAt && crawled.crawledAt < place.updatedAt) continue;
 
                 // 영업시간 업데이트 (기존 holidays 유지하면서 merge)
                 const oldHolidays = (place.businessHours && place.businessHours.holidays) || [];
@@ -318,6 +321,9 @@ const App = {
                 await DB.savePlace(place);
                 updated++;
             }
+
+            // 적용 완료 시간 기록
+            if (crawlTime) localStorage.setItem('tour-crawl-applied', crawlTime);
 
             if (updated > 0) {
                 console.log(`크롤링 데이터 반영: ${updated}개 장소 영업시간 업데이트`);

@@ -386,7 +386,23 @@ def update_places_file(all_places, results):
     return updated_count
 
 
+def has_business_hours(place):
+    """영업시간이 채워져 있는지 확인 (mon~sun 중 하나라도 open 또는 dayOff가 있으면 True)"""
+    bh = place.get("businessHours", {})
+    for day in ALL_DAYS:
+        info = bh.get(day, {})
+        if info.get("open") or info.get("dayOff"):
+            return True
+    return False
+
+
 def main():
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--mode", choices=["new_only", "all"], default="all",
+                        help="new_only: 영업시간 비어있는 장소만 / all: 전체 크롤링")
+    args = parser.parse_args()
+
     if not PLACES_FILE.exists():
         print(f"입력 파일 없음: {PLACES_FILE}")
         return
@@ -396,6 +412,12 @@ def main():
 
     # _deleted가 아니고 이름이 있는 장소만 크롤링 대상
     places = [p for p in all_places if not p.get("_deleted") and p.get("name")]
+
+    if args.mode == "new_only":
+        places = [p for p in places if not has_business_hours(p)]
+        print(f"[모드: new_only] 영업시간 비어있는 장소만 크롤링")
+    else:
+        print(f"[모드: all] 전체 장소 크롤링")
     if not places:
         print("크롤링할 장소가 없습니다.")
         return

@@ -417,7 +417,8 @@ const Sync = {
     },
 
     // === 크롤링 워크플로 트리거 ===
-    async triggerCrawlWorkflow() {
+    // mode: 'new_only' (영업시간 비어있는 것만) | 'all' (전체 업데이트)
+    async triggerCrawlWorkflow(mode = 'new_only') {
         if (!this.isConfigured()) return false;
         try {
             const res = await this._fetch(
@@ -425,7 +426,7 @@ const Sync = {
                 {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ ref: this.BRANCH })
+                    body: JSON.stringify({ ref: this.BRANCH, inputs: { mode } })
                 }
             );
             return res.status === 204;

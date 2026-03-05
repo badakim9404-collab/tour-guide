@@ -825,6 +825,12 @@ body {
     margin-bottom: 16px;
 }
 
+.place-header-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
 .place-table {
     width: 100%;
     border-collapse: collapse;
@@ -2444,7 +2450,13 @@ button, a, input, select, textarea, [role="button"] {
         gap: 8px;
     }
 
-    .place-list-header .btn {
+    .place-header-actions {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .place-header-actions .btn {
+        flex: 1;
         justify-content: center;
         min-height: 44px;
     }

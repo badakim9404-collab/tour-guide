@@ -1,9 +1,16 @@
 name: Crawl Business Hours
 
 on:
-  schedule:
-    - cron: '0 18 * * 0'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'new_only: 비어있는 장소만 / all: 전체 크롤링'
+        required: false
+        default: 'new_only'
+        type: choice
+        options:
+          - new_only
+          - all
 
 permissions:
   contents: write
@@ -41,7 +48,7 @@ jobs:
         run: git pull --rebase origin master
 
       - name: Run crawler
-        run: python scripts/crawl_hours.py
+        run: python scripts/crawl_hours.py --mode ${{ github.event.inputs.mode || 'new_only' }}
 
       - name: Commit and push results
         run: |

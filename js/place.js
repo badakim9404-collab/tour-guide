@@ -4,11 +4,12 @@ const KAKAO_REST_KEY = '4ecf991bb1c5aa5bfd470021028d12a3';
 
 const Place = {
     // 장소 저장 후 크롤링 워크플로 트리거
-    async requestCrawl() {
+    // mode: 'new_only' (비어있는 것만) | 'all' (전체 업데이트)
+    async requestCrawl(mode = 'new_only') {
         if (!Sync.isConfigured()) return false;
         // 동기화 완료 대기 (schedulePush 디바운스 1.5s + 여유)
         await new Promise(r => setTimeout(r, 2500));
-        return Sync.triggerCrawlWorkflow();
+        return Sync.triggerCrawlWorkflow(mode);
     },
 
     // 장소 목록 렌더링
@@ -20,9 +21,14 @@ const Place = {
         let html = `<div class="place-section">`;
         html += `<div class="place-list-header">
                     <h2><i class="fas fa-map-pin"></i> 장소 관리</h2>
-                    <button class="btn btn-primary" id="addPlaceBtn">
-                        <i class="fas fa-plus"></i> 장소 등록
-                    </button>
+                    <div class="place-header-actions">
+                        <button class="btn btn-secondary btn-sm" id="updateHoursBtn" title="전체 장소 영업시간을 네이버에서 다시 크롤링">
+                            <i class="fas fa-sync-alt"></i> 영업시간 업데이트
+                        </button>
+                        <button class="btn btn-primary" id="addPlaceBtn">
+                            <i class="fas fa-plus"></i> 장소 등록
+                        </button>
+                    </div>
                  </div>`;
 
         // 검색 입력란
@@ -124,6 +130,24 @@ const Place = {
         // 이벤트: 장소 등록
         document.getElementById('addPlaceBtn').addEventListener('click', () => {
             this.renderForm();
+        });
+
+        // 이벤트: 영업시간 전체 업데이트
+        document.getElementById('updateHoursBtn').addEventListener('click', () => {
+            App.showConfirm('전체 장소의 영업시간을 네이버에서 다시 가져옵니다. 진행하시겠습니까?', async () => {
+                const btn = document.getElementById('updateHoursBtn');
+                btn.disabled = true;
+                btn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> 요청 중...';
+                const ok = await this.requestCrawl('all');
+                if (ok) {
+                    Utils.showToast('영업시간 크롤링을 요청했습니다. 몇 분 후 자동 반영됩니다.');
+                    App.startCrawlPolling();
+                } else {
+                    Utils.showToast('크롤링 요청에 실패했습니다. GitHub 토큰을 확인해주세요.');
+                }
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-sync-alt"></i> 영업시간 업데이트';
+            });
         });
 
         // 이벤트: 아코디언 토글
