@@ -3976,5 +3976,61 @@
     "id": "mmc3mro2xh4150ma8",
     "createdAt": "2026-03-04T13:55:16.754Z",
     "updatedAt": "2026-03-04T13:55:16.754Z"
+  },
+  {
+    "name": "풍심당 카페",
+    "type": "restaurant",
+    "categoryId": "mmbifs2dm9rrkpqxf",
+    "address": "서울 종로구 인사동길 42-8",
+    "lat": 37.5742235601333,
+    "lng": 126.985296901693,
+    "description": "인사동, 북촌손만두 바로 뒤, 전통차, 한옥카페, 누룽지 아이스크림 라테 , 가격(5.0-6.0), 넓고 자리 많고 사람 별로 없음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1479-0331",
+    "id": "mmcypizxsk3p2nww3",
+    "createdAt": "2026-03-05T04:25:13.582Z",
+    "updatedAt": "2026-03-05T04:25:13.588Z"
   }
 ]
