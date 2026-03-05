@@ -3510,21 +3510,6 @@
     "lng": 126.926790137055,
     "description": "홍대, 일식당, 연어덮밥, 스테이크동, 규동, 가츠동, 일본음식, 브레이크타임(3-4:40), 하이볼, 웨이팅있음",
     "businessHours": {
-      "fri": {
-        "open": "15:00",
-        "close": "16:40",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "15:40",
-        "close": "16:40",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "15:40",
-        "close": "16:40",
-        "dayOff": false
-      },
       "mon": {
         "open": "15:00",
         "close": "16:40",
@@ -3545,6 +3530,21 @@
         "close": "16:40",
         "dayOff": false
       },
+      "fri": {
+        "open": "15:00",
+        "close": "16:40",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "15:40",
+        "close": "16:40",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "15:40",
+        "close": "16:40",
+        "dayOff": false
+      },
       "holidays": []
     },
     "hasCommission": false,
@@ -3555,7 +3555,7 @@
     "memo": "0507-1410-4562 연어덮밥 맛있음, 순미언니랑 갔음, 오픈시간맞춰가면 줄안서도 됨",
     "id": "mmc2i4klwfi49zdbt",
     "createdAt": "2026-03-04T13:23:40.581Z",
-    "updatedAt": "2026-03-05T16:06:52.235Z"
+    "updatedAt": "2026-03-05T16:08:36.994Z"
   },
   {
     "name": "광화문석갈비 D타워점",
