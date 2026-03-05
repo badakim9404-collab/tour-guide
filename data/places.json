@@ -1517,7 +1517,7 @@
     "address": "서울 종로구 인사동길 42-5 1층 북촌손만두 인사본점",
     "lat": 37.5741676776448,
     "lng": 126.985130732611,
-    "description": "본점, 피냉면, 만두, 튀김, 만둣국, ♡가보고싶음♡, 인사동",
+    "description": "본점, 피냉면, 만두, 튀김, 만둣국, 인사동",
     "businessHours": {
       "mon": {
         "open": "11:00",
@@ -1558,13 +1558,13 @@
     },
     "hasCommission": false,
     "commissionDetail": "",
-    "visited": false,
-    "rating": 0,
+    "visited": true,
+    "rating": 3,
     "isClosed": false,
-    "memo": "02-732-1238",
+    "memo": "02-732-1238 냉면은 보통 만두는 맛있음!!",
     "id": "mmbmpll1zqoiocve6",
     "createdAt": "2026-03-04T06:01:35.365Z",
-    "updatedAt": "2026-03-04T13:56:08.104347Z"
+    "updatedAt": "2026-03-05T04:27:49.339Z"
   },
   {
     "name": "에빗",
