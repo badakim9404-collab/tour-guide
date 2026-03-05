@@ -47,7 +47,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 크롤링 결과 백업
+          cp data/business-hours.json /tmp/business-hours.json
+          cp data/places.json /tmp/places.json
+
+          # 원격 변경사항 먼저 반영 (사용자가 장소 추가/수정한 것)
+          git checkout -- data/
+          git pull --rebase origin master
+
+          # 크롤링 결과를 원격 최신 places.json에 다시 병합
+          python scripts/merge_hours.py /tmp/places.json /tmp/business-hours.json
+
           git add data/business-hours.json data/places.json
           git diff --staged --quiet || git commit -m "Update business hours $(date +%Y-%m-%d)"
-          git pull --rebase origin master
           git push
