@@ -231,11 +231,6 @@
     "lng": 126.986898587275,
     "description": "명동, 다양한 비빔밥, 육개장, 치즈김치전, 해산물 부추전, 가격(9.0-15.0) 미슐랭",
     "businessHours": {
-      "wed": {
-        "open": "11:00",
-        "close": "20:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "11:00",
         "close": "20:00",
@@ -262,6 +257,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "11:00",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "11:00",
         "close": "20:00",
         "dayOff": false
@@ -287,11 +287,6 @@
     "lng": 126.985302533327,
     "description": "남산타워점, 제철 봄동비빔밥, 투뿔한우 육회비빔밥, 불고기 비빔밥, 제육쌈밥, 도토리묵야채무침, 팥빙수, 전통차(쌍화차, 대추차), 궁중잡채간장떡볶이, 카페, 치즈김치전, 가격(9.0-15.0)⭐️명동지점보다 더 다양한 메뉴⭐️ 미슐랭",
     "businessHours": {
-      "wed": {
-        "open": "10:30",
-        "close": "19:30",
-        "dayOff": false
-      },
       "thu": {
         "open": "10:30",
         "close": "19:30",
@@ -318,6 +313,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "10:30",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "wed": {
         "open": "10:30",
         "close": "19:30",
         "dayOff": false
@@ -345,11 +345,6 @@
     "lng": 127.042464495443,
     "description": "와사비 새우버거, 새우가 탱글탱글, 성수",
     "businessHours": {
-      "wed": {
-        "open": "11:30",
-        "close": "21:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "11:30",
         "close": "21:00",
@@ -376,6 +371,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "11:30",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "11:30",
         "close": "21:00",
         "dayOff": false
@@ -625,11 +625,6 @@
     "lng": 126.988088144293,
     "description": "중동, 할랄음식, 할랄푸드, 무슬림 손님들에게 추천, 명동, 롯데시티호텔명동, 정기휴무 (격주 일요일)",
     "businessHours": {
-      "wed": {
-        "open": "11:30",
-        "close": "22:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "11:30",
         "close": "22:00",
@@ -651,6 +646,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "11:30",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "11:30",
         "close": "22:00",
         "dayOff": false
@@ -678,11 +678,6 @@
     "lng": 126.970819985244,
     "description": "신용산역 근처, 용산, 미나리 곰탕, ♡가보고싶음♡, 육회비빔밥, 꼬리찜, 수육전골, 수육, 가격(15.0-50.0), 미슐랭 밥구르망",
     "businessHours": {
-      "wed": {
-        "open": "10:00",
-        "close": "23:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "10:00",
         "close": "23:00",
@@ -709,6 +704,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "10:00",
+        "close": "23:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "10:00",
         "close": "23:00",
         "dayOff": false
@@ -790,11 +790,6 @@
     "lng": 127.353250045987,
     "description": "양평, 서울에서 차로 1시간 거리, 해물칼국수, 새우튀김, 해산물, 가격(58.0), 비쌈",
     "businessHours": {
-      "wed": {
-        "open": "10:50",
-        "close": "20:30",
-        "dayOff": false
-      },
       "thu": {
         "open": "10:50",
         "close": "20:30",
@@ -821,6 +816,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "10:50",
+        "close": "20:30",
+        "dayOff": false
+      },
+      "wed": {
         "open": "10:50",
         "close": "20:30",
         "dayOff": false
@@ -846,11 +846,6 @@
     "lng": 126.986006623687,
     "description": "인삼 뿌리 올려주는 중국집, 짜장면, 짬뽕, 탕수육, 인사동, 가격(10.0-30,0), 인삼좋아하는 외국인 손님 데려가기 좋음",
     "businessHours": {
-      "wed": {
-        "open": "15:30",
-        "close": "16:30",
-        "dayOff": false
-      },
       "thu": {
         "open": "15:30",
         "close": "16:30",
@@ -877,6 +872,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "15:30",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "wed": {
         "open": "15:30",
         "close": "16:30",
         "dayOff": false
@@ -902,11 +902,6 @@
     "lng": 126.988142568678,
     "description": "단체예약은 34명까지 가능, 을지로, 명동, 매장깔끔, 중국요리, 중식당, 딤섬, 딤섬코스(29.9), 브레이크타임(2:30-5:10)",
     "businessHours": {
-      "wed": {
-        "open": "14:30",
-        "close": "17:10",
-        "dayOff": false
-      },
       "thu": {
         "open": "14:30",
         "close": "17:10",
@@ -933,6 +928,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "14:30",
+        "close": "17:10",
+        "dayOff": false
+      },
+      "wed": {
         "open": "14:30",
         "close": "17:10",
         "dayOff": false
@@ -960,11 +960,6 @@
     "lng": 127.236500949033,
     "description": "절벽, 경치좋음, 프라이빗투어, 포천, 남이섬 연계, 모노레일, 가격(입장료5.0 모노레일5.3), 단풍명소, 천문과학관, 드라마촬영지, 푸른바다의 전설, 달의연인,",
     "businessHours": {
-      "wed": {
-        "open": "09:00",
-        "close": "18:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "09:00",
         "close": "18:00",
@@ -991,6 +986,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "09:00",
         "close": "18:00",
         "dayOff": false
@@ -1016,11 +1016,6 @@
     "lng": 127.230851629897,
     "description": "경기도, 포천이동갈비, 포천아트밸리 근처, grilled beef ribs, 수요일 휴무, 이동갈비, 생선정식, 가격(40.0)",
     "businessHours": {
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": true
-      },
       "thu": {
         "open": "11:30",
         "close": "21:00",
@@ -1051,9 +1046,12 @@
         "close": "21:00",
         "dayOff": false
       },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
       "holidays": [
-        "매주 수요일 휴무",
-        "매주 수요일 휴무",
         "정기휴무 (매주 수요일)"
       ]
     },
@@ -1076,11 +1074,6 @@
     "lng": 126.985277107793,
     "description": "인사동, 베이글, 화덕베이글, 안국역 5분거리, 가격(3.0-6.0), 샌드위치, 시내투어, ♡가보고싶음♡",
     "businessHours": {
-      "wed": {
-        "open": "08:00",
-        "close": "21:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "08:00",
         "close": "21:00",
@@ -1107,6 +1100,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "08:00",
+        "close": "21:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "08:00",
         "close": "21:00",
         "dayOff": false
@@ -1132,11 +1130,6 @@
     "lng": 126.986652501347,
     "description": "가이드컴, 인사동, 프라이빗, 시내투어, 샤브샤브, 브레이크타임(4-5), 가격(20.0-30.0), 배추전, 낙지볶음, 쭈꾸미볶음, 해물부추전, 김치전, 한옥, 칼국수",
     "businessHours": {
-      "wed": {
-        "open": "16:00",
-        "close": "17:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "16:00",
         "close": "17:00",
@@ -1163,6 +1156,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "16:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "16:00",
         "close": "17:00",
         "dayOff": false
@@ -1244,11 +1242,6 @@
     "lng": 127.032497263908,
     "description": "압구정역 2번출구, 갈비탕, 한정식, 한식, 강남, 골동반(비빔밥), 녹두빈대떡, 불고기, 냉면, 온면, 갈비, 바베큐, 한우 소고기, 갈비, 가격(14.0-91.0), 프라이빗",
     "businessHours": {
-      "wed": {
-        "open": "11:30",
-        "close": "21:30",
-        "dayOff": false
-      },
       "thu": {
         "open": "11:30",
         "close": "21:30",
@@ -1279,6 +1272,11 @@
         "close": "21:30",
         "dayOff": false
       },
+      "wed": {
+        "open": "11:30",
+        "close": "21:30",
+        "dayOff": false
+      },
       "holidays": []
     },
     "hasCommission": false,
@@ -1300,11 +1298,6 @@
     "lng": 126.978436944374,
     "description": "시청, 체인(서울숲,역삼,신세계강남), 커피, 카페, 라떼맛집, 스니퍼라떼, 커스터드라떼, 버터크림도넛, 가격(5.0-9.0), 건강 당근 주스, 프라이빗",
     "businessHours": {
-      "wed": {
-        "open": "08:00",
-        "close": "20:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "08:00",
         "close": "20:00",
@@ -1331,6 +1324,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "08:00",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "08:00",
         "close": "20:00",
         "dayOff": false
@@ -1356,11 +1354,6 @@
     "lng": 126.990341907728,
     "description": "익선동, 한식, 솥밥, 비빔국수, 종로3가역 4번출구, 브레이크타임(3-5), 가격(20.0-30.0), 술, 생맥주, 얼그레이 하이볼, 목살스테이크, 소고기, 한옥, 들기름 명란, 웨이팅 있음",
     "businessHours": {
-      "wed": {
-        "open": "15:00",
-        "close": "17:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "15:00",
         "close": "17:00",
@@ -1387,6 +1380,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "15:00",
         "close": "17:00",
         "dayOff": false
@@ -1412,11 +1410,6 @@
     "lng": 126.937334291469,
     "description": "한식 코스요리, 예약필수★, 전통주, 가격(72.0), 술, 신촌 서강대역 근처",
     "businessHours": {
-      "wed": {
-        "open": "18:00",
-        "close": "21:30",
-        "dayOff": false
-      },
       "thu": {
         "open": "18:00",
         "close": "21:30",
@@ -1442,7 +1435,19 @@
         "close": "18:00",
         "dayOff": false
       },
-      "holidays": []
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "wed": {
+        "open": "18:00",
+        "close": "21:30",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 화요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -1463,11 +1468,6 @@
     "lng": 126.920987340753,
     "description": "만두, 피냉면, 튀김, 홍대, 상수역(6)근처, 만둣국, 좁음, 가격(10.0), 체인(인사동,롯데마트청량리,왕십리역,성수역,동대문역사문화공원)",
     "businessHours": {
-      "wed": {
-        "open": "10:30",
-        "close": "24:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "10:30",
         "close": "24:00",
@@ -1494,6 +1494,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "10:30",
+        "close": "24:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "10:30",
         "close": "24:00",
         "dayOff": false
@@ -1575,11 +1580,6 @@
     "lng": 127.036202029788,
     "description": "강남, 압구정, 외국인운영, 한식 코스요리, 흑백요리사, 미슐랭 1스타, 매주 일,월 정기휴무, 금토 브레이크타임(2:30-5:15), 가격(190.0-300.0), 프라이빗, 호주 출신 셰프 Joseph Lidgerwood, 예약, ♡가보고싶음♡",
     "businessHours": {
-      "wed": {
-        "open": "17:15",
-        "close": "22:30",
-        "dayOff": false
-      },
       "thu": {
         "open": "17:15",
         "close": "22:30",
@@ -1606,6 +1606,11 @@
         "dayOff": true
       },
       "tue": {
+        "open": "17:15",
+        "close": "22:30",
+        "dayOff": false
+      },
+      "wed": {
         "open": "17:15",
         "close": "22:30",
         "dayOff": false
@@ -1634,11 +1639,6 @@
     "lng": 126.98626055342,
     "description": "인사동, 시내투어, 연중무휴, 종로3가역 5번출구, 한정식, 비빔밥, 가격(15.0-29.0), 네이버예약가능, 사찰음식, 비건 프렌들리, 채식, 코스요리,",
     "businessHours": {
-      "wed": {
-        "open": "11:30",
-        "close": "22:00",
-        "dayOff": false
-      },
       "thu": {
         "open": "11:30",
         "close": "22:00",
@@ -1665,6 +1665,11 @@
         "dayOff": false
       },
       "tue": {
+        "open": "11:30",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "wed": {
         "open": "11:30",
         "close": "22:00",
         "dayOff": false
@@ -1690,39 +1695,39 @@
     "lng": 126.984015119593,
     "description": "북촌, 한식, 6연속 미슐랭, 브레이크타임(3-5:30), 프라이빗, 비건코스, 한옥, ★예약필수★ 주말은 만석, ♡가보고싶음♡, 캐치테이블, 소고기, 비빔밥, 가격(25.0-112.0)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "10:00",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "holidays": []
@@ -1747,41 +1752,43 @@
     "description": "마장동, 축산시장, 상차림식당, 상차림비(6.0), 평범",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
-      "holidays": []
+      "holidays": [
+        "휴무 미정"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -1858,39 +1865,39 @@
     "lng": 126.971652606109,
     "description": "주차공간없음, 생선회, 용리단길, 삼각지역과 신용산역 사이, 비쌈, 가격(80.0-150.0), 숙성회, 술, 웨이팅있음, 대방어, ★예약필수★ ♡가보고싶음♡",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "23:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "23:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "23:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "23:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "14:00",
+        "close": "23:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "14:00",
+        "close": "23:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "14:00",
+        "close": "23:00",
         "dayOff": false
       },
       "holidays": []
@@ -1914,42 +1921,39 @@
     "lng": 126.977163395088,
     "description": "시청, 본점은 강남, 순대국밥, 수육, 웨이팅있음, 최애순대국밥집, 수요일 3시주문마감, 가격(11.0-39,0), 포장가능",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "15:30",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
+        "dayOff": true
+      },
+      "mon": {
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
-      "holidays": []
+      "tue": {
+        "open": "11:00",
+        "close": "15:30",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 일요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -1970,42 +1974,44 @@
     "lng": 127.059877891806,
     "description": "회기역, 막걸리공짜, 한국식 술집, 코다리조림, 가격(13.0-35.0",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -2026,39 +2032,39 @@
     "lng": 127.010461168238,
     "description": "장어덮밥, 반포역 3번출구, 강남, 가격(39.0-53.0), ♡가보고싶음♡, 브레이크타임(3-5)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": []
@@ -2082,39 +2088,39 @@
     "lng": 127.011591359711,
     "description": "미슐랭 2026, 교대역 14번출구, 강남, 인삼, 삼계탕(녹두, 잣, 쑥), 수비드 닭볶음탕, 웨이팅있음, ★예약필수★ 캐치테이블, ♡가보고싶음♡",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:50",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:50",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:50",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:50",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "10:50",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:50",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "10:50",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
@@ -2138,42 +2144,46 @@
     "lng": 128.831864712521,
     "description": "강원도, 강릉, 꾹저구탕(매운탕), 생선, 은어튀김, 감자밥, 수제비, 메밀전, 가격(11.0-25.0) 매주 목요일 휴무",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "15:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "15:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "15:30",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "14:30",
+        "close": "15:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "14:30",
+        "close": "15:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "16:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "매주 목요일 휴무",
+        "매주 목요일 휴무",
+        "정기휴무 (매주 목요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -2250,42 +2260,44 @@
     "lng": 128.822060934068,
     "description": "강원도, 강릉, 막국수, 수육, 매주 수요일 휴무, 가격(10.0-35.0), 브레이크타임(3:30-4:30)",
     "businessHours": {
+      "thu": {
+        "open": "15:30",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "15:30",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "15:30",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "15:30",
+        "close": "16:30",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "16:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "16:30",
         "dayOff": false
       },
       "wed": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 수요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -2306,39 +2318,39 @@
     "lng": 128.914079468203,
     "description": "강원도, 강릉, 옥수수 닭강정, 치킨, 중앙시장, 초당순두부마을 근처, 웨이팅있음, 포장만! 브레이크타임(2-3:30)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "15:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "15:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "15:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "15:30",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "14:00",
+        "close": "15:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "14:00",
+        "close": "15:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "14:00",
+        "close": "15:30",
         "dayOff": false
       },
       "holidays": []
@@ -2362,42 +2374,44 @@
     "lng": 128.900528587775,
     "description": "꼬막비빔밥, 육사시미, 웨이팅있음, 강원도, 강릉, 중앙시장근처, 가격(37.0-50.0), 매주화요일 휴무",
     "businessHours": {
+      "thu": {
+        "open": "12:00",
+        "close": "21:40",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "12:00",
+        "close": "21:40",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "12:00",
+        "close": "21:40",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "12:00",
+        "close": "21:40",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "12:00",
+        "close": "21:40",
         "dayOff": false
       },
       "tue": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "12:00",
+        "close": "21:40",
         "dayOff": false
       },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 화요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -2418,42 +2432,44 @@
     "lng": 128.896746256527,
     "description": "강원도, 강릉, 브레이크타임(3-5), 갈치조림, 매주일요일 휴무, 가격(13.0), 웨이팅있음, 생선",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
+        "dayOff": true
+      },
+      "mon": {
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
-      "holidays": []
+      "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 일요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -2475,38 +2491,38 @@
     "description": "강원도 강릉, 수제버거, 강릉버거(옥수수), 옥수수프라이, 햄버거 ♡가보고싶음♡ 가격(10.0-20.0)",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:30",
         "dayOff": false
       },
       "holidays": []
@@ -2530,42 +2546,44 @@
     "lng": 128.93907854207,
     "description": "강원도, 강릉, 안심식당, 감자전, 감자옹심이, 도토리들깨칼국수, 메밀전병, 장칼국수, 브레이크타임(3-4:30), 매주수요일 휴무, 웨이팅있음, 캐치테이블예약가능, 가격(6.0-24.0)",
     "businessHours": {
+      "thu": {
+        "open": "15:00",
+        "close": "16:00",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "15:00",
+        "close": "16:00",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "15:00",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "15:00",
+        "close": "16:30",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:00",
         "dayOff": false
       },
       "wed": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 수요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -2586,42 +2604,44 @@
     "lng": 128.83917526128,
     "description": "강원도, 강릉, 막국수, 수육, 돼지고기, 가격(9.5-30.0),",
     "businessHours": {
+      "thu": {
+        "open": "10:30",
+        "close": "18:30",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "10:30",
+        "close": "18:30",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "10:30",
+        "close": "18:30",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "10:30",
+        "close": "18:30",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "18:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "18:30",
         "dayOff": false
       },
       "wed": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "holidays": []
+      "holidays": [
+        "- 비정기휴무/전화후방문요망/"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -2642,39 +2662,39 @@
     "lng": 126.986190073207,
     "description": "인사동, 닭요리, 삼계탕, 닭칼국수, 닭볶음탕, 닭한마리, 찜닭, 닭떡볶이, 치킨, 닭무침, 브레이크타임(3-5) 가격(13.0-28.0)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "19:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": []
@@ -2699,38 +2719,38 @@
     "description": "강남, 강남구청역, 압구정로데오역 4번출구, 바베큐, 흑돼지고기구이, 냉삼, 연예인맛집(bts), 가격(20.0)",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:15",
+        "close": "23:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:15",
+        "close": "23:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:15",
+        "close": "23:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:15",
+        "close": "23:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:15",
+        "close": "23:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:15",
+        "close": "23:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:15",
+        "close": "23:30",
         "dayOff": false
       },
       "holidays": []
@@ -2754,42 +2774,46 @@
     "lng": 126.922482495511,
     "description": "홍대, 즉석떡볶이, 갈릭버터 감자튀김, 매주목요일 휴무, 브레이크타임(3-4), 매움, 가격(15.0)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "21:00",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "15:00",
+        "close": "16:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "16:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "16:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "매주 목요일 휴무",
+        "매주 목요일 휴무",
+        "정기휴무 (매주 목요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -2810,39 +2834,39 @@
     "lng": 128.522889903797,
     "description": "대구, 진천역 바로앞, 일식당, 브레이크타임(3-5), 일본식 알리오올리오 파스타, 매운 가츠나베(돈까스), 연어초밥, 새우초밥, 스테이크덮밥, 우니파스타, 타마고산도(계란샌드위치), 스키야키(소고기전골), 가격(20.0), 웨이팅있음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": []
@@ -2866,42 +2890,44 @@
     "lng": 126.99255482962,
     "description": "충무로역 6번출구, 고등어구이, 해물순두부찌개, 생선구이, 닭볶음탕, 솥뚜껑삼겹살, 해물파전, 술, 가격(12.0-35.0), 포장가능, 한식백반",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:30",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
+        "dayOff": true
+      },
+      "mon": {
+        "open": "11:00",
+        "close": "21:30",
         "dayOff": false
       },
-      "holidays": []
+      "tue": {
+        "open": "11:00",
+        "close": "21:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "21:30",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 일요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -2922,39 +2948,39 @@
     "lng": 126.98531414524,
     "description": "종각역 바로앞, 참치회, 가격(29.0-59.0), 브레이크타임(2:30-4:30)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "14:30",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "14:30",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "holidays": []
@@ -2978,39 +3004,39 @@
     "lng": 126.984238926656,
     "description": "일식당, 생선회, 사시미, 인사동, 아미드호텔 지하1층, 브레이크타임(3-5), 가격(35.0-65.0), 프라이빗, 고급, ★예약필수★ 네이버예약가능, ♡가보고싶음♡",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": []
@@ -3035,38 +3061,38 @@
     "description": "양꼬치, 건대입구역 5번출구, 가격(13.0), 중국요리",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "01:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "01:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "01:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "01:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "01:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "01:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "01:30",
         "dayOff": false
       },
       "holidays": []
@@ -3091,38 +3117,38 @@
     "description": "강원도, 삼척해수욕장, 브레이크타임(3-5), 전복해물뚝배기, 가격(22.0), 신선하고 푸짐함, 쏠비치삼척호텔 바로옆",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": []
@@ -3146,39 +3172,39 @@
     "lng": 127.076202532202,
     "description": "중랑역, x절대가지말기x, 서비스최악, 횟집, 생선회, 일식당, 흑백요리사 광탈 통편집, 가격(50.0-100.0), 오마카세",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "23:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "23:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "13:30",
+        "close": "23:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "13:30",
+        "close": "23:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "15:30",
+        "close": "23:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:30",
+        "close": "23:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:30",
+        "close": "23:00",
         "dayOff": false
       },
       "holidays": []
@@ -3202,42 +3228,44 @@
     "lng": 126.567588735932,
     "description": "제주도, 김밥(오는정(튀긴유부),참치,치즈,떡갈비), 브레이크타임 (1-2:30), 가격(4.0-6.0) ★예약필수★ 웨이팅있음 1시간이상,",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "13:00",
+        "close": "14:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "13:00",
+        "close": "14:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "13:00",
+        "close": "14:30",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
+        "dayOff": true
+      },
+      "mon": {
+        "open": "13:00",
+        "close": "14:30",
         "dayOff": false
       },
-      "holidays": []
+      "tue": {
+        "open": "13:00",
+        "close": "14:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "13:00",
+        "close": "14:30",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 일요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -3259,38 +3287,38 @@
     "description": "명동, 한우, 바베큐, 우설구이, 불고기전골, 양념갈비, 해물파전, 가격(35.0-69.0), 콜키지프리, 네이버테이블예약, ★예약필수★ 명동역 3번출구 퍼시픽호텔 앞",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:30",
         "dayOff": false
       },
       "holidays": []
@@ -3314,39 +3342,39 @@
     "lng": 126.986872865853,
     "description": "인사동, 내최애 김치찌개 맛집, 솥밥, 고등어구이, 비빔밥, 브레이크타임(3-4), 바베큐, 돼지고기구이, 삼겹살구이, 가격(10.0-68.0), 넓음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "15:00",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "16:30",
         "dayOff": false
       },
       "holidays": []
@@ -3370,39 +3398,39 @@
     "lng": 126.985508845877,
     "description": "인사동, 중국음식, 짜장면, 짬뽕, 탕수육, 엄청 저렴, 가격(7.0-9.0), 녹차면,",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "10:30",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:30",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "10:30",
+        "close": "20:00",
         "dayOff": false
       },
       "holidays": []
@@ -3427,38 +3455,38 @@
     "description": "우리집앞, 중랑역, 고기, 육회비빔밥 맛있었음, 수원왕갈비, 갈비탕, 냉면, 바베큐, 가격(16.0-47.0)",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
@@ -3539,38 +3567,38 @@
     "description": "고기, 석갈비, 광화문역 4번출구, 교보문고 뒷건물, 룸이용가능(전화), 돼지돌판구이, 솥밥, 소갈비찜, 한우, 바베큐, 불고기, 한우육회냉파스타, 매콤크림파스타, 네이버예약가능, 평일에 웨이팅있음, 고급, 프라이빗",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
@@ -3594,42 +3622,44 @@
     "lng": 127.045444470299,
     "description": "뚝섬, 홍준이 회사 바로 앞, 햄버거, 푸짐, 수제버거, 가격(13.0), 네이버예약가능, 브레이크타임(4-5)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "16:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "16:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "16:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "16:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "16:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "설 당일 휴무, 하루 전날은 점심만 영업합니다."
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -3650,39 +3680,39 @@
     "lng": 126.99567113472,
     "description": "혜화, 성균관대학교 옆, 수제버거, 햄버거, 가격(7.9-12.0)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "13:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "11:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
@@ -3706,39 +3736,39 @@
     "lng": 126.993789036287,
     "description": "체인(삼청점, 이태원), 이태원, 브레이크타임(3-5), 돼지고기, 소고기, 한우, 바베큐, 야채모둠(야채구이), 돌솥비빔밥, 새우구이, 갈비탕, 해물순두부찌개, 김치전, 잡채, 계란찜, 한식, 된장찌개, 불고기, 가격(14.0-65.0), 해밀턴호텔 바로뒤, 안젤리나졸리방문, 프라이빗",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": []
@@ -3762,39 +3792,39 @@
     "lng": 127.02806735115,
     "description": "bts성지, BTS 옛기숙사옆, 흑돼지구이, 바베큐, 쌈밥, 흑돼지김치찌개, 흑돼지돌솥비빔밥, 가격(11.0-13.0), 방탄소년단 사진 엄청 많음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "21:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "21:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "10:00",
+        "close": "21:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:30",
         "dayOff": false
       },
       "holidays": []
@@ -3819,38 +3849,38 @@
     "description": "명동성당 바로옆, 샤브샤브, 버섯칼국수, 국물요리, 샤브소고기, 가격(12.0)",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
@@ -3874,42 +3904,44 @@
     "lng": null,
     "description": "매주일요일 휴무, 명동, 을지로입구역 5번출구, 막걸리, 주막, 술, 모듬전(감자,해물,김치,버섯,두부), 술안주, 가격(11.0-33.0)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
+        "dayOff": true
+      },
+      "mon": {
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
-      "holidays": []
+      "tue": {
+        "open": "11:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 일요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -3930,42 +3962,44 @@
     "lng": 126.983801669966,
     "description": "매주월요일 휴무, 마늘떡볶이, 곱창떡볶이, 샐러드파스타, 고르곤졸라피자, 가격(10.0-40.0)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -3987,38 +4021,38 @@
     "description": "인사동, 북촌손만두 바로 뒤, 전통차, 한옥카페, 누룽지 아이스크림 라테 , 가격(5.0-6.0), 넓고 자리 많고 사람 별로 없음",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "holidays": []
