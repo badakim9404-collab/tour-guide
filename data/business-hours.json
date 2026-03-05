@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-05T14:37:31.926497",
+  "updatedAt": "2026-03-05T14:56:26.413660",
   "totalPlaces": 68,
   "successCount": 65,
   "results": [
@@ -46,7 +46,7 @@
       "notes": [
         "저녁 라스트오더 19:20"
       ],
-      "crawledAt": "2026-03-05T14:24:29.795805",
+      "crawledAt": "2026-03-05T14:43:39.155136",
       "placeId": "13573290",
       "matchedName": "목멱산방",
       "id": "mm9a6d3seju42gfms"
@@ -96,7 +96,7 @@
       "notes": [
         "추석과 설날 하루전날과 당일은 휴무"
       ],
-      "crawledAt": "2026-03-05T14:24:40.269984",
+      "crawledAt": "2026-03-05T14:43:49.819587",
       "placeId": "1130184843",
       "matchedName": "목멱산방 남산타워점",
       "id": "mm9ai1s6c5w6s3sqe"
@@ -142,7 +142,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:24:51.620486",
+      "crawledAt": "2026-03-05T14:43:59.948730",
       "placeId": "1172915589",
       "matchedName": "제스티살룬 성수",
       "id": "mmabb6syvuwlkoez2"
@@ -188,7 +188,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:25:03.069827",
+      "crawledAt": "2026-03-05T14:44:12.738179",
       "placeId": "2072471340",
       "matchedName": "애소아소금빵",
       "id": "mmbec0mb6g47ltr29"
@@ -234,7 +234,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:25:15.276911",
+      "crawledAt": "2026-03-05T14:44:25.319016",
       "placeId": "13524973",
       "matchedName": "장단콩맛집",
       "id": "mmbelvgu4rmtl6p9e"
@@ -280,7 +280,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:25:26.058163",
+      "crawledAt": "2026-03-05T14:44:37.572387",
       "placeId": "1414187941",
       "matchedName": "양평 장어마을",
       "id": "mmbereqcall7mvotw"
@@ -326,7 +326,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:25:38.300972",
+      "crawledAt": "2026-03-05T14:44:48.684102",
       "placeId": "37122450",
       "matchedName": "옥루몽 어린이대공원점",
       "id": "mmbeuihji5f63wsfa"
@@ -369,7 +369,7 @@
         "정기휴무 (격주 일요일)"
       ],
       "notes": [],
-      "crawledAt": "2026-03-05T14:25:52.065776",
+      "crawledAt": "2026-03-05T14:45:01.194821",
       "placeId": "33877281",
       "matchedName": "사프란 레스토랑",
       "id": "mmbeymenfxne2dy0j"
@@ -415,7 +415,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:26:03.637919",
+      "crawledAt": "2026-03-05T14:45:11.894153",
       "placeId": "1036043935",
       "matchedName": "능동미나리신용산점",
       "id": "mmbf07l13gx6s7w83"
@@ -461,7 +461,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:26:15.973521",
+      "crawledAt": "2026-03-05T14:45:25.222799",
       "placeId": "36768344",
       "matchedName": "알래스카에서 온 연어가 맛있는 집",
       "id": "mmbf8c4t0zgsj1mn9"
@@ -509,7 +509,7 @@
       "notes": [
         "재료 소진 시 조기마감"
       ],
-      "crawledAt": "2026-03-05T14:26:27.304435",
+      "crawledAt": "2026-03-05T14:45:35.586863",
       "placeId": "1990663278",
       "matchedName": "해물꾼조태산 양평본점",
       "id": "mmbfgaipijdh1inl9"
@@ -557,7 +557,7 @@
       "notes": [
         "주말 라스트오더는 7:50입니다"
       ],
-      "crawledAt": "2026-03-05T14:26:40.065821",
+      "crawledAt": "2026-03-05T14:45:47.238173",
       "placeId": "1860885785",
       "matchedName": "인사동 화원",
       "id": "mmbfoq1u1353ptlmn"
@@ -607,7 +607,7 @@
       "notes": [
         "2026년 2월 16일 ~ 18일 연휴 휴무 입니다"
       ],
-      "crawledAt": "2026-03-05T14:26:51.015383",
+      "crawledAt": "2026-03-05T14:45:59.438698",
       "placeId": "34744446",
       "matchedName": "바오차이",
       "id": "mmbfv574a1pih03kp"
@@ -655,7 +655,7 @@
       "notes": [
         "입장마감: 월~금,일요일 17시, 토요일 20시"
       ],
-      "crawledAt": "2026-03-05T14:27:03.564499",
+      "crawledAt": "2026-03-05T14:46:12.027207",
       "placeId": "13221909",
       "matchedName": "포천아트밸리",
       "id": "mmbhtzzga2ztds3fk"
@@ -703,7 +703,7 @@
         "정기휴무 (매주 수요일)"
       ],
       "notes": [],
-      "crawledAt": "2026-03-05T14:27:15.366994",
+      "crawledAt": "2026-03-05T14:46:23.046654",
       "placeId": "38531663",
       "matchedName": "문학골",
       "id": "mmbhzomav57py9v7w"
@@ -749,7 +749,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:27:27.980065",
+      "crawledAt": "2026-03-05T14:46:33.320621",
       "placeId": "1555459494",
       "matchedName": "코끼리베이글 인사동",
       "id": "mmbii7xsk71upmenk"
@@ -797,7 +797,7 @@
       "notes": [
         "일요일 라스트오더 시간은 오후 7시입니다."
       ],
-      "crawledAt": "2026-03-05T14:27:38.140043",
+      "crawledAt": "2026-03-05T14:46:45.105342",
       "placeId": "1150340937",
       "matchedName": "인사샤브정",
       "id": "mmbkfweapk9rbeojl"
@@ -845,7 +845,7 @@
       "notes": [
         "점심 라스트오더 15:00/ 저녁 라스트오더 20:30"
       ],
-      "crawledAt": "2026-03-05T14:27:51.591847",
+      "crawledAt": "2026-03-05T14:46:55.727643",
       "placeId": "37366169",
       "matchedName": "할머니의 레시피",
       "id": "mmbl2e7fobjzjmmsw"
@@ -891,7 +891,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:28:05.171135",
+      "crawledAt": "2026-03-05T14:47:08.185913",
       "placeId": "11680226",
       "matchedName": "한일관 압구정점",
       "id": "mmblhiebw3hj07c6r"
@@ -937,7 +937,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:28:15.270533",
+      "crawledAt": "2026-03-05T14:47:19.437373",
       "placeId": "1915708438",
       "matchedName": "커피스니퍼 서울시청점",
       "id": "mmblvhld41w5iscm9"
@@ -985,7 +985,7 @@
       "notes": [
         "점심 라스트오더 14:30, 저녁 라스트오더 20:00"
       ],
-      "crawledAt": "2026-03-05T14:28:28.978655",
+      "crawledAt": "2026-03-05T14:47:29.227718",
       "placeId": "1196238696",
       "matchedName": "우연화 익선",
       "id": "mmbm2ca2kpc8yw5p1"
@@ -1033,7 +1033,7 @@
         "정기휴무 (매주 화요일)"
       ],
       "notes": [],
-      "crawledAt": "2026-03-05T14:28:40.515874",
+      "crawledAt": "2026-03-05T14:47:41.260117",
       "placeId": "1333603746",
       "matchedName": "요릿집",
       "id": "mmbmd3ppr7lwzea11"
@@ -1079,7 +1079,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:28:54.720679",
+      "crawledAt": "2026-03-05T14:47:52.006000",
       "placeId": "31347105",
       "matchedName": "북촌손만두 홍대로데오점",
       "id": "mmbmm7e49cgc0m53d"
@@ -1125,7 +1125,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:29:06.868468",
+      "crawledAt": "2026-03-05T14:48:05.518752",
       "placeId": "21116666",
       "matchedName": "북촌손만두 인사본점",
       "id": "mmbmpll1zqoiocve6"
@@ -1176,7 +1176,7 @@
       "notes": [
         "2026년 설 연휴 기간: 2월 17일 ~ 21일"
       ],
-      "crawledAt": "2026-03-05T14:29:17.562127",
+      "crawledAt": "2026-03-05T14:48:16.400955",
       "placeId": "1838135293",
       "matchedName": "에빗",
       "id": "mmbpxxprrk4sbty33"
@@ -1224,7 +1224,7 @@
       "notes": [
         "설날 등 명절에도 정상영업합니다. 연중무휴~^^"
       ],
-      "crawledAt": "2026-03-05T14:29:31.569231",
+      "crawledAt": "2026-03-05T14:48:29.440554",
       "placeId": "11715378",
       "matchedName": "산촌",
       "id": "mmbq8l11hm22gxsfu"
@@ -1270,7 +1270,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:29:43.496591",
+      "crawledAt": "2026-03-05T14:48:41.116233",
       "placeId": "1407456940",
       "matchedName": "꽃밥에피다 북촌 친환경 그로서란트",
       "id": "mmbqk8hh79x6rov7b"
@@ -1320,7 +1320,7 @@
       "notes": [
         "휴무 미정"
       ],
-      "crawledAt": "2026-03-05T14:29:55.217610",
+      "crawledAt": "2026-03-05T14:48:53.092157",
       "placeId": "20362424",
       "matchedName": "고기익는마을",
       "id": "mmbqqg8poh84vzia0"
@@ -1374,7 +1374,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:30:13.298413",
+      "crawledAt": "2026-03-05T14:49:11.823698",
       "placeId": "1344013517",
       "matchedName": "물고기주택 본점",
       "id": "mmbr4xp62d8ii9yko"
@@ -1419,7 +1419,7 @@
       "notes": [
         "주 중 공휴일 없는 수요일 15:00 주문마감합니다."
       ],
-      "crawledAt": "2026-03-05T14:30:23.939477",
+      "crawledAt": "2026-03-05T14:49:21.970636",
       "placeId": "37882995",
       "matchedName": "농민백암순대 시청직영점",
       "id": "mmbr9nmzn42gdkwt4"
@@ -1467,7 +1467,7 @@
         "정기휴무 (매주 월요일)"
       ],
       "notes": [],
-      "crawledAt": "2026-03-05T14:30:34.846874",
+      "crawledAt": "2026-03-05T14:49:33.582066",
       "placeId": "1006558342",
       "matchedName": "황금코다리 휘경점",
       "id": "mmbriz848is6xu5dj"
@@ -1515,7 +1515,7 @@
       "notes": [
         "명절과 무관하게 연중무휴 입니다.감사합니다."
       ],
-      "crawledAt": "2026-03-05T14:30:46.971331",
+      "crawledAt": "2026-03-05T14:49:45.247461",
       "placeId": "20206990",
       "matchedName": "마루심 반포점",
       "id": "mmbrpg7mh0jec9f6q"
@@ -1563,7 +1563,7 @@
       "notes": [
         "주차는 카운터 안내 꼭 받으세요, 복당일 천마리 한정"
       ],
-      "crawledAt": "2026-03-05T14:30:59.635939",
+      "crawledAt": "2026-03-05T14:49:55.410868",
       "placeId": "1013309145",
       "matchedName": "3대삼계장인",
       "id": "mmbrvjww4iuzqiurt"
@@ -1615,7 +1615,7 @@
       "notes": [
         "재료소진시 조기마감하니 미리 전화주시고 방문해주세요"
       ],
-      "crawledAt": "2026-03-05T14:31:13.287111",
+      "crawledAt": "2026-03-05T14:50:07.870171",
       "placeId": "11716683",
       "matchedName": "연곡꾹저구탕",
       "id": "mmbs1pyxym8cl7rdk"
@@ -1673,7 +1673,7 @@
       "notes": [
         "재료 소진시 조기마감"
       ],
-      "crawledAt": "2026-03-05T14:31:31.125950",
+      "crawledAt": "2026-03-05T14:50:26.070551",
       "placeId": "1449084552",
       "matchedName": "소돌막국수",
       "id": "mmbse0fj5idlsdm8p"
@@ -1721,7 +1721,7 @@
       "notes": [
         "❗️재료 소진 시 영업종료❗️"
       ],
-      "crawledAt": "2026-03-05T14:31:43.595016",
+      "crawledAt": "2026-03-05T14:50:36.280118",
       "placeId": "1304426161",
       "matchedName": "강릉닭강정",
       "id": "mmbsnulplt6t136qq"
@@ -1769,7 +1769,7 @@
         "정기휴무 (매주 화요일)"
       ],
       "notes": [],
-      "crawledAt": "2026-03-05T14:31:54.865983",
+      "crawledAt": "2026-03-05T14:50:47.356387",
       "placeId": "1606537999",
       "matchedName": "강릉꼬막집 독도네 본점",
       "id": "mmbstjmjg9mme3tlb"
@@ -1817,7 +1817,7 @@
         "정기휴무 (매주 일요일)"
       ],
       "notes": [],
-      "crawledAt": "2026-03-05T14:32:07.360472",
+      "crawledAt": "2026-03-05T14:50:57.580938",
       "placeId": "31450521",
       "matchedName": "정화식당",
       "id": "mmbsxzlwp3p819ucv"
@@ -1863,7 +1863,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:32:18.987667",
+      "crawledAt": "2026-03-05T14:51:09.047474",
       "placeId": "1126156343",
       "matchedName": "번패티번 강릉DT",
       "id": "mmbuiemhki7zxywe5"
@@ -1913,7 +1913,7 @@
       "notes": [
         "재료소진시 영업시간조정합니다"
       ],
-      "crawledAt": "2026-03-05T14:32:30.252957",
+      "crawledAt": "2026-03-05T14:51:20.916846",
       "placeId": "1291372141",
       "matchedName": "감자적1번지",
       "id": "mmbupgzc1stbs12nt"
@@ -1961,7 +1961,7 @@
         "- 비정기휴무/전화후방문요망/"
       ],
       "notes": [],
-      "crawledAt": "2026-03-05T14:32:40.830733",
+      "crawledAt": "2026-03-05T14:51:33.791952",
       "placeId": "11830090",
       "matchedName": "초시막국수",
       "id": "mmby81sq8onbxk8dc"
@@ -2009,7 +2009,7 @@
       "notes": [
         "일요일은 브레이크가 없습니다."
       ],
-      "crawledAt": "2026-03-05T14:32:53.129903",
+      "crawledAt": "2026-03-05T14:51:45.043500",
       "placeId": "1954667241",
       "matchedName": "수인 인사동 닭한마리 본점",
       "id": "mmbyeceg6b0j2236e"
@@ -2055,7 +2055,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:33:05.127487",
+      "crawledAt": "2026-03-05T14:51:57.382707",
       "placeId": "1782110563",
       "matchedName": "영동교집 청담직영점",
       "id": "mmbylonvdwcanjg7g"
@@ -2105,7 +2105,7 @@
         "정기휴무 (매주 목요일)"
       ],
       "notes": [],
-      "crawledAt": "2026-03-05T14:33:18.820022",
+      "crawledAt": "2026-03-05T14:52:09.016406",
       "placeId": "1068496177",
       "matchedName": "또보겠지떡볶이집 깐따삐아점",
       "id": "mmbyq5jmr8304luoc"
@@ -2153,7 +2153,7 @@
       "notes": [
         "대체공휴일 영업해용"
       ],
-      "crawledAt": "2026-03-05T14:33:32.110486",
+      "crawledAt": "2026-03-05T14:52:19.421963",
       "placeId": "1222110257",
       "matchedName": "뭄뭄 진천점",
       "id": "mmbyyf3ziv39h3zwb"
@@ -2201,7 +2201,7 @@
         "정기휴무 (매주 일요일)"
       ],
       "notes": [],
-      "crawledAt": "2026-03-05T14:33:42.425416",
+      "crawledAt": "2026-03-05T14:52:30.781844",
       "placeId": "1329839313",
       "matchedName": "어머니가 구워주신 생선구이",
       "id": "mmbz5v305vypbiqaa"
@@ -2247,7 +2247,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:33:54.193730",
+      "crawledAt": "2026-03-05T14:52:42.983787",
       "placeId": "33878581",
       "matchedName": "이춘복참치 종각점",
       "id": "mmbz9ac3802qluqok"
@@ -2293,7 +2293,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:34:04.748051",
+      "crawledAt": "2026-03-05T14:52:56.737869",
       "placeId": "19560645",
       "matchedName": "삿뽀로 관훈점",
       "id": "mmbzfbsxs5fcq24wj"
@@ -2339,7 +2339,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:34:15.315666",
+      "crawledAt": "2026-03-05T14:53:09.056527",
       "placeId": "37350325",
       "matchedName": "훈춘양꼬치",
       "id": "mmbzj2xg4glvr2pm5"
@@ -2385,7 +2385,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:34:27.468524",
+      "crawledAt": "2026-03-05T14:53:23.473639",
       "placeId": "935961233",
       "matchedName": "삼척전복해물뚝배기",
       "id": "mmbzmglcfor1uupqg"
@@ -2433,7 +2433,7 @@
       "notes": [
         "매장방문전 전화주세요"
       ],
-      "crawledAt": "2026-03-05T14:34:39.463335",
+      "crawledAt": "2026-03-05T14:53:35.154647",
       "placeId": "356594687",
       "matchedName": "한국횟집",
       "id": "mmbzt2h7nzeofsasa"
@@ -2483,7 +2483,7 @@
       "notes": [
         "내부공사중"
       ],
-      "crawledAt": "2026-03-05T14:34:50.807836",
+      "crawledAt": "2026-03-05T14:53:45.495157",
       "placeId": "1011125170",
       "matchedName": "오는정김밥",
       "id": "mmc1lycuk4isbpsmp"
@@ -2529,7 +2529,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:35:02.627042",
+      "crawledAt": "2026-03-05T14:53:57.585757",
       "placeId": "13490546",
       "matchedName": "지우갈비 명동본점",
       "id": "mmc1us9f68gl40c7o"
@@ -2575,7 +2575,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:35:14.478802",
+      "crawledAt": "2026-03-05T14:54:10.397870",
       "placeId": "1188095541",
       "matchedName": "숨은고깃집 종묘본점",
       "id": "mmc21538gvdzlpvq7"
@@ -2621,7 +2621,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:35:25.025936",
+      "crawledAt": "2026-03-05T14:54:24.051599",
       "placeId": "1073685487",
       "matchedName": "한강반점",
       "id": "mmc28lhqp9y92zt17"
@@ -2667,7 +2667,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:35:38.412006",
+      "crawledAt": "2026-03-05T14:54:35.875063",
       "placeId": "37537719",
       "matchedName": "양지촌",
       "id": "mmc2ddt3tdwmdyfir"
@@ -2723,7 +2723,7 @@
       "notes": [
         "라스트오더 런치 16시 / 디너 21시"
       ],
-      "crawledAt": "2026-03-05T14:35:56.614989",
+      "crawledAt": "2026-03-05T14:54:53.865150",
       "placeId": "1278021220",
       "matchedName": "광화문석갈비 D타워점",
       "id": "mmc2ofm8mqtvfbbof"
@@ -2773,7 +2773,7 @@
       "notes": [
         "설 당일 휴무, 하루 전날은 점심만 영업합니다."
       ],
-      "crawledAt": "2026-03-05T14:36:09.007231",
+      "crawledAt": "2026-03-05T14:55:05.353715",
       "placeId": "1929140471",
       "matchedName": "세븐버거스 어 위크 서울숲본점",
       "id": "mmc2t05d6ht7nflpf"
@@ -2819,7 +2819,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:36:20.077014",
+      "crawledAt": "2026-03-05T14:55:17.979669",
       "placeId": "1652144509",
       "matchedName": "벅벅 종로혜화점",
       "id": "mmc2y6akrm3kk8o1l"
@@ -2865,7 +2865,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:36:33.454587",
+      "crawledAt": "2026-03-05T14:55:30.704081",
       "placeId": "19882455",
       "matchedName": "단풍나무집 이태원점",
       "id": "mmc36pdp6jf1vd2r3"
@@ -2911,7 +2911,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:36:45.939373",
+      "crawledAt": "2026-03-05T14:55:41.553573",
       "placeId": "31744281",
       "matchedName": "유정식당",
       "id": "mmc3brxc2ucpt83l2"
@@ -2957,7 +2957,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:36:55.893691",
+      "crawledAt": "2026-03-05T14:55:52.358807",
       "placeId": "1466590872",
       "matchedName": "등촌샤브칼국수 명동점",
       "id": "mmc3ewsjras4cpvow"
@@ -3005,7 +3005,7 @@
         "정기휴무 (매주 일요일)"
       ],
       "notes": [],
-      "crawledAt": "2026-03-05T14:37:07.248580",
+      "crawledAt": "2026-03-05T14:56:03.651490",
       "placeId": "1759615328",
       "matchedName": "서울지짐이",
       "id": "mmc3jhzhurr78x4nc"
@@ -3055,7 +3055,7 @@
       "notes": [
         "미우새에방영된곳 곱창떡볶이 홍진영,홍선영자매의 치팅데이편에 방영된 명동화떡! 찾아와주시고 기다려주시고 소문 내주셔서 항상 감사한 마음입니다.근무자들을 대표하여 또 번 감사드립니다."
       ],
-      "crawledAt": "2026-03-05T14:37:21.072569",
+      "crawledAt": "2026-03-05T14:56:14.527197",
       "placeId": "35575123",
       "matchedName": "원조 곱창떡볶이 화떡 명동본점",
       "id": "mmc3mro2xh4150ma8"
@@ -3101,7 +3101,7 @@
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-03-05T14:37:31.865897",
+      "crawledAt": "2026-03-05T14:56:26.350535",
       "placeId": "1739190505",
       "matchedName": "풍심당 카페",
       "id": "mmcypizxsk3p2nww3"
