@@ -207,13 +207,18 @@ const Utils = {
         const voidTags = ['br', 'img'];
         const allowedTags = ['b', 'i', 'u', 'strong', 'em', 'span', 'br', 'p', 'div', 'font', 'img'];
         const allowedAttrs = {
+            b: ['style'],
+            strong: ['style'],
+            i: ['style'],
+            u: ['style'],
+            em: ['style'],
             span: ['style'],
             font: ['color', 'size'],
             div: ['style'],
             p: ['style'],
             img: ['src', 'alt', 'style', 'width', 'height']
         };
-        const allowedStyleProps = ['color', 'font-size', 'width', 'height', 'max-width', 'display', 'margin'];
+        const allowedStyleProps = ['color', 'font-size', 'font-weight', 'width', 'height', 'max-width', 'display', 'margin'];
 
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
