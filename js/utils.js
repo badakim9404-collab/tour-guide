@@ -205,7 +205,7 @@ const Utils = {
     sanitizeHtml(html) {
         if (!html) return '';
         const voidTags = ['br', 'img'];
-        const allowedTags = ['b', 'i', 'u', 'strong', 'em', 'span', 'br', 'p', 'div', 'font', 'img'];
+        const allowedTags = ['b', 'i', 'u', 'strong', 'em', 'span', 'br', 'p', 'div', 'font', 'img', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
         const allowedAttrs = {
             b: ['style'],
             strong: ['style'],
@@ -216,6 +216,12 @@ const Utils = {
             font: ['color', 'size'],
             div: ['style'],
             p: ['style'],
+            h1: ['style'],
+            h2: ['style'],
+            h3: ['style'],
+            h4: ['style'],
+            h5: ['style'],
+            h6: ['style'],
             img: ['src', 'alt', 'style', 'width', 'height']
         };
         const allowedStyleProps = ['color', 'font-size', 'font-weight', 'width', 'height', 'max-width', 'display', 'margin'];
