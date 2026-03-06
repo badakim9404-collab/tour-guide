@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-05T16:07:57.839795",
+  "updatedAt": "2026-03-06T11:15:47.254262",
   "totalPlaces": 3,
   "successCount": 1,
   "results": [
@@ -20,52 +20,53 @@
       "id": "mmbs7n6vr29jq8d4p"
     },
     {
-      "name": "히메시야 서교점",
+      "name": "스시히로이",
       "hours": {
         "fri": {
-          "open": "15:00",
-          "close": "16:40",
+          "open": "14:00",
+          "close": "17:00",
           "dayOff": false
         },
         "sat": {
-          "open": "15:40",
-          "close": "16:40",
+          "open": "14:00",
+          "close": "17:00",
           "dayOff": false
         },
         "sun": {
-          "open": "15:40",
-          "close": "16:40",
+          "open": "14:00",
+          "close": "17:00",
           "dayOff": false
         },
         "mon": {
-          "open": "15:00",
-          "close": "16:40",
-          "dayOff": false
+          "open": "",
+          "close": "",
+          "dayOff": true
         },
         "tue": {
-          "open": "15:00",
-          "close": "16:40",
-          "dayOff": false
+          "open": "",
+          "close": "",
+          "dayOff": true
         },
         "wed": {
-          "open": "15:00",
-          "close": "16:40",
+          "open": "14:00",
+          "close": "17:00",
           "dayOff": false
         },
         "thu": {
-          "open": "15:00",
-          "close": "16:40",
+          "open": "14:00",
+          "close": "17:00",
           "dayOff": false
         }
       },
-      "holidays": [],
-      "notes": [
-        "주말에는 브레이크타임과 영업종료시간이 다릅니다^^"
+      "holidays": [
+        "정기휴무 (매주 월요일)",
+        "정기휴무 (매주 화요일)"
       ],
-      "crawledAt": "2026-03-05T16:07:57.801605",
-      "placeId": "976759642",
-      "matchedName": "히메시야 서교점",
-      "id": "mmc2i4klwfi49zdbt"
+      "notes": [],
+      "crawledAt": "2026-03-06T11:15:47.218018",
+      "placeId": "1831773503",
+      "matchedName": "스시히로이",
+      "id": "mmesrys4rbjh83kuk"
     }
   ]
 }

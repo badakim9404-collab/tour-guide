@@ -4076,42 +4076,45 @@
     "lng": 127.087450179926,
     "description": "1등맛집. 스시, 일식, 스시오마카세, 브레이크타임 (2-5), 런치와 디너 두타임, 가격(55.0-90.0)\n계절마다 또 가야지!!! 최고!!!",
     "businessHours": {
+      "fri": {
+        "open": "14:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "14:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "14:00",
+        "close": "17:00",
+        "dayOff": false
+      },
       "mon": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "tue": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "17:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "17:00",
         "dayOff": false
       },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 월요일)",
+        "정기휴무 (매주 화요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
