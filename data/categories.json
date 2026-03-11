@@ -119,5 +119,13 @@
     "id": "mmlbkwj1uqyefsnhj",
     "createdAt": "2026-03-11T00:47:42.253Z",
     "updatedAt": "2026-03-11T00:48:01.333Z"
+  },
+  {
+    "name": "스피치 연습",
+    "subcategories": [],
+    "order": 6,
+    "id": "mmln5he4vknopyv7j",
+    "createdAt": "2026-03-11T06:11:38.188Z",
+    "updatedAt": "2026-03-11T06:11:38.188Z"
   }
 ]
