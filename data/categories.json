@@ -122,10 +122,15 @@
   },
   {
     "name": "스피치 연습",
-    "subcategories": [],
+    "subcategories": [
+      {
+        "id": "mmln5nqlqvuaj606p",
+        "name": "발성연습"
+      }
+    ],
     "order": 6,
     "id": "mmln5he4vknopyv7j",
     "createdAt": "2026-03-11T06:11:38.188Z",
-    "updatedAt": "2026-03-11T06:11:38.188Z"
+    "updatedAt": "2026-03-11T06:11:46.413Z"
   }
 ]
