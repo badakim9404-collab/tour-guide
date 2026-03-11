@@ -102,5 +102,13 @@
     "id": "mme5b35qq07hjs554",
     "createdAt": "2026-03-06T00:17:43.358Z",
     "updatedAt": "2026-03-10T22:27:56.737Z"
+  },
+  {
+    "name": "영어공부",
+    "subcategories": [],
+    "order": 5,
+    "id": "mmlbkwj1uqyefsnhj",
+    "createdAt": "2026-03-11T00:47:42.253Z",
+    "updatedAt": "2026-03-11T00:47:42.257Z"
   }
 ]
