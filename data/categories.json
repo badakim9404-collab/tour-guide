@@ -134,11 +134,15 @@
       {
         "id": "mmln6ll30kmva1enw",
         "name": "스피치훈련 억양,단어,요약"
+      },
+      {
+        "id": "mmlqlhxtxnutcjehd",
+        "name": "뉴스기사 요약"
       }
     ],
     "order": 6,
     "id": "mmln5he4vknopyv7j",
     "createdAt": "2026-03-11T06:11:38.188Z",
-    "updatedAt": "2026-03-11T06:12:58.927Z"
+    "updatedAt": "2026-03-11T07:48:04.241Z"
   }
 ]
