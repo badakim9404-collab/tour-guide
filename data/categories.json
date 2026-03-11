@@ -105,10 +105,19 @@
   },
   {
     "name": "영어공부",
-    "subcategories": [],
+    "subcategories": [
+      {
+        "id": "mmlbl4i92rxzopc9k",
+        "name": "영어표현정리"
+      },
+      {
+        "id": "mmlblb91bjqrpzy8v",
+        "name": "영어단어정리"
+      }
+    ],
     "order": 5,
     "id": "mmlbkwj1uqyefsnhj",
     "createdAt": "2026-03-11T00:47:42.253Z",
-    "updatedAt": "2026-03-11T00:47:42.257Z"
+    "updatedAt": "2026-03-11T00:48:01.333Z"
   }
 ]
