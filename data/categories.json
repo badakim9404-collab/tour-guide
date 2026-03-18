@@ -113,12 +113,16 @@
       {
         "id": "mmlblb91bjqrpzy8v",
         "name": "영어단어정리"
+      },
+      {
+        "id": "mmwnsgbc4ysa8v8m6",
+        "name": "한국문화 영어로 설명"
       }
     ],
     "order": 5,
     "id": "mmlbkwj1uqyefsnhj",
     "createdAt": "2026-03-11T00:47:42.253Z",
-    "updatedAt": "2026-03-11T00:48:01.333Z"
+    "updatedAt": "2026-03-18T23:14:57.816Z"
   },
   {
     "name": "스피치 연습",
