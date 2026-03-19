@@ -4297,5 +4297,61 @@
     "id": "mmxcsgy9xhzqvqqj4",
     "createdAt": "2026-03-19T10:54:49.041Z",
     "updatedAt": "2026-03-19T10:56:33.021Z"
+  },
+  {
+    "name": "다슬기향촌성호식당",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "강원 영월군 영월읍 영월로 2101",
+    "lat": 37.1825360765794,
+    "lng": 128.48003714009,
+    "description": "다슬기, 강원도, 영월, 매주월 휴무, 2시마감, 다슬기해장국, 다슬기순두부, 가격(12.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "033-374-3215 갔는데 문닫아서 못가고 옆집 갔는데 맛있엇음",
+    "id": "mmxcveubhspa4zcp2",
+    "createdAt": "2026-03-19T10:57:06.275Z",
+    "updatedAt": "2026-03-19T10:57:06.275Z"
   }
 ]
