@@ -4249,42 +4249,44 @@
     "lng": 128.457942527389,
     "description": "강원도, 영월, 매주일 휴무, 보리밥 불백, 백반, 한식, 가격(12.0-14.0)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "19:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "19:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "18:00",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
+        "dayOff": true
+      },
+      "mon": {
+        "open": "11:00",
+        "close": "19:30",
         "dayOff": false
       },
-      "holidays": []
+      "tue": {
+        "open": "11:00",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 일요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
