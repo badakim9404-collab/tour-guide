@@ -4125,5 +4125,61 @@
     "id": "mmesrys4rbjh83kuk",
     "createdAt": "2026-03-06T11:14:42.004Z",
     "updatedAt": "2026-03-06T11:16:26.046Z"
+  },
+  {
+    "name": "풍년뜰",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "강원 영월군 주천면 도천길 29",
+    "lat": 37.2715388954896,
+    "lng": 128.264541179335,
+    "description": "1:55 라스트오더, 곤드레정식, 초당옥수수슈페너, 가격(14.0-17.0), 강원도, 영월,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1401-7810",
+    "id": "mmxcknnp9pyetd0qb",
+    "createdAt": "2026-03-19T10:48:44.485Z",
+    "updatedAt": "2026-03-19T10:48:44.485Z"
   }
 ]
