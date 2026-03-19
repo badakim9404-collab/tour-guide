@@ -4181,5 +4181,61 @@
     "id": "mmxcknnp9pyetd0qb",
     "createdAt": "2026-03-19T10:48:44.485Z",
     "updatedAt": "2026-03-19T10:48:44.485Z"
+  },
+  {
+    "name": "일미닭강정",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "강원 영월군 영월읍 서부시장길 15 1호",
+    "lat": 37.1830293711699,
+    "lng": 128.466787393501,
+    "description": "매주화 휴무, 닭강정, 강원도, 영월, 가격(15.0), 웨이팅, 영월서부시장",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "033-374-0151 갔는데 조기 재료소진으로 못감 ㅠ 땅콩강정느낌",
+    "id": "mmxcolucldhd0zx0x",
+    "createdAt": "2026-03-19T10:51:48.756Z",
+    "updatedAt": "2026-03-19T10:51:48.756Z"
   }
 ]
