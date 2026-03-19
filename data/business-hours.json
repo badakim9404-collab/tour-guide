@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-19T10:49:44.199758",
+  "updatedAt": "2026-03-19T10:52:48.003670",
   "totalPlaces": 3,
   "successCount": 1,
   "results": [
@@ -20,52 +20,52 @@
       "id": "mmbs7n6vr29jq8d4p"
     },
     {
-      "name": "풍년뜰",
+      "name": "일미닭강정",
       "hours": {
         "thu": {
-          "open": "11:00",
-          "close": "14:00",
+          "open": "09:30",
+          "close": "19:40",
           "dayOff": false
         },
         "fri": {
-          "open": "11:00",
-          "close": "14:00",
+          "open": "09:30",
+          "close": "19:40",
           "dayOff": false
         },
         "sat": {
-          "open": "11:00",
-          "close": "14:00",
+          "open": "09:30",
+          "close": "19:40",
           "dayOff": false
         },
         "sun": {
-          "open": "11:00",
-          "close": "14:00",
+          "open": "09:30",
+          "close": "19:40",
           "dayOff": false
         },
         "mon": {
-          "open": "11:00",
-          "close": "14:00",
+          "open": "09:30",
+          "close": "19:40",
           "dayOff": false
         },
         "tue": {
-          "open": "11:00",
-          "close": "14:00",
-          "dayOff": false
+          "open": "",
+          "close": "",
+          "dayOff": true
         },
         "wed": {
-          "open": "11:00",
-          "close": "14:00",
+          "open": "09:30",
+          "close": "19:40",
           "dayOff": false
         }
       },
-      "holidays": [],
-      "notes": [
-        "저녁식사는 단체 예약 10명 이상 예약하시면 영업합니다"
+      "holidays": [
+        "정기휴무 (매주 화요일)"
       ],
-      "crawledAt": "2026-03-19T10:49:44.163800",
-      "placeId": "15540741",
-      "matchedName": "풍년뜰",
-      "id": "mmxcknnp9pyetd0qb"
+      "notes": [],
+      "crawledAt": "2026-03-19T10:52:47.971758",
+      "placeId": "13381719",
+      "matchedName": "일미닭강정",
+      "id": "mmxcolucldhd0zx0x"
     }
   ]
 }

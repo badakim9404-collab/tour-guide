@@ -4191,42 +4191,44 @@
     "lng": 128.466787393501,
     "description": "매주화 휴무, 닭강정, 강원도, 영월, 가격(15.0), 웨이팅, 영월서부시장",
     "businessHours": {
+      "thu": {
+        "open": "09:30",
+        "close": "19:40",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "19:40",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "19:40",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "19:40",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "09:30",
+        "close": "19:40",
         "dayOff": false
       },
       "tue": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "09:30",
+        "close": "19:40",
         "dayOff": false
       },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 화요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
