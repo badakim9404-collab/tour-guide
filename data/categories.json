@@ -142,11 +142,15 @@
       {
         "id": "mmlqlhxtxnutcjehd",
         "name": "뉴스기사 요약"
+      },
+      {
+        "id": "mmwppx4e40eeu1gy3",
+        "name": "어색한 타이밍 스몰토크"
       }
     ],
     "order": 6,
     "id": "mmln5he4vknopyv7j",
     "createdAt": "2026-03-11T06:11:38.188Z",
-    "updatedAt": "2026-03-11T07:48:04.241Z"
+    "updatedAt": "2026-03-19T00:08:58.862Z"
   }
 ]
