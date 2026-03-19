@@ -4424,38 +4424,38 @@
     "description": "인사동, 한옥카페, 누룽지 아이스크림 라떼, 북촌손만두 바로 뒤, 조용함, 넓음, 사람별로없음, 팥빙수, 떡구이, 약과, 전통간식, 전통차, 프라이빗, 가보고싶음",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "holidays": []
