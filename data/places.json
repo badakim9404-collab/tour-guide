@@ -4239,5 +4239,61 @@
     "id": "mmxcolucldhd0zx0x",
     "createdAt": "2026-03-19T10:51:48.756Z",
     "updatedAt": "2026-03-19T10:51:48.756Z"
+  },
+  {
+    "name": "사랑방식당",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "강원 영월군 영월읍 절무리골길 12",
+    "lat": 37.1794123942828,
+    "lng": 128.457942527389,
+    "description": "강원도, 영월, 매주일 휴무, 보리밥 불백, 백반, 한식, 가격(12.0-14.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "033-373-1525",
+    "id": "mmxcsgy9xhzqvqqj4",
+    "createdAt": "2026-03-19T10:54:49.041Z",
+    "updatedAt": "2026-03-19T10:54:49.041Z"
   }
 ]
