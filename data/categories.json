@@ -117,12 +117,16 @@
       {
         "id": "mmwnsgbc4ysa8v8m6",
         "name": "한국문화 영어로 설명 (스몰토크)"
+      },
+      {
+        "id": "mmxc98lsp89a68xkj",
+        "name": "영어공부방법"
       }
     ],
     "order": 5,
     "id": "mmlbkwj1uqyefsnhj",
     "createdAt": "2026-03-11T00:47:42.253Z",
-    "updatedAt": "2026-03-18T23:16:23.689Z"
+    "updatedAt": "2026-03-19T10:39:51.760Z"
   },
   {
     "name": "스피치 연습",
