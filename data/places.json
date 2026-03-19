@@ -4307,42 +4307,44 @@
     "lng": 128.48003714009,
     "description": "다슬기, 강원도, 영월, 매주월 휴무, 2시마감, 다슬기해장국, 다슬기순두부, 가격(12.0)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "06:00",
+        "close": "14:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "06:00",
+        "close": "14:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "06:00",
+        "close": "14:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "06:00",
+        "close": "14:00",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "tue": {
+        "open": "06:00",
+        "close": "14:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "06:00",
+        "close": "14:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -4363,42 +4365,44 @@
     "lng": 128.395126221642,
     "description": "2시마감, 강원도, 영월, 매주월 휴무, 한정식, 강원나물밥 한상차림, 가격(20.0), 한옥, 산나물, 가보고싶음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "14:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "14:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "14:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "14:00",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "14:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "14:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",

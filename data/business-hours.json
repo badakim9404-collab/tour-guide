@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-03-19T10:57:53.948223",
-  "totalPlaces": 2,
-  "successCount": 0,
+  "updatedAt": "2026-03-19T11:01:10.911396",
+  "totalPlaces": 4,
+  "successCount": 2,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -18,6 +18,104 @@
       "notes": [],
       "crawledAt": null,
       "id": "mmbs7n6vr29jq8d4p"
+    },
+    {
+      "name": "다슬기향촌성호식당",
+      "hours": {
+        "thu": {
+          "open": "06:00",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "06:00",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "14:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ],
+      "notes": [],
+      "crawledAt": "2026-03-19T11:00:59.858911",
+      "placeId": "11707921",
+      "matchedName": "다슬기향촌성호식당",
+      "id": "mmxcveubhspa4zcp2"
+    },
+    {
+      "name": "산속의친구들",
+      "hours": {
+        "thu": {
+          "open": "11:00",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "11:00",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "14:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ],
+      "notes": [
+        "대체 공휴일은 영업합니다."
+      ],
+      "crawledAt": "2026-03-19T11:01:10.873344",
+      "placeId": "37687997",
+      "matchedName": "산속의친구들",
+      "id": "mmxcyzxouva1uhvbq"
     }
   ]
 }
