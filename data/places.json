@@ -4135,39 +4135,39 @@
     "lng": 128.264541179335,
     "description": "1:55 라스트오더, 곤드레정식, 초당옥수수슈페너, 가격(14.0-17.0), 강원도, 영월,",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "14:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "14:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "14:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "14:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "11:00",
+        "close": "14:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "14:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "14:00",
         "dayOff": false
       },
       "holidays": []
