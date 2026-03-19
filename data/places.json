@@ -4353,5 +4353,61 @@
     "id": "mmxcveubhspa4zcp2",
     "createdAt": "2026-03-19T10:57:06.275Z",
     "updatedAt": "2026-03-19T10:57:06.275Z"
+  },
+  {
+    "name": "산속의친구들",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "강원 영월군 북면 덕전길 132-54",
+    "lat": 37.2456844739811,
+    "lng": 128.395126221642,
+    "description": "2시마감, 강원도, 영월, 매주월 휴무, 한정식, 강원나물밥 한상차림, 가격(20.0), 한옥, 산나물, 가보고싶음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "010-7250-5177",
+    "id": "mmxcyzxouva1uhvbq",
+    "createdAt": "2026-03-19T10:59:53.580Z",
+    "updatedAt": "2026-03-19T10:59:53.580Z"
   }
 ]
