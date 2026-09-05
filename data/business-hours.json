@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T03:38:15.668268",
-  "totalPlaces": 7,
+  "updatedAt": "2026-09-05T03:41:43.038662",
+  "totalPlaces": 8,
   "successCount": 0,
   "results": [
     {
@@ -58,6 +58,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mtnu05uuva1ftelfl"
+    },
+    {
+      "name": "양지다방",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mtnu4mq8ch2jie7k5"
     }
   ]
 }
