@@ -4701,5 +4701,61 @@
     "id": "mtnsu8r6cwm5gzqjr",
     "createdAt": "2026-09-05T03:04:20.178Z",
     "updatedAt": "2026-09-05T03:04:20.178Z"
+  },
+  {
+    "name": "브레스커피웍스",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "경북 경주시 보불로 204-8 브레스커피웍스",
+    "lat": 35.80333570855,
+    "lng": 129.313192015783,
+    "description": "10-9시, 경주, 보문단지 불국사 근처, 뷰좋은 카페, 누룽지과자와 슈페너, 브레상(초승달모양빵), 공연도있음, 좌석불편, 1층2층, 사람많음, 가격(8.5)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1495-8854",
+    "id": "mtnto53vfm1jlu2bs",
+    "createdAt": "2026-09-05T03:27:35.131Z",
+    "updatedAt": "2026-09-05T03:27:35.131Z"
   }
 ]
