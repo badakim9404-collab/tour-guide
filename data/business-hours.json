@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T03:28:31.221788",
-  "totalPlaces": 5,
+  "updatedAt": "2026-09-05T03:33:12.762580",
+  "totalPlaces": 6,
   "successCount": 0,
   "results": [
     {
@@ -42,6 +42,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mtnto53vfm1jlu2bs"
+    },
+    {
+      "name": "도미",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mtntu0q6y9uhayqg2"
     }
   ]
 }
