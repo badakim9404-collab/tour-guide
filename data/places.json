@@ -4528,5 +4528,63 @@
     "id": "mtnrwolj4rybhskbv",
     "createdAt": "2026-09-05T02:38:14.407Z",
     "updatedAt": "2026-09-05T02:38:14.408Z"
+  },
+  {
+    "name": "무궁무진",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "경북 경주시 포석로 1057-6 무궁무진",
+    "lat": 35.8353886001343,
+    "lng": 129.209434578739,
+    "description": "경주, 황리단길, 생면파스타, 까르보나라, 대파오일파스타, 스테이크, 채식가능, 비건, 사람별로없음, 면이 맛있음, 예약가능, 단체가능, 가격(18.0-40.0), 유아의자있음, 프라이빗, 사장님혼자근무",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": [
+        "12시-8:30 (브레이크 3-5시) 매주화요일휴무"
+      ]
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 4,
+    "isClosed": false,
+    "memo": "0507-1369-2252, 맛있지만 막 엄청나진 않음 무난무난",
+    "id": "mtns61vkjjv2qhy69",
+    "createdAt": "2026-09-05T02:45:31.520Z",
+    "updatedAt": "2026-09-05T02:45:31.520Z"
   }
 ]
