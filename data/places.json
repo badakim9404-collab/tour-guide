@@ -4869,5 +4869,61 @@
     "id": "mtnu05uuva1ftelfl",
     "createdAt": "2026-09-05T03:36:55.974Z",
     "updatedAt": "2026-09-05T03:36:55.974Z"
+  },
+  {
+    "name": "양지다방",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "경북 경주시 사정로57번길 7-2 양지다방",
+    "lat": 35.8370477506336,
+    "lng": 129.20921115633,
+    "description": "경주, 황리단길, 주차불가, 옛다방느낌, 카페, 딸기수플레, 양지수페너, 전통차, 커피, 수플레정말맛있어!!, 가격(6.0-17.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 5,
+    "isClosed": false,
+    "memo": "0507-1337-3009",
+    "id": "mtnu4mq8ch2jie7k5",
+    "createdAt": "2026-09-05T03:40:24.464Z",
+    "updatedAt": "2026-09-05T03:40:24.464Z"
   }
 ]
