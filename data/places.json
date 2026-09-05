@@ -4470,5 +4470,63 @@
     "id": "mmxd355l03cz8p3bz",
     "createdAt": "2026-03-19T11:03:06.969Z",
     "updatedAt": "2026-03-19T11:03:58.738Z"
+  },
+  {
+    "name": "정록쌈밥",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "경북 경주시 계림로 48",
+    "lat": 35.8387470924226,
+    "lng": 129.2138376697,
+    "description": "경주, 대릉원 돌담길, 쌈밥, 한식, 사람많았음, 맛집, 제육, 소불고기, 떡갈비\n단체이용가능, 유아의자있음, 예약해야함, 주차가능, 18.0-21.0",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": [
+        "10:30-8:30 (브레이크타임 3:30-5시)"
+      ]
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "054-772-9333",
+    "id": "mtnrwolj4rybhskbv",
+    "createdAt": "2026-09-05T02:38:14.407Z",
+    "updatedAt": "2026-09-05T02:38:14.408Z"
   }
 ]
