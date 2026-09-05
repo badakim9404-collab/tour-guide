@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T03:05:26.868443",
-  "totalPlaces": 4,
+  "updatedAt": "2026-09-05T03:28:31.221788",
+  "totalPlaces": 5,
   "successCount": 0,
   "results": [
     {
@@ -34,6 +34,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mtnsu8r6cwm5gzqjr"
+    },
+    {
+      "name": "브레스커피웍스",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mtnto53vfm1jlu2bs"
     }
   ]
 }
