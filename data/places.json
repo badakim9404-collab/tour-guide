@@ -4757,5 +4757,61 @@
     "id": "mtnto53vfm1jlu2bs",
     "createdAt": "2026-09-05T03:27:35.131Z",
     "updatedAt": "2026-09-05T03:27:35.131Z"
+  },
+  {
+    "name": "도미",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "경북 경주시 중앙로 10",
+    "lat": 35.8407717784767,
+    "lng": 129.211781322218,
+    "description": "11-9시(브레이크2:30-5), 매주화요일휴무, 경주, 피자, 에그인헬, 이탈리아음식, 대릉원 신라대종 옆, 가격(15.0-22.0), 고르곤졸라, 루꼴라피자, 두릅피자, 버섯피자, 마르게리따, 채식, 비건메뉴, 주차불가, 해동주차장1시간무료서비스, 내부작음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1339-1142",
+    "id": "mtntu0q6y9uhayqg2",
+    "createdAt": "2026-09-05T03:32:09.390Z",
+    "updatedAt": "2026-09-05T03:32:09.390Z"
   }
 ]
