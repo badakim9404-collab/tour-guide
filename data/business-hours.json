@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T02:54:30.912401",
-  "totalPlaces": 3,
+  "updatedAt": "2026-09-05T03:05:11.167543",
+  "totalPlaces": 4,
   "successCount": 0,
   "results": [
     {
@@ -26,6 +26,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mtnsgkflgv09nhyy8"
+    },
+    {
+      "name": "포석로 소갈비찜",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mtnsu8r6cwm5gzqjr"
     }
   ]
 }
