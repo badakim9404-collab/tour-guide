@@ -4645,5 +4645,61 @@
     "id": "mtnsgkflgv09nhyy8",
     "createdAt": "2026-09-05T02:53:42.129Z",
     "updatedAt": "2026-09-05T02:53:42.129Z"
+  },
+  {
+    "name": "포석로 소갈비찜",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 경주시 포석로1068번길 22",
+    "lat": 35.8359051288976,
+    "lng": 129.211840813171,
+    "description": "경주 황리단길, 식당주차장없음, 무료주차장(서라벌문화회관, 황남동주민자치센터, 경상북도교육청발명체험교육관 평일 5시이후무료, 월요일공휴일주차가능), 10:30-9:30(브레이크3-4), 예약가능, 6시이후는 현장방문 웨이팅있음, 소갈비찜, 왕갈비탕, 명란마요주먹밥, 해물파전, 술, 프라이빗, 가격(15.0-21.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "054-749-1220",
+    "id": "mtnsu8r6cwm5gzqjr",
+    "createdAt": "2026-09-05T03:04:20.178Z",
+    "updatedAt": "2026-09-05T03:04:20.178Z"
   }
 ]
