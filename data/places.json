@@ -4813,5 +4813,61 @@
     "id": "mtntu0q6y9uhayqg2",
     "createdAt": "2026-09-05T03:32:09.390Z",
     "updatedAt": "2026-09-05T03:32:09.390Z"
+  },
+  {
+    "name": "도화당",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "경북 경주시 쪽샘길 11 1층",
+    "lat": 35.836346743638,
+    "lng": 129.217704510659,
+    "description": "경주, 첨성대1분, 대릉원2분, 황리단길10분, 11-9시(브레이크3-5), 넓음, 최대70인까지착석가능, 예약가능, 인바운드 단체, 들기름칼국수, 육회비빔칼국수, 갈비칼국수, 매콤갈비찜, 만두, 가격(13.0-20.0), 약과카나페(리뷰작성시 증정), 매주수요일휴무, 한옥, 프라이빗, 가보고싶음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1417-1626",
+    "id": "mtnu05uuva1ftelfl",
+    "createdAt": "2026-09-05T03:36:55.974Z",
+    "updatedAt": "2026-09-05T03:36:55.974Z"
   }
 ]
