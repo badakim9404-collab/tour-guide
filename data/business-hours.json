@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T02:38:59.083649",
-  "totalPlaces": 3,
+  "updatedAt": "2026-09-05T02:47:03.019866",
+  "totalPlaces": 4,
   "successCount": 0,
   "results": [
     {
@@ -26,6 +26,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mtnrwolj4rybhskbv"
+    },
+    {
+      "name": "무궁무진",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mtns61vkjjv2qhy69"
     }
   ]
 }
