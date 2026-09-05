@@ -4481,39 +4481,39 @@
     "lng": 129.2138376697,
     "description": "경주, 대릉원 돌담길, 쌈밥, 한식, 사람많았음, 맛집, 제육, 소불고기, 떡갈비\n단체이용가능, 유아의자있음, 예약해야함, 주차가능, 18.0-21.0, 10:30-8:30 (브레이크타임 3:30-5시)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "17:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "15:30",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:30",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:30",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "15:30",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "15:30",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": [
@@ -4539,43 +4539,43 @@
     "lng": 129.209434578739,
     "description": "경주, 황리단길, 생면파스타, 까르보나라, 대파오일파스타, 스테이크, 채식가능, 비건, 사람별로없음, 면이 맛있음, 예약가능, 단체가능, 가격(18.0-40.0), 유아의자있음, 프라이빗, 사장님혼자근무, 매주화요일휴무, 12시-8:30 (브레이크 3-5시)",
     "businessHours": {
+      "sat": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "tue": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": [
-        "12시-8:30 (브레이크 3-5시) 매주화요일휴무"
+        "정기휴무 (매주 화요일)"
       ]
     },
     "hasCommission": false,
