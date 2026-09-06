@@ -5016,5 +5016,61 @@
     "id": "mtpwfwnb5mr9byt4y",
     "createdAt": "2026-09-06T14:20:42.119Z",
     "updatedAt": "2026-09-06T14:20:42.119Z"
+  },
+  {
+    "name": "황리화덕가",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "경북 경주시 사정로50번길 12 황리화덕가",
+    "lat": 35.8356703896529,
+    "lng": 129.208349906944,
+    "description": "11-9시(브레이크평일3-5시주말4-5시), 경주, 피자, 화덕피자, 황리단길, 참나무장작으로 450도 고온 화덕, 정통나폴리피자, 대표메뉴 관자크림파스타, 쉬림프피자, 유아의자준비됨, 넓은별채 단체예약가능, 주차장없음, 가게앞코너에 6대주차가능, 한옥, 루프탑 경치, 프라이빗, 가격(18.0-27.0), 가보고싶음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1400-2003",
+    "id": "mtpwruer1ccw97lzh",
+    "createdAt": "2026-09-06T14:29:59.091Z",
+    "updatedAt": "2026-09-06T14:29:59.091Z"
   }
 ]
