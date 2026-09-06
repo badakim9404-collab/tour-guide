@@ -5069,5 +5069,61 @@
     "id": "mtpwruer1ccw97lzh",
     "createdAt": "2026-09-06T14:29:59.091Z",
     "updatedAt": "2026-09-06T14:29:59.091Z"
+  },
+  {
+    "name": "이재원과자공방",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "경북 경주시 봉황로 89",
+    "lat": 35.8474650425952,
+    "lng": 129.209997648681,
+    "description": "경주, 대릉원근처, 매주 일월휴무, 9-6시, 첨가물제로, 우유버터100 동물성우유생크림100, 건강한디저트, 구입시 바로 냉장보관, 예약가능, 매장에서취식가능, 과일케이크위주, 가격(4.0-38.0), 빵도있음, 소금빵, 웨이팅있음, 저렴함, 그리넓진않음, 가보고싶음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1410-4124",
+    "id": "mtpx22t5p7w60ayr6",
+    "createdAt": "2026-09-06T14:37:56.537Z",
+    "updatedAt": "2026-09-06T14:37:56.537Z"
   }
 ]
