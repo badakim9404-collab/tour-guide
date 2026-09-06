@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-06T14:53:54.953705",
-  "totalPlaces": 6,
+  "updatedAt": "2026-09-06T14:57:31.653503",
+  "totalPlaces": 7,
   "successCount": 0,
   "results": [
     {
@@ -50,6 +50,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mtpxl44566r8q73k8"
+    },
+    {
+      "name": "박용자경주명동쫄면 본점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mtpxpolkmi5svv3ef"
     }
   ]
 }
