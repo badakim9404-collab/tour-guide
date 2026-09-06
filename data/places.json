@@ -5181,5 +5181,61 @@
     "id": "mtpxl44566r8q73k8",
     "createdAt": "2026-09-06T14:52:44.693Z",
     "updatedAt": "2026-09-06T14:52:44.693Z"
+  },
+  {
+    "name": "박용자경주명동쫄면 본점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 경주시 계림로93번길 3 명동쫄면",
+    "lat": 35.842567690917,
+    "lng": 129.213236853959,
+    "description": "경주, 황리단길10분거리, 주차불가, 근처주차장있음, 11:20-7:30(브레이크3-4:30) 공휴일은 브레이크없음, 맛있음, 유부쫄면, 비빔쫄면, 냉쫄면, 쫄면직접뽑으심, 면이엄청맛있고 따뜻한 쫄면은 처음인데 맛있다. 캐치테이블예약필수(대기100분), 가격(9.0), 저렴, 프라이빗, 또가고싶다,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 5,
+    "isClosed": false,
+    "memo": "0507-1432-5310",
+    "id": "mtpxpolkmi5svv3ef",
+    "createdAt": "2026-09-06T14:56:17.864Z",
+    "updatedAt": "2026-09-06T14:56:17.864Z"
   }
 ]
