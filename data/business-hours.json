@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-05T03:41:43.038662",
-  "totalPlaces": 8,
-  "successCount": 0,
+  "updatedAt": "2026-09-06T14:16:19.783162",
+  "totalPlaces": 9,
+  "successCount": 7,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -21,51 +21,306 @@
     },
     {
       "name": "메종드문",
-      "hours": {},
+      "hours": {
+        "sun": {
+          "open": "15:30",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "15:30",
+          "close": "17:00",
+          "dayOff": false
+        }
+      },
       "holidays": [],
       "notes": [],
-      "crawledAt": null,
+      "crawledAt": "2026-09-06T14:15:07.171716",
+      "placeId": "1643166152",
+      "matchedName": "메종드문",
       "id": "mtnsgkflgv09nhyy8"
     },
     {
       "name": "포석로 소갈비찜",
-      "hours": {},
+      "hours": {
+        "sun": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "15:00",
+          "close": "16:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "15:00",
+          "close": "16:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "15:00",
+          "close": "16:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "15:00",
+          "close": "16:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "15:00",
+          "close": "16:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        }
+      },
       "holidays": [],
       "notes": [],
-      "crawledAt": null,
+      "crawledAt": "2026-09-06T14:15:20.175352",
+      "placeId": "1196479801",
+      "matchedName": "포석로 소갈비찜",
       "id": "mtnsu8r6cwm5gzqjr"
     },
     {
       "name": "브레스커피웍스",
-      "hours": {},
+      "hours": {
+        "sun": {
+          "open": "10:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "10:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "21:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "10:00",
+          "close": "21:00",
+          "dayOff": false
+        }
+      },
       "holidays": [],
       "notes": [],
-      "crawledAt": null,
+      "crawledAt": "2026-09-06T14:15:30.828092",
+      "placeId": "2055627551",
+      "matchedName": "브레스커피웍스",
       "id": "mtnto53vfm1jlu2bs"
     },
     {
       "name": "도미",
-      "hours": {},
-      "holidays": [],
-      "notes": [],
-      "crawledAt": null,
+      "hours": {
+        "sun": {
+          "open": "14:30",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "14:30",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "wed": {
+          "open": "14:30",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "14:30",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "14:30",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "14:30",
+          "close": "17:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "정기휴무 (매주 화요일)"
+      ],
+      "notes": [
+        "Drink 라스트 오더:영업종료 30분전"
+      ],
+      "crawledAt": "2026-09-06T14:15:42.767472",
+      "placeId": "38460550",
+      "matchedName": "도미",
       "id": "mtntu0q6y9uhayqg2"
     },
     {
       "name": "도화당",
-      "hours": {},
-      "holidays": [],
+      "hours": {
+        "sun": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "thu": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "정기휴무 (매주 수요일)"
+      ],
       "notes": [],
-      "crawledAt": null,
+      "crawledAt": "2026-09-06T14:15:56.325104",
+      "placeId": "1139476412",
+      "matchedName": "도화당",
       "id": "mtnu05uuva1ftelfl"
     },
     {
       "name": "양지다방",
-      "hours": {},
+      "hours": {
+        "mon": {
+          "open": "11:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "11:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "11:00",
+          "close": "20:00",
+          "dayOff": false
+        }
+      },
       "holidays": [],
       "notes": [],
-      "crawledAt": null,
+      "crawledAt": "2026-09-06T14:16:07.746323",
+      "placeId": "1911249419",
+      "matchedName": "양지다방",
       "id": "mtnu4mq8ch2jie7k5"
+    },
+    {
+      "name": "도돗",
+      "hours": {
+        "sun": {
+          "open": "12:00",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "14:30",
+          "close": "16:30",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "14:30",
+          "close": "16:30",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "14:30",
+          "close": "16:30",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "14:30",
+          "close": "16:30",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "14:30",
+          "close": "16:30",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "12:00",
+          "close": "22:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [],
+      "crawledAt": "2026-09-06T14:16:19.748558",
+      "placeId": "2087098555",
+      "matchedName": "도돗",
+      "id": "mtpw7f11z1i400j3f"
     }
   ]
 }

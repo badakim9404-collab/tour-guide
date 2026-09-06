@@ -4597,39 +4597,14 @@
     "lng": 129.211732230855,
     "description": "11:30-8:30(브레이크3:30-5), 경주 황리단길, 랍스터파스타, 한우스테이크, 6인이상 예약가능, 1인셰프, 가보고싶음, 분위기있는맛집, 한옥, 가격(14.0-58.0), 프라이빗, 휴무체크필요.",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
+      "sun": {
+        "open": "15:30",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": [
@@ -4655,39 +4630,39 @@
     "lng": 129.211840813171,
     "description": "경주 황리단길, 식당주차장없음, 무료주차장(서라벌문화회관, 황남동주민자치센터, 경상북도교육청발명체험교육관 평일 5시이후무료, 월요일공휴일주차가능), 10:30-9:30(브레이크3-4), 예약가능, 6시이후는 현장방문 웨이팅있음, 소갈비찜, 왕갈비탕, 명란마요주먹밥, 해물파전, 술, 프라이빗, 가격(15.0-21.0)",
     "businessHours": {
+      "sun": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": []
@@ -4711,39 +4686,39 @@
     "lng": 129.313192015783,
     "description": "10-9시, 경주, 보문단지 불국사 근처, 뷰좋은 카페, 누룽지과자와 슈페너, 브레상(초승달모양빵), 공연도있음, 좌석불편, 1층2층, 사람많음, 가격(8.5)",
     "businessHours": {
+      "sun": {
+        "open": "10:00",
+        "close": "21:00",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "21:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "21:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "21:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "21:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "21:00",
         "dayOff": false
       },
       "holidays": []
@@ -4767,42 +4742,44 @@
     "lng": 129.211781322218,
     "description": "11-9시(브레이크2:30-5), 매주화요일휴무, 경주, 피자, 에그인헬, 이탈리아음식, 대릉원 신라대종 옆, 가격(15.0-22.0), 고르곤졸라, 루꼴라피자, 두릅피자, 버섯피자, 마르게리따, 채식, 비건메뉴, 주차불가, 해동주차장1시간무료서비스, 내부작음",
     "businessHours": {
+      "sun": {
+        "open": "14:30",
+        "close": "17:00",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "tue": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 화요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -4823,42 +4800,44 @@
     "lng": 129.217704510659,
     "description": "경주, 첨성대1분, 대릉원2분, 황리단길10분, 11-9시(브레이크3-5), 넓음, 최대70인까지착석가능, 예약가능, 인바운드 단체, 들기름칼국수, 육회비빔칼국수, 갈비칼국수, 매콤갈비찜, 만두, 가격(13.0-20.0), 약과카나페(리뷰작성시 증정), 매주수요일휴무, 한옥, 프라이빗, 가보고싶음",
     "businessHours": {
+      "sun": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "wed": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 수요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -4880,38 +4859,38 @@
     "description": "경주, 황리단길, 주차불가, 옛다방느낌, 카페, 딸기수플레, 양지수페너, 전통차, 커피, 수플레정말맛있어!!, 가격(6.0-17.0)",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:00",
         "dayOff": false
       },
       "holidays": []
@@ -4935,39 +4914,39 @@
     "lng": 127.045948012466,
     "description": "서울, 뚝섬역근처, 성수, 12-10시(브레이크 2:30-4:30)\n넓음, 홀, 룸 예약가능, 고기, 바베큐, 돼지고기, 한우, 단체이용가능, 주차무료가능(5개), 인테리어깔끔, 프라이빗, 직원응대관련악플이 좀 있음, 고기구워줌, 가격(62.0-88.0), 점심특선 보쌈정식, 돼지곰탕, 제육한상, 불고기+냉면 점심11시-2시 (12.0-13.0)",
     "businessHours": {
+      "sun": {
+        "open": "12:00",
+        "close": "22:00",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "12:00",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
