@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-06T14:39:01.163023",
-  "totalPlaces": 5,
+  "updatedAt": "2026-09-06T14:53:54.953705",
+  "totalPlaces": 6,
   "successCount": 0,
   "results": [
     {
@@ -42,6 +42,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mtpx22t5p7w60ayr6"
+    },
+    {
+      "name": "가마솥족발",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mtpxl44566r8q73k8"
     }
   ]
 }
