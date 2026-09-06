@@ -5125,5 +5125,61 @@
     "id": "mtpx22t5p7w60ayr6",
     "createdAt": "2026-09-06T14:37:56.537Z",
     "updatedAt": "2026-09-06T14:37:56.537Z"
+  },
+  {
+    "name": "가마솥족발",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 경주시 봉황로 41-1 1층",
+    "lat": 35.8432279352359,
+    "lng": 129.209906494324,
+    "description": "경주, 황리단길도보10분, 족발, 보쌈, 쟁반국수, 가마솥에 매일 오전 삶음, 모든재료국내산, 단체이용가능, 매주월요일휴무, 1030-730, 재료소진시조기마감(오후2시재료소진), 예약필수, 가격(24.0-42.0), 가보고싶음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "054-771-4733",
+    "id": "mtpxl44566r8q73k8",
+    "createdAt": "2026-09-06T14:52:44.693Z",
+    "updatedAt": "2026-09-06T14:52:44.693Z"
   }
 ]
