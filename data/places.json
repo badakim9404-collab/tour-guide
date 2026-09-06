@@ -4925,5 +4925,61 @@
     "id": "mtnu4mq8ch2jie7k5",
     "createdAt": "2026-09-05T03:40:24.464Z",
     "updatedAt": "2026-09-05T03:40:24.464Z"
+  },
+  {
+    "name": "도돗",
+    "type": "restaurant",
+    "categoryId": "mmbgn2lsjqag0earr",
+    "address": "서울 성동구 왕십리로4길 15 도돗",
+    "lat": 37.546180476482,
+    "lng": 127.045948012466,
+    "description": "서울, 뚝섬역근처, 성수, 12-10시(브레이크 2:30-4:30)\n넓음, 홀, 룸 예약가능, 고기, 바베큐, 돼지고기, 한우, 단체이용가능, 주차무료가능(5개), 인테리어깔끔, 프라이빗, 직원응대관련악플이 좀 있음, 고기구워줌, 가격(62.0-88.0), 점심특선 보쌈정식, 돼지곰탕, 제육한상, 불고기+냉면 점심11시-2시 (12.0-13.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1310-0286",
+    "id": "mtpw7f11z1i400j3f",
+    "createdAt": "2026-09-06T14:14:06.037Z",
+    "updatedAt": "2026-09-06T14:14:06.038Z"
   }
 ]
