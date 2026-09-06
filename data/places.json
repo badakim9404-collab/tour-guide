@@ -4960,5 +4960,61 @@
     "id": "mtpw7f11z1i400j3f",
     "createdAt": "2026-09-06T14:14:06.037Z",
     "updatedAt": "2026-09-06T14:14:06.038Z"
+  },
+  {
+    "name": "코리야 본점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 성동구 왕십리로4길 10-20 B1층",
+    "lat": 37.5455151867372,
+    "lng": 127.046388582153,
+    "description": "빙수맛집, 서울, 성수, 내최애빙수집, 단호박빙수최고, 뚝섬역7번출구 2분거리, 12-10:30(재료소진시마감), 일본감성빙수-카키고오리-, 주차불가, 바테이블, 따뜻한물 함께줌, 넓지않음(11명최대..?), 가격(16.0-22.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 5,
+    "isClosed": false,
+    "memo": "0507-1345-2139, 인생빙수",
+    "id": "mtpwfwnb5mr9byt4y",
+    "createdAt": "2026-09-06T14:20:42.119Z",
+    "updatedAt": "2026-09-06T14:20:42.119Z"
   }
 ]
