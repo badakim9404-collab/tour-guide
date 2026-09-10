@@ -5532,5 +5532,61 @@
     "id": "mtv21vn62nwv3wt7v",
     "createdAt": "2026-09-10T04:56:36.210Z",
     "updatedAt": "2026-09-10T04:56:36.210Z"
+  },
+  {
+    "name": "송내촌산나물밥",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 호계면 가열2길 25-1",
+    "lat": 36.6458109937707,
+    "lng": 128.166943326368,
+    "description": "마을공영주차장 주차가능(50대,관광버스), 문경, 한식, 벽화골목(미션정답맞추면 선물증정), 11시-8시(브레이크3:30-4:30, 매주월휴무), 수제막걸리식초, 발효산채요리, 비건메뉴, 룸(최대12명), 단체석(최대16명), 산채육회비빔밥, 문경산신령비빔밥(봄산채6가지-조미료없이), 발효산나물밥, 산나물전, 가격(13.0-18.0), 예약가능(40명까지),",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1333-4431",
+    "id": "mtv29m166kgevhzfp",
+    "createdAt": "2026-09-10T05:02:37.002Z",
+    "updatedAt": "2026-09-10T05:02:37.002Z"
   }
 ]
