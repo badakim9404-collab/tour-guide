@@ -5420,5 +5420,61 @@
     "id": "mtv1rwhdl5bhofcnl",
     "createdAt": "2026-09-10T04:48:50.737Z",
     "updatedAt": "2026-09-10T04:48:50.737Z"
+  },
+  {
+    "name": "웰빙황토우렁이쌈밥 본점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 경주시 현곡면 용담로 847",
+    "lat": 35.9032302297442,
+    "lng": 129.147034571004,
+    "description": "홍준이가 가본곳, 맛집, 경주, 쌈밥, 한식, 우렁이쌈밥, 가격(2인32.0), 아기의자있음, 11시-7:30(매주목휴무), 늦은점심이나 저녁은 미리연락후 방문하기(재료소진시 조기마감), 웨이팅있음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "054-777-6603",
+    "id": "mtv1wb0k161jhvmsl",
+    "createdAt": "2026-09-10T04:52:16.196Z",
+    "updatedAt": "2026-09-10T04:52:16.196Z"
   }
 ]
