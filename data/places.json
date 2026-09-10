@@ -5764,5 +5764,61 @@
     "id": "mtv334z49qme7x0xq",
     "createdAt": "2026-09-10T05:25:34.576Z",
     "updatedAt": "2026-09-10T05:25:34.576Z"
+  },
+  {
+    "name": "라루올로",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 문경읍 새재2길 29 라 루올로",
+    "lat": 36.7611373449741,
+    "lng": 128.077193623962,
+    "description": "문경새재옆, 문경, 11시-9시(주말브레이크2-4:30, 매주수휴무), 나폴리현지재료피자, 예약없이가능(주말웨이팅있음), 전화예약, 비건메뉴, 캐치테이블예약가능, 바질페스토파스타, 다양한피자, 가격(17.0-25.0), 화덕피자,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1421-5800",
+    "id": "mtv3efe66gzj1y6by",
+    "createdAt": "2026-09-10T05:34:21.294Z",
+    "updatedAt": "2026-09-10T05:34:21.294Z"
   }
 ]
