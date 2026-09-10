@@ -5237,5 +5237,61 @@
     "id": "mtpxpolkmi5svv3ef",
     "createdAt": "2026-09-06T14:56:17.864Z",
     "updatedAt": "2026-09-06T14:56:17.864Z"
+  },
+  {
+    "name": "오복닭집",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 경주시 금성로 295",
+    "lat": 35.8439604877691,
+    "lng": 129.206745297031,
+    "description": "10시-7:30, 경주, 치킨, 포장, 전화로 예약포장(20분소요), 마늘후라이드치킨, 땡초간장치킨, 가격(23.0-24.0)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "054-772-1917",
+    "id": "mtv1alwq2rf67bygk",
+    "createdAt": "2026-09-10T04:35:23.882Z",
+    "updatedAt": "2026-09-10T04:35:23.882Z"
   }
 ]
