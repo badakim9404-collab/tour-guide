@@ -5596,5 +5596,61 @@
     "id": "mtv29m166kgevhzfp",
     "createdAt": "2026-09-10T05:02:37.002Z",
     "updatedAt": "2026-09-10T05:02:37.002Z"
+  },
+  {
+    "name": "강이주는맛집",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 마성면 구랑로 241",
+    "lat": 36.6552717507159,
+    "lng": 128.119573018238,
+    "description": "문경, 매운탕, 가격(35.0-75.0), 참게 메기매운탕, 주차가능, 7시-8시, 문경새재에서 차로 13분",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1316-0689",
+    "id": "mtv2sha6uqugw0c6n",
+    "createdAt": "2026-09-10T05:17:17.310Z",
+    "updatedAt": "2026-09-10T05:17:17.310Z"
   }
 ]
