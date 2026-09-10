@@ -5476,5 +5476,61 @@
     "id": "mtv1wb0k161jhvmsl",
     "createdAt": "2026-09-10T04:52:16.196Z",
     "updatedAt": "2026-09-10T04:52:16.196Z"
+  },
+  {
+    "name": "촌아저씨 쌈밥 문경본점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 반쟁이4길 16 1층",
+    "lat": 36.5936665806328,
+    "lng": 128.189620697442,
+    "description": "문경새재에서 차로25분, 문경, 쌈밥, 한식, 11시-8:30(브레이크3-5시), 무한리필, 단체(36명-40명가능), 주차가능, 제육우렁쌈밥, 모듬쌈밥, 쭈꾸미쌈밥, 가격(12.0-16.0), 맛집,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "054-556-2343",
+    "id": "mtv21vn62nwv3wt7v",
+    "createdAt": "2026-09-10T04:56:36.210Z",
+    "updatedAt": "2026-09-10T04:56:36.210Z"
   }
 ]
