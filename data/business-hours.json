@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-10T04:53:26.513679",
-  "totalPlaces": 3,
+  "updatedAt": "2026-09-10T04:57:44.131885",
+  "totalPlaces": 4,
   "successCount": 0,
   "results": [
     {
@@ -26,6 +26,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mtv1wb0k161jhvmsl"
+    },
+    {
+      "name": "촌아저씨 쌈밥 문경본점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mtv21vn62nwv3wt7v"
     }
   ]
 }
