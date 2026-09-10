@@ -5652,5 +5652,61 @@
     "id": "mtv2sha6uqugw0c6n",
     "createdAt": "2026-09-10T05:17:17.310Z",
     "updatedAt": "2026-09-10T05:17:28.568Z"
+  },
+  {
+    "name": "선미식육식당",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 마성면 마성길 96",
+    "lat": 36.6961825095605,
+    "lng": 128.125419706697,
+    "description": "문경, 고기, 삼겹살, 바베큐, 소머리곰탕, 전화번호x, 영업시간x, 가격(11.0-20.0), 깔끔하고 녹진한 곰탕, 잡내없음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "",
+    "id": "mtv2wex33gpc9nk0x",
+    "createdAt": "2026-09-10T05:20:20.871Z",
+    "updatedAt": "2026-09-10T05:20:20.871Z"
   }
 ]
