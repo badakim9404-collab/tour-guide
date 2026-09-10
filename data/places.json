@@ -5357,5 +5357,61 @@
     "id": "mtv1jpbyo2c2v66nb",
     "createdAt": "2026-09-10T04:42:28.222Z",
     "updatedAt": "2026-09-10T04:42:28.222Z"
+  },
+  {
+    "name": "경주신라반상 수리뫼",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 경주시 내남면 포석로 110-32",
+    "lat": 35.7523254418655,
+    "lng": 129.208198925849,
+    "description": "경주, 시내랑 떨어짐, 용산회식당근처, 첨성대에서 차로15분, 11-6시(5시 라스트오더, 매주월요일휴무), 2025년 APEC 정상회의 한국대표음식점선정, 무형문화재 궁중음식 기능이수자 박미숙셰프, 홍게순두부 정식, 전통음식체험&교육(전통조리법,장담그기,궁중예절), 한식, 한정식, 프라이빗, 캐치테이블예약가능, 갈비찜, 제철나물, 꼭 가보고싶음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1487-2508",
+    "id": "mtv1rwhdl5bhofcnl",
+    "createdAt": "2026-09-10T04:48:50.737Z",
+    "updatedAt": "2026-09-10T04:48:50.737Z"
   }
 ]
