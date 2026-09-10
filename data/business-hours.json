@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-10T04:57:44.131885",
-  "totalPlaces": 4,
-  "successCount": 0,
+  "updatedAt": "2026-09-10T05:04:01.294321",
+  "totalPlaces": 5,
+  "successCount": 3,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -21,19 +21,155 @@
     },
     {
       "name": "웰빙황토우렁이쌈밥 본점",
-      "hours": {},
-      "holidays": [],
-      "notes": [],
-      "crawledAt": null,
+      "hours": {
+        "thu": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "19:30",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "19:30",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "11:00",
+          "close": "19:30",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "11:00",
+          "close": "19:30",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "19:30",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "19:30",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "매주 목요일 휴무",
+        "매주 목요일 휴무",
+        "정기휴무 (매주 목요일)"
+      ],
+      "notes": [
+        "재료소진시 조기마감 되오니 늦은 점심이나저녁 식사시 미리 연락 후 방문해주시면 감사하겠습니다 !"
+      ],
+      "crawledAt": "2026-09-10T05:03:39.092971",
+      "placeId": "15291434",
+      "matchedName": "웰빙황토우렁이쌈밥 본점",
       "id": "mtv1wb0k161jhvmsl"
     },
     {
       "name": "촌아저씨 쌈밥 문경본점",
-      "hours": {},
-      "holidays": [],
-      "notes": [],
-      "crawledAt": null,
+      "hours": {
+        "thu": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "tue": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "15:00",
+          "close": "17:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ],
+      "notes": [
+        "라스트 오더 - 점심 14시30분 저녁 20시"
+      ],
+      "crawledAt": "2026-09-10T05:03:49.311953",
+      "placeId": "2054395646",
+      "matchedName": "촌아저씨쌈밥 문경본점",
       "id": "mtv21vn62nwv3wt7v"
+    },
+    {
+      "name": "송내촌산나물밥",
+      "hours": {
+        "thu": {
+          "open": "15:30",
+          "close": "16:30",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "15:30",
+          "close": "16:30",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "15:30",
+          "close": "16:30",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "15:30",
+          "close": "16:30",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "tue": {
+          "open": "15:30",
+          "close": "16:30",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "15:30",
+          "close": "16:30",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ],
+      "notes": [
+        "재료가 소진되면 영업을 종료합니다."
+      ],
+      "crawledAt": "2026-09-10T05:04:01.256487",
+      "placeId": "1908594115",
+      "matchedName": "송내촌산나물밥",
+      "id": "mtv29m166kgevhzfp"
     }
   ]
 }

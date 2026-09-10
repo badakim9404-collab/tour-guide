@@ -5430,42 +5430,46 @@
     "lng": 129.147034571004,
     "description": "홍준이가 가본곳, 맛집, 경주, 쌈밥, 한식, 우렁이쌈밥, 가격(2인32.0), 아기의자있음, 11시-7:30(매주목휴무), 늦은점심이나 저녁은 미리연락후 방문하기(재료소진시 조기마감), 웨이팅있음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "19:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "19:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "19:30",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "11:00",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "holidays": [
+        "매주 목요일 휴무",
+        "매주 목요일 휴무",
+        "정기휴무 (매주 목요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -5486,42 +5490,44 @@
     "lng": 128.189620697442,
     "description": "문경새재에서 차로25분, 문경, 쌈밥, 한식, 11시-8:30(브레이크3-5시), 무한리필, 단체(36명-40명가능), 주차가능, 제육우렁쌈밥, 모듬쌈밥, 쭈꾸미쌈밥, 가격(12.0-16.0), 맛집,",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -5542,42 +5548,44 @@
     "lng": 128.166943326368,
     "description": "마을공영주차장 주차가능(50대,관광버스), 문경, 한식, 벽화골목(미션정답맞추면 선물증정), 11시-8시(브레이크3:30-4:30, 매주월휴무), 수제막걸리식초, 발효산채요리, 비건메뉴, 룸(최대12명), 단체석(최대16명), 산채육회비빔밥, 문경산신령비빔밥(봄산채6가지-조미료없이), 발효산나물밥, 산나물전, 가격(13.0-18.0), 예약가능(40명까지),",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "16:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "16:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "16:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "15:30",
+        "close": "16:30",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "tue": {
+        "open": "15:30",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:30",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
