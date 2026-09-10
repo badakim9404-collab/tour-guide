@@ -4968,38 +4968,38 @@
     "description": "빙수맛집, 서울, 성수, 내최애빙수집, 단호박빙수최고, 뚝섬역7번출구 2분거리, 12-10:30(재료소진시마감), 일본감성빙수-카키고오리-, 주차불가, 바테이블, 따뜻한물 함께줌, 넓지않음(11명최대..?), 가격(16.0-22.0)",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "12:00",
+        "close": "22:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "12:00",
+        "close": "22:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "12:00",
+        "close": "22:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "12:00",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "12:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "12:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "12:00",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
@@ -5023,39 +5023,39 @@
     "lng": 129.208349906944,
     "description": "11-9시(브레이크평일3-5시주말4-5시), 경주, 피자, 화덕피자, 황리단길, 참나무장작으로 450도 고온 화덕, 정통나폴리피자, 대표메뉴 관자크림파스타, 쉬림프피자, 유아의자준비됨, 넓은별채 단체예약가능, 주차장없음, 가게앞코너에 6대주차가능, 한옥, 루프탑 경치, 프라이빗, 가격(18.0-27.0), 가보고싶음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "16:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "16:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": []
@@ -5079,42 +5079,45 @@
     "lng": 129.209997648681,
     "description": "경주, 대릉원근처, 매주 일월휴무, 9-6시, 첨가물제로, 우유버터100 동물성우유생크림100, 건강한디저트, 구입시 바로 냉장보관, 예약가능, 매장에서취식가능, 과일케이크위주, 가격(4.0-38.0), 빵도있음, 소금빵, 웨이팅있음, 저렴함, 그리넓진않음, 가보고싶음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "09:00",
+        "close": "18:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "09:00",
+        "close": "18:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "09:00",
+        "close": "18:00",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
+        "dayOff": true
+      },
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "18:00",
         "dayOff": false
       },
-      "holidays": []
+      "wed": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 일요일)",
+        "정기휴무 (매주 월요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -5135,42 +5138,44 @@
     "lng": 129.209906494324,
     "description": "경주, 황리단길도보10분, 족발, 보쌈, 쟁반국수, 가마솥에 매일 오전 삶음, 모든재료국내산, 단체이용가능, 매주월요일휴무, 1030-730, 재료소진시조기마감(오후2시재료소진), 예약필수, 가격(24.0-42.0), 가보고싶음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "19:00",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "tue": {
+        "open": "10:30",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "10:30",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -5191,42 +5196,45 @@
     "lng": 129.213236853959,
     "description": "경주, 황리단길10분거리, 주차불가, 근처주차장있음, 11:20-7:30(브레이크3-4:30) 공휴일은 브레이크없음, 맛있음, 유부쫄면, 비빔쫄면, 냉쫄면, 쫄면직접뽑으심, 면이엄청맛있고 따뜻한 쫄면은 처음인데 맛있다. 캐치테이블예약필수(대기100분), 가격(9.0), 저렴, 프라이빗, 또가고싶다,",
     "businessHours": {
+      "thu": {
+        "open": "15:00",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "15:00",
+        "close": "16:30",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "11:20",
+        "close": "19:30",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "11:20",
+        "close": "19:30",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "15:00",
+        "close": "16:30",
         "dayOff": false
       },
       "tue": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "wed": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 화요일)",
+        "정기휴무 (매주 수요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -5248,38 +5256,38 @@
     "description": "10시-7:30, 경주, 치킨, 포장, 전화로 예약포장(20분소요), 마늘후라이드치킨, 땡초간장치킨, 가격(23.0-24.0)",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "19:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "19:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "19:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "19:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "19:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "19:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "19:30",
         "dayOff": false
       },
       "holidays": []
