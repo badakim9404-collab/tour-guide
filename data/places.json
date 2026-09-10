@@ -5311,42 +5311,46 @@
     "lng": 129.205934011338,
     "description": "8:30-2:00(매주월화휴무), 경주, 시내랑거리가 좀 있음(고속도로근처), 회덮밥(회종류따지지않고 신선한회를 듬뿍), 가격(15.0), 전국구로 유명, 웨이팅필수,",
     "businessHours": {
+      "thu": {
+        "open": "08:30",
+        "close": "14:00",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "14:00",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "08:30",
+        "close": "14:00",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "08:30",
+        "close": "14:00",
+        "dayOff": false
+      },
       "mon": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "tue": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "08:30",
+        "close": "14:00",
         "dayOff": false
       },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 월요일)",
+        "정기휴무 (매주 화요일)",
+        "8월14일 금요일 조업불가(파도가높음) 휴무입니다"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -5367,42 +5371,45 @@
     "lng": 129.208198925849,
     "description": "경주, 시내랑 떨어짐, 용산회식당근처, 첨성대에서 차로15분, 11-6시(5시 라스트오더, 매주월요일휴무), 2025년 APEC 정상회의 한국대표음식점선정, 무형문화재 궁중음식 기능이수자 박미숙셰프, 홍게순두부 정식, 전통음식체험&교육(전통조리법,장담그기,궁중예절), 한식, 한정식, 프라이빗, 캐치테이블예약가능, 갈비찜, 제철나물, 꼭 가보고싶음",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "18:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "18:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "18:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "18:00",
         "dayOff": false
       },
-      "holidays": []
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "18:00",
+        "dayOff": false
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)",
+        "26년 9월 29일, 30일은 매장 임시휴무입니다."
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",

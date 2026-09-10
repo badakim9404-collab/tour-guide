@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-10T04:43:20.124606",
-  "totalPlaces": 3,
-  "successCount": 0,
+  "updatedAt": "2026-09-10T04:50:13.344498",
+  "totalPlaces": 4,
+  "successCount": 2,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -21,11 +21,106 @@
     },
     {
       "name": "용산회식당",
-      "hours": {},
-      "holidays": [],
-      "notes": [],
-      "crawledAt": null,
+      "hours": {
+        "thu": {
+          "open": "08:30",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "08:30",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "08:30",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "08:30",
+          "close": "14:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "tue": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "wed": {
+          "open": "08:30",
+          "close": "14:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)",
+        "정기휴무 (매주 화요일)",
+        "8월14일 금요일 조업불가(파도가높음) 휴무입니다"
+      ],
+      "notes": [
+        "8월14일 금요일 조업불가(파도가높음) 휴무입니다"
+      ],
+      "crawledAt": "2026-09-10T04:50:01.670601",
+      "placeId": "20601523",
+      "matchedName": "용산 회 식당",
       "id": "mtv1jpbyo2c2v66nb"
+    },
+    {
+      "name": "경주신라반상 수리뫼",
+      "hours": {
+        "thu": {
+          "open": "11:00",
+          "close": "18:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "11:00",
+          "close": "18:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "11:00",
+          "close": "18:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "11:00",
+          "close": "18:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "",
+          "close": "",
+          "dayOff": true
+        },
+        "tue": {
+          "open": "11:00",
+          "close": "18:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "11:00",
+          "close": "18:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [
+        "정기휴무 (매주 월요일)",
+        "26년 9월 29일, 30일은 매장 임시휴무입니다."
+      ],
+      "notes": [
+        "26년 9월 29일, 30일은 매장 임시휴무입니다."
+      ],
+      "crawledAt": "2026-09-10T04:50:13.306050",
+      "placeId": "13443323",
+      "matchedName": "경주신라반상 수리뫼",
+      "id": "mtv1rwhdl5bhofcnl"
     }
   ]
 }
