@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-10T05:35:47.384440",
-  "totalPlaces": 5,
-  "successCount": 2,
+  "updatedAt": "2026-09-10T05:39:31.569478",
+  "totalPlaces": 4,
+  "successCount": 0,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -25,107 +25,15 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "15402795",
-      "matchedName": "선미식육식당",
       "id": "mtv2wex33gpc9nk0x"
     },
     {
-      "name": "문경약돌 한우정육식당",
-      "hours": {
-        "thu": {
-          "open": "10:30",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "10:30",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "10:30",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "10:30",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "mon": {
-          "open": "",
-          "close": "",
-          "dayOff": true
-        },
-        "tue": {
-          "open": "10:30",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "10:30",
-          "close": "21:00",
-          "dayOff": false
-        }
-      },
-      "holidays": [
-        "정기휴무 (매주 월요일)"
-      ],
+      "name": "파밀리아",
+      "hours": {},
+      "holidays": [],
       "notes": [],
-      "crawledAt": "2026-09-10T05:35:35.810249",
-      "placeId": "1747207978",
-      "matchedName": "문경약돌한우정육식당",
-      "id": "mtv334z49qme7x0xq"
-    },
-    {
-      "name": "라루올로",
-      "hours": {
-        "thu": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "14:00",
-          "close": "16:30",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "14:00",
-          "close": "16:30",
-          "dayOff": false
-        },
-        "mon": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "",
-          "close": "",
-          "dayOff": true
-        }
-      },
-      "holidays": [
-        "정기휴무 (매주 수요일)"
-      ],
-      "notes": [
-        "공휴일은 브레이크타임 있습니다 예약과 워크인 가능합니다"
-      ],
-      "crawledAt": "2026-09-10T05:35:47.338169",
-      "placeId": "1644138839",
-      "matchedName": "라 루올로",
-      "id": "mtv3efe66gzj1y6by"
+      "crawledAt": null,
+      "id": "mtv3jtyri2mime0p6"
     }
   ]
 }
