@@ -5824,5 +5824,61 @@
     "id": "mtv3efe66gzj1y6by",
     "createdAt": "2026-09-10T05:34:21.294Z",
     "updatedAt": "2026-09-10T05:34:21.294Z"
+  },
+  {
+    "name": "파밀리아",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 문경읍 하푸실길 30",
+    "lat": 36.7514551880875,
+    "lng": 128.084358944878,
+    "description": "한옥이탈리안, 문경, 11시-8시(브레이크3:30-4:30, 매주수휴무), 단체가능, 스몰웨딩, 돌잔치대관, 파스타전문점, 리코타치즈샐러드, 문경오미자청드레싱, 부채살수비드스테이크, 빠네갈릭파스타, 가격(15.0-30.0), 주차가능, 유아식기있음, 문경새재근처",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1402-4717",
+    "id": "mtv3jtyri2mime0p6",
+    "createdAt": "2026-09-10T05:38:33.459Z",
+    "updatedAt": "2026-09-10T05:38:33.459Z"
   }
 ]
