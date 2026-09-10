@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-10T05:18:16.875988",
-  "totalPlaces": 3,
-  "successCount": 0,
+  "updatedAt": "2026-09-10T05:21:29.447717",
+  "totalPlaces": 4,
+  "successCount": 1,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -21,11 +21,59 @@
     },
     {
       "name": "강이주는맛집",
+      "hours": {
+        "mon": {
+          "open": "07:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "07:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "07:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "07:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "07:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "07:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "07:00",
+          "close": "20:00",
+          "dayOff": false
+        }
+      },
+      "holidays": [],
+      "notes": [],
+      "crawledAt": "2026-09-10T05:21:16.398665",
+      "placeId": "15402231",
+      "matchedName": "강이주는맛집",
+      "id": "mtv2sha6uqugw0c6n"
+    },
+    {
+      "name": "선미식육식당",
       "hours": {},
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "id": "mtv2sha6uqugw0c6n"
+      "placeId": "15402795",
+      "matchedName": "선미식육식당",
+      "id": "mtv2wex33gpc9nk0x"
     }
   ]
 }

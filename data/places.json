@@ -5607,38 +5607,38 @@
     "description": "문경, 매운탕, 가격(35.0-75.0), 참게 메기매운탕, 주차가능, 7시-8시, 문경새재에서 차로 13분, 국물요리",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "20:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "20:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "20:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "20:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "20:00",
         "dayOff": false
       },
       "holidays": []
