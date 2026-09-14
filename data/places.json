@@ -6061,41 +6061,44 @@
     "description": "문경, 카페, 11시-9시(매주목휴무), 단체이용가능, 가격(4.0-7.0), 멧돌드립커피, 고구마라떼, 문경오미자에이드, 전통차, 보이차, 분위기 좋은 카페, 프라이빗좌식공간도 있음, 평일은한산, 주말은자리없다고함",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "thu": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 목요일)",
+        "- 매주 목요일은 휴무입니다!"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -6117,41 +6120,43 @@
     "description": "문경, 카페, 11시-9시(매주수휴무), 땅콩크림라떼, 오미자석류에이드, 소금빵, 크로플, 넓은 테이블, 단체석, 가격(4.0-5.0), 주차가능,",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "wed": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "21:00",
         "dayOff": false
       },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 수요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -6173,41 +6178,43 @@
     "description": "문경, 문경역폐역옆, 봉명산출렁다리근처, 문경종합온천앞주차가능, 추어탕, 6:30-7시(브레이크 2-5시,매주화휴무), 가격(10.0-14.0), 추어탕외 돈까스, 추어튀김, 만두, 한식, 솥밥, 막걸리무한리필, 가보고싶음",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "17:00",
         "dayOff": false
       },
       "tue": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "17:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "17:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "17:00",
         "dayOff": false
       },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 화요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
