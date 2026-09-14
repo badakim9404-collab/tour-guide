@@ -6281,5 +6281,61 @@
     "id": "mu0nfqv0dcubd6329",
     "createdAt": "2026-09-14T02:54:06.012Z",
     "updatedAt": "2026-09-14T02:54:06.012Z"
+  },
+  {
+    "name": "안목 잠실점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 송파구 오금로 105 1층",
+    "lat": 37.5129885020172,
+    "lng": 127.108095294135,
+    "description": "잠실, 석촌호수옆, 돼지국밥, 10시-새벽1시, 주차가능, 돼지국밥, 얼큰애호박국밥, 가격(13.0-23.0), 수육, 새우전, 캐치테이블웨이팅가능, 미슐랭가이드, 가보고싶음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1430-1064",
+    "id": "mu0nn2777jgxldzuc",
+    "createdAt": "2026-09-14T02:59:47.299Z",
+    "updatedAt": "2026-09-14T02:59:47.299Z"
   }
 ]
