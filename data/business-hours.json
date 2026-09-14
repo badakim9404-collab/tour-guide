@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-14T02:15:18.760101",
+  "updatedAt": "2026-09-14T02:19:48.149883",
   "totalPlaces": 5,
-  "successCount": 1,
+  "successCount": 0,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -25,8 +25,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "15402795",
-      "matchedName": "선미식육식당",
       "id": "mtv2wex33gpc9nk0x"
     },
     {
@@ -35,55 +33,15 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "1832432234",
-      "matchedName": "파밀리아",
       "id": "mtv3jtyri2mime0p6"
     },
     {
-      "name": "오발탄 서울숲점",
-      "hours": {
-        "mon": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "11:30",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "11:30",
-          "close": "22:00",
-          "dayOff": false
-        }
-      },
+      "name": "육장갈비 문경점촌점",
+      "hours": {},
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-09-14T02:15:18.710988",
-      "placeId": "1309189590",
-      "matchedName": "오발탄 서울숲점",
-      "id": "mu0m0440otf9604g9"
+      "crawledAt": null,
+      "id": "mu0m60jt05p89juze"
     }
   ]
 }
