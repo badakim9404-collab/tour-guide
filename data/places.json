@@ -6050,5 +6050,61 @@
     "id": "mu0mo5svneees11i3",
     "createdAt": "2026-09-14T02:32:39.007Z",
     "updatedAt": "2026-09-14T02:32:39.007Z"
+  },
+  {
+    "name": "카페승민씨",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 문경읍 온천6길 23",
+    "lat": 36.7333134958865,
+    "lng": 128.109384089344,
+    "description": "문경, 카페, 11시-9시(매주목휴무), 단체이용가능, 가격(4.0-7.0), 멧돌드립커피, 고구마라떼, 문경오미자에이드, 전통차, 보이차, 분위기 좋은 카페, 프라이빗좌식공간도 있음, 평일은한산, 주말은자리없다고함",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "054-553-9683",
+    "id": "mu0n09lxoitf1noz1",
+    "createdAt": "2026-09-14T02:42:03.813Z",
+    "updatedAt": "2026-09-14T02:42:03.813Z"
   }
 ]
