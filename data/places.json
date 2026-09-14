@@ -5992,5 +5992,61 @@
     "id": "mu0m60jt05p89juze",
     "createdAt": "2026-09-14T02:18:32.393Z",
     "updatedAt": "2026-09-14T02:18:32.393Z"
+  },
+  {
+    "name": "초당동치미막국수",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 매봉6길 8-9",
+    "lat": 36.5867244653665,
+    "lng": 128.180435704612,
+    "description": "문경, 점촌시내근처, 막국수, 만두, 단체이용가능, 주차가능, 11시-8시(브레이크4월-9월 2:30-5시), 동치미막국수, 비빔막국수, 홍어회막국수, 왕만두, 군만두, 수육, 시레기뼈찜, 메밀콩국수, 온막국수, 만두국, 가격(7.0-16.0), 건강한맛집",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "054-554-0990",
+    "id": "mu0mo5svneees11i3",
+    "createdAt": "2026-09-14T02:32:39.007Z",
+    "updatedAt": "2026-09-14T02:32:39.007Z"
   }
 ]
