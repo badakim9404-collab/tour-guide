@@ -6106,5 +6106,61 @@
     "id": "mu0n09lxoitf1noz1",
     "createdAt": "2026-09-14T02:42:03.813Z",
     "updatedAt": "2026-09-14T02:42:03.813Z"
+  },
+  {
+    "name": "카페1730",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 문경읍 온천7길 8",
+    "lat": 36.7318903685977,
+    "lng": 128.108994187278,
+    "description": "문경, 카페, 11시-9시(매주수휴무), 땅콩크림라떼, 오미자석류에이드, 소금빵, 크로플, 넓은 테이블, 단체석, 가격(4.0-5.0), 주차가능,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1443-3959",
+    "id": "mu0n48rac9fuqngzu",
+    "createdAt": "2026-09-14T02:45:09.334Z",
+    "updatedAt": "2026-09-14T02:45:09.334Z"
   }
 ]
