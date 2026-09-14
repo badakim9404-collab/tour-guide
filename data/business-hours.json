@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-14T02:34:14.497296",
-  "totalPlaces": 6,
-  "successCount": 2,
+  "updatedAt": "2026-09-14T02:43:10.046799",
+  "totalPlaces": 5,
+  "successCount": 0,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -25,8 +25,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "15402795",
-      "matchedName": "선미식육식당",
       "id": "mtv2wex33gpc9nk0x"
     },
     {
@@ -35,103 +33,15 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "1832432234",
-      "matchedName": "파밀리아",
       "id": "mtv3jtyri2mime0p6"
     },
     {
-      "name": "육장갈비 문경점촌점",
-      "hours": {
-        "mon": {
-          "open": "14:30",
-          "close": "16:30",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "14:30",
-          "close": "16:30",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "14:30",
-          "close": "16:30",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "14:30",
-          "close": "16:30",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "14:30",
-          "close": "16:30",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "14:30",
-          "close": "16:30",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "",
-          "close": "",
-          "dayOff": true
-        }
-      },
-      "holidays": [
-        "정기휴무 (매주 일요일)"
-      ],
-      "notes": [],
-      "crawledAt": "2026-09-14T02:34:02.098003",
-      "placeId": "1398814816",
-      "matchedName": "육장갈비 문경점촌점",
-      "id": "mu0m60jt05p89juze"
-    },
-    {
-      "name": "초당동치미막국수",
-      "hours": {
-        "mon": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "14:30",
-          "close": "17:00",
-          "dayOff": false
-        }
-      },
+      "name": "카페승민씨",
+      "hours": {},
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-09-14T02:34:14.463137",
-      "placeId": "15137814",
-      "matchedName": "초당동치미막국수",
-      "id": "mu0mo5svneees11i3"
+      "crawledAt": null,
+      "id": "mu0n09lxoitf1noz1"
     }
   ]
 }
