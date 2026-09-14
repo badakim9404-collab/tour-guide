@@ -5936,5 +5936,61 @@
     "id": "mu0m0440otf9604g9",
     "createdAt": "2026-09-14T02:13:57.072Z",
     "updatedAt": "2026-09-14T02:13:57.072Z"
+  },
+  {
+    "name": "육장갈비 문경점촌점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 매봉6길 7-7",
+    "lat": 36.5854815696479,
+    "lng": 128.181256571259,
+    "description": "문경 점촌시내근처, 갈비, 11:30-10시(브레이크2:30-4:30/ 매주일휴무), 단체이용가능, 소왕갈비, 돼지왕갈비, 고기, 바베큐, 가격(18.0-70.0), 1kg에 7만원, 가격괜찮음, 숯불구이, 주차가능",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "054-552-8052",
+    "id": "mu0m60jt05p89juze",
+    "createdAt": "2026-09-14T02:18:32.393Z",
+    "updatedAt": "2026-09-14T02:18:32.393Z"
   }
 ]
