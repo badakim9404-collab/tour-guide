@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-14T02:55:27.393200",
-  "totalPlaces": 5,
+  "updatedAt": "2026-09-14T03:00:54.307440",
+  "totalPlaces": 6,
   "successCount": 0,
   "results": [
     {
@@ -25,8 +25,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "15402795",
-      "matchedName": "선미식육식당",
       "id": "mtv2wex33gpc9nk0x"
     },
     {
@@ -35,8 +33,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "1832432234",
-      "matchedName": "파밀리아",
       "id": "mtv3jtyri2mime0p6"
     },
     {
@@ -45,9 +41,15 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "36869040",
-      "matchedName": "아하중국집",
       "id": "mu0nfqv0dcubd6329"
+    },
+    {
+      "name": "안목 잠실점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mu0nn2777jgxldzuc"
     }
   ]
 }
