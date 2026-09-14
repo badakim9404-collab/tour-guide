@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-14T02:50:29.434007",
-  "totalPlaces": 7,
-  "successCount": 3,
+  "updatedAt": "2026-09-14T02:55:27.393200",
+  "totalPlaces": 5,
+  "successCount": 0,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -40,151 +40,14 @@
       "id": "mtv3jtyri2mime0p6"
     },
     {
-      "name": "카페승민씨",
-      "hours": {
-        "mon": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "",
-          "close": "",
-          "dayOff": true
-        },
-        "fri": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "",
-          "close": "",
-          "dayOff": true
-        }
-      },
-      "holidays": [
-        "정기휴무 (매주 목요일)",
-        "- 매주 목요일은 휴무입니다!"
-      ],
+      "name": "아하중국집",
+      "hours": {},
+      "holidays": [],
       "notes": [],
-      "crawledAt": "2026-09-14T02:50:03.001523",
-      "placeId": "1808095863",
-      "matchedName": "카페승민씨",
-      "id": "mu0n09lxoitf1noz1"
-    },
-    {
-      "name": "카페1730",
-      "hours": {
-        "mon": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "",
-          "close": "",
-          "dayOff": true
-        },
-        "thu": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "11:00",
-          "close": "21:00",
-          "dayOff": false
-        }
-      },
-      "holidays": [
-        "정기휴무 (매주 수요일)"
-      ],
-      "notes": [],
-      "crawledAt": "2026-09-14T02:50:15.960951",
-      "placeId": "1396969885",
-      "matchedName": "카페 1730",
-      "id": "mu0n48rac9fuqngzu"
-    },
-    {
-      "name": "장수추어탕 본점",
-      "hours": {
-        "mon": {
-          "open": "14:00",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "",
-          "close": "",
-          "dayOff": true
-        },
-        "wed": {
-          "open": "14:00",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "14:00",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "14:00",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "14:00",
-          "close": "17:00",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "14:00",
-          "close": "17:00",
-          "dayOff": false
-        }
-      },
-      "holidays": [
-        "정기휴무 (매주 화요일)"
-      ],
-      "notes": [
-        "재료소진시 조기마감."
-      ],
-      "crawledAt": "2026-09-14T02:50:29.393221",
-      "placeId": "1033345963",
-      "matchedName": "장수추어탕 본점",
-      "id": "mu0n8sskk66krvb1n"
+      "crawledAt": null,
+      "placeId": "36869040",
+      "matchedName": "아하중국집",
+      "id": "mu0nfqv0dcubd6329"
     }
   ]
 }
