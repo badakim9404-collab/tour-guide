@@ -6162,5 +6162,61 @@
     "id": "mu0n48rac9fuqngzu",
     "createdAt": "2026-09-14T02:45:09.334Z",
     "updatedAt": "2026-09-14T02:45:09.334Z"
+  },
+  {
+    "name": "장수추어탕 본점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "경북 문경시 문경읍 온천8길 16 장수추어탕 본점",
+    "lat": 36.7295685280983,
+    "lng": 128.108360215617,
+    "description": "문경, 문경역폐역옆, 봉명산출렁다리근처, 문경종합온천앞주차가능, 추어탕, 6:30-7시(브레이크 2-5시,매주화휴무), 가격(10.0-14.0), 추어탕외 돈까스, 추어튀김, 만두, 한식, 솥밥, 막걸리무한리필, 가보고싶음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "054-571-7870",
+    "id": "mu0n8sskk66krvb1n",
+    "createdAt": "2026-09-14T02:48:41.924Z",
+    "updatedAt": "2026-09-14T02:48:41.924Z"
   }
 ]
