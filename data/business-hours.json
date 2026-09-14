@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-14T02:43:10.046799",
-  "totalPlaces": 5,
+  "updatedAt": "2026-09-14T02:46:14.224114",
+  "totalPlaces": 6,
   "successCount": 0,
   "results": [
     {
@@ -42,6 +42,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mu0n09lxoitf1noz1"
+    },
+    {
+      "name": "카페1730",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mu0n48rac9fuqngzu"
     }
   ]
 }
