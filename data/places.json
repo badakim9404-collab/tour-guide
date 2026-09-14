@@ -5947,41 +5947,43 @@
     "description": "문경 점촌시내근처, 갈비, 11:30-10시(브레이크2:30-4:30/ 매주일휴무), 단체이용가능, 소왕갈비, 돼지왕갈비, 고기, 바베큐, 가격(18.0-70.0), 1kg에 7만원, 가격괜찮음, 숯불구이, 주차가능",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "16:30",
         "dayOff": false
       },
       "sun": {
         "open": "",
         "close": "",
-        "dayOff": false
+        "dayOff": true
       },
-      "holidays": []
+      "holidays": [
+        "정기휴무 (매주 일요일)"
+      ]
     },
     "hasCommission": false,
     "commissionDetail": "",
@@ -6003,38 +6005,38 @@
     "description": "문경, 점촌시내근처, 막국수, 만두, 단체이용가능, 주차가능, 11시-8시(브레이크4월-9월 2:30-5시), 동치미막국수, 비빔막국수, 홍어회막국수, 왕만두, 군만두, 수육, 시레기뼈찜, 메밀콩국수, 온막국수, 만두국, 가격(7.0-16.0), 건강한맛집",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "14:30",
+        "close": "17:00",
         "dayOff": false
       },
       "holidays": []
