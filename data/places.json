@@ -5880,5 +5880,61 @@
     "id": "mtv3jtyri2mime0p6",
     "createdAt": "2026-09-10T05:38:33.459Z",
     "updatedAt": "2026-09-10T05:38:33.459Z"
+  },
+  {
+    "name": "오발탄 서울숲점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 성동구 왕십리로 50 메가박스스퀘어빌딩 1층",
+    "lat": 37.5419000229184,
+    "lng": 127.044975552245,
+    "description": "서울숲, 양대창구이, 11:30-10시(브레이크2:30-5:00), 화로구이, 단체이용가능, 깔끔, 프라이빗, 특양, 한우대창, 양념왕갈비, 한우채끝등심, 가격(45.0-64.0), 점심특선(볶음밥), 서울숲역바로옆,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 3,
+    "isClosed": false,
+    "memo": "02-6925-2949",
+    "id": "mu0m0440otf9604g9",
+    "createdAt": "2026-09-14T02:13:57.072Z",
+    "updatedAt": "2026-09-14T02:13:57.072Z"
   }
 ]
