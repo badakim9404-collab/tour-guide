@@ -6337,5 +6337,61 @@
     "id": "mu0nn2777jgxldzuc",
     "createdAt": "2026-09-14T02:59:47.299Z",
     "updatedAt": "2026-09-14T02:59:47.299Z"
+  },
+  {
+    "name": "이성원쉐프의청년감자탕순대국 방이동본점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 송파구 오금로19길 5 1층 청년감자탕",
+    "lat": 37.5104759345265,
+    "lng": 127.112940158573,
+    "description": "송파나루역근처, 감자탕, 10:10-9:50(브레이크 3:30-4:40), 실비겉절이, 주차가능, 단체가능, 김보성배우모델, 뼈해장국, 순대국, 갈비탕, 가격(10.0-13.0),",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1403-9252",
+    "id": "mu27v4rt3i1mgjch0",
+    "createdAt": "2026-09-15T05:13:42.377Z",
+    "updatedAt": "2026-09-15T05:13:42.378Z"
   }
 ]
