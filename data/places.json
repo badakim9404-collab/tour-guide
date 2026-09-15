@@ -6393,5 +6393,61 @@
     "id": "mu27v4rt3i1mgjch0",
     "createdAt": "2026-09-15T05:13:42.377Z",
     "updatedAt": "2026-09-15T05:13:42.378Z"
+  },
+  {
+    "name": "독",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 동대문구 왕산로 278-1",
+    "lat": 37.5853046631316,
+    "lng": 127.051485112785,
+    "description": "청량리역근처, 서울뼈구이옆, 돼지고기, 바베큐, 기사님추천, 치즈계란찜, 4시-12시, 가성비맛집, 작음, 200g(9.0), 로컬맛집",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "02-957-1116",
+    "id": "mu27yr16ekqks2oi0",
+    "createdAt": "2026-09-15T05:16:31.194Z",
+    "updatedAt": "2026-09-15T05:16:31.194Z"
   }
 ]
