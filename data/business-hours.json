@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-14T03:00:54.307440",
-  "totalPlaces": 6,
+  "updatedAt": "2026-09-15T05:15:12.058234",
+  "totalPlaces": 7,
   "successCount": 0,
   "results": [
     {
@@ -25,6 +25,8 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
+      "placeId": "15402795",
+      "matchedName": "선미식육식당",
       "id": "mtv2wex33gpc9nk0x"
     },
     {
@@ -33,6 +35,8 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
+      "placeId": "1832432234",
+      "matchedName": "파밀리아",
       "id": "mtv3jtyri2mime0p6"
     },
     {
@@ -41,6 +45,8 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
+      "placeId": "36869040",
+      "matchedName": "아하중국집",
       "id": "mu0nfqv0dcubd6329"
     },
     {
@@ -50,6 +56,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mu0nn2777jgxldzuc"
+    },
+    {
+      "name": "이성원쉐프의청년감자탕순대국 방이동본점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mu27v4rt3i1mgjch0"
     }
   ]
 }
