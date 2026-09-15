@@ -6505,5 +6505,117 @@
     "id": "mu28jykojdpygysjj",
     "createdAt": "2026-09-15T05:33:00.744Z",
     "updatedAt": "2026-09-15T05:33:00.744Z"
+  },
+  {
+    "name": "남영돈 성수점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 성동구 성수이로16길 32",
+    "lat": 37.5401445316643,
+    "lng": 127.059946194496,
+    "description": "성수, 고기, 바베큐, 돼지고기, 참숯화로전문, 주차불가, 가격(20.0-52.0), 비쌈, 11:30-11시, 캐치테이블예약 1시간전에 하기, 웨이팅있음, 용산이 본점, 인테리어고급짐, 플빗",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "070-7605-9876",
+    "id": "mu28kcww7ngb7fjy1",
+    "createdAt": "2026-09-15T05:33:19.328Z",
+    "updatedAt": "2026-09-15T05:33:19.328Z"
+  },
+  {
+    "name": "능동미나리 성수점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 성동구 연무장길 42 1, 2층",
+    "lat": null,
+    "lng": null,
+    "description": "성수, 미나리국밥, 9:30-12시, 미나리와 한우, 경북 청도 화악산 자락, 청정 암반 지하수와 풍부한 일조량 아래 자란 한재미나리만 사용, 한우1++, 사골육수를 밥에 16번 반복해 붓는 토렴방식, 신용산-성수-여의도,을지로 체인점, 단체석(최대12명), 미나리곰탕, 육회비빔밥, 육전, 수육, 수육전골, 가격(15.0-29.0), 미슐랭식당, 웨이팅있음, 930오픈런필요, 가보고싶음",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "02-2088-2435",
+    "id": "mu28kq7j499prk2sc",
+    "createdAt": "2026-09-15T05:33:36.559Z",
+    "updatedAt": "2026-09-15T05:33:36.559Z"
   }
 ]
