@@ -6449,5 +6449,61 @@
     "id": "mu27yr16ekqks2oi0",
     "createdAt": "2026-09-15T05:16:31.194Z",
     "updatedAt": "2026-09-15T05:16:31.194Z"
+  },
+  {
+    "name": "연길왕꼬치 건대본점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 광진구 동일로18길 86",
+    "lat": 37.5384436859787,
+    "lng": 127.067353400695,
+    "description": "건대입구역, 양꼬치, 바베큐, 연중무휴, 11시-12시, 단체회식가능-예약, 중국연길조리법, 가게앞주차 또는 공영주차장, 단체석(최대240명), 룸(최소8명-20명), 중국음식, 매채고기찜, 향라대하, 지삼선(가지튀김), 양꼬치, 마라샹궈, 꿔보러우, 새우탕수육, 중국냉면, 가격(25.0-45.0), 기사님 추천",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1478-7754",
+    "id": "mu28jykojdpygysjj",
+    "createdAt": "2026-09-15T05:33:00.744Z",
+    "updatedAt": "2026-09-15T05:33:00.744Z"
   }
 ]
