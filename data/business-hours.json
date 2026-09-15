@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15T05:46:25.777184",
-  "totalPlaces": 11,
+  "updatedAt": "2026-09-15T05:51:11.337527",
+  "totalPlaces": 12,
   "successCount": 0,
   "results": [
     {
@@ -90,6 +90,14 @@
       "notes": [],
       "crawledAt": null,
       "id": "mu28kq7j499prk2sc"
+    },
+    {
+      "name": "청와옥 군자역직영점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mu2955h3qkt0b15yl"
     }
   ]
 }
