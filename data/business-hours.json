@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15T05:34:24.551219",
-  "totalPlaces": 9,
+  "updatedAt": "2026-09-15T05:34:50.428422",
+  "totalPlaces": 11,
   "successCount": 0,
   "results": [
     {
@@ -74,6 +74,22 @@
       "notes": [],
       "crawledAt": null,
       "id": "mu28jykojdpygysjj"
+    },
+    {
+      "name": "남영돈 성수점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mu28kcww7ngb7fjy1"
+    },
+    {
+      "name": "능동미나리 성수점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mu28kq7j499prk2sc"
     }
   ]
 }
