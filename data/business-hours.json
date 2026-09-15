@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15T05:18:17.949188",
-  "totalPlaces": 8,
+  "updatedAt": "2026-09-15T05:34:24.551219",
+  "totalPlaces": 9,
   "successCount": 0,
   "results": [
     {
@@ -25,8 +25,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "15402795",
-      "matchedName": "선미식육식당",
       "id": "mtv2wex33gpc9nk0x"
     },
     {
@@ -35,8 +33,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "1832432234",
-      "matchedName": "파밀리아",
       "id": "mtv3jtyri2mime0p6"
     },
     {
@@ -45,8 +41,6 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "36869040",
-      "matchedName": "아하중국집",
       "id": "mu0nfqv0dcubd6329"
     },
     {
@@ -71,9 +65,15 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
-      "placeId": "13479443",
-      "matchedName": "도곡역 3호선",
       "id": "mu27yr16ekqks2oi0"
+    },
+    {
+      "name": "연길왕꼬치 건대본점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mu28jykojdpygysjj"
     }
   ]
 }
