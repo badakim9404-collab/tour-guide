@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15T05:15:12.058234",
-  "totalPlaces": 7,
+  "updatedAt": "2026-09-15T05:18:17.949188",
+  "totalPlaces": 8,
   "successCount": 0,
   "results": [
     {
@@ -64,6 +64,16 @@
       "notes": [],
       "crawledAt": null,
       "id": "mu27v4rt3i1mgjch0"
+    },
+    {
+      "name": "독",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "placeId": "13479443",
+      "matchedName": "도곡역 3호선",
+      "id": "mu27yr16ekqks2oi0"
     }
   ]
 }
