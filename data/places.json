@@ -6729,5 +6729,61 @@
     "id": "mu29j6ye0q7efpj58",
     "createdAt": "2026-09-15T06:00:24.566Z",
     "updatedAt": "2026-09-15T06:00:24.566Z"
+  },
+  {
+    "name": "살아있네",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 용산구 한강대로84길 11-8 1층",
+    "lat": 37.5439758973747,
+    "lng": 126.973350287533,
+    "description": "용산, 숙대입구역 6번출구근처, 회, 해산물, 어서와한국은처음이지 이탈리아쉐프편, 11시-새벽2시(브레이크 2-4시), 캐치테이블예약가능, 통영산지직송자연산, 주차불가, 단체석(8-12명), 룸(4-8명), 가격(25.0-120.0), 특수어종회",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "02-790-3330",
+    "id": "mu29jjrmfzf0nroq7",
+    "createdAt": "2026-09-15T06:00:41.170Z",
+    "updatedAt": "2026-09-15T06:00:41.170Z"
   }
 ]
