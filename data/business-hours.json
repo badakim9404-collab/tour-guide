@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15T05:51:44.805366",
-  "totalPlaces": 12,
+  "updatedAt": "2026-09-15T06:02:13.963507",
+  "totalPlaces": 14,
   "successCount": 0,
   "results": [
     {
@@ -98,6 +98,22 @@
       "notes": [],
       "crawledAt": null,
       "id": "mu2955h3qkt0b15yl"
+    },
+    {
+      "name": "아미드호텔 서울 더반상",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mu29j6ye0q7efpj58"
+    },
+    {
+      "name": "살아있네",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mu29jjrmfzf0nroq7"
     }
   ]
 }
