@@ -6617,5 +6617,61 @@
     "id": "mu28kq7j499prk2sc",
     "createdAt": "2026-09-15T05:33:36.559Z",
     "updatedAt": "2026-09-15T05:33:36.559Z"
+  },
+  {
+    "name": "청와옥 군자역직영점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 광진구 천호대로 562",
+    "lat": 37.5564876030566,
+    "lng": 127.080354987218,
+    "description": "군자역, 순대국밥, 8시-10시, 주차불가, 웨이팅있음, 청와옥편백정식 진짜 맛있음, 순대국밥, 오징어숯불구이, 편백수육이랑 순대가 미쳤음, 가격(11.0-28.0),",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": true,
+    "rating": 5,
+    "isClosed": false,
+    "memo": "0507-1462-0182, 또가고싶음",
+    "id": "mu2955h3qkt0b15yl",
+    "createdAt": "2026-09-15T05:49:29.463Z",
+    "updatedAt": "2026-09-15T05:49:29.463Z"
   }
 ]
