@@ -6673,5 +6673,61 @@
     "id": "mu2955h3qkt0b15yl",
     "createdAt": "2026-09-15T05:49:29.463Z",
     "updatedAt": "2026-09-15T05:49:57.606Z"
+  },
+  {
+    "name": "아미드호텔 서울 더반상",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 종로구 인사동5길 38 아미드호텔 B2F",
+    "lat": 37.5725709989957,
+    "lng": 126.984238926656,
+    "description": "아미드호텔 지하 2층, 인사동, 시내투어, 7시-1:30 (조식7-10시, 중식 11:30-1:30), 뷔페, 안부장님추천, 호텔뷔페, 가격(점심13.0), 나물도있어서 비건 채식주의자 데려가기도 괜찮음, 단체이용가능, 한식",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "02-2135-5725",
+    "id": "mu29j6ye0q7efpj58",
+    "createdAt": "2026-09-15T06:00:24.566Z",
+    "updatedAt": "2026-09-15T06:00:24.566Z"
   }
 ]
