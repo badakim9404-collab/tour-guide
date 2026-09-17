@@ -6785,5 +6785,61 @@
     "id": "mu29jjrmfzf0nroq7",
     "createdAt": "2026-09-15T06:00:41.170Z",
     "updatedAt": "2026-09-15T06:00:41.170Z"
+  },
+  {
+    "name": "콘피에르 셀렉션 롯데월드몰점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 송파구 올림픽로 300 6층",
+    "lat": 37.5137129859207,
+    "lng": 127.104301829165,
+    "description": "잠실역, 석촌호수근처, 롯데월드몰 6층, 고급, 프라이빗, 파인다이닝, 가성비, 10:30-10시, 주차가능(유료), 룸(3명-10명), 코스요리, 가격(55.0-89.0), 파스타, 스테이크, 리조또, 모던한국터치, 네이버예약가능, 데이트, 생일, 기념일, 플빗손님이 가고싶어했던 곳",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1389-6604",
+    "id": "mu29jze1kwjpzucuq",
+    "createdAt": "2026-09-15T06:01:01.417Z",
+    "updatedAt": "2026-09-15T06:01:01.417Z"
   }
 ]
