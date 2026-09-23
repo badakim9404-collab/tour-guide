@@ -6848,5 +6848,61 @@
     "id": "mu29jze1kwjpzucuq",
     "createdAt": "2026-09-15T06:01:01.417Z",
     "updatedAt": "2026-09-15T06:01:01.417Z"
+  },
+  {
+    "name": "능동미나리 을지로점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 중구 을지로 120 1층, 2층",
+    "lat": 37.5661182535933,
+    "lng": 126.991212872685,
+    "description": "서울, 을지로\n한식, 국밥, 메뉴(한우미나리곰탕, 육회비빔밥, 석쇠불고기, 미나리수육전골, 미나리꼬리찜, 육전)\n가격(2만원-8만원), ⭐️미슐랭⭐️⭐️가보고싶음⭐️\n네이버예약가능(3명~20명까지)- 점심시간예약불가, ⭐️로컬맛집⭐️\n영업시간(10시-밤10시/연중무휴)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1417-2280 , \n<메뉴판사진>\nhttps://buly.kr/6ijwZ5W , \n체인점(을지로,신용산,성수,여의도)",
+    "id": "mudu0gi8d4tw5l7xg",
+    "createdAt": "2026-09-23T08:19:10.352Z",
+    "updatedAt": "2026-09-23T08:19:10.352Z"
   }
 ]
