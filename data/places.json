@@ -968,13 +968,8 @@
     "address": "경기 포천시 신북면 아트밸리로 234",
     "lat": 37.9234466506997,
     "lng": 127.236500949033,
-    "description": "절벽, 경치좋음, 프라이빗투어, 포천, 남이섬 연계, 모노레일, 가격(입장료5.0 모노레일5.3), 단풍명소, 천문과학관, 드라마촬영지, 푸른바다의 전설, 달의연인,",
+    "description": "경기도, 포천, 엘리시안강촌스키장근처, 남이섬1시간거리, \n⭐️프라이빗투어⭐️가격(입장료6천원 모노레일5800원), 단풍명소, 가을투어지, 드라마촬영지(푸른바다의전설'The Legend of the Blue Sea', 달의연인Moon Lovers: Scarlet Heart Ryeo), 1960년대부터 30년간 화강암 폐채석장을 2004년-2009년 친환경예술문화공원으로 변화, ⭐️절벽뷰⭐️\n영업시간(9시-6시)",
     "businessHours": {
-      "sun": {
-        "open": "09:00",
-        "close": "18:00",
-        "dayOff": false
-      },
       "mon": {
         "open": "09:00",
         "close": "18:00",
@@ -1005,6 +1000,11 @@
         "close": "22:00",
         "dayOff": false
       },
+      "sun": {
+        "open": "09:00",
+        "close": "18:00",
+        "dayOff": false
+      },
       "holidays": []
     },
     "hasCommission": false,
@@ -1012,10 +1012,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "천주호는 화강암을 채취하던 곳, 깊이 파다가 호수가 되었고 관광지가 됨, 폐채석장(abandoned quarry), \nhttps://artvalley.pcfac.or.kr/",
+    "memo": "천주호는 화강암을 채취하던 곳, 깊이 파다가 호수가 되었고 관광지가 됨, 폐채석장(abandoned quarry), \n<아트벨리 홈페이지>\nhttps://artvalley.pcfac.or.kr/sub01/sub02_01.html , \n<지도>https://artvalley.pcfac.or.kr/sub02/sub04.html ,  \n<사진>https://buly.kr/H6keUby",
     "id": "mmbhtzzga2ztds3fk",
     "createdAt": "2026-03-04T03:45:02.572Z",
-    "updatedAt": "2026-09-06T14:38:50.374Z"
+    "updatedAt": "2026-09-23T11:52:59.203Z"
   },
   {
     "name": "문학골",
