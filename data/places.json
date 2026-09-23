@@ -229,7 +229,7 @@
     "address": "남산동2가 25-4",
     "lat": 37.5581017768304,
     "lng": 126.986898587275,
-    "description": "명동역 근처, 한식, 메뉴(비빔밥,치즈김치전,해산물부추전, 가격(9.0-15.0)",
+    "description": "명동역 근처, 한식, 메뉴(비빔밥,치즈김치전,해산물부추전, 막걸리 등등)\n가격(만원~만오천원), 네이버예약가능(2~4명), 키오스크(셀프서빙), 일반투어때 추천",
     "businessHours": {
       "mon": {
         "open": "11:00",
@@ -272,11 +272,11 @@
     "commissionDetail": "",
     "visited": true,
     "rating": 4,
-    "isClosed": false,
+    "isClosed": true,
     "memo": "02-318-4790\n\n<메뉴판사진>\nhttps://buly.kr/FsLLYJH",
     "id": "mm9a6d3seju42gfms",
     "createdAt": "2026-03-02T14:35:10.169Z",
-    "updatedAt": "2026-09-23T06:55:47.341Z"
+    "updatedAt": "2026-09-23T06:59:57.737Z"
   },
   {
     "name": "목멱산방 남산타워점",
