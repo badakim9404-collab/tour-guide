@@ -6904,5 +6904,61 @@
     "id": "mudu0gi8d4tw5l7xg",
     "createdAt": "2026-09-23T08:19:10.352Z",
     "updatedAt": "2026-09-23T08:47:49.100Z"
+  },
+  {
+    "name": "능동미나리 여의도점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 영등포구 의사당대로 127 1층 1-107호",
+    "lat": 37.5202405439146,
+    "lng": 126.926406742546,
+    "description": "서울, 여의도, 여의도한강공원, 더현대서울근처\n한식, 국밥, 메뉴(한우미나리곰탕, 육회비빔밥, 미나리수육전골, 미나리꼬리찜, 육전), 가격(2만원-8만원), ⭐️미슐랭⭐️⭐️가보고싶음⭐️⭐️로컬맛집⭐️네이버예약가능(2명-8명), 내부인테리어깔끔, 주차2시간무료가능, 단체석(최대52명까지) , \n영업시간(10시반-밤10시반/연중무휴)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "02-780-0699\n<메뉴판사진>\nhttps://buly.kr/5JPsj3U\n체인점(을지로,신용산,성수,여의도)",
+    "id": "mudv3hb1xyf6lkfbw",
+    "createdAt": "2026-09-23T08:49:30.973Z",
+    "updatedAt": "2026-09-23T08:49:30.973Z"
   }
 ]
