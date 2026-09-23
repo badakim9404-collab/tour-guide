@@ -910,13 +910,8 @@
     "address": "서울 중구 을지로 100 파인애비뉴빌딩 B동 지하1층",
     "lat": 37.5656490167105,
     "lng": 126.988142568678,
-    "description": "단체예약은 34명까지 가능, 을지로, 명동, 매장깔끔, 중국요리, 중식당, 딤섬, 딤섬코스(29.9), 브레이크타임(2:30-5:10)",
+    "description": "서울, 명동근처, 을지로3가역12번출구, \n중국집, 딤섬, 코스요리, ⭐️고급요리⭐️,\n가격(5만-9만원), 전화예약가능(최대34명까지 단체가능), \n⭐️프라이빗OK⭐️, 인테리어 고급스러움, 주차무료가능(건물지하2층-지하5층),\n영업시간(11시-밤9시/브레이크2:30-5:10/명절당일휴무)",
     "businessHours": {
-      "sun": {
-        "open": "14:30",
-        "close": "17:10",
-        "dayOff": false
-      },
       "mon": {
         "open": "14:30",
         "close": "17:10",
@@ -947,6 +942,11 @@
         "close": "17:10",
         "dayOff": false
       },
+      "sun": {
+        "open": "14:30",
+        "close": "17:10",
+        "dayOff": false
+      },
       "holidays": [
         "2026년 2월 16일 ~ 18일 연휴 휴무 입니다"
       ]
@@ -956,10 +956,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "02-6031-0107",
+    "memo": "02-6031-0107 , 0507-1396-0194 , \n<메뉴판사진>\nhttps://buly.kr/6ijwbzy (점심코스-비지니스)\nhttps://buly.kr/FhQadcC (점심코스-쉐프추천)\nhttps://buly.kr/EzlYiMJ (저녁코스)\nhttps://buly.kr/CB7R1JW (저녁코스-쉐프추천)\nhttps://buly.kr/CB7R1Jy (딤섬)\nhttps://buly.kr/7bJjW7K (전채요리,스프,탕)\nhttps://buly.kr/4mfbp4a (특선요리,볶음요리)\nhttps://buly.kr/FWVpeqM (돼지요리,닭요리)\nhttps://buly.kr/58V7miP (새우요리)\nhttps://buly.kr/8IylRPw (룸사진)",
     "id": "mmbfv574a1pih03kp",
     "createdAt": "2026-03-04T02:49:56.752Z",
-    "updatedAt": "2026-09-06T14:38:50.374Z"
+    "updatedAt": "2026-09-23T11:27:59.121Z"
   },
   {
     "name": "포천아트밸리",
