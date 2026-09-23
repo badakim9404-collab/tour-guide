@@ -272,11 +272,11 @@
     "commissionDetail": "",
     "visited": true,
     "rating": 4,
-    "isClosed": true,
+    "isClosed": false,
     "memo": "02-318-4790\n\n<메뉴판사진>\nhttps://buly.kr/FsLLYJH",
     "id": "mm9a6d3seju42gfms",
     "createdAt": "2026-03-02T14:35:10.169Z",
-    "updatedAt": "2026-09-23T06:59:57.737Z"
+    "updatedAt": "2026-09-23T07:00:23.992Z"
   },
   {
     "name": "목멱산방 남산타워점",
