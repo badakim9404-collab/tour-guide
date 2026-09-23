@@ -1080,13 +1080,8 @@
     "address": "서울 종로구 인사동길 35-3",
     "lat": 37.5735652007549,
     "lng": 126.985277107793,
-    "description": "인사동, 베이글, 화덕베이글, 안국역 5분거리, 가격(3.0-6.0), 샌드위치, 시내투어, ♡가보고싶음♡",
+    "description": "서울, 인사동, \n⭐️베이글 3대 맛집⭐️, 메뉴(베이글, 샌드위치, 스프, 맥주,커피), 가격(3천원-만2천원), 카페(2층과 3층), 영업시간(8시-6:30/추석휴무)",
     "businessHours": {
-      "sun": {
-        "open": "08:00",
-        "close": "20:00",
-        "dayOff": false
-      },
       "mon": {
         "open": "08:00",
         "close": "19:30",
@@ -1117,6 +1112,11 @@
         "close": "20:00",
         "dayOff": false
       },
+      "sun": {
+        "open": "08:00",
+        "close": "20:00",
+        "dayOff": false
+      },
       "holidays": []
     },
     "hasCommission": false,
@@ -1124,10 +1124,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "서울 3대 베이글 맛집, 02-736-7887",
+    "memo": "02-736-7887 , \n<메뉴판사진>\nhttps://buly.kr/6XpBeDB (사진)\nhttps://buly.kr/2fgW4Gj (가격표)",
     "id": "mmbii7xsk71upmenk",
     "createdAt": "2026-03-04T04:03:52.624Z",
-    "updatedAt": "2026-09-06T14:38:50.375Z"
+    "updatedAt": "2026-09-23T12:29:59.296Z"
   },
   {
     "name": "인사샤브정",
