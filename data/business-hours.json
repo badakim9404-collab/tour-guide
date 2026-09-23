@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15T06:02:55.188205",
-  "totalPlaces": 14,
+  "updatedAt": "2026-09-23T08:21:14.532457",
+  "totalPlaces": 16,
   "successCount": 0,
   "results": [
     {
@@ -114,6 +114,22 @@
       "notes": [],
       "crawledAt": null,
       "id": "mu29jjrmfzf0nroq7"
+    },
+    {
+      "name": "콘피에르 셀렉션 롯데월드몰점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mu29jze1kwjpzucuq"
+    },
+    {
+      "name": "능동미나리 을지로점",
+      "hours": {},
+      "holidays": [],
+      "notes": [],
+      "crawledAt": null,
+      "id": "mudu0gi8d4tw5l7xg"
     }
   ]
 }
