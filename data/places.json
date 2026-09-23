@@ -343,13 +343,8 @@
     "address": "성수동1가 668-30",
     "lat": 37.5475417483285,
     "lng": 127.042464495443,
-    "description": "와사비 새우버거, 새우가 탱글탱글, 성수",
+    "description": "서울, 성수(뚝섬역과 서울숲역 근처), \n한국식 햄버거, 메뉴(와사비쉬림프버거, 돌솥비빔밥버거, 치즈슬로쉬림프버거, 갈릭버거, 치폴레비프버거), 생맥주가능, 가격(만오천원정도), ⭐️내최애햄버거⭐️\n캐치테이블웨이팅가능(25명까지), 1층과 2층 테라스도 있음",
     "businessHours": {
-      "sun": {
-        "open": "11:30",
-        "close": "21:00",
-        "dayOff": false
-      },
       "mon": {
         "open": "11:30",
         "close": "21:00",
@@ -380,6 +375,11 @@
         "close": "21:00",
         "dayOff": false
       },
+      "sun": {
+        "open": "11:30",
+        "close": "21:00",
+        "dayOff": false
+      },
       "holidays": []
     },
     "hasCommission": false,
@@ -387,10 +387,10 @@
     "visited": true,
     "rating": 5,
     "isClosed": false,
-    "memo": "내 인생 새우버거 집, 02-2205-2622",
+    "memo": "02-2205-2622\n<메뉴판사진>\nhttps://buly.kr/CWwwv9h",
     "id": "mmabb6syvuwlkoez2",
     "createdAt": "2026-03-03T07:54:41.075Z",
-    "updatedAt": "2026-09-06T14:38:50.371Z"
+    "updatedAt": "2026-09-23T07:24:25.303Z"
   },
   {
     "name": "애소아",
