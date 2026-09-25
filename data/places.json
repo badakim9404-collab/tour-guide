@@ -6980,5 +6980,61 @@
     "id": "muh0iihzn7zoo47ma",
     "createdAt": "2026-09-25T13:44:28.968Z",
     "updatedAt": "2026-09-25T13:46:58.326Z"
+  },
+  {
+    "name": "한일관 광화문점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 종로구 종로1길 50 더케이트윈타워",
+    "lat": 37.5747244659804,
+    "lng": 126.979022440109,
+    "description": "서울, 광화문역 2번출구, 경복궁근처\n한식, 메뉴(갈비탕, 골동반(비빔밥), 한정식 코스, 서울냉면, 불고기, 소고기 한우구이 바베큐), 가격(2만-10만원), 프라이빗OK, ⭐️고급⭐️1939년에 창업(거의 90년된 식당), 전통한식, ⭐️궁중음식⭐️, 유기그릇Traditional Korean brass bowl, 수정과(Korean cinnamon punch),⭐️미슐랭⭐️\n전화예약가능, 영업시간(11시-밤10시/추석당일휴무/브레이크4-5시)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "체인점(압구정, 을지로, 광화문, 영등포, 스타필드하남, 롯데백화점 인천점)\n02-722-7557\n<메뉴판사진>\nhttps://buly.kr/ET1IXAP (점심과 전통구이 상차림코스)\nhttps://buly.kr/6MuRPdx (일품구이)\nhttps://buly.kr/2fgWoVv(일품식사) ⭐️안동소주도 팜⭐️",
+    "id": "muh0nmu7jmxkk11vu",
+    "createdAt": "2026-09-25T13:48:27.871Z",
+    "updatedAt": "2026-09-25T13:48:27.871Z"
   }
 ]
