@@ -7144,38 +7144,23 @@
     "description": "서울, 역삼역 8번출구, 강남, 코엑스 6분거리, \n커피, ⭐️한국토종브랜드 카페⭐️, 로스터리카페브랜드, \n메뉴(스니퍼라떼, 커스터드라떼, 아인슈페너, 아메리카노, 버터크림도넛, 오트라떼), 바리스타들이 만든 브랜드,\n가격(6천-9천원), ⭐️프라이빗OK⭐️ \n주차가능(무료1시간-센터필드건물지하), \n영업시간(8시-밤8시/추석당일휴무)",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "20:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "20:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "20:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "20:00",
         "dayOff": false
       },
       "holidays": []
