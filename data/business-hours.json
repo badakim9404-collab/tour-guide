@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-25T13:47:57.355687",
-  "totalPlaces": 18,
-  "successCount": 9,
+  "updatedAt": "2026-09-25T13:50:31.761884",
+  "totalPlaces": 10,
+  "successCount": 1,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -50,42 +50,6 @@
       "id": "mu0nfqv0dcubd6329"
     },
     {
-      "name": "안목 잠실점",
-      "hours": {
-        "sun": {
-          "open": "09:00",
-          "close": "01:00",
-          "dayOff": false
-        },
-        "mon": {
-          "open": "10:00",
-          "close": "01:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "10:00",
-          "close": "01:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "10:00",
-          "close": "01:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "10:00",
-          "close": "01:00",
-          "dayOff": false
-        }
-      },
-      "holidays": [],
-      "notes": [],
-      "crawledAt": "2026-09-25T13:46:01.256451",
-      "placeId": "2145826585",
-      "matchedName": "안목 잠실",
-      "id": "mu0nn2777jgxldzuc"
-    },
-    {
       "name": "이성원쉐프의청년감자탕순대국 방이동본점",
       "hours": {},
       "holidays": [],
@@ -112,52 +76,6 @@
       "id": "mu28jykojdpygysjj"
     },
     {
-      "name": "남영돈 성수점",
-      "hours": {
-        "mon": {
-          "open": "11:30",
-          "close": "23:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "11:30",
-          "close": "23:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "11:30",
-          "close": "23:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "11:30",
-          "close": "23:00",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "11:30",
-          "close": "23:00",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "11:30",
-          "close": "23:00",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "11:30",
-          "close": "23:00",
-          "dayOff": false
-        }
-      },
-      "holidays": [],
-      "notes": [],
-      "crawledAt": "2026-09-25T13:46:36.733499",
-      "placeId": "2058331929",
-      "matchedName": "남영돈 성수점",
-      "id": "mu28kcww7ngb7fjy1"
-    },
-    {
       "name": "능동미나리 성수점",
       "hours": {},
       "holidays": [],
@@ -166,309 +84,45 @@
       "id": "mu28kq7j499prk2sc"
     },
     {
-      "name": "청와옥 군자역직영점",
+      "name": "한일관 광화문점",
       "hours": {
-        "mon": {
-          "open": "08:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "08:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "08:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "08:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "08:00",
-          "close": "22:00",
-          "dayOff": false
-        },
         "sat": {
-          "open": "08:00",
-          "close": "22:00",
+          "open": "16:00",
+          "close": "17:00",
           "dayOff": false
         },
         "sun": {
-          "open": "08:00",
-          "close": "22:00",
+          "open": "16:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "mon": {
+          "open": "16:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "16:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "16:00",
+          "close": "17:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "16:00",
+          "close": "17:00",
           "dayOff": false
         }
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-09-25T13:46:54.218918",
-      "placeId": "1013931704",
-      "matchedName": "청와옥 군자역직영점",
-      "id": "mu2955h3qkt0b15yl"
-    },
-    {
-      "name": "아미드호텔 서울 더반상",
-      "hours": {
-        "mon": {
-          "open": "07:00",
-          "close": "13:30",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "07:00",
-          "close": "13:30",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "07:00",
-          "close": "13:30",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "07:00",
-          "close": "13:30",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "07:00",
-          "close": "13:30",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "07:00",
-          "close": "13:30",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "07:00",
-          "close": "13:30",
-          "dayOff": false
-        }
-      },
-      "holidays": [],
-      "notes": [
-        "조식: 07시-10시 / 점심 11:30분-13:30분"
-      ],
-      "crawledAt": "2026-09-25T13:47:05.816449",
-      "placeId": "1812923926",
-      "matchedName": "아미드호텔 서울 더 반상",
-      "id": "mu29j6ye0q7efpj58"
-    },
-    {
-      "name": "살아있네",
-      "hours": {
-        "sun": {
-          "open": "11:30",
-          "close": "21:40",
-          "dayOff": false
-        },
-        "mon": {
-          "open": "14:00",
-          "close": "16:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "14:00",
-          "close": "16:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "14:00",
-          "close": "16:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "14:00",
-          "close": "16:00",
-          "dayOff": false
-        }
-      },
-      "holidays": [],
-      "notes": [],
-      "crawledAt": "2026-09-25T13:47:17.265541",
-      "placeId": "1006887521",
-      "matchedName": "살아있네",
-      "id": "mu29jjrmfzf0nroq7"
-    },
-    {
-      "name": "콘피에르 셀렉션 롯데월드몰점",
-      "hours": {
-        "sun": {
-          "open": "10:30",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "mon": {
-          "open": "10:30",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "10:30",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "10:30",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "10:30",
-          "close": "22:00",
-          "dayOff": false
-        }
-      },
-      "holidays": [],
-      "notes": [
-        "라스트오더는 19:30입니다."
-      ],
-      "crawledAt": "2026-09-25T13:47:27.159911",
-      "placeId": "1498910914",
-      "matchedName": "콘피에르 셀렉션 롯데월드몰점",
-      "id": "mu29jze1kwjpzucuq"
-    },
-    {
-      "name": "능동미나리 을지로점",
-      "hours": {
-        "fri": {
-          "open": "10:00",
-          "close": "03:00",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "10:00",
-          "close": "03:00",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "10:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "mon": {
-          "open": "10:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "10:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "10:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "10:00",
-          "close": "22:00",
-          "dayOff": false
-        }
-      },
-      "holidays": [],
-      "notes": [
-        "연중무휴"
-      ],
-      "crawledAt": "2026-09-25T13:47:37.508026",
-      "placeId": "2030967563",
-      "matchedName": "능동미나리 을지로점",
-      "id": "mudu0gi8d4tw5l7xg"
-    },
-    {
-      "name": "능동미나리 여의도점",
-      "hours": {
-        "fri": {
-          "open": "10:30",
-          "close": "22:30",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "10:00",
-          "close": "22:30",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "10:00",
-          "close": "22:30",
-          "dayOff": false
-        },
-        "mon": {
-          "open": "10:30",
-          "close": "22:30",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "10:30",
-          "close": "22:30",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "10:30",
-          "close": "22:30",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "10:30",
-          "close": "22:30",
-          "dayOff": false
-        }
-      },
-      "holidays": [],
-      "notes": [
-        "연중무휴 / 브레이크타임 없습니다."
-      ],
-      "crawledAt": "2026-09-25T13:47:48.298853",
-      "placeId": "1099423683",
-      "matchedName": "능동미나리 여의도점",
-      "id": "mudv3hb1xyf6lkfbw"
-    },
-    {
-      "name": "한일관 을지로점",
-      "hours": {
-        "sat": {
-          "open": "11:00",
-          "close": "20:30",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "11:00",
-          "close": "20:30",
-          "dayOff": false
-        },
-        "mon": {
-          "open": "11:00",
-          "close": "20:30",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "11:00",
-          "close": "20:30",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "11:00",
-          "close": "20:30",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "11:00",
-          "close": "20:30",
-          "dayOff": false
-        }
-      },
-      "holidays": [],
-      "notes": [],
-      "crawledAt": "2026-09-25T13:47:57.305191",
-      "placeId": "21037772",
-      "matchedName": "한일관 을지로점",
-      "id": "muh0iihzn7zoo47ma"
+      "crawledAt": "2026-09-25T13:50:31.714899",
+      "placeId": "33021506",
+      "matchedName": "한일관 광화문점",
+      "id": "muh0nmu7jmxkk11vu"
     }
   ]
 }
