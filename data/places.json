@@ -7174,5 +7174,61 @@
     "id": "muh1n81q23pykabhq",
     "createdAt": "2026-09-25T14:16:08.318Z",
     "updatedAt": "2026-09-25T14:16:08.318Z"
+  },
+  {
+    "name": "커피스니퍼 신세계백화점 강남점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 서초구 신반포로 176 신세계백화점 강남점 지하1층",
+    "lat": 37.5039351769908,
+    "lng": 127.002413006799,
+    "description": "서울, 고투몰, 고속터미널역 7번출구, 신세계백화점강남 지하1층, \n커피, ⭐️한국토종브랜드 카페⭐️, 로스터리카페브랜드, \n메뉴(스니퍼라떼, 커스터드라떼, 아인슈페너, 아메리카노, 버터크림도넛, 오트라떼), 바리스타들이 만든 브랜드,\n가격(6천-9천원), ⭐️프라이빗OK⭐️ \n주차불가, 영업시간(10시반-밤8시반/추석당일휴무)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1433-2364\n체인점(시청,서울숲, 역삼, 신세계백화점강남)\n<메뉴판사진>\nhttps://buly.kr/Crv5ZL",
+    "id": "muh1qnf8qyzs5pzvy",
+    "createdAt": "2026-09-25T14:18:48.212Z",
+    "updatedAt": "2026-09-25T14:18:48.212Z"
   }
 ]
