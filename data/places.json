@@ -6297,39 +6297,29 @@
     "lng": 127.108095294135,
     "description": "잠실, 석촌호수옆, 돼지국밥, 10시-새벽1시, 주차가능, 돼지국밥, 얼큰애호박국밥, 가격(13.0-23.0), 수육, 새우전, 캐치테이블웨이팅가능, 미슐랭가이드, 가보고싶음",
     "businessHours": {
+      "sun": {
+        "open": "09:00",
+        "close": "01:00",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "01:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "01:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "01:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "01:00",
         "dayOff": false
       },
       "holidays": []
@@ -6522,38 +6512,38 @@
     "description": "성수, 고기, 바베큐, 돼지고기, 참숯화로전문, 주차불가, 가격(20.0-52.0), 비쌈, 11:30-11시, 캐치테이블예약 1시간전에 하기, 웨이팅있음, 용산이 본점, 인테리어고급짐, 프라이빗",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "23:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "23:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "23:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "23:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "23:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "23:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:30",
+        "close": "23:00",
         "dayOff": false
       },
       "holidays": []
@@ -6634,38 +6624,38 @@
     "description": "군자역 바로 앞, 어린이대공원근처, 순대국밥, 8시-10시, 주차불가, 웨이팅있음, 청와옥편백정식 진짜 맛있음, 순대국밥, 오징어숯불구이, 편백수육이랑 순대가 미쳤음, 가격(11.0-28.0),",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "22:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "22:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "22:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "08:00",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
@@ -6690,38 +6680,38 @@
     "description": "아미드호텔 지하 2층, 인사동, 시내투어, 7시-1:30 (조식7-10시, 중식 11:30-1:30), 뷔페, 안부장님추천, 호텔뷔페, 가격(점심13.0), 나물도있어서 비건 채식주의자 데려가기도 괜찮음, 단체이용가능, 한식",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "13:30",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "13:30",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "13:30",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "13:30",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "13:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "13:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "13:30",
         "dayOff": false
       },
       "holidays": []
@@ -6745,39 +6735,29 @@
     "lng": 126.973350287533,
     "description": "용산, 숙대입구역 6번출구근처, 회, 해산물, 어서와한국은처음이지 이탈리아쉐프편, 11시-새벽2시(브레이크 2-4시), 캐치테이블예약가능, 통영산지직송자연산, 주차불가, 단체석(8-12명), 룸(4-8명), 가격(25.0-120.0), 특수어종회",
     "businessHours": {
+      "sun": {
+        "open": "11:30",
+        "close": "21:40",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "16:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "16:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "16:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "14:00",
+        "close": "16:00",
         "dayOff": false
       },
       "holidays": []
@@ -6801,39 +6781,29 @@
     "lng": 127.104301829165,
     "description": "잠실역, 석촌호수근처, 롯데월드몰 6층, 고급, 프라이빗, 파인다이닝, 가성비, 10:30-10시, 주차가능(유료), 룸(3명-10명), 코스요리, 가격(55.0-89.0), 파스타, 스테이크, 리조또, 모던한국터치, 네이버예약가능, 데이트, 생일, 기념일, 플빗손님이 가고싶어했던 곳",
     "businessHours": {
+      "sun": {
+        "open": "10:30",
+        "close": "22:00",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
@@ -6857,39 +6827,39 @@
     "lng": 126.991212872685,
     "description": "서울, 을지로3가역앞, 명동근처\n한식, 국밥, 메뉴(한우미나리곰탕, 육회비빔밥, 석쇠불고기, 미나리수육전골, 미나리꼬리찜, 육전)\n가격(2만원-8만원), ⭐️미슐랭⭐️⭐️가보고싶음⭐️\n네이버예약가능(3명~20명까지)- 점심시간예약불가, ⭐️로컬맛집⭐️\n영업시간(10시-밤10시/연중무휴), 전화예약가능",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "03:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "03:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
@@ -6913,39 +6883,39 @@
     "lng": 126.926406742546,
     "description": "서울, 여의도, 여의도한강공원, 더현대서울근처\n한식, 국밥, 메뉴(한우미나리곰탕, 육회비빔밥, 미나리수육전골, 미나리꼬리찜, 육전), 가격(2만원-8만원), ⭐️미슐랭⭐️⭐️가보고싶음⭐️⭐️로컬맛집⭐️네이버예약가능(2명-8명), 내부인테리어깔끔, 주차2시간무료가능, 단체석(최대52명까지) , \n영업시간(10시반-밤10시반/연중무휴)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "22:30",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "22:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "22:30",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "10:30",
+        "close": "22:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "10:30",
+        "close": "22:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "10:30",
+        "close": "22:30",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "10:30",
+        "close": "22:30",
         "dayOff": false
       },
       "holidays": []
@@ -6969,39 +6939,34 @@
     "lng": 126.98414050544,
     "description": "서울, 을지로입구역 3번,4번, 명동근처, \n한식, 메뉴(갈비탕, 골동반(비빔밥), 한정식 코스, 서울냉면, 불고기, 소고기 한우구이 바베큐), 가격(2만-10만원), 프라이빗OK, ⭐️고급⭐️1939년에 창업(거의 90년된 식당), 전통한식, ⭐️궁중음식⭐️, 유기그릇Traditional Korean brass bowl, 수정과(Korean cinnamon punch),⭐️미슐랭⭐️\n전화예약가능, 영업시간(11시-밤8:30/추석당일휴무)",
     "businessHours": {
-      "mon": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:30",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "20:30",
+        "dayOff": false
+      },
+      "mon": {
+        "open": "11:00",
+        "close": "20:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "20:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "20:30",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "20:30",
         "dayOff": false
       },
       "holidays": []
