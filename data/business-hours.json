@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T14:21:00.288999",
+  "updatedAt": "2026-09-25T14:31:44.035599",
   "totalPlaces": 10,
   "successCount": 1,
   "results": [
@@ -84,40 +84,50 @@
       "id": "mu28kq7j499prk2sc"
     },
     {
-      "name": "커피스니퍼 신세계백화점 강남점",
+      "name": "디타워서울포레스트",
       "hours": {
-        "sun": {
-          "open": "10:30",
-          "close": "20:30",
-          "dayOff": false
-        },
         "mon": {
-          "open": "10:30",
-          "close": "20:00",
+          "open": "07:00",
+          "close": "22:00",
           "dayOff": false
         },
         "tue": {
-          "open": "10:30",
-          "close": "20:00",
+          "open": "07:00",
+          "close": "22:00",
           "dayOff": false
         },
         "wed": {
-          "open": "10:30",
-          "close": "20:00",
+          "open": "07:00",
+          "close": "22:00",
           "dayOff": false
         },
         "thu": {
-          "open": "10:30",
-          "close": "20:00",
+          "open": "07:00",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "07:00",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "sat": {
+          "open": "07:00",
+          "close": "22:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "07:00",
+          "close": "22:00",
           "dayOff": false
         }
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-09-25T14:21:00.245217",
-      "placeId": "1256532497",
-      "matchedName": "커피스니퍼 신세계백화점 강남점",
-      "id": "muh1qnf8qyzs5pzvy"
+      "crawledAt": "2026-09-25T14:31:43.988892",
+      "placeId": "1186862629",
+      "matchedName": "디타워서울포레스트",
+      "id": "muh24j11hj19yo69v"
     }
   ]
 }

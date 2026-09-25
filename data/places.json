@@ -7231,38 +7231,38 @@
     "description": "옆건물 SM엔터테인먼트 (SM팝업, 전시회, 굿즈판매)\n디타워건물 지하1층 광야스토어 (SM 패션굿즈, 체험, K-POP 케이팝 투어), \n영업시간(7시-밤10시)",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "22:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "22:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "22:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "07:00",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
