@@ -7097,39 +7097,29 @@
     "lng": null,
     "description": "서울, 서울숲역4번출구, 디타워건물 지하1층\n커피, ⭐️한국토종브랜드 카페⭐️, 로스터리카페브랜드, \n메뉴(스니퍼라떼, 커스터드라떼, 아인슈페너, 아메리카노, 버터크림도넛, 오트라떼), 바리스타들이 만든 브랜드,\n가격(6천-9천원), ⭐️프라이빗OK⭐️ \n주차가능(무료2시간), 영업시간(9시-밤8시/추석당일휴무)",
     "businessHours": {
+      "sun": {
+        "open": "09:00",
+        "close": "20:00",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "09:00",
+        "close": "20:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "09:00",
+        "close": "20:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "09:00",
+        "close": "20:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "09:00",
+        "close": "20:00",
         "dayOff": false
       },
       "holidays": []

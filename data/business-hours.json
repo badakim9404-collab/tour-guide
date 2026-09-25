@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T13:54:04.593589",
+  "updatedAt": "2026-09-25T14:13:35.357735",
   "totalPlaces": 10,
   "successCount": 1,
   "results": [
@@ -84,50 +84,40 @@
       "id": "mu28kq7j499prk2sc"
     },
     {
-      "name": "한일관 영등포점",
+      "name": "커피스니퍼 클래식 서울숲점",
       "hours": {
+        "sun": {
+          "open": "09:00",
+          "close": "20:00",
+          "dayOff": false
+        },
         "mon": {
-          "open": "11:00",
-          "close": "22:00",
+          "open": "09:00",
+          "close": "20:00",
           "dayOff": false
         },
         "tue": {
-          "open": "11:00",
-          "close": "22:00",
+          "open": "09:00",
+          "close": "20:00",
           "dayOff": false
         },
         "wed": {
-          "open": "11:00",
-          "close": "22:00",
+          "open": "09:00",
+          "close": "20:00",
           "dayOff": false
         },
         "thu": {
-          "open": "11:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "11:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "sat": {
-          "open": "11:00",
-          "close": "22:00",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "11:00",
-          "close": "22:00",
+          "open": "09:00",
+          "close": "20:00",
           "dayOff": false
         }
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-09-25T13:54:04.551064",
-      "placeId": "33109087",
-      "matchedName": "한일관 영등포점",
-      "id": "muh0sa2qzgo13t1fr"
+      "crawledAt": "2026-09-25T14:13:35.306098",
+      "placeId": "1454848217",
+      "matchedName": "커피스니퍼 클래식 서울숲점",
+      "id": "muh1h8ivky0tjybow"
     }
   ]
 }
