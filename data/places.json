@@ -7087,5 +7087,61 @@
     "id": "muh0sa2qzgo13t1fr",
     "createdAt": "2026-09-25T13:52:04.610Z",
     "updatedAt": "2026-09-25T13:52:04.610Z"
+  },
+  {
+    "name": "커피스니퍼 클래식 서울숲점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 성동구 왕십리로 83-21 디타워 지하 1층 B115, B116 커피스니퍼 클래식",
+    "lat": null,
+    "lng": null,
+    "description": "서울, 서울숲역4번출구, 디타워건물 지하1층\n커피, ⭐️한국토종브랜드 카페⭐️, 로스터리카페브랜드, \n메뉴(스니퍼라떼, 커스터드라떼, 아인슈페너, 아메리카노, 버터크림도넛, 오트라떼), 바리스타들이 만든 브랜드,\n가격(6천-9천원), ⭐️프라이빗OK⭐️ \n주차가능(무료2시간), 영업시간(9시-밤8시/추석당일휴무)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "0507-1404-1783\n체인점(시청,서울숲, 역삼, 신세계백화점강남)\n<메뉴판사진>\nhttps://buly.kr/6teiMQX",
+    "id": "muh1h8ivky0tjybow",
+    "createdAt": "2026-09-25T14:11:28.999Z",
+    "updatedAt": "2026-09-25T14:11:28.999Z"
   }
 ]
