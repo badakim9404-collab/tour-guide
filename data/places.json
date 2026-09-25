@@ -7042,38 +7042,38 @@
     "description": "서울, 영등포역 6번출구, 타임스퀘어, 여의도한강근처\n한식, 메뉴(갈비탕, 골동반(비빔밥), 한정식 코스, 서울냉면, 불고기, 소고기 한우구이 바베큐), 가격(2만-10만원), 프라이빗OK, ⭐️고급⭐️1939년에 창업(거의 90년된 식당), 전통한식, ⭐️궁중음식⭐️, 유기그릇Traditional Korean brass bowl, 수정과(Korean cinnamon punch),⭐️미슐랭⭐️\n전화예약가능, 영업시간(11시-밤10시)",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sat": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "11:00",
+        "close": "22:00",
         "dayOff": false
       },
       "holidays": []
