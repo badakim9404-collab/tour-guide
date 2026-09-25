@@ -1248,13 +1248,8 @@
     "address": "서울 강남구 압구정로38길 14",
     "lat": 37.527783181798,
     "lng": 127.032497263908,
-    "description": "압구정역 2번출구, 갈비탕, 한정식, 한식, 강남, 골동반(비빔밥), 녹두빈대떡, 불고기, 냉면, 온면, 갈비, 바베큐, 한우 소고기, 갈비, 가격(14.0-91.0), 프라이빗",
+    "description": "서울, 압구정역 2번출구, 성수대교남단, \n한식, 메뉴(갈비탕, 골동반(비빔밥), 한정식 코스, 서울냉면, 불고기, 소고기 한우구이 바베큐), 가격(2만-10만원), 프라이빗OK, ⭐️고급⭐️1939년에 창업(거의 90년된 식당), 전통한식, 궁중음식, 유기그릇Traditional Korean brass bowl, 수정과(Korean cinnamon punch),⭐️미슐랭⭐️\n전화예약가능, 영업시간(11시-밤9:30/추석당일휴무)",
     "businessHours": {
-      "sun": {
-        "open": "11:00",
-        "close": "21:30",
-        "dayOff": false
-      },
       "mon": {
         "open": "11:30",
         "close": "21:30",
@@ -1285,6 +1280,11 @@
         "close": "21:30",
         "dayOff": false
       },
+      "sun": {
+        "open": "11:00",
+        "close": "21:30",
+        "dayOff": false
+      },
       "holidays": []
     },
     "hasCommission": false,
@@ -1292,10 +1292,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "1577-9963 유기그릇Traditional Korean brass bowl, 수정과(Korean cinnamon punch), 고급",
+    "memo": "1577-9963 , 체인점(압구정, 을지로, 광화문, 영등포, 스타필드하남, 롯데백화점 인천점)\n<메뉴판사진>\nhttps://buly.kr/2qbHmp1 (일품식사)\nhttps://buly.kr/5JPtWFi (일품요리)\nhttps://buly.kr/CWwxji2 (전통구이 상차림 코스)",
     "id": "mmblhiebw3hj07c6r",
     "createdAt": "2026-03-04T05:27:18.371Z",
-    "updatedAt": "2026-09-06T14:38:50.375Z"
+    "updatedAt": "2026-09-25T13:35:47.468Z"
   },
   {
     "name": "커피스니퍼 서울시청점",
