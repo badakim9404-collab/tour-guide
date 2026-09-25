@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T14:18:22.992806",
+  "updatedAt": "2026-09-25T14:21:00.288999",
   "totalPlaces": 10,
   "successCount": 1,
   "results": [
@@ -84,35 +84,40 @@
       "id": "mu28kq7j499prk2sc"
     },
     {
-      "name": "커피스니퍼 역삼 센터필드점",
+      "name": "커피스니퍼 신세계백화점 강남점",
       "hours": {
+        "sun": {
+          "open": "10:30",
+          "close": "20:30",
+          "dayOff": false
+        },
         "mon": {
-          "open": "08:00",
+          "open": "10:30",
           "close": "20:00",
           "dayOff": false
         },
         "tue": {
-          "open": "08:00",
+          "open": "10:30",
           "close": "20:00",
           "dayOff": false
         },
         "wed": {
-          "open": "08:00",
+          "open": "10:30",
           "close": "20:00",
           "dayOff": false
         },
         "thu": {
-          "open": "08:00",
+          "open": "10:30",
           "close": "20:00",
           "dayOff": false
         }
       },
       "holidays": [],
       "notes": [],
-      "crawledAt": "2026-09-25T14:18:22.946260",
-      "placeId": "1022423336",
-      "matchedName": "커피스니퍼 역삼 센터필드점",
-      "id": "muh1n81q23pykabhq"
+      "crawledAt": "2026-09-25T14:21:00.245217",
+      "placeId": "1256532497",
+      "matchedName": "커피스니퍼 신세계백화점 강남점",
+      "id": "muh1qnf8qyzs5pzvy"
     }
   ]
 }

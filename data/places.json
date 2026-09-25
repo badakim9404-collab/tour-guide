@@ -7184,39 +7184,29 @@
     "lng": 127.002413006799,
     "description": "서울, 고투몰, 고속터미널역 7번출구, 신세계백화점강남 지하1층, \n커피, ⭐️한국토종브랜드 카페⭐️, 로스터리카페브랜드, \n메뉴(스니퍼라떼, 커스터드라떼, 아인슈페너, 아메리카노, 버터크림도넛, 오트라떼), 바리스타들이 만든 브랜드,\n가격(6천-9천원), ⭐️프라이빗OK⭐️ \n주차불가, 영업시간(10시반-밤8시반/추석당일휴무)",
     "businessHours": {
+      "sun": {
+        "open": "10:30",
+        "close": "20:30",
+        "dayOff": false
+      },
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:30",
+        "close": "20:00",
         "dayOff": false
       },
       "holidays": []
