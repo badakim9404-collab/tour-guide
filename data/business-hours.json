@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-28T07:53:08.508451",
-  "totalPlaces": 10,
-  "successCount": 1,
+  "updatedAt": "2026-09-28T08:18:29.616402",
+  "totalPlaces": 9,
+  "successCount": 0,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -82,47 +82,6 @@
       "notes": [],
       "crawledAt": null,
       "id": "mu28kq7j499prk2sc"
-    },
-    {
-      "name": "꽃밥에피다 북촌 친환경 그로서란트",
-      "hours": {
-        "mon": {
-          "open": "10:00",
-          "close": "20:00",
-          "dayOff": false
-        },
-        "tue": {
-          "open": "10:00",
-          "close": "20:00",
-          "dayOff": false
-        },
-        "wed": {
-          "open": "10:00",
-          "close": "20:00",
-          "dayOff": false
-        },
-        "thu": {
-          "open": "10:00",
-          "close": "20:00",
-          "dayOff": false
-        },
-        "fri": {
-          "open": "10:00",
-          "close": "20:00",
-          "dayOff": false
-        },
-        "sun": {
-          "open": "10:00",
-          "close": "20:00",
-          "dayOff": false
-        }
-      },
-      "holidays": [],
-      "notes": [],
-      "crawledAt": "2026-09-28T07:53:08.445379",
-      "placeId": "1407456940",
-      "matchedName": "꽃밥에피다 북촌 친환경 그로서란트",
-      "id": "mukxeml8prwo0s1or"
     }
   ]
 }
