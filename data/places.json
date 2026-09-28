@@ -7289,5 +7289,61 @@
     "id": "muh24j11hj19yo69v",
     "createdAt": "2026-09-25T14:29:35.701Z",
     "updatedAt": "2026-09-25T14:29:35.701Z"
+  },
+  {
+    "name": "꽃밥에피다 북촌 친환경 그로서란트",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 종로구 북촌로 39 1층",
+    "lat": 37.5804323346915,
+    "lng": 126.984766984678,
+    "description": "서울, 북촌, \n한식, ⭐️비건⭐️메뉴, 채식가능, 메뉴(한우불고기, 보자기비빔밥, 비건스페셜), 가격(3만원정도), 네이버&캐치테이블예약가능(4명까지/4시,4:30,5시,5:30,6시), 5인이상은 전화예약, 넓진않음, 영업시간(11:30-밤7:40/브레이크3시-4시), 옆에 마켓도 있음,",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "02-766-6272\n<메뉴판사진>\nhttps://buly.kr/74ZUKPd",
+    "id": "mukxeml8prwo0s1or",
+    "createdAt": "2026-09-28T07:28:33.500Z",
+    "updatedAt": "2026-09-28T07:28:33.500Z"
   }
 ]
