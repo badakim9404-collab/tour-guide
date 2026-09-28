@@ -2443,7 +2443,8 @@
     "memo": "토요일 5시 이후 만석 0507-1306-9658",
     "id": "mmbstjmjg9mme3tlb",
     "createdAt": "2026-03-04T08:52:37.147Z",
-    "updatedAt": "2026-09-06T14:38:50.380Z"
+    "updatedAt": "2026-09-28T08:33:50.417Z",
+    "_deleted": true
   },
   {
     "name": "정화식당",
