@@ -1589,13 +1589,8 @@
     "address": "서울 강남구 도산대로45길 10-5 1층 EVETT",
     "lat": 37.5234326965405,
     "lng": 127.036202029788,
-    "description": "강남, 압구정, 외국인운영, 한식 코스요리, 흑백요리사, 미슐랭 1스타, 매주 일,월 정기휴무, 금토 브레이크타임(2:30-5:15), 가격(190.0-300.0), 프라이빗, 호주 출신 셰프 Joseph Lidgerwood, 예약, ♡가보고싶음♡",
+    "description": "서울, 강남, 압구정, 도산공원근처, 호주출신쉐프 Joseph Lidgerwood ⭐️미슐랭 1스타⭐️흑백요리사출연,\n한식 코스요리, 가격(런치19만,디너33만), 운영시간(금토만 런치있고 화수목은디너만/ 매주 일,월 정기휴무) ⭐️프라이빗⭐️, 캐치테이블예약가능, 가보고싶음, 고급",
     "businessHours": {
-      "sun": {
-        "open": "",
-        "close": "",
-        "dayOff": true
-      },
       "mon": {
         "open": "",
         "close": "",
@@ -1626,6 +1621,11 @@
         "close": "17:15",
         "dayOff": false
       },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": true
+      },
       "holidays": [
         "매주 일요일 휴무",
         "매주 일요일 휴무",
@@ -1641,7 +1641,7 @@
     "memo": "0507-1399-1029 / Email : reservation@restaurantevett.com",
     "id": "mmbpxxprrk4sbty33",
     "createdAt": "2026-03-04T07:32:03.183Z",
-    "updatedAt": "2026-09-06T14:38:50.376Z"
+    "updatedAt": "2026-09-28T06:22:09.562Z"
   },
   {
     "name": "산촌",
