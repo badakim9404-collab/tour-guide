@@ -7301,38 +7301,33 @@
     "description": "서울, 북촌, \n한식, ⭐️비건⭐️메뉴, 채식가능, 메뉴(한우불고기, 보자기비빔밥, 비건스페셜), 가격(3만원정도), 네이버&캐치테이블예약가능(4명까지/4시,4:30,5시,5:30,6시), 5인이상은 전화예약, 넓진않음, 영업시간(11:30-밤7:40/브레이크3시-4시), 옆에 마켓도 있음,",
     "businessHours": {
       "mon": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "tue": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "wed": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "thu": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "fri": {
-        "open": "",
-        "close": "",
-        "dayOff": false
-      },
-      "sat": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "sun": {
-        "open": "",
-        "close": "",
+        "open": "10:00",
+        "close": "20:00",
         "dayOff": false
       },
       "holidays": []

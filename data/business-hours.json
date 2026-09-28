@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-28T07:30:10.883337",
+  "updatedAt": "2026-09-28T07:53:08.508451",
   "totalPlaces": 10,
-  "successCount": 0,
+  "successCount": 1,
   "results": [
     {
       "name": "소하염전 익선점",
@@ -25,6 +25,8 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
+      "placeId": "15402795",
+      "matchedName": "선미식육식당",
       "id": "mtv2wex33gpc9nk0x"
     },
     {
@@ -33,6 +35,8 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
+      "placeId": "1832432234",
+      "matchedName": "파밀리아",
       "id": "mtv3jtyri2mime0p6"
     },
     {
@@ -41,6 +45,8 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
+      "placeId": "36869040",
+      "matchedName": "아하중국집",
       "id": "mu0nfqv0dcubd6329"
     },
     {
@@ -57,6 +63,8 @@
       "holidays": [],
       "notes": [],
       "crawledAt": null,
+      "placeId": "13479443",
+      "matchedName": "도곡역 3호선",
       "id": "mu27yr16ekqks2oi0"
     },
     {
@@ -77,10 +85,43 @@
     },
     {
       "name": "꽃밥에피다 북촌 친환경 그로서란트",
-      "hours": {},
+      "hours": {
+        "mon": {
+          "open": "10:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "tue": {
+          "open": "10:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "wed": {
+          "open": "10:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "thu": {
+          "open": "10:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "fri": {
+          "open": "10:00",
+          "close": "20:00",
+          "dayOff": false
+        },
+        "sun": {
+          "open": "10:00",
+          "close": "20:00",
+          "dayOff": false
+        }
+      },
       "holidays": [],
       "notes": [],
-      "crawledAt": null,
+      "crawledAt": "2026-09-28T07:53:08.445379",
+      "placeId": "1407456940",
+      "matchedName": "꽃밥에피다 북촌 친환경 그로서란트",
       "id": "mukxeml8prwo0s1or"
     }
   ]
