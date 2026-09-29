@@ -3256,8 +3256,23 @@
     "address": "제주 서귀포시 동문동로 2 1층 오는정김밥",
     "lat": 33.2496220559544,
     "lng": 126.567588735932,
-    "description": "제주도, 김밥(오는정(튀긴유부),참치,치즈,떡갈비), 브레이크타임 (1-2:30), 가격(4.0-6.0) ★예약필수★ 웨이팅있음 1시간이상,",
+    "description": "제주도, 서귀포쪽, \n한식, 김밥, 포장만, ⭐️오는정김밥(유부튀김)⭐️,\n가격(5천원-6천원), ⭐️예약필수⭐️, 전날 예약하고 다음날 픽업하기, 영업시간(9시-밤7시/브레이크1시-2:30)",
     "businessHours": {
+      "mon": {
+        "open": "13:00",
+        "close": "14:30",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "13:00",
+        "close": "14:30",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "13:00",
+        "close": "14:30",
+        "dayOff": false
+      },
       "thu": {
         "open": "13:00",
         "close": "14:30",
@@ -3278,21 +3293,6 @@
         "close": "",
         "dayOff": true
       },
-      "mon": {
-        "open": "13:00",
-        "close": "14:30",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "13:00",
-        "close": "14:30",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "13:00",
-        "close": "14:30",
-        "dayOff": false
-      },
       "holidays": [
         "정기휴무 (매주 일요일)"
       ]
@@ -3302,10 +3302,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "064-762-8927 현서언니가 추천, 전날 예약하고 다음날 픽업하기,",
+    "memo": "064-762-8927 현서언니가 추천, \n<메뉴판사진>\nhttps://buly.kr/DPWlzlL",
     "id": "mmc1lycuk4isbpsmp",
     "createdAt": "2026-03-04T12:58:39.534Z",
-    "updatedAt": "2026-03-05T16:07:47.046Z"
+    "updatedAt": "2026-09-29T06:56:40.204Z"
   },
   {
     "name": "지우갈비 명동본점",
