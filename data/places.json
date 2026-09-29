@@ -3031,8 +3031,23 @@
     "address": "서울 종로구 인사동5길 38",
     "lat": 37.5725709989957,
     "lng": 126.984238926656,
-    "description": "일식당, 생선회, 사시미, 인사동, 아미드호텔 지하1층, 브레이크타임(3-5), 가격(35.0-65.0), 프라이빗, 고급, ★예약필수★ 네이버예약가능, ♡가보고싶음♡",
+    "description": "서울, 종각역근처, 인사동, 아미드호텔 지하1층,\n일식, 생선회, 사시미, 가을제철코스요리, 디너정식, 런치, \n가격(5만원-8만원), 네이버예약(7인까지, 8인이상도가능), ⭐️프라이빗⭐️, 고급, 룸, 주차가능(2시간무료), ⭐️가보고싶음⭐️",
     "businessHours": {
+      "mon": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "17:00",
+        "dayOff": false
+      },
       "thu": {
         "open": "15:00",
         "close": "17:00",
@@ -3053,21 +3068,6 @@
         "close": "22:00",
         "dayOff": false
       },
-      "mon": {
-        "open": "15:00",
-        "close": "17:00",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "15:00",
-        "close": "17:00",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "15:00",
-        "close": "17:00",
-        "dayOff": false
-      },
       "holidays": []
     },
     "hasCommission": false,
@@ -3075,10 +3075,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "02-722-4877 문향언니추천, 프라이빗으로 데려갔다함",
+    "memo": "02-722-4877 문향언니추천, 프라이빗으로 데려갔다함, \n<메뉴판사진>\nhttps://buly.kr/3CQp0o1 (런치)\nhttps://buly.kr/1GMUDps (디너)\nhttps://buly.kr/7x9HUqI (vip스페셜)\nhttps://buly.kr/8IynSTi 9 (주말스페셜)\nhttps://buly.kr/HHfRU5i (단품)\nhttps://buly.kr/2Jr26kd (식사정식)\nhttps://buly.kr/4FvMtjO (고급도시락-2시간전주문)",
     "id": "mmbzfbsxs5fcq24wj",
     "createdAt": "2026-03-04T11:57:31.137Z",
-    "updatedAt": "2026-03-05T16:07:47.044Z"
+    "updatedAt": "2026-09-29T01:00:44.338Z"
   },
   {
     "name": "훈춘양꼬치",
