@@ -2796,11 +2796,26 @@
     "name": "또보겠지떡볶이집 깐따삐아점",
     "type": "restaurant",
     "categoryId": null,
-    "address": "서울 마포구 와우산로21길 28-12",
+    "address": "서울 마포구 와우산로15길 28 2층",
     "lat": 37.5528099161396,
     "lng": 126.922482495511,
-    "description": "홍대, 즉석떡볶이, 갈릭버터 감자튀김, 매주목요일 휴무, 브레이크타임(3-4), 매움, 가격(15.0)",
+    "description": "서울, 홍대, 상수역바로옆, 주차(합정1,2공영주차장 또는 로하스타워 주차장 유료로), 한식, 떡볶이, 즉석떡볶이, 버터갈릭감자튀김, 가격(1인분 8천원), 네이버예약가능(평일은 8명까지, 주말은 5명까지), 로컬식당, 영업시간(11:30-밤9:30), 단체불가",
     "businessHours": {
+      "mon": {
+        "open": "15:00",
+        "close": "16:00",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "15:00",
+        "close": "16:00",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "15:00",
+        "close": "16:00",
+        "dayOff": false
+      },
       "thu": {
         "open": "",
         "close": "",
@@ -2821,21 +2836,6 @@
         "close": "21:00",
         "dayOff": false
       },
-      "mon": {
-        "open": "15:00",
-        "close": "16:00",
-        "dayOff": false
-      },
-      "tue": {
-        "open": "15:00",
-        "close": "16:00",
-        "dayOff": false
-      },
-      "wed": {
-        "open": "15:00",
-        "close": "16:00",
-        "dayOff": false
-      },
       "holidays": [
         "매주 목요일 휴무",
         "매주 목요일 휴무",
@@ -2847,10 +2847,10 @@
     "visited": false,
     "rating": 0,
     "isClosed": false,
-    "memo": "0507-1394-8645",
+    "memo": "0507-1394-8645 , \n<메뉴판사진>\nhttps://buly.kr/9tDcHd0",
     "id": "mmbyq5jmr8304luoc",
     "createdAt": "2026-03-04T11:37:56.626Z",
-    "updatedAt": "2026-03-05T16:07:47.042Z"
+    "updatedAt": "2026-09-29T00:44:10.691Z"
   },
   {
     "name": "뭄뭄 진천점",
