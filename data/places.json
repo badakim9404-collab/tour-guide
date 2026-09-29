@@ -7353,5 +7353,61 @@
     "id": "mukxeml8prwo0s1or",
     "createdAt": "2026-09-28T07:28:33.500Z",
     "updatedAt": "2026-09-28T07:55:08.845Z"
+  },
+  {
+    "name": "경복궁 관훈점",
+    "type": "restaurant",
+    "categoryId": null,
+    "address": "서울 종로구 인사동5길 38 아미드호텔 지하1층",
+    "lat": 37.5725709989957,
+    "lng": 126.984238926656,
+    "description": "서울, 종각역근처, 인사동, 아미드호텔 지하1층\n한식, ⭐️한우⭐️, 바베큐, 영양갈비찜, 한정식, 보리굴비정식, 불고기정식, 가격(2만원-10만원), 네이버예약(7인까지, 8인이상도가능), ⭐️프라이빗⭐️, 고급, 룸, 영업시간(11:30-밤10시/브레이크3-5시), 주차가능(점심1시간 저녁2시간무료)",
+    "businessHours": {
+      "mon": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "tue": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "wed": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "thu": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "fri": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sat": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "sun": {
+        "open": "",
+        "close": "",
+        "dayOff": false
+      },
+      "holidays": []
+    },
+    "hasCommission": false,
+    "commissionDetail": "",
+    "visited": false,
+    "rating": 0,
+    "isClosed": false,
+    "memo": "02-722-7713\n<메뉴판사진>\nhttps://buly.kr/DwH2qtt (반상)\nhttps://buly.kr/5UKflkE (점심특선)\nhttps://buly.kr/614wiCB (한우스페셜)\nhttps://buly.kr/A48NGxx (한정식)\nhttps://buly.kr/6tejcHn (육회,갈비찜,회)\nhttps://buly.kr/4Qq7srz (고급도시락-2시간전주문)",
+    "id": "mulzo9gpkpgw8gl43",
+    "createdAt": "2026-09-29T01:19:48.457Z",
+    "updatedAt": "2026-09-29T01:19:48.457Z"
   }
 ]
